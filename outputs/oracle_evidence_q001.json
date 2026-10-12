@@ -1,0 +1,25 @@
+{
+  "experiment": "oracle_evidence_diagnostic",
+  "model": {
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "enable_thinking": false
+  },
+  "enable_thinking": false,
+  "do_sample": false,
+  "max_new_tokens": 192,
+  "question_id": "q_001",
+  "messages": [
+    {
+      "role": "system",
+      "content": "你是文档问答助手。根据提供的文档回答问题。核对人物、作品与年份，证据不足时如实说明。只输出一个JSON对象，格式为：{\"answer\":\"简短答案\",\"evidence_ids\":[\"文档ID\"]}。不要输出Markdown或额外解释。"
+    },
+    {
+      "role": "user",
+      "content": "问题：林遥执导的2021年上映的电影，在2022年晨光电影节获得了什么奖？\n\n文档：\n[\n  {\n    \"id\": \"doc_001\",\n    \"title\": \"林遥的导演作品\",\n    \"text\": \"林遥是一名导演。她执导的电影《星港》于2021年上映。\"\n  },\n  {\n    \"id\": \"doc_002\",\n    \"title\": \"第十届晨光电影节获奖名单\",\n    \"text\": \"2022年，第十届晨光电影节将最佳摄影奖授予电影《星港》。\"\n  }\n]"
+    }
+  ],
+  "raw_output": "{\"answer\":\"最佳摄影奖\",\"evidence_ids\":[\"doc_002\"]}",
+  "input_tokens": 214,
+  "output_tokens": 18
+}

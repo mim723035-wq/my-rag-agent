@@ -1,0 +1,89 @@
+{
+  "actor": "human",
+  "question": "林遥执导的2021年上映的电影，在2022年晨光电影节获得了什么奖？",
+  "max_searches": 2,
+  "search_count": 2,
+  "status": "finished",
+  "final_answer": "最佳摄影奖",
+  "evidence_ids": [
+    "doc_001",
+    "doc_002"
+  ],
+  "events": [
+    {
+      "step": 1,
+      "action": {
+        "type": "search",
+        "query": "林遥 执导 电影"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "doc_001",
+            "title": "林遥的导演作品",
+            "text": "林遥是一名导演。她执导的电影《星港》于2021年上映。",
+            "score": 1.6348
+          },
+          {
+            "id": "doc_004",
+            "title": "周岚的导演作品",
+            "text": "周岚执导的电影《雾桥》于2020年上映。",
+            "score": 0.8892
+          },
+          {
+            "id": "doc_006",
+            "title": "林遥的活动记录",
+            "text": "2023年，林遥担任晨光电影节评委。担任评委并不表示她的作品获得奖项。",
+            "score": 0.7807
+          }
+        ],
+        "remaining_searches": 1
+      }
+    },
+    {
+      "step": 2,
+      "action": {
+        "type": "search",
+        "query": "星港 2022 晨光电影节"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "doc_002",
+            "title": "第十届晨光电影节获奖名单",
+            "text": "2022年，第十届晨光电影节将最佳摄影奖授予电影《星港》。",
+            "score": 1.3346
+          },
+          {
+            "id": "doc_001",
+            "title": "林遥的导演作品",
+            "text": "林遥是一名导演。她执导的电影《星港》于2021年上映。",
+            "score": 0.0
+          },
+          {
+            "id": "doc_003",
+            "title": "同名小说《星港》",
+            "text": "小说《星港》由顾川创作，于2018年获得远帆文学奖。它与同名电影无关。",
+            "score": 0.0
+          }
+        ],
+        "remaining_searches": 0
+      }
+    },
+    {
+      "step": 3,
+      "action": {
+        "type": "finish",
+        "answer": "最佳摄影奖",
+        "evidence_ids": [
+          "doc_001",
+          "doc_002"
+        ]
+      },
+      "observation": {
+        "accepted": true,
+        "note": "已接收回答；尚未验证答案与证据是否正确"
+      }
+    }
+  ]
+}

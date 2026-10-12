@@ -1,0 +1,33 @@
+{
+  "question_id": "q_001",
+  "question": "林遥执导的2021年上映的电影，在2022年晨光电影节获得了什么奖？",
+  "predicted_answer": "2021年，第九届晨光电影节将最佳音乐奖授予电影《雾桥》。",
+  "gold_answer": "最佳摄影奖",
+  "finished": true,
+  "answer_exact_match": false,
+  "gold_evidence_retrieval_recall": 0.5,
+  "all_gold_evidence_retrieved": false,
+  "citation_gold_id_precision": 0.0,
+  "citation_gold_id_recall": 0.0,
+  "citations_all_seen": true,
+  "retrieved_ids": [
+    "doc_001",
+    "doc_004",
+    "doc_005",
+    "doc_006"
+  ],
+  "cited_ids": [
+    "doc_005"
+  ],
+  "gold_ids": [
+    "doc_001",
+    "doc_002"
+  ],
+  "missing_gold_ids": [
+    "doc_002"
+  ],
+  "search_count": 2,
+  "total_output_tokens": 101,
+  "end_status": "finished",
+  "limitations": "答案使用严格匹配，证据使用标准ID匹配；不判断语义支持，也不识别其他有效证据。"
+}
