@@ -12,7 +12,7 @@ from uuid import uuid4
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from agent import AgentController
+from kzq_agent import AgentController
 from search import SearchTool
 
 ROOT = Path(__file__).resolve().parents[1]

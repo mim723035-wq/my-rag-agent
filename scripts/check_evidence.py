@@ -27,10 +27,15 @@ def main():
     document_map = {doc["id"]: doc for doc in documents}
 
     # 仅诊断程序使用标准证据选择文档，不把标准答案传给模型。
-    evidence = [
-        document_map[doc_id]
-        for doc_id in question["supporting_doc_ids"]
+        # 保留正确证据的相对顺序，再加入之前轨迹中的干扰文档。
+    evidence_ids = [
+        "doc_001",
+        "doc_002",
+        "doc_006",
+        "doc_004",
+        "doc_005",
     ]
+    evidence = [document_map[doc_id] for doc_id in evidence_ids]
 
     messages = [
         {
@@ -96,11 +101,11 @@ def main():
 
     output_dir = ROOT / "outputs"
     output_dir.mkdir(parents=True, exist_ok=True)
-    path = output_dir / "oracle_evidence_q001.json"
+    path = output_dir / "oracle_with_distractors_q001.json"
 
     path.write_text(
         json.dumps({
-            "experiment": "oracle_evidence_diagnostic",
+            "experiment": "oracle_with_distractors_diagnostic",
             "model": config,
             "enable_thinking": False,
             "do_sample": False,

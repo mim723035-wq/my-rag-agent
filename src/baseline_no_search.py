@@ -23,7 +23,7 @@ def main():
     questions = read_jsonl(ROOT / "data" / "questions.jsonl")
     documents = read_jsonl(ROOT / "data" / "documents.jsonl")
 
-    question = next(q for q in questions if q["id"] == "q_001")
+    question = next(q for q in questions if q["id"] == "q_002")
     document_map = {doc["id"]: doc for doc in documents}
 
     # 仅诊断程序使用标准证据选择文档，不把标准答案传给模型。
