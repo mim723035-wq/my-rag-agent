@@ -1,0 +1,36 @@
+[
+  {
+    "method": "no_search",
+    "question_id": "q_001",
+    "status": "finished",
+    "answer": "无法确定",
+    "evidence_ids": [],
+    "search_count": 0,
+    "output_tokens": 13,
+    "error": null
+  },
+  {
+    "method": "rag",
+    "question_id": "q_001",
+    "status": "finished",
+    "answer": "最佳摄影奖",
+    "evidence_ids": [
+      "doc_002"
+    ],
+    "search_count": 1,
+    "output_tokens": 18,
+    "error": null
+  },
+  {
+    "method": "agent",
+    "question_id": "q_001",
+    "status": "finished",
+    "answer": "最佳摄影奖",
+    "evidence_ids": [
+      "doc_002"
+    ],
+    "search_count": 2,
+    "output_tokens": 63,
+    "error": null
+  }
+]
