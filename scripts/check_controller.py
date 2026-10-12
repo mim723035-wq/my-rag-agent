@@ -45,7 +45,7 @@ def check_invalid_actions():
         None,
         {"type": "unknown"},
         {"type": "search", "query": ""},
-        {"type": "search", "query": 123},
+        {"type": "search", "query": 123}
     ):
         result = controller.step(action)
         assert "error" in result

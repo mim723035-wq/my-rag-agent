@@ -1,0 +1,13 @@
+{
+  "source": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+  "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "subset": "distractor",
+  "split": "validation",
+  "downloaded_files": [
+    "distractor/validation-00000-of-00001.parquet"
+  ],
+  "record_count": 7405,
+  "output_sha256": "d3ad9b87a18ba9a3ce5054f8633310e441ae9e13ada08d66e47acf8d0ae0f7f2",
+  "conversion": "HF Parquet fields converted to original JSON layout",
+  "license": "CC BY-SA 4.0"
+}

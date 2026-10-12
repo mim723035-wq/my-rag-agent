@@ -1,0 +1,19 @@
+{
+  "source_file": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\raw\\hotpotqa\\hotpot_dev_distractor_hf.json",
+  "source_sha256": "d3ad9b87a18ba9a3ce5054f8633310e441ae9e13ada08d66e47acf8d0ae0f7f2",
+  "total_questions": 7405,
+  "invalid_question_count": 1,
+  "valid_evidence_question_count": 7404,
+  "invalid_question_ids": [
+    "5ae61bfd5542992663a4f261"
+  ],
+  "invalid_evidence": [
+    {
+      "question_id": "5ae61bfd5542992663a4f261",
+      "title": "Jimmy Butler (basketball)",
+      "sentence_id": 902,
+      "sentence_count": 5,
+      "reason": "invalid_supporting_sentence"
+    }
+  ]
+}
