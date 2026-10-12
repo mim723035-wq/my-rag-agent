@@ -3,6 +3,7 @@ import os
 os.environ["HF_HOME"] = r"D:\search-agent-cache\huggingface"
 
 import argparse
+import hashlib
 import json
 import time
 from datetime import datetime, timezone
@@ -44,10 +45,10 @@ AGENT_PROMPT = COMMON_RULES + """
 """
 
 
-def read_questions(question_id):
+def read_questions(question_id, data_dir):
     questions = []
-    with (ROOT / "data" / "questions.jsonl").open(
-        encoding="utf-8"
+    with (data_dir / "questions.jsonl").open(
+        encoding="utf-8-sig"
     ) as file:
         for line in file:
             if not line.strip():
@@ -272,6 +273,7 @@ def main():
         required=True,
     )
     parser.add_argument("--question-id", default=None)
+    parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
     parser.add_argument("--max-searches", type=int, default=3)
     parser.add_argument("--max-actions", type=int, default=8)
     parser.add_argument("--max-total-tokens", type=int, default=768)
@@ -286,20 +288,25 @@ def main():
     ):
         parser.error("预算参数无效")
 
+    args.data_dir = args.data_dir.resolve()
+    for filename in ("documents.jsonl", "questions.jsonl"):
+        if not (args.data_dir / filename).is_file():
+            parser.error(f"数据文件不存在：{args.data_dir / filename}")
+    questions = read_questions(args.question_id, args.data_dir)
+
     if not torch.cuda.is_available():
         raise RuntimeError("GPU不可用")
 
     config = json.loads(
         (ROOT / "configs" / "model.json").read_text(encoding="utf-8")
     )
-    questions = read_questions(args.question_id)
     modes = (
         ["no_search", "rag", "agent"]
         if args.mode == "all"
         else [args.mode]
     )
 
-    tool = SearchTool(ROOT / "data" / "documents.jsonl")
+    tool = SearchTool(args.data_dir / "documents.jsonl")
 
     print("加载模型，本次运行只加载一次……", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(
@@ -316,6 +323,25 @@ def main():
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_dir = ROOT / "outputs" / f"baselines_{stamp}_{uuid4().hex[:8]}"
     run_dir.mkdir(parents=True, exist_ok=True)
+
+    data_hashes = {}
+    for filename in ("documents.jsonl", "questions.jsonl"):
+        content = (args.data_dir / filename).read_bytes()
+        (run_dir / filename).write_bytes(content)
+        data_hashes[filename] = hashlib.sha256(content).hexdigest()
+    (run_dir / "run_config.json").write_text(
+        json.dumps({
+            "data_dir": str(args.data_dir),
+            "data_sha256": data_hashes,
+            "model": config,
+            "question_ids": [q["id"] for q in questions],
+            "arguments": {
+                key: str(value) if isinstance(value, Path) else value
+                for key, value in vars(args).items()
+            },
+        }, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
     summary = []
 
