@@ -1,0 +1,25 @@
+{
+  "experiment": "no_search_baseline",
+  "model": {
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "enable_thinking": false
+  },
+  "enable_thinking": false,
+  "do_sample": false,
+  "max_new_tokens": 192,
+  "question_id": "q_001",
+  "messages": [
+    {
+      "role": "system",
+      "content": "请回答用户问题。本次没有搜索工具，也没有提供文档。不知道时请回答“无法确定”。只输出一个JSON对象：{\"answer\":\"简短答案\",\"evidence_ids\":[]}。不要输出Markdown或额外解释。"
+    },
+    {
+      "role": "user",
+      "content": "林遥执导的2021年上映的电影，在2022年晨光电影节获得了什么奖？"
+    }
+  ],
+  "raw_output": "{\"answer\":\"无法确定\",\"evidence_ids\":[]}",
+  "input_tokens": 90,
+  "output_tokens": 12
+}
