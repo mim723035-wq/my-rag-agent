@@ -1,0 +1,24 @@
+{
+  "experiment": "sft_teacher_100_v1",
+  "supersedes": "sft_scaling_50_100.json",
+  "data_dir": "data/sft_teacher_100_v1",
+  "trajectories": 100,
+  "unique_training_questions": 100,
+  "category_counts": {"single_search_sufficient": 25, "multi_hop": 45, "distractor": 20, "insufficient_evidence": 10},
+  "recovery_is_cross_cutting": true,
+  "controlled_recovery_count": 10,
+  "teacher_source": "Current assistant; exact model revision unavailable; actual fixed retrieval/controller execution",
+  "review": "Same-assistant evidence review and mechanical replay; not independent human adjudication",
+  "training": {
+    "initialization": "fresh original base; no previous adapter",
+    "epochs": 1, "seed": 42, "batch_size": 1, "gradient_accumulation_steps": 1,
+    "learning_rate": 0.0001, "weight_decay": 0.0, "r": 8, "alpha": 16,
+    "dropout": 0.0, "target_modules": ["q_proj", "v_proj"], "gradient_checkpointing": true
+  },
+  "evaluation": {
+    "conditions": ["base", "reviewed41", "teacher100"], "split": "existing100-question development set",
+    "max_searches": 3, "max_actions": 8, "max_total_output_tokens": 768,
+    "context_limit": 4096, "retrieval_top_k": 3, "enable_thinking": false, "do_sample": false
+  },
+  "interpretation": "Overall recipe comparison; cannot isolate data quantity from source/composition/training compute."
+}

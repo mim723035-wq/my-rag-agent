@@ -1,0 +1,137 @@
+{
+  "generated_count": 10,
+  "accepted_count": 8,
+  "deferred_or_rejected_count": 2,
+  "accepted_single_search": 5,
+  "accepted_multi_search": 3,
+  "supervised_actions": 21,
+  "train_sha256": "a7cbf98215d79da984056604b8a002361589ebef039de26140ee6bb6eda176ad",
+  "limitations": [
+    "Same assistant generated and reviewed; no independent adjudication.",
+    "Selected baseline failures, not representative evaluation.",
+    "Teacher exact version and sampling settings unavailable.",
+    "No injected controller-error recovery examples in this batch."
+  ],
+  "reviews": [
+    {
+      "question_id": "5a74be4355429974ef308c52",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Architect and building documents support Longwood and its alternate name Nutt's Folly. One search is sufficient.",
+      "generated_answer": "Longwood",
+      "gold_answer": "Longwood",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "663c36147959fcf0b859c8d682f5ca9d71e20841ec3be7d2b574115ab98809ba"
+    },
+    {
+      "question_id": "5a750e565542993748c897ad",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First query returns unrelated Super Junior programs. Query reformulation finds Revolution; named actor query verifies band membership. Productive recovery from irrelevant retrieval; historical future tense retained.",
+      "generated_answer": "Choi Si-won",
+      "gold_answer": "Choi Si-won",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "a5cd1750f8a72e9cf54166cb6e10daab6dd77a94427c398a9566f85047fb5b5a"
+    },
+    {
+      "question_id": "5a7661525542992db947377e",
+      "decision": "defer_insufficient_explicit_evidence",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Retrieved documents explicitly classify kumquat, not satsuma, in Rutaceae. Cannot substitute related species taxonomy without direct supporting evidence. Abstention not exported.",
+      "generated_answer": "Cannot determine",
+      "gold_answer": "Rutaceae",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "ba55f57a14503d97cefc2f316bf6ab59366a6cf5b0a51c15f14f833f7b3f3899"
+    },
+    {
+      "question_id": "5a76fd885542994aec3b71af",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Candidate document identifies election; election document supports the 16th Lok Sabha and all 543 constituencies.",
+      "generated_answer": "Indian general election, 2014",
+      "gold_answer": "Indian general election, 2014",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "5aaf7d780e47ba2b18bf0b0a2b6fe80d50bcfe2c7d67883450e79a340b527fa5"
+    },
+    {
+      "question_id": "5a7705ee55429972597f1416",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Label document names both Deafheaven and Have a Nice Life. Candidate-band search establishes Connecticut origin. Second query failed to retrieve band, third query uses already seen candidate names; record as retrieval reformulation, not efficient ideal two-search trajectory.",
+      "generated_answer": "Have a Nice Life",
+      "gold_answer": "Have a Nice Life",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "682e7ea1831342f29251f7bd1dd5eb0b02e681f39f1ebe00562abeb3e766c015"
+    },
+    {
+      "question_id": "5a77708855429966f1a36d4c",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Film crew document names Ken Adam; person document verifies title Sir, Berlin birth and Bond work. Both relations cited.",
+      "generated_answer": "Ken Adam",
+      "gold_answer": "Ken Adam",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "6f56f1570784e2432f3e1f0f4dc88c5223c8db1d449a14c77d0366abae7d2bba"
+    },
+    {
+      "question_id": "5a77a29e5542995d8318122f",
+      "decision": "needs_search_revision",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Answer supported by cast and birthday documents, but second query returns exactly same documents as first. Do not train original inefficient trajectory; retain for future verified revision.",
+      "generated_answer": "Michael Rapaport",
+      "gold_answer": "Michael David Rapaport",
+      "official_answer_em": false,
+      "official_answer_f1": 0.8,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "29efd65e48136a7166fa35c13b7275e98f152fa62bdfb29801a3978f8f4e2eb7"
+    },
+    {
+      "question_id": "5a78cc5055429974737f789c",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Dance War document explicitly identifies Inaba as Dancing with the Stars judge; season document confirms judge and ABC network. ABC is supported short form of ABC TV; official EM unchanged.",
+      "generated_answer": "ABC",
+      "gold_answer": "ABC TV",
+      "official_answer_em": false,
+      "official_answer_f1": 0.6666666666666666,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "7449452aa3702b792f7455320592e4dac8ffb29a07bf5002e0e11d23558493ef"
+    },
+    {
+      "question_id": "5a79086b55429970f5fffe28",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Archaeologist document identifies investigated mound; mound document states length 1348 ft. Feet is equivalent unit wording, without changing raw teacher answer or benchmark scoring.",
+      "generated_answer": "1348 feet",
+      "gold_answer": "1348 ft",
+      "official_answer_em": false,
+      "official_answer_f1": 0.5,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "5ee712e746db8d3f43b5927364cd4c337a79789662d5cfe8a0eba8c62736427c"
+    },
+    {
+      "question_id": "5a79dd13554299029c4b5f79",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Award and player documents support Wilfried Zaha, position and national team. Supported short name of full benchmark name; most recent refers to fixed historical corpus, not present-day award results.",
+      "generated_answer": "Wilfried Zaha",
+      "gold_answer": "Dazet Wilfried Armel Zaha",
+      "official_answer_em": false,
+      "official_answer_f1": 0.6666666666666666,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "297951dc2a8eb7c9f922ce2d24c130afa86ec682189502c94620fd93190e16ed"
+    }
+  ]
+}

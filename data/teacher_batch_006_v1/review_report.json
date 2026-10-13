@@ -1,0 +1,137 @@
+{
+  "generated_count": 10,
+  "accepted_count": 10,
+  "deferred_or_rejected_count": 0,
+  "accepted_single_search": 3,
+  "accepted_multi_search": 7,
+  "supervised_actions": 28,
+  "train_sha256": "11ea83b0913da6ad84d26911f3735847d93258b67036c0995313ea293ea16441",
+  "limitations": [
+    "Same assistant generated and reviewed; no independent adjudication.",
+    "Selected baseline failures, not representative evaluation.",
+    "Teacher exact version and sampling settings unavailable.",
+    "No injected controller-error recovery examples in this batch."
+  ],
+  "reviews": [
+    {
+      "question_id": "5ac17a835542994d76dcce64",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Country attribution is Germany: German Kriegsmarine role, verified German admiral rather than namesake Klaus.",
+      "generated_answer": "Germany",
+      "gold_answer": "German",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "bd62344489aaa58e3e39e9cb0e2e95bbe5e8fc23eb2b56b6b13e7057d7972e57"
+    },
+    {
+      "question_id": "5ac1b9565542994ab5c67de0",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First biography directly supplies full university name and exact laboratory leadership; stop.",
+      "generated_answer": "Katholieke Universiteit Leuven",
+      "gold_answer": "Katholieke Universiteit Leuven",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "83d5cbee98a94d472593e7c442377f5ac6c8102f1ede2e5648643bdad243e1a6"
+    },
+    {
+      "question_id": "5ac26b9855429963665199b0",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Nicole biography identifies both series stars; eyewear document explicitly lists both as wearers.",
+      "generated_answer": "Bug-eye glasses",
+      "gold_answer": "Bug-eye glasses",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "ea1f0cff1736d4b6700d9127026978ddd451c49f6079521b5d24f1ae9ed9a7cd"
+    },
+    {
+      "question_id": "5ac2800b55429921a00aafc0",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First biography establishes politically conscious Impressions songwriter and soul genre; stop.",
+      "generated_answer": "Soul",
+      "gold_answer": "African-American music",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "8fadbb62bfc1c36e5adc89999b45e8067f1ad86e6269d08a4891901364822262"
+    },
+    {
+      "question_id": "5ac2c19b554299657fa29031",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Initial unaccented name search misses target; shorter-name query recovers biography; candidate-film query verifies Ron Howard. No repeated query.",
+      "generated_answer": "Far and Away",
+      "gold_answer": "Far and Away",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "915356395103d0be4bc41a0b2c654919735917868a5a1c537eb180243f8419a2"
+    },
+    {
+      "question_id": "5ac325af5542995ef918c130",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Festival supplies Moscow Idaho; university document explicitly places that city in Latah County.",
+      "generated_answer": "Latah County",
+      "gold_answer": "Latah County",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "417ebbb68c2a6769446505ac6b9e5f64eb59cc94d8b31004915e2d7c6d6895b1"
+    },
+    {
+      "question_id": "5ac3859f554299741d48a277",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Captain identified as Nabi rather than coach/bowler distractors; matching biography supplies year1985.",
+      "generated_answer": "1985",
+      "gold_answer": "1985",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "1dc1aa56a0aa7d6d87687aea91f2b9dcab15ea1e7a6d36c45c0d85a32577794e"
+    },
+    {
+      "question_id": "5ac39140554299741d48a29a",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "National inline team supplies Henrik Lundqvist; biography supplies New York Rangers in fixed corpus timeframe.",
+      "generated_answer": "New York Rangers",
+      "gold_answer": "New York Rangers",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "bc52b5832441323474d1d77082bc092817b6997693cd4389bb7bc00b9b945224"
+    },
+    {
+      "question_id": "5ac4767b55429919431739a8",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Jesuit biography identifies birthplace Holywood; civil parish document supplies755acres, distinct from two smaller parishes.",
+      "generated_answer": "755 acres",
+      "gold_answer": "755 acres",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "8c41874c34eceaaaf3fcd6155468de7e214be68d62974133ebd45f395d045bd2"
+    },
+    {
+      "question_id": "5ac493705542996feb3fe8de",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First results jointly establish song-film and reboot director; no extra search; full relation citations.",
+      "generated_answer": "David Dhawan",
+      "gold_answer": "David Dhawan",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "725a7e20307643b0ae39ca1a5e804c0b00865919d044f4e676df13b8ac2891bf"
+    }
+  ]
+}

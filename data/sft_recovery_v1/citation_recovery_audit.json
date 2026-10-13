@@ -1,0 +1,206 @@
+[
+  {
+    "question_id": "5a76b7d15542993735360186",
+    "events": [
+      {
+        "step": 1,
+        "action": {
+          "type": "search",
+          "query": "stadium of rugby league club that Siose Muliumu played professionally for"
+        },
+        "observation": {
+          "results": [
+            {
+              "id": "hp_doc_204a5e797b3b869b8e4afe509a14cb8616678f8909ca15d1237095eda6826eba",
+              "title": "Siose Muliumu",
+              "text": "Siose Muliumu (born 26 April 1976 in Auckland, New Zealand) is a New Zealand rugby league player who played professionally for Whitehaven and later represented the United States.",
+              "score": 49.9972
+            },
+            {
+              "id": "hp_doc_c858a017d2fe99dc0b04a8d748d2d5455743d9dd8053c593da80925ae69c2661",
+              "title": "Willows Sports Complex",
+              "text": "The Willows Sports Complex, currently known as 1300SMILES Stadium through sponsorship, is a grass football stadium situated in Townsville, Queensland, Australia. It has been a predominantly rugby league ground as the home ground of the North Queensland Cowboys National Rugby League club. The ground has also been used for rugby union and soccer. From 2009 to 2011, A-League football club North Queensland Fury called it home. Since inception as a rugby league ground, the ground has had sponsored naming rights: Stockland Stadium (1995–97), Malanda Stadium (1998) and Dairy Farmers Stadium (1999–2013).",
+              "score": 28.6944
+            },
+            {
+              "id": "hp_doc_1fb0d5211e70722e6d5989fc312119eb68a915744f0fce0ef9b0a238e7bf756d",
+              "title": "Sydney Roosters",
+              "text": "The Sydney Roosters are an Australian professional rugby league football club based in the Eastern Suburbs of Sydney. The club competes in the National Rugby League (NRL) competition and is one of the oldest clubs in Australian rugby league history, having won thirteen New South Wales Rugby League (NSWRL) and National Rugby League titles, and several other competitions. Only the South Sydney Rabbitohs and the St. George Dragons have won more premierships. The club holds the record for having the most wins and the second greatest margin of victory in a match in Australian rugby league history. The Eastern Suburbs DRLFC is the only club to have played in each and every season at the elite level, and since the 1970s has often been dubbed the \"glamour club\" of the league. Coached by Trent Robinson along with captains Boyd Cordner and Jake Friend, the Roosters play their home games at the Sydney Football Stadium.",
+              "score": 28.3616
+            }
+          ],
+          "remaining_searches": 2
+        }
+      },
+      {
+        "step": 2,
+        "action": {
+          "type": "search",
+          "query": "Whitehaven rugby league stadium"
+        },
+        "observation": {
+          "results": [
+            {
+              "id": "hp_doc_570c49df0ec8653cb7e520757d043026968c96a9439aff7d88517a3de108d5dc",
+              "title": "Whitehaven R.L.F.C.",
+              "text": "Whitehaven R.L.F.C. is a semi-professional rugby league club playing in Whitehaven in west Cumbria. They play in Kingstone Press League 1. Their stadium is called the Recreation Ground (known locally as the Recre).",
+              "score": 30.7287
+            },
+            {
+              "id": "hp_doc_c858a017d2fe99dc0b04a8d748d2d5455743d9dd8053c593da80925ae69c2661",
+              "title": "Willows Sports Complex",
+              "text": "The Willows Sports Complex, currently known as 1300SMILES Stadium through sponsorship, is a grass football stadium situated in Townsville, Queensland, Australia. It has been a predominantly rugby league ground as the home ground of the North Queensland Cowboys National Rugby League club. The ground has also been used for rugby union and soccer. From 2009 to 2011, A-League football club North Queensland Fury called it home. Since inception as a rugby league ground, the ground has had sponsored naming rights: Stockland Stadium (1995–97), Malanda Stadium (1998) and Dairy Farmers Stadium (1999–2013).",
+              "score": 21.8906
+            },
+            {
+              "id": "hp_doc_204a5e797b3b869b8e4afe509a14cb8616678f8909ca15d1237095eda6826eba",
+              "title": "Siose Muliumu",
+              "text": "Siose Muliumu (born 26 April 1976 in Auckland, New Zealand) is a New Zealand rugby league player who played professionally for Whitehaven and later represented the United States.",
+              "score": 21.6026
+            }
+          ],
+          "remaining_searches": 1
+        }
+      },
+      {
+        "step": 3,
+        "action": {
+          "type": "finish",
+          "answer": "Recreation Ground",
+          "evidence_ids": [
+            "hp_doc_204a5e797b3b869b8e4afe509a14cb8616678f8909ca15d1237095eda6826eba4",
+            "hp_doc_570c49df0ec8653cb7e520757d043026968c96a9439aff7d88517a3de108d5dc"
+          ]
+        },
+        "observation": {
+          "error": "不能引用本次搜索未返回的文档",
+          "unseen_ids": [
+            "hp_doc_204a5e797b3b869b8e4afe509a14cb8616678f8909ca15d1237095eda6826eba4"
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "action": {
+          "type": "finish",
+          "answer": "Recreation Ground",
+          "evidence_ids": [
+            "hp_doc_204a5e797b3b869b8e4afe509a14cb8616678f8909ca15d1237095eda6826eba",
+            "hp_doc_570c49df0ec8653cb7e520757d043026968c96a9439aff7d88517a3de108d5dc"
+          ]
+        },
+        "observation": {
+          "accepted": true,
+          "note": "已接收回答；尚未验证答案与证据是否正确"
+        }
+      }
+    ],
+    "status": "finished",
+    "injected_message_index": 6,
+    "supervised_message_indices": [
+      8
+    ]
+  },
+  {
+    "question_id": "5ae7d6e85542993210983f7f",
+    "events": [
+      {
+        "step": 1,
+        "action": {
+          "type": "search",
+          "query": "capital of the country that is home to the Larga River"
+        },
+        "observation": {
+          "results": [
+            {
+              "id": "hp_doc_3eba3e942ee5aa036562d551cb198f204aeef58341ee0f3185780c16099511d0",
+              "title": "Larga River (Suciu)",
+              "text": "The Larga River is a tributary of the Suciu River in Romania.",
+              "score": 31.8236
+            },
+            {
+              "id": "hp_doc_b4ae0408b2e2524f43d573732689dec4e3950f2c55716139ee80c7768b2c6265",
+              "title": "Larga River (Lotru)",
+              "text": "The Larga River is a tributary of the Lotru River in Romania.",
+              "score": 31.8236
+            },
+            {
+              "id": "hp_doc_da37228632190e70a0f465d9f3d4aa173a451bbee1bdde327daded25be03c54a",
+              "title": "Larga River (Humor)",
+              "text": "The Larga River is a tributary of the Humor River in Romania.",
+              "score": 31.8236
+            }
+          ],
+          "remaining_searches": 2
+        }
+      },
+      {
+        "step": 2,
+        "action": {
+          "type": "search",
+          "query": "capital of Romania"
+        },
+        "observation": {
+          "results": [
+            {
+              "id": "hp_doc_51676d55531bf497ed65fd3d161eff447a17dae4540a6306246ca7c23dc1cfa1",
+              "title": "Romania",
+              "text": "Romania ( ; Romanian: \"România\" ) is a sovereign state located in Southeastern Europe. It borders the Black Sea, Bulgaria, Ukraine, Hungary, Serbia, and Moldova. It has an area of 238397 km2 and a temperate-continental climate. With almost 20 million inhabitants, the country is the seventh most populous member state of the European Union. Its capital and largest city, Bucharest, is the sixth-largest city in the EU, with 1,883,425 inhabitants as of 2011.",
+              "score": 16.3444
+            },
+            {
+              "id": "hp_doc_3eba3e942ee5aa036562d551cb198f204aeef58341ee0f3185780c16099511d0",
+              "title": "Larga River (Suciu)",
+              "text": "The Larga River is a tributary of the Suciu River in Romania.",
+              "score": 12.0564
+            },
+            {
+              "id": "hp_doc_b4ae0408b2e2524f43d573732689dec4e3950f2c55716139ee80c7768b2c6265",
+              "title": "Larga River (Lotru)",
+              "text": "The Larga River is a tributary of the Lotru River in Romania.",
+              "score": 12.0564
+            }
+          ],
+          "remaining_searches": 1
+        }
+      },
+      {
+        "step": 3,
+        "action": {
+          "type": "finish",
+          "answer": "Bucharest",
+          "evidence_ids": [
+            "hp_doc_da37228632190e70a0f465d9f3d4aa173a451bbee1bdde327daded25be03c54a4",
+            "hp_doc_51676d55531bf497ed65fd3d161eff447a17dae4540a6306246ca7c23dc1cfa1"
+          ]
+        },
+        "observation": {
+          "error": "不能引用本次搜索未返回的文档",
+          "unseen_ids": [
+            "hp_doc_da37228632190e70a0f465d9f3d4aa173a451bbee1bdde327daded25be03c54a4"
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "action": {
+          "type": "finish",
+          "answer": "Bucharest",
+          "evidence_ids": [
+            "hp_doc_da37228632190e70a0f465d9f3d4aa173a451bbee1bdde327daded25be03c54a",
+            "hp_doc_51676d55531bf497ed65fd3d161eff447a17dae4540a6306246ca7c23dc1cfa1"
+          ]
+        },
+        "observation": {
+          "accepted": true,
+          "note": "已接收回答；尚未验证答案与证据是否正确"
+        }
+      }
+    ],
+    "status": "finished",
+    "injected_message_index": 6,
+    "supervised_message_indices": [
+      8
+    ]
+  }
+]

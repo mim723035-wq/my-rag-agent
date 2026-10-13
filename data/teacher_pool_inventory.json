@@ -1,0 +1,50 @@
+{
+  "generated_count": 140,
+  "accepted_count": 109,
+  "batches": [
+    {
+      "batch": 1,
+      "generated": 10,
+      "accepted": 6,
+      "single": 2,
+      "multi": 4
+    },
+    {
+      "batch": 2,
+      "generated": 10,
+      "accepted": 8,
+      "single": 5,
+      "multi": 3
+    },
+    {
+      "batch": 3,
+      "generated": 10,
+      "accepted": 9,
+      "single": 2,
+      "multi": 7
+    },
+    {
+      "batch": 4,
+      "generated": 50,
+      "accepted": 38,
+      "single": 11,
+      "multi": 27
+    },
+    {
+      "batch": 5,
+      "generated": 50,
+      "accepted": 38,
+      "single": 10,
+      "multi": 28
+    },
+    {
+      "batch": 6,
+      "generated": 10,
+      "accepted": 10,
+      "single": 3,
+      "multi": 7
+    }
+  ],
+  "training_dataset": "data/sft_teacher_100_v1",
+  "note": "100 frozen records:80 unmodified teacher traces,10 controlled recovery variants,10 restricted-corpus abstention variants."
+}

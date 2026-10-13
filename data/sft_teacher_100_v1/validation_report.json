@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "trajectories": 100,
+  "unique_training_questions": 100,
+  "task_categories": {
+    "single_search_sufficient": 25,
+    "multi_hop": 45,
+    "insufficient_evidence": 10,
+    "distractor": 20
+  },
+  "supervised_action_count": 280,
+  "controller_replay": "PASS",
+  "source_hashes": "PASS",
+  "search_budget": "PASS",
+  "unseen_final_citations": 0,
+  "redundant_successful_queries": 0,
+  "obvious_avoidable_final_searches": 0,
+  "error_feedback_counts": {
+    "unseen_citation": 4,
+    "unknown_action": 2,
+    "transient_tool_failure": 2,
+    "empty_query": 2
+  },
+  "malformed_action_targets_excluded": 8,
+  "natural_retrieval_reformulation_question_ids": [
+    "5a750e565542993748c897ad",
+    "5a7705ee55429972597f1416",
+    "5a7b82205542995eb53be941",
+    "5ac109b4554299294b219072",
+    "5ab27942554299449642c8b6",
+    "5a8a9d705542996c9b8d5f3a"
+  ],
+  "limitations": [
+    "Mechanical replay is not independent semantic review.",
+    "Citation-ID availability does not alone prove the cited text supports the conclusion.",
+    "Small restricted-corpus abstention examples do not represent open-world unanswerability."
+  ],
+  "token_mask": "PASS",
+  "tokenized_sha256": "a6219c6b02b39efbaac8a24f00e655e4e69b65a8c3320e46f6f20e7b04f4bb1c",
+  "maximum_sequence_tokens": 2717,
+  "total_supervised_tokens": 16890
+}

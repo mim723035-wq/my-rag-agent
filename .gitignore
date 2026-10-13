@@ -8,3 +8,6 @@ models/
 checkpoints/
 *.safetensors
 *.gguf
+
+# Downloaded source training corpus; reproduce using download_hotpot_train.py.
+data/raw/hotpotqa/hotpot_train_distractor_hf.json

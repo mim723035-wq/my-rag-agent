@@ -1,0 +1,137 @@
+{
+  "generated_count": 10,
+  "accepted_count": 9,
+  "deferred_or_rejected_count": 1,
+  "accepted_single_search": 2,
+  "accepted_multi_search": 7,
+  "supervised_actions": 26,
+  "train_sha256": "c9ee9aa3b5bdc9be65c94d35013f98eca78f9443f75e0090b14fe7dba677578e",
+  "limitations": [
+    "Same assistant generated and reviewed; no independent adjudication.",
+    "Selected baseline failures, not representative evaluation.",
+    "Teacher exact version and sampling settings unavailable.",
+    "No injected controller-error recovery examples in this batch."
+  ],
+  "reviews": [
+    {
+      "question_id": "5a7a182b5542996c55b2dd08",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Video document identifies seventh album and implies 1999 release; guitarist discography connects return and recording to Californication. His return is stated as 1998, not 1999; question interpreted as album made in 1999, not precise return date.",
+      "generated_answer": "Californication",
+      "gold_answer": "Californication",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "27cf81679f542fa2b92a37edbc5cdfaa71616b85f670d9d39a5b1eca00f3c815"
+    },
+    {
+      "question_id": "5a7a1cab5542996a35c170d5",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First search identifies first naval medal recipient Edward O'Hare rather than distractor McCampbell; second finds named destroyer. Death-date discrepancy between documents is unrelated to requested identity; not used in answer. Question typo destroyed interpreted as destroyer.",
+      "generated_answer": "USS O'Hare (DD-889)",
+      "gold_answer": "USS \"O'Hare\"",
+      "official_answer_em": false,
+      "official_answer_f1": 0.8,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "c771d0a003bc82aebfc54a8d271286281ddfd2e52a7d49a5da9d8fbf44747ec4"
+    },
+    {
+      "question_id": "5a7a3fb55542996a35c17162",
+      "decision": "reject_question_work_version",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Grace Kennedy appeared in 2005 UK production, whereas director George Roy Hill is stated for 1967 film. Retrieved evidence does not establish director of the 2005 stage production. Do not match gold by conflating versions.",
+      "generated_answer": "Cannot determine",
+      "gold_answer": "George Roy Hill",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "1e5f5a5a035449ae1b2890b014e4cbe1c4290d80d0280ec88034edc9a24ab5eb"
+    },
+    {
+      "question_id": "5a7b229955429931da12c9ea",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Film identifies Stephen Gaghan; person identifies Academy Award screenplay for Traffic. Question spelling errors do not alter relation.",
+      "generated_answer": "Traffic",
+      "gold_answer": "Traffic",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "0142cf9cb8ddbe54eaaa344458715fc7702bafea65beac0e19e064e9aac02c89"
+    },
+    {
+      "question_id": "5a7b275e55429931da12ca03",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Letter identifies Bernard Francis Law; person document identifies former archpriest location, distinct from Archbishop of Boston and Cardinal Priest of Santa Susanna.",
+      "generated_answer": "Basilica di Santa Maria Maggiore",
+      "gold_answer": "Basilica di Santa Maria Maggiore",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "9b8c34bd049857f1a046f6cddf05400f732157b36a4e94c0c480b162aa4fd1f1"
+    },
+    {
+      "question_id": "5a7b82205542995eb53be941",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Initial retrieval does not find Hud actress; query reformulation identifies Patricia Neal; next entity-based query finds Cookie's Fortune and Robert Altman. No repeated results-only query; valid retrieval recovery under three-call budget.",
+      "generated_answer": "Robert Altman",
+      "gold_answer": "Robert Altman",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "86f1c7fb5700fc15112e5b675788b48232c2251cbc8db25b2aab29b7a8d5764f"
+    },
+    {
+      "question_id": "5a7bc5885542995eb53be9aa",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Film maps Florence Green to Emily Mortimer; person document supplies 1 December 1971.",
+      "generated_answer": "1 December 1971",
+      "gold_answer": "1 December 1971",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "b8ec93bf67268c6872a39a92c1bfed1d8e9ef52e0f7877d5f4ce362dbb0013e2"
+    },
+    {
+      "question_id": "5a7bdfa55542990527d55428",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Person document identifies city Caracal; animal-specific query resolves namesake and explicitly states scientific describer Johann Christian Daniel von Schreber.",
+      "generated_answer": "Johann Christian Daniel von Schreber",
+      "gold_answer": "Johann Christian Daniel von Schreber",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "765d9dd91f5c261d9808c74f3f49305ea77e36d7572860b7d026d0fbc51f83e1"
+    },
+    {
+      "question_id": "5a7c8b1255429935c91b5209",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First search returns both predecessor-succession relation and Vikram Pandit birthdate, so additional search unnecessary.",
+      "generated_answer": "14 January 1957",
+      "gold_answer": "14 January 1957",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "6e7c554e1a6bd0116b8f43685c4f75b47551877a7c3f5e6db1e4fc3ed30f41c3"
+    },
+    {
+      "question_id": "5a7cb64a554299683c1c6347",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Season-12 document names judges; second query verifies Bruno Tonioli is Italian choreographer. Both documents cited.",
+      "generated_answer": "Bruno Tonioli",
+      "gold_answer": "Bruno Tonioli",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "25e6db96ebf938ebee83f2b1f6f1c457854e76fdaf7fd69e7eb5a96832a6a6ba"
+    }
+  ]
+}

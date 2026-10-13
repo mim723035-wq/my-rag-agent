@@ -1,0 +1,736 @@
+{
+  "trajectory_count": 100,
+  "unique_parent_question_count": 100,
+  "teacher_pool_accepted": 109,
+  "task_categories": {
+    "single_search_sufficient": 25,
+    "multi_hop": 45,
+    "insufficient_evidence": 10,
+    "distractor": 20
+  },
+  "controlled_recovery_types": {
+    "unseen_citation": 4,
+    "unknown_action": 2,
+    "empty_query": 2,
+    "transient_tool_failure": 2
+  },
+  "natural_search_count_distribution": {
+    "1": 19,
+    "2": 54,
+    "3": 7
+  },
+  "selection_seed": 42,
+  "train_sha256": "374c69ac1961bacdfd01f7a3257f6691f50a97963892ec5c8e7b61539085df6f",
+  "manifest": [
+    {
+      "question_id": "5a8b093a55429950cd6afc50",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8b093a55429950cd6afc50.json"
+    },
+    {
+      "question_id": "5a83502a554299123d8c20e4",
+      "category": "single_search_sufficient",
+      "recovery": "unseen_citation",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a83502a554299123d8c20e4.json"
+    },
+    {
+      "question_id": "5a7e234255429934daa2fbd8",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7e234255429934daa2fbd8.json"
+    },
+    {
+      "question_id": "5ac2800b55429921a00aafc0",
+      "category": "single_search_sufficient",
+      "recovery": "unseen_citation",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac2800b55429921a00aafc0.json"
+    },
+    {
+      "question_id": "5ab6d76b55429954757d3394",
+      "category": "single_search_sufficient",
+      "recovery": "empty_query",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab6d76b55429954757d3394.json"
+    },
+    {
+      "question_id": "5a79dd13554299029c4b5f79",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a79dd13554299029c4b5f79.json"
+    },
+    {
+      "question_id": "5a79086b55429970f5fffe28",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a79086b55429970f5fffe28.json"
+    },
+    {
+      "question_id": "5a7e954155429934daa2fc36",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7e954155429934daa2fc36.json"
+    },
+    {
+      "question_id": "5a893a6855429951533612ec",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a893a6855429951533612ec.json"
+    },
+    {
+      "question_id": "5aba1afe55429901930fa779",
+      "category": "single_search_sufficient",
+      "recovery": "empty_query",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5aba1afe55429901930fa779.json"
+    },
+    {
+      "question_id": "5a80e0ea55429938b614222e",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a80e0ea55429938b614222e.json"
+    },
+    {
+      "question_id": "5ab3c97f55429969a97a81c0",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab3c97f55429969a97a81c0.json"
+    },
+    {
+      "question_id": "5a7442b955429979e28828c5",
+      "category": "single_search_sufficient",
+      "recovery": "transient_tool_failure",
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_001_v1\\5a7442b955429979e28828c5.json"
+    },
+    {
+      "question_id": "5a883b675542997e5c09a5ad",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a883b675542997e5c09a5ad.json"
+    },
+    {
+      "question_id": "5abc5342554299700f9d7865",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abc5342554299700f9d7865.json"
+    },
+    {
+      "question_id": "5a84c78c5542994c784dda4b",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a84c78c5542994c784dda4b.json"
+    },
+    {
+      "question_id": "5a74be4355429974ef308c52",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a74be4355429974ef308c52.json"
+    },
+    {
+      "question_id": "5a8b7fcc5542995d1e6f13c5",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8b7fcc5542995d1e6f13c5.json"
+    },
+    {
+      "question_id": "5ac1b9565542994ab5c67de0",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac1b9565542994ab5c67de0.json"
+    },
+    {
+      "question_id": "5a78cc5055429974737f789c",
+      "category": "single_search_sufficient",
+      "recovery": "unseen_citation",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a78cc5055429974737f789c.json"
+    },
+    {
+      "question_id": "5ab877c95542990e739ec90f",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab877c95542990e739ec90f.json"
+    },
+    {
+      "question_id": "5a7a182b5542996c55b2dd08",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7a182b5542996c55b2dd08.json"
+    },
+    {
+      "question_id": "5a7c8b1255429935c91b5209",
+      "category": "single_search_sufficient",
+      "recovery": "unknown_action",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7c8b1255429935c91b5209.json"
+    },
+    {
+      "question_id": "5abaf65955429939ce03dd7a",
+      "category": "single_search_sufficient",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abaf65955429939ce03dd7a.json"
+    },
+    {
+      "question_id": "5a7273815542997f827839dc",
+      "category": "single_search_sufficient",
+      "recovery": "unseen_citation",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_001_v1\\5a7273815542997f827839dc.json"
+    },
+    {
+      "question_id": "5ac1757a5542994d76dcce42",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac1757a5542994d76dcce42.json"
+    },
+    {
+      "question_id": "5a80ad565542996402f6a5e6",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a80ad565542996402f6a5e6.json"
+    },
+    {
+      "question_id": "5ab5678a554299488d4d9975",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab5678a554299488d4d9975.json"
+    },
+    {
+      "question_id": "5a7b275e55429931da12ca03",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7b275e55429931da12ca03.json"
+    },
+    {
+      "question_id": "5a7b229955429931da12c9ea",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7b229955429931da12c9ea.json"
+    },
+    {
+      "question_id": "5ab97dcd554299131ca42342",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab97dcd554299131ca42342.json"
+    },
+    {
+      "question_id": "5a903f595542990a984935b9",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a903f595542990a984935b9.json"
+    },
+    {
+      "question_id": "5ab24eaf554299449642c86b",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5ab24eaf554299449642c86b.json"
+    },
+    {
+      "question_id": "5ac04bfc5542996f0d89cb84",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac04bfc5542996f0d89cb84.json"
+    },
+    {
+      "question_id": "5abbb8e755429931dba144bb",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abbb8e755429931dba144bb.json"
+    },
+    {
+      "question_id": "5a7fc4525542992e7d278d5e",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7fc4525542992e7d278d5e.json"
+    },
+    {
+      "question_id": "5a750e565542993748c897ad",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a750e565542993748c897ad.json"
+    },
+    {
+      "question_id": "5ab37aae55429969a97a8159",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5ab37aae55429969a97a8159.json"
+    },
+    {
+      "question_id": "5a8fbd1455429933b8a2044e",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8fbd1455429933b8a2044e.json"
+    },
+    {
+      "question_id": "5ac12f8a55429964131be164",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac12f8a55429964131be164.json"
+    },
+    {
+      "question_id": "5a8f42105542992414482a1b",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8f42105542992414482a1b.json"
+    },
+    {
+      "question_id": "5a8ce57f554299653c1aa133",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8ce57f554299653c1aa133.json"
+    },
+    {
+      "question_id": "5ab29b2b554299194fa93443",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5ab29b2b554299194fa93443.json"
+    },
+    {
+      "question_id": "5a7bdfa55542990527d55428",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7bdfa55542990527d55428.json"
+    },
+    {
+      "question_id": "5a8119e455429938b61422c4",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8119e455429938b61422c4.json"
+    },
+    {
+      "question_id": "5a82066755429926c1cdadef",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a82066755429926c1cdadef.json"
+    },
+    {
+      "question_id": "5abbc7c455429931dba1451d",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abbc7c455429931dba1451d.json"
+    },
+    {
+      "question_id": "5a89f72e55429970aeb701ba",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a89f72e55429970aeb701ba.json"
+    },
+    {
+      "question_id": "5a745f3f55429979e288292a",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_001_v1\\5a745f3f55429979e288292a.json"
+    },
+    {
+      "question_id": "5a7d3c265542995f4f402241",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7d3c265542995f4f402241.json"
+    },
+    {
+      "question_id": "5a74752255429974ef308c01",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_001_v1\\5a74752255429974ef308c01.json"
+    },
+    {
+      "question_id": "5abd5e9555429933744ab798",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abd5e9555429933744ab798.json"
+    },
+    {
+      "question_id": "5a7f8a535542994857a76778",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7f8a535542994857a76778.json"
+    },
+    {
+      "question_id": "5a8780275542993e715abf86",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8780275542993e715abf86.json"
+    },
+    {
+      "question_id": "5a7317ba5542992359bc3232",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_001_v1\\5a7317ba5542992359bc3232.json"
+    },
+    {
+      "question_id": "5a89efb25542992e4fca8497",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a89efb25542992e4fca8497.json"
+    },
+    {
+      "question_id": "5a8006e25542992e7d278de4",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8006e25542992e7d278de4.json"
+    },
+    {
+      "question_id": "5ab27cdd554299722f9b4d4a",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5ab27cdd554299722f9b4d4a.json"
+    },
+    {
+      "question_id": "5a864b625542996432c571bc",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a864b625542996432c571bc.json"
+    },
+    {
+      "question_id": "5ac39140554299741d48a29a",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac39140554299741d48a29a.json"
+    },
+    {
+      "question_id": "5a89b0b05542992e4fca8371",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a89b0b05542992e4fca8371.json"
+    },
+    {
+      "question_id": "5a7705ee55429972597f1416",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a7705ee55429972597f1416.json"
+    },
+    {
+      "question_id": "5a77708855429966f1a36d4c",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_002_v1\\5a77708855429966f1a36d4c.json"
+    },
+    {
+      "question_id": "5abf647a5542997ec76fd3ec",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abf647a5542997ec76fd3ec.json"
+    },
+    {
+      "question_id": "5a7dfb715542995f4f40236a",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a7dfb715542995f4f40236a.json"
+    },
+    {
+      "question_id": "5a7b82205542995eb53be941",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7b82205542995eb53be941.json"
+    },
+    {
+      "question_id": "5ac325af5542995ef918c130",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac325af5542995ef918c130.json"
+    },
+    {
+      "question_id": "5a85a3a45542997175ce1fe6",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a85a3a45542997175ce1fe6.json"
+    },
+    {
+      "question_id": "5a8a9d705542996c9b8d5f3a",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8a9d705542996c9b8d5f3a.json"
+    },
+    {
+      "question_id": "5ac109b4554299294b219072",
+      "category": "multi_hop",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac109b4554299294b219072.json"
+    },
+    {
+      "question_id": "5a7a1cab5542996a35c170d5",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7a1cab5542996a35c170d5.json"
+    },
+    {
+      "question_id": "5a7cb64a554299683c1c6347",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_003_v1\\5a7cb64a554299683c1c6347.json"
+    },
+    {
+      "question_id": "5a8baaa5554299240d9c2078",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5a8baaa5554299240d9c2078.json"
+    },
+    {
+      "question_id": "5ab27942554299449642c8b6",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_004_v1\\5ab27942554299449642c8b6.json"
+    },
+    {
+      "question_id": "5ab8137a55429916710eafdd",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ab8137a55429916710eafdd.json"
+    },
+    {
+      "question_id": "5abb12325542992ccd8e7efb",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abb12325542992ccd8e7efb.json"
+    },
+    {
+      "question_id": "5abbd4895542993f40c73bcd",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abbd4895542993f40c73bcd.json"
+    },
+    {
+      "question_id": "5abbe495554299642a094bbf",
+      "category": "distractor",
+      "recovery": "unknown_action",
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abbe495554299642a094bbf.json"
+    },
+    {
+      "question_id": "5abed5835542990832d3a0e5",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abed5835542990832d3a0e5.json"
+    },
+    {
+      "question_id": "5abff8935542994516f4555b",
+      "category": "distractor",
+      "recovery": "transient_tool_failure",
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5abff8935542994516f4555b.json"
+    },
+    {
+      "question_id": "5ac03361554299012d1db5d0",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac03361554299012d1db5d0.json"
+    },
+    {
+      "question_id": "5ac0762f5542996f0d89cbe0",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac0762f5542996f0d89cbe0.json"
+    },
+    {
+      "question_id": "5ac135cc55429964131be194",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac135cc55429964131be194.json"
+    },
+    {
+      "question_id": "5ac161e75542994d76dccdff",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_005_v1\\5ac161e75542994d76dccdff.json"
+    },
+    {
+      "question_id": "5ac17a835542994d76dcce64",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac17a835542994d76dcce64.json"
+    },
+    {
+      "question_id": "5ac26b9855429963665199b0",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac26b9855429963665199b0.json"
+    },
+    {
+      "question_id": "5ac2c19b554299657fa29031",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 3,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac2c19b554299657fa29031.json"
+    },
+    {
+      "question_id": "5ac3859f554299741d48a277",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac3859f554299741d48a277.json"
+    },
+    {
+      "question_id": "5ac4767b55429919431739a8",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 2,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac4767b55429919431739a8.json"
+    },
+    {
+      "question_id": "5ac493705542996feb3fe8de",
+      "category": "distractor",
+      "recovery": null,
+      "search_count": 1,
+      "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\teacher_batch_006_v1\\5ac493705542996feb3fe8de.json"
+    },
+    {
+      "question_id": "5ab43c175542991779162c23",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab43c175542991779162c23.jsonl"
+    },
+    {
+      "question_id": "5ab525e65542996a3a96a038",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab525e65542996a3a96a038.jsonl"
+    },
+    {
+      "question_id": "5ab5389b554299637185c517",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab5389b554299637185c517.jsonl"
+    },
+    {
+      "question_id": "5ab726345542992aa3b8c7b0",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab726345542992aa3b8c7b0.jsonl"
+    },
+    {
+      "question_id": "5ab76f875542995dae37e91f",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab76f875542995dae37e91f.jsonl"
+    },
+    {
+      "question_id": "5ab7e11f5542992aa3b8c86e",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab7e11f5542992aa3b8c86e.jsonl"
+    },
+    {
+      "question_id": "5ab9185955429916710eb0ff",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5ab9185955429916710eb0ff.jsonl"
+    },
+    {
+      "question_id": "5abeacf95542990832d3a0a6",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5abeacf95542990832d3a0a6.jsonl"
+    },
+    {
+      "question_id": "5abee2e55542993fe9a41d77",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5abee2e55542993fe9a41d77.jsonl"
+    },
+    {
+      "question_id": "5abff0485542994516f45538",
+      "category": "insufficient_evidence",
+      "recovery": null,
+      "search_count": 2,
+      "corpus_path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_teacher_100_v1\\controlled_corpora\\5abff0485542994516f45538.jsonl"
+    }
+  ],
+  "limitations": [
+    "Assistant generation and semantic review are not independent human adjudication.",
+    "Selected prior baseline failures; sampling is behavior-oriented and not representative of HotpotQA.",
+    "10 abstention records use three-document restricted corpora, not natural unanswerable Hotpot questions.",
+    "10 recovery records have controlled errors, not organically observed teacher failures.",
+    "Question category and recovery tags overlap; search count is not semantic hop count.",
+    "100 versus old41 changes source/quality/composition, training tokens and steps as well as count.",
+    "Prior200 held-out questions were already inspected; final blind claims require fresh isolated questions.",
+    "Controlled recovery variants favor short histories to fit the fixed budget; do not establish long-context error recovery."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "records": 45,
+  "unique_questions": 43,
+  "supervised_actions": 99,
+  "source_counts": {
+    "reviewed": 41,
+    "search_revision": 2,
+    "citation_recovery": 2
+  },
+  "sources": [
+    {
+      "type": "reviewed",
+      "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_reviewed_v1\\train.jsonl",
+      "sha256": "efc2d13094b8b0eaa6e3efb109e514888f824669b8182639c7ca7edcd0c586d9",
+      "count": 41
+    },
+    {
+      "type": "search_revision",
+      "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_recovery_v1\\search_revision_train.jsonl",
+      "sha256": "cd33c46064fdded3317b6dbb72e45d57b0e4b01cdfb9fa4a5d7022e6d01819dd",
+      "count": 2
+    },
+    {
+      "type": "citation_recovery",
+      "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_recovery_v1\\citation_recovery\\train.jsonl",
+      "sha256": "7db9ffd24d44f28fcabb9b286e2f875b2c29b48d97edc14e44088bec22bbabd8",
+      "count": 2
+    }
+  ],
+  "train_sha256": "13232cc82cce2349274eaab858bee7c47606eb031a8562ba86887037ddf569ee",
+  "note": "Two training questions have both clean-search and synthetic recovery versions. Recovery errors are context only, not supervised targets."
+}

@@ -1,0 +1,137 @@
+{
+  "generated_count": 10,
+  "accepted_count": 6,
+  "deferred_or_rejected_count": 4,
+  "accepted_single_search": 2,
+  "accepted_multi_search": 4,
+  "supervised_actions": 16,
+  "train_sha256": "be9c0b5d35ba5933927fb98ff5d6a3adb8d7835e0ec8c0b0b28413946509dcb1",
+  "limitations": [
+    "Same assistant generated and reviewed; no independent adjudication.",
+    "Selected baseline failures, not representative evaluation.",
+    "Teacher exact version and sampling settings unavailable.",
+    "No injected controller-error recovery examples in this batch."
+  ],
+  "reviews": [
+    {
+      "question_id": "5a712ad95542994082a3e613",
+      "decision": "reject_question_premise",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Messapus evidence describes Virgil's Aeneid, not the Iliad. Correct central name does not repair inconsistent question.",
+      "generated_answer": "Turnus",
+      "gold_answer": "Turnus",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "bd3541317e04bf4c5ef99fccee9f178c25f229b8c23089affdf3bc4a90620404"
+    },
+    {
+      "question_id": "5a7151965542994082a3e7c5",
+      "decision": "defer_underspecified_question",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Former Lakers legend has multiple plausible referents; matching the benchmark does not establish a unique target.",
+      "generated_answer": "Magic Johnson",
+      "gold_answer": "Magic Johnson",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "1353e8596e150648fbf7167c492ce4bc6b42e0dfd61e22119fadc01f75ed497d"
+    },
+    {
+      "question_id": "5a7273815542997f827839dc",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Golden Slumber and Brilliant Legacy cast documents identify the same actress. Alternative retrieved document supports relation despite not being gold ID.",
+      "generated_answer": "Han Hyo-joo",
+      "gold_answer": "Han Hyo-joo",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "ceaaf887ea2663dbe6226bbb969c5663aa9bd066194ea60fd7406886e92ef37a"
+    },
+    {
+      "question_id": "5a729b4d5542991f9a20c52a",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First search identifies Milena Govich; second connects her to the 2011 film A Novel Romance.",
+      "generated_answer": "A Novel Romance",
+      "gold_answer": "A Novel Romance",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "8f46b2a41ca80b30c37186f1d5d85aa281794a792f472348c812c95c8da1bc90"
+    },
+    {
+      "question_id": "5a7317ba5542992359bc3232",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Company document lists Athens retail branch; second search verifies consolidated city-county in Georgia.",
+      "generated_answer": "Athens, Georgia",
+      "gold_answer": "Athens, Georgia",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "9464c9e6c36590621028d099dad78d5a7f1977bca7e512c2370a364763ec6de3"
+    },
+    {
+      "question_id": "5a734e7d5542992359bc32f3",
+      "decision": "defer_question_date_ambiguity",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "1964-2014 refers to former magazine name; evidence does not establish that magazine ceased publication then. Abstention not exported.",
+      "generated_answer": "Cannot determine",
+      "gold_answer": "1964-2014",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "4c2c70bf6a7b1942198cd9babd187918af3e3fecea0d00dd610120bd7539c95e"
+    },
+    {
+      "question_id": "5a73fe2d5542993a88ae2ee0",
+      "decision": "defer_insufficient_explicit_evidence",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Searches did not explicitly establish shared country of playing. Nationality is not country of playing. Gold answer French is not a country name; no forced match.",
+      "generated_answer": "Cannot determine",
+      "gold_answer": "French",
+      "official_answer_em": false,
+      "official_answer_f1": 0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "71a48088f57f3acbc1f0ae718e5e5ffd0fdf3fb9a2369f9109e3f44df4d8e5fb"
+    },
+    {
+      "question_id": "5a7442b955429979e28828c5",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Appeal and physicist documents support initiation and marriage. Frederic Joliot-Curie is a supported short form of Jean Frederic Joliot-Curie; official EM retained.",
+      "generated_answer": "Frédéric Joliot-Curie",
+      "gold_answer": "Jean Frédéric Joliot-Curie",
+      "official_answer_em": false,
+      "official_answer_f1": 0.8,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "21dfa4e93c8f1e5a5b3f658dcb083bb24e9d91da5654b240016141522ffdb335"
+    },
+    {
+      "question_id": "5a745f3f55429979e288292a",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "First search identifies Heartland from exact debut date; second retrieves Jessica Steen with matching occupation and role.",
+      "generated_answer": "Jessica Steen",
+      "gold_answer": "Jessica Steen",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": true,
+      "source_trace_sha256": "54407d5d0c57499a4286827b58d6e85802d3d389bb3a802aa17d06d9a647917c"
+    },
+    {
+      "question_id": "5a74752255429974ef308c01",
+      "decision": "accept",
+      "reviewer": "assistant_evidence_review; same assistant as generator, not independent human review",
+      "notes": "Emily Watson document identifies Bess McNeil film; second search identifies Peter Raeburn's soundtrack contribution. Different supporting document from benchmark is semantically sufficient.",
+      "generated_answer": "Peter Raeburn",
+      "gold_answer": "Peter Raeburn",
+      "official_answer_em": true,
+      "official_answer_f1": 1.0,
+      "complete_gold_document_citation": false,
+      "source_trace_sha256": "bfdae5a3d11d07ed3f55d36ae8e51c8f19f4c0e3de9a2b5047e7f722adcb5a32"
+    }
+  ]
+}

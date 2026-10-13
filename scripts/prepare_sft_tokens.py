@@ -51,11 +51,40 @@ def main():
         question_id = trajectory["metadata"]["question_id"]
         assistant_turn = 0
 
+        # 未指定时，保持原行为：监督所有助手动作。
+        supervised_indices = trajectory["metadata"].get(
+            "supervised_message_indices"
+        )
+
+        if supervised_indices is not None:
+            if (
+                not isinstance(supervised_indices, list)
+                or not supervised_indices
+                or not all(type(i) is int for i in supervised_indices)
+                or len(supervised_indices) != len(set(supervised_indices))
+            ):
+                raise ValueError("监督消息索引格式不合法")
+
+            for i in supervised_indices:
+                if not 0 <= i < len(messages):
+                    raise ValueError("监督消息索引越界")
+                if messages[i]["role"] != "assistant":
+                    raise ValueError("只能监督助手消息")
+
+            supervised_indices = set(supervised_indices)
+
         for index, message in enumerate(messages):
             if message["role"] != "assistant":
                 continue
 
             assistant_turn += 1
+
+            if (
+                supervised_indices is not None
+                and index not in supervised_indices
+            ):
+                continue
+
             action = json.loads(message["content"])
             if action.get("type") not in {"search", "finish"}:
                 raise ValueError("助手目标不是合法搜索或结束动作")
@@ -124,12 +153,17 @@ def main():
                 "metadata": {
                     "question_id": question_id,
                     "assistant_turn": assistant_turn,
+                    "message_index": index,
                     "action_type": action["type"],
                     "sequence_tokens": len(input_ids),
                     "supervised_tokens": len(supervised_ids),
                     "model": config,
                     "enable_thinking": False,
                     "max_length": MAX_LENGTH,
+                    "sample_id": trajectory["metadata"].get("sample_id", question_id),
+                    "source_type": trajectory["metadata"].get("source_type"),
+                    "task_category": trajectory["metadata"].get("task_category"),
+                    "controlled_intervention": trajectory["metadata"].get("controlled_intervention"),
                 },
             })
 

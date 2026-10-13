@@ -1,0 +1,79 @@
+{
+  "experiment": "teacher_sft_scaling_50_100_v1",
+  "status": "superseded",
+  "count_unit": "unique training questions; one accepted trajectory per question",
+  "data_source": "assistant teacher with actual fixed local retrieval and controller execution",
+  "exclude": [
+    "student self-generated SFT samples",
+    "synthetic injected-error samples",
+    "pilot samples",
+    "development questions",
+    "previously evaluated held-out questions"
+  ],
+  "selection_seed": 42,
+  "nested_subsets": true,
+  "subset_targets": {
+    "50": {
+      "single_search": 25,
+      "multi_search": 25
+    },
+    "100": {
+      "single_search": 50,
+      "multi_search": 50
+    }
+  },
+  "training": {
+    "initialization": "fresh original base for each condition; do not continue from v1 or 50-condition adapter",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "seed": 42,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "gradient_checkpointing": true
+  },
+  "evaluation": {
+    "initial_comparison": "same existing 100-question development set, matched prompts/tools/generation budgets",
+    "conditions": [
+      "base",
+      "SFT-50",
+      "SFT-100"
+    ],
+    "max_searches": 3,
+    "max_actions": 8,
+    "max_total_tokens": 768,
+    "context_limit": 4096,
+    "retrieval_top_k": 3,
+    "enable_thinking": false,
+    "do_sample": false,
+    "report": [
+      "answer EM",
+      "answer F1",
+      "document citation coverage",
+      "citation ID precision",
+      "finish rate",
+      "actual search count",
+      "repeated search count",
+      "input/output tokens",
+      "paired per-question changes"
+    ],
+    "heldout_policy": "prepare a new isolated held-out split for a later frozen final evaluation; previous 200-question results are historical references"
+  },
+  "limitations": [
+    "Equal epochs means 100-condition uses more optimizer updates and training tokens; does not isolate data diversity from training compute.",
+    "A single training seed and development evaluation cannot establish stable generalization gains.",
+    "Teacher generation and evidence review performed by same assistant; independent audit required for stronger evidence.",
+    "Teacher exact revision and decoding settings unavailable."
+  ],
+  "superseded_by": "sft_teacher_100_v1",
+  "reason": "User cancelled50/100 comparison and requested one100-trajectory run against prior41."
+}
