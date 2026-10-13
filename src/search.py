@@ -1,3 +1,4 @@
+import re
 import argparse
 import json
 import logging
@@ -11,12 +12,17 @@ jieba.setLogLevel(logging.WARNING)
 
 
 def tokenize(text):
-    """文档和查询共用此函数；去掉空白与纯标点。"""
-    return [
-        word.lower()
-        for word in jieba.lcut(text)
-        if any(char.isalnum() for char in word)
-    ]
+    """中文保留jieba分词；纯英文按单词和数字切分。"""
+    text = text.casefold()
+
+    if re.search(r"[\u4e00-\u9fff]", text):
+        return [
+            word
+            for word in jieba.lcut(text)
+            if any(char.isalnum() for char in word)
+        ]
+
+    return re.findall(r"[a-z0-9]+(?:'[a-z0-9]+)*", text)
 
 
 class SearchTool:
