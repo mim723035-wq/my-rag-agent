@@ -11,10 +11,10 @@ from uuid import uuid4
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
+from peft import PeftModel
 from kzq_agent import AgentController
 from search import SearchTool
-
+from tqdm.auto import tqdm
 ROOT = Path(__file__).resolve().parents[1]
 
 COMMON_RULES = """
@@ -357,6 +357,7 @@ def main():
         choices=["zh", "en"],
         default="zh",
     )
+    parser.add_argument("--adapter-dir", type=Path, default=None)
     args = parser.parse_args()
 
     if (
@@ -398,6 +399,26 @@ def main():
         dtype=torch.bfloat16,
         use_safetensors=True,
     ).to("cuda")
+    if args.adapter_dir is not None:
+        adapter_dir = args.adapter_dir.resolve()
+
+        training_config = json.loads(
+            (adapter_dir.parent / "training_config.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        if training_config["model"] != config:
+            raise ValueError("适配器训练底座与当前模型配置不一致")
+
+        model = PeftModel.from_pretrained(
+            model, adapter_dir, is_trainable=False
+        )
+
+        # 记录适配器身份，使轨迹与底座结果可区分。
+        config = {
+            **config,
+            "adapter_dir": str(adapter_dir),
+        }
     model.eval()
 
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -437,7 +458,11 @@ def main():
         mode_dir = run_dir / mode
         mode_dir.mkdir()
 
-        for question in questions:
+        for question in tqdm(
+            questions,
+            desc=f"{mode}: generating trajectories",
+            unit="question",
+        ):
             result = run_one(
                 mode, question, model, tokenizer, tool, config, args
             )

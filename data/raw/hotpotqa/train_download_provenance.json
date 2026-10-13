@@ -1,0 +1,14 @@
+{
+  "source": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+  "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "subset": "distractor",
+  "split": "train",
+  "downloaded_files": [
+    "distractor/train-00000-of-00002.parquet",
+    "distractor/train-00001-of-00002.parquet"
+  ],
+  "record_count": 90447,
+  "output_sha256": "b971c4ea52955071cb49ce24ed584633511e8c490951f3e391946e909723e710",
+  "conversion": "HF Parquet fields converted to original JSON layout",
+  "license": "CC BY-SA 4.0"
+}
