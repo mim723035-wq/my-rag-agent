@@ -1,19 +1,28 @@
 import os
 
 os.environ["HF_HOME"] = r"D:\search-agent-cache\huggingface"
-
+import argparse
 import json
 from pathlib import Path
 
 from transformers import AutoTokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data/sft_pilot_v1"
+DEFAULT_DATA_DIR = ROOT / "data/sft_pilot_v1"
 MAX_LENGTH = 4096
 
 
 def main():
-    output_path = DATA_DIR / "tokenized.jsonl"
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=DEFAULT_DATA_DIR,
+    )
+    args = parser.parse_args()
+    data_dir = args.data_dir.resolve()
+
+    output_path = data_dir / "tokenized.jsonl"
     if output_path.exists():
         raise FileExistsError(
             "tokenized.jsonl已经存在，请先检查，不覆盖"
@@ -30,7 +39,7 @@ def main():
     if not tokenizer.is_fast:
         raise ValueError("需要fast tokenizer提供字符偏移")
 
-    with (DATA_DIR / "train.jsonl").open(encoding="utf-8") as file:
+    with (data_dir / "train.jsonl").open(encoding="utf-8") as file:
         trajectories = [
             json.loads(line) for line in file if line.strip()
         ]

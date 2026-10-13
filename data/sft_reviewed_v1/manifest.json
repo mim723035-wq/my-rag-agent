@@ -1,0 +1,26 @@
+{
+  "source_run": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T092302Z_9a649338",
+  "reviewed_count": 57,
+  "decision_counts": {
+    "accept_citation_revision": 33,
+    "needs_search_revision": 11,
+    "reject_question_evidence_mismatch": 2,
+    "accept_original": 8,
+    "defer_evidence_ambiguity": 3
+  },
+  "exported_count": 41,
+  "search_distribution": {
+    "multi_search": 9,
+    "single_search": 32
+  },
+  "reviewer": "assistant_evidence_review",
+  "pilot_merged": false,
+  "raw_traces_modified": false,
+  "limitations": [
+    "Assistant evidence review, not human adjudication.",
+    "Selected successful traces; not representative of all tasks.",
+    "Mostly single-search examples.",
+    "No new recovery trajectories added."
+  ],
+  "train_sha256": "efc2d13094b8b0eaa6e3efb109e514888f824669b8182639c7ca7edcd0c586d9"
+}

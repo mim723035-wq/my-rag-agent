@@ -1,7 +1,7 @@
 import os
 
 os.environ["HF_HOME"] = r"D:\search-agent-cache\huggingface"
-
+import argparse
 import json
 from pathlib import Path
 
@@ -42,7 +42,16 @@ def collate(examples, pad_token_id):
 
 
 def main():
-    with (ROOT / "data/sft_pilot_v1/tokenized.jsonl").open(
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=ROOT / "data/sft_pilot_v1",
+    )
+    args = parser.parse_args()
+    data_dir = args.data_dir.resolve()
+
+    with (data_dir / "tokenized.jsonl").open(
         encoding="utf-8"
     ) as file:
         rows = [json.loads(line) for line in file if line.strip()]

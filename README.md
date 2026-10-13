@@ -1,106 +1,169 @@
-# 多跳搜索 Agent：基线与评测
+# 面向多跳问答的搜索 Agent 小规模 SFT
 
-基于 Qwen3-1.7B 和 BM25，实现不搜索、固定 RAG、多轮搜索
-Agent 三种基线，并保存完整轨迹、答案、引用和运行成本。
+基于 Qwen3-1.7B、固定 HotpotQA 文档库和 BM25 检索，
+实现不搜索、固定 RAG、模型自主搜索三种基线，
+并使用审核后的搜索轨迹进行 LoRA SFT。
 
-当前阶段：V0.2 合成开发流程。
-尚未进行 SFT 或 RL。
+当前已完成：
+- 基线、控制器、轨迹记录和批量评测。
+- 41条审核轨迹、91个动作样本的LoRA训练。
+- 100题开发评测、200题保留测试。
+- 搜索次数上限1次与3次的开发集对照。
+- 失败案例分析。
+
+尚未进行RL或开放网页搜索泛化验证。
+
+实验设置、结果和限制见：
+[实验报告](EXPERIMENT_SFT_V1.md)
+
+## 主要结果
+
+200题保留测试，搜索上限均为3次：
+
+| 指标 | 底座 | LoRA |
+|---|---:|---:|
+| 答案EM | 26.5% | 33.5% |
+| 平均答案F1 | 0.3895 | 0.4605 |
+| 完整标准文档引用率 | 4% | 16.5% |
+| 正常结束 | 185/200 | 198/200 |
+| 平均搜索次数 | 1.43 | 1.82 |
+| 平均生成token | 133.71 | 153.54 |
+
+100题开发集限制为最多搜索1次时：
+- 底座EM为25%，LoRA为24%。
+- 完整标准引用率分别为3%和14%。
+
+引用覆盖改善在单次搜索条件下仍存在。
+答案收益仅在本次允许追加搜索的比较中出现；
+尚不能排除更多实际搜索和运行完成率改善的贡献。
 
 ## 环境
 
-- Python 3.11
-- Windows
-- NVIDIA RTX 5060 8GB
-- PyTorch 2.9.1，CUDA 12.8 构建
-- Transformers 4.57.1
-- 其他依赖见 requirements-lock.txt
-- 模型与固定 revision 见 configs/model.json
+- Python 3.11，Windows。
+- RTX 5060 8GB。
+- PyTorch 2.9.1，CUDA 12.8构建。
+- Transformers 4.57.1。
+- 依赖见 requirements-lock.txt。
+- 模型与固定revision见 configs/model.json。
 
-模型缓存当前固定为：
+当前多个脚本将HF_HOME固定为：
 D:\search-agent-cache\huggingface
 
-在其他电脑上运行前，需要修改 src/run_baselines.py 中的
-HF_HOME，并确保对应磁盘有足够空间。
-
-## 安装
-
-建议创建独立环境：
-
-```powershell
-conda create -n search-agent python=3.11 pip -y
-conda activate search-agent
-python -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu128
-python -m pip install -r requirements-lock.txt
-python -m pip check
-```
-
-依赖记录基于当前 Windows 环境。
-其他系统可能需要调整，不保证仅安装相同依赖即可完全复现。
+换电脑时需检查相关脚本的缓存路径。
+依赖锁定基于本机环境，不保证跨系统完全一致。
 
 ## 数据
 
-data/documents.jsonl 和 data/questions.jsonl：
-最初的6篇文档、2道调试题。
+- data/synthetic_dev_v1：合成开发与控制器调试数据。
+- data/hotpot_bridge_v1：100题开发集及固定文档库。
+- data/hotpot_bridge_v1/smoke：30题开发子集。
+- data/hotpot_bridge_v1/test：200题保留测试。
+- data/hotpot_train_v1：300道训练题及训练语料。
+- data/sft_pilot_v1：此前5条轨迹的小规模pilot。
+- data/sft_reviewed_v1：本轮41条审核轨迹及数据说明。
 
-data/synthetic_dev_v1/：
-30篇虚构文档、12道开发题，包含：
-- 单跳3题
-- 两跳3题
-- 干扰两跳3题
-- 证据不足3题
+本轮训练数据包含32条单次搜索、9条多次搜索轨迹。
+审核属于助手基于文档的证据检查，不是人工审定。
+引用修订保留来源记录，原始轨迹未修改。
 
-所有合成数据仅用于开发检查。
-这些问题已参与诊断，不能作为独立测试集。
+数据准备按标准证据标题等规则隔离；
+不宣称完全无泄漏，也不能排除公开数据的预训练污染。
 
-## 三种基线
+## 基线运行
 
-- no_search：不提供文档，直接回答。
-- rag：用原问题检索一次，再回答。
-- agent：模型生成查询，接收结果，继续搜索或结束。
+以下命令从项目根目录执行。
 
+100题开发集三种底座基线：
+
+```powershell
+python .\src\run_baselines.py --mode all --language en --data-dir ".\data\hotpot_bridge_v1"
+```
+
+默认搜索上限3次、动作上限8次、总输出上限768 token，
+上下文上限4096 token、检索top_k=3。
+关闭thinking，使用贪心解码。
+
+RAG检索一次；Agent由模型决定查询与停止。
 两跳关系不一定需要两次搜索。
-模型主动结束与程序达到上限分别记录。
 
-## 运行
+## SFT数据与训练
 
-从 search-agent 项目根目录执行：
+本轮审核数据已导出为train.jsonl。
+导出脚本依赖本地300题原始轨迹和七批审核记录；
+仅有代码无法重新生成相同审核数据。
 
-```powershell
-python .\src\run_baselines.py --mode all --data-dir ".\data\synthetic_dev_v1"
-```
-
-只运行一道题：
+已有数据检查通过时，无需重复运行。
+脚本遇到已有输出会拒绝覆盖。
 
 ```powershell
-python .\src\run_baselines.py --mode all --data-dir ".\data\synthetic_dev_v1" --question-id syn_004_q
+python .\scripts\prepare_sft_tokens.py --data-dir ".\data\sft_reviewed_v1"
+python .\scripts\check_sft_batch.py --data-dir ".\data\sft_reviewed_v1"
+python .\scripts\train_sft_reviewed.py --epochs 1
 ```
 
-默认：
-- 关闭 thinking
-- 不采样
-- 每题最多生成768 token，包含Agent动作
-- 上下文限制4096 token
-- Agent最多搜索3次、调用模型8次
-- 每次搜索最多返回3篇文档
+只监督当前助手JSON动作和结束标记。
+问题、历史消息和工具结果不参与loss。
 
-每次运行生成独立目录，保存数据副本、配置、数据哈希、
-逐题轨迹和运行摘要。
+LoRA：r=8，alpha=16，q_proj/v_proj。
+训练一轮、batch size 1、学习率1e-4，
+开启梯度检查点，从原始底座创建新适配器。
 
-## 评测
+本轮本机适配器：
 
-将路径替换为本次运行目录：
+```text
+outputs/sft_reviewed_20261013T110629Z_ff70a414/adapter
+```
+
+权重未随Git提交。重新训练后使用新输出目录。
+
+## 加载检查与评测
+
+将下面的adapter路径替换为实际训练输出：
+
+```powershell
+$adapter = '.\outputs\sft_reviewed_20261013T110629Z_ff70a414\adapter'
+python .\scripts\check_adapter.py --adapter-dir "$adapter"
+python .\src\run_baselines.py --mode agent --language en --data-dir ".\data\hotpot_bridge_v1" --adapter-dir "$adapter"
+```
+
+将runDir替换为上一条命令生成的运行目录：
 
 ```powershell
 $runDir = '.\outputs\baselines_实际时间_编号'
-python .\scripts\evaluate_trace.py --run-dir "$runDir" --questions "$runDir\questions.jsonl"
+python .\scripts\evaluate_trace.py --run-dir "$runDir" --questions "$runDir\questions.jsonl" --answer-language en
 ```
 
-evaluation目录保存：
-- details.json / details.csv：逐题指标
-- summary.json / summary.csv：方法汇总
-- errors.json：缺失或无法读取的轨迹
+单次搜索预算对照：
+在底座和LoRA运行命令中均加入 --max-searches 1。
 
-模型运行失败也应计入评测，不能只统计成功完成的题。
+原始200题测试使用：
+--data-dir ".\data\hotpot_bridge_v1\test"
+
+该测试集现已查看；后续针对其结果修改模型后，
+不能再称为未见独立测试。
+
+## 输出与指标
+
+每次运行保存逐题轨迹、配置和数据副本。
+evaluation保存逐题指标与方法汇总。
+
+- 答案：HotpotQA规范化EM和词级F1。
+- 检索及引用：标准文档ID覆盖指标。
+- 成本：搜索次数、输入/输出token及耗时。
+- 失败：动作超限、token超限、非法输出等。
+
+失败题仍计入评测分母。
+标准文档ID覆盖不是官方句子级证据评分，
+也不等于证据语义支持度。
+
+## 已知限制
+
+- 成功轨迹筛选存在选择偏差，多轮样本较少。
+- 更完整引用可能伴随无关引用。
+- 长文档ID复制错误及错误恢复失败仍存在。
+- 重复搜索增加，未证明整体推理效率提高。
+- 尚未完成多随机种子训练、重复评测与全面语义引用审核。
+- 当前结论仅适用于本次固定语料和数据划分。
 
 ## 程序检查
 
@@ -109,53 +172,4 @@ python .\scripts\check_controller.py
 python .\scripts\check_runner.py
 ```
 
-当前结果：
-- 8项控制器检查通过
-- 5项运行循环检查通过
-
-检查使用模拟工具与模型输出，不代表真实模型能力验证。
-
-## 当前开发结果
-
-运行目录：
-outputs/baselines_20261012T081814Z_d0508399
-
-| 方法 | 答案匹配 | 可回答题匹配 | 证据不足题匹配 | 平均搜索 |
-|---|---|---|---|---|
-| 不搜索 | 3/12 | 0/9 | 3/3 | 0 |
-| RAG | 4/12 | 3/9 | 1/3 | 1 |
-| Agent | 10/12 | 7/9 | 3/3 | 1.83 |
-
-Agent正常结束11/12题。
-
-失败案例：
-- syn_004_q：查询未推进，反复引用占位符，达到动作上限。
-- syn_008_q：查询未利用中间实体，未查到奖项就结束。
-- 人工使用作品名和目标年份查询时，两题标准奖项文档
-  均排名第一。
-
-## 结论限制
-
-- 仅12道合成开发题，不能证明真实任务泛化。
-- 未进行训练，结果不是SFT或RL收益。
-- Agent使用更多搜索和生成资源，尚未排除资源差异。
-- 答案评分是规范化精确匹配，可能误判等价长句。
-- 标准证据ID匹配不等于语义支持判断。
-- 引用精确不代表引用完整。
-- 当前重复查询指标不能覆盖文字不同但结果相同的查询。
-
-## 后续计划
-
-1. 引入有来源、可核验的真实问答数据。
-2. 划分开发与独立测试集。
-3. 完成人工抽检和错误归因。
-4. 在固定预算下比较基线。
-5. 构建训练轨迹，进行SFT并独立评测。
-## 2026-10-13：SFT试验准备
-
-完成训练问题隔离、30题轨迹试生产、5条引用修订示范导出，
-以及token掩码、batch和LoRA单步更新验证。
-
-详见：LOG_2026-10-13_SFT_PILOT.md
-
-完整试验训练和独立效果评测尚未完成。
+这些检查使用模拟模型与工具，不代表模型能力评测。
