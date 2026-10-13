@@ -20,6 +20,7 @@ def make_args(max_actions=3, max_total_tokens=100):
         max_actions=max_actions,
         max_total_tokens=max_total_tokens,
         context_limit=4096,
+        language="en",
     )
 
 

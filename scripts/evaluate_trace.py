@@ -5,7 +5,7 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 from statistics import mean
-
+from hotpot_evaluate_v1 import exact_match_score, f1_score
 ROOT = Path(__file__).resolve().parents[1]
 METHODS = ("no_search", "rag", "agent")
 
@@ -60,7 +60,7 @@ def load_questions(path):
     return questions
 
 
-def evaluate(trace, question):
+def evaluate(trace, question, answer_language="zh"):
     """返回逐题指标，不加载模型、不执行搜索。"""
     if trace["question"].strip() != question["question"].strip():
         raise ValueError("轨迹问题与标准问题不一致")
@@ -111,10 +111,25 @@ def evaluate(trace, question):
         raise ValueError("answer_aliases必须是字符串列表")
 
     accepted_answers = [question["answer"], *aliases]
-    exact_match = finished and any(
-        normalize(answer) == normalize(candidate)
-        for candidate in accepted_answers
-    )
+
+    if answer_language == "en":
+        exact_match = finished and any(
+            exact_match_score(answer, candidate)
+            for candidate in accepted_answers
+        )
+        answer_f1 = (
+            max(
+                f1_score(answer, candidate)[0]
+                for candidate in accepted_answers
+            )
+            if finished else 0.0
+        )
+    else:
+        exact_match = finished and any(
+            normalize(answer) == normalize(candidate)
+            for candidate in accepted_answers
+        )
+        answer_f1 = None
 
     matching_citations = cited_ids & gold_ids
     repeated_searches = (
@@ -128,6 +143,8 @@ def evaluate(trace, question):
         "predicted_answer": answer,
         "gold_answer": question["answer"],
         "answer_exact_match": exact_match,
+        "answer_f1": answer_f1,
+        "answer_language": answer_language,
         "finished": finished,
         "end_status": trace.get("status"),
         # 标准证据为空时，这些指标不适用，不记成满分。
@@ -177,6 +194,7 @@ def summarize(rows):
     return {
         "evaluated_count": len(rows),
         "answer_exact_match_rate": average(rows, "answer_exact_match"),
+        "mean_answer_f1": average(rows, "answer_f1"),
         "finished_rate": average(rows, "finished"),
         "mean_gold_evidence_retrieval_recall": average(
             rows, "gold_evidence_retrieval_recall"
@@ -241,6 +259,11 @@ def main():
         type=Path,
         default=ROOT / "data" / "questions.jsonl",
     )
+    parser.add_argument(
+        "--answer-language",
+        choices=["zh", "en"],
+        default="zh",
+    )
     args = parser.parse_args()
 
     questions = load_questions(args.questions)
@@ -254,7 +277,9 @@ def main():
                 "无法确定标准问题，请提供正确的--question-id"
             )
 
-        report = evaluate(trace, questions[question_id])
+        report = evaluate(
+            trace, questions[question_id], args.answer_language
+        )
         path = args.trace.with_name(
             args.trace.stem + ".evaluation.json"
         )
@@ -295,7 +320,9 @@ def main():
             if trace.get("method") != method:
                 raise ValueError("轨迹method与目录不一致")
 
-            report = evaluate(trace, questions[question_id])
+            report = evaluate(
+                trace, questions[question_id], args.answer_language
+            )
             report["trace_file"] = str(path)
             rows.append(report)
 
@@ -359,7 +386,7 @@ def main():
         "evaluation_complete": not errors,
         "methods": summaries,
         "limitations": [
-            "答案使用规范化后的精确匹配及人工审定别名，不判断语义。",
+            "英文答案采用HotpotQA官方EM和词级F1；中文沿用原规则。两者都不判断语义。",
             "证据指标使用标准文档ID，不等于证据语义支持度。",
             "汇总均值仅包含成功读取的轨迹；必须同时检查缺失数。",
             "相同题目不代表模型、提示词和预算配置已验证一致。",
