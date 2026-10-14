@@ -1,0 +1,133 @@
+{
+  "raw_questions": 90447,
+  "raw_sha256": "b971c4ea52955071cb49ce24ed584633511e8c490951f3e391946e909723e710",
+  "eligible_questions": 71486,
+  "partition_seed": 20261014,
+  "shard_count": 10,
+  "partition_rule": "Difficulty-stratified shuffle, then round-robin disjoint question IDs",
+  "existing_training_questions_excluded": 700,
+  "exclusions": {
+    "not_bridge": 17454,
+    "existing_or_eval_question": 700,
+    "eval_gold_title_overlap": 777,
+    "duplicate_question_text": 8,
+    "invalid_supporting_sentence": 22
+  },
+  "shards": [
+    {
+      "shard": 1,
+      "questions": 7150,
+      "levels": {
+        "medium": 4521,
+        "hard": 1211,
+        "easy": 1418
+      },
+      "index_sha256": "a426b3175bd4c59f19da1ce873112864f1476b90c52fa2ca7d81e5766b112616"
+    },
+    {
+      "shard": 2,
+      "questions": 7150,
+      "levels": {
+        "medium": 4521,
+        "hard": 1211,
+        "easy": 1418
+      },
+      "index_sha256": "e7dc02474c343699e24634f736c73ec8c588308ba68ac20e299b0052ec755cc5"
+    },
+    {
+      "shard": 3,
+      "questions": 7150,
+      "levels": {
+        "hard": 1211,
+        "medium": 4521,
+        "easy": 1418
+      },
+      "index_sha256": "a68f3bc90d2737ca42711cad815cb2cc316d3082831632090d3705819efb7bd1"
+    },
+    {
+      "shard": 4,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "efd68020f6375679c93d4f30a98edfef3314549b67c74acd04b589081f1c6427"
+    },
+    {
+      "shard": 5,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "13b8e07041d678f12af027fc06fb9c081c8bfce89a16731a465ba377a8687202"
+    },
+    {
+      "shard": 6,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "0e352863482921795e3003892e5092e45e282192439a6a076f1f68dddce3521f"
+    },
+    {
+      "shard": 7,
+      "questions": 7148,
+      "levels": {
+        "hard": 1210,
+        "medium": 4520,
+        "easy": 1418
+      },
+      "index_sha256": "e585286ec9542c52ab796106a712e0f2fc235b52cc83e92417802893a4817e42"
+    },
+    {
+      "shard": 8,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "c05606abfc76e2a17fab04c26de0e4abb4ecf6c9cbb83e16efca3b3ae168bf9a"
+    },
+    {
+      "shard": 9,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "44c085ff8e278a11f5f348547b025a21b0dd02499d5045b28fe1d1975b872ee9"
+    },
+    {
+      "shard": 10,
+      "questions": 7148,
+      "levels": {
+        "medium": 4520,
+        "hard": 1210,
+        "easy": 1418
+      },
+      "index_sha256": "a096425801ba1890ee71fec36a777213c1a6bc311eb7aaaace093fb4ecf8800c"
+    }
+  ],
+  "materialized_shards": [
+    1
+  ],
+  "materialized_sample_size": 300,
+  "sample_levels": {
+    "easy": 60,
+    "medium": 120,
+    "hard": 120
+  },
+  "limitations": [
+    "Question-disjoint shards are not entity/document-disjoint shards.",
+    "Structural validation is not semantic review or a guarantee of higher-quality SFT.",
+    "Changing retrieval corpora changes retrieval difficulty; freeze the corpus per trajectory batch.",
+    "Only shard 1 has a sampled question/document library; the other nine currently contain membership indices only."
+  ]
+}

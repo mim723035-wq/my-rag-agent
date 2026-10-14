@@ -1,0 +1,1289 @@
+[
+  {
+    "question_id": "5a7a5c175542996c55b2dd78",
+    "question": "Where is the company who released the United States dub of The Legend of Buddha located?",
+    "answer": "Burbank, California",
+    "original_answer": "Burbank, California",
+    "gold_answer": "Burbank, California",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7a5c175542996c55b2dd78.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Legend of Buddha United States dub",
+        "returned_titles": [
+          "The Legend of Buddha",
+          "Ramayana: The Legend of Prince Rama",
+          "Dub, Arkansas"
+        ]
+      },
+      {
+        "query": "Walt Disney Pictures location",
+        "returned_titles": [
+          "Walt Disney Pictures",
+          "Fantasia 2000",
+          "Anne Frank Remembered"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_1a33f2b5fed7e935a256d54fa297c931075021620bcc10bbd43e5318e6cae998",
+      "hp_doc_7525d364b1f39ceddfd823cc7359375ebce3f0f7d64c5bd6a2d696ebcb7a3686"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_1a33f2b5fed7e935a256d54fa297c931075021620bcc10bbd43e5318e6cae998",
+        "title": "The Legend of Buddha",
+        "text": "The Legend of Buddha is an Indian animated film directed by Shamboo Falke, produced by Stalin Saravanan and written by Caarthick Raju and Ramesh Karthikeyan. The United States dub was released by Walt Disney Pictures and stars the voices of Dwayne Tan and Bridgit Mendler. It was released on October 22, 2004."
+      },
+      {
+        "id": "hp_doc_7525d364b1f39ceddfd823cc7359375ebce3f0f7d64c5bd6a2d696ebcb7a3686",
+        "title": "Walt Disney Pictures",
+        "text": "Walt Disney Pictures, Inc. is an American film production company and a subsidiary of Walt Disney Studios, owned by The Walt Disney Company. The division is based at the Walt Disney Studios in Burbank, California, and is the main producer of live-action feature films within the Walt Disney Studios unit. It took on its current name in 1983. Today, in conjunction with the other units of Walt Disney Studios, Walt Disney Pictures is classified as one of Hollywood's \"Big Six\" film studios. Films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Legend of Buddha",
+        "document_id": "hp_doc_1a33f2b5fed7e935a256d54fa297c931075021620bcc10bbd43e5318e6cae998",
+        "sentence_id": 1
+      },
+      {
+        "title": "Walt Disney Pictures",
+        "document_id": "hp_doc_7525d364b1f39ceddfd823cc7359375ebce3f0f7d64c5bd6a2d696ebcb7a3686",
+        "sentence_id": 0
+      },
+      {
+        "title": "Walt Disney Pictures",
+        "document_id": "hp_doc_7525d364b1f39ceddfd823cc7359375ebce3f0f7d64c5bd6a2d696ebcb7a3686",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab207345542993be8fa98b6",
+    "question": "The Bozz Chronicles was set in an era that was named after the reign of which queen ?",
+    "answer": "Queen Victoria",
+    "original_answer": "Queen Victoria",
+    "gold_answer": "Queen Victoria",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab207345542993be8fa98b6.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Bozz Chronicles",
+        "returned_titles": [
+          "The Bozz Chronicles",
+          "Dream Chronicles 2: The Eternal Maze",
+          "Dream Chronicles: The Chosen Child"
+        ]
+      },
+      {
+        "query": "Victorian era queen",
+        "returned_titles": [
+          "Victorian era",
+          "Edwardian era",
+          "Newcastle West End F.C."
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_2175f0862db09a4f58e0d0dff554b581106a0945fb3aff10329e1c1365b9e757",
+      "hp_doc_ef7f1c213a93bbfd49ded52523c45fee17876a422c013393bcd8a13935b7cd71"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_2175f0862db09a4f58e0d0dff554b581106a0945fb3aff10329e1c1365b9e757",
+        "title": "The Bozz Chronicles",
+        "text": "The Bozz Chronicles , now a graphic novel, was originally a six-issue comic book series written by David Michelinie, with artwork by Bret Blevins and John Ridgway. The original series was published by Epic Comics from December 1985 - December 1986. The series was set primarily in Victorian era England and centered on the crime-solving adventures of \"Bozz\", an alien with a long tail and an unpronounceable name who crash-landed on Earth. Bozz partners with prostitute Amanda Flynn and American Salem Hawkshaw to solve crimes as a means of stimulating his mind and avoiding suicidal thoughts brought on by ennui. Most mysteries presented in the series were paranormal or speculative in nature, for example, resurrection, death rays, and portals to hell. In 2014, it was announced that the six issue series would finally be collected into one publication by Dover Publications in 2015."
+      },
+      {
+        "id": "hp_doc_ef7f1c213a93bbfd49ded52523c45fee17876a422c013393bcd8a13935b7cd71",
+        "title": "Victorian era",
+        "text": "In the history of the United Kingdom, the Victorian era was the period of Queen Victoria's reign, from 20 June 1837 until her death on 22 January 1901. The era followed the Georgian period and preceded the Edwardian period, and its later half overlaps with the first part of the \"Belle Époque\" era of continental Europe. Defined according to sensibilities and political concerns, the period is sometimes considered to begin with the passage of the Reform Act 1832. The period is characterised as one of relative peace among the great powers (as established by the Congress of Vienna), increased economic activity, \"refined sensibilities\" and national self-confidence for Great Britain."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Bozz Chronicles",
+        "document_id": "hp_doc_2175f0862db09a4f58e0d0dff554b581106a0945fb3aff10329e1c1365b9e757",
+        "sentence_id": 2
+      },
+      {
+        "title": "Victorian era",
+        "document_id": "hp_doc_ef7f1c213a93bbfd49ded52523c45fee17876a422c013393bcd8a13935b7cd71",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab57854554299488d4d999d",
+    "question": "Bunnicula was produced by Borutski and this American animator born in what year?",
+    "answer": "1973",
+    "original_answer": "1973",
+    "gold_answer": "1973",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab57854554299488d4d999d.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Bunnicula Borutski",
+        "returned_titles": [
+          "Bunnicula (TV series)"
+        ]
+      },
+      {
+        "query": "Maxwell Atoms born",
+        "returned_titles": [
+          "Maxwell Atoms",
+          "Maxwell Amponsah",
+          "Bunnicula (TV series)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d802a503f942aeb8ad9a8e5005742d8816f4bc289d1b1d7c154483bc96e7a1aa",
+      "hp_doc_2cd85e279931d18915369ea998b62548979fd4d36611a793949c835a87d2cdaf"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d802a503f942aeb8ad9a8e5005742d8816f4bc289d1b1d7c154483bc96e7a1aa",
+        "title": "Bunnicula (TV series)",
+        "text": "Bunnicula is an American animated television series from Warner Bros. Animation developed by Jessica Borutski, produced by Borutski and Maxwell Atoms, and distributed by Warner Bros. Television. It premiered on Cartoon Network and Boomerang on February 6, 2016. It is loosely based on the children's book series by James Howe and Deborah Howe. The show is a dark comedy about a vampire rabbit named Bunnicula who likes carrot juice instead of blood to strengthen up his super abilities in new paranormal adventures."
+      },
+      {
+        "id": "hp_doc_2cd85e279931d18915369ea998b62548979fd4d36611a793949c835a87d2cdaf",
+        "title": "Maxwell Atoms",
+        "text": "Maxwell Atoms (born January 21, 1973) is an American animator, screenwriter and voice actor. Atoms is best known as the creator of the Cartoon Network series \"The Grim Adventures of Billy & Mandy\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Bunnicula (TV series)",
+        "document_id": "hp_doc_d802a503f942aeb8ad9a8e5005742d8816f4bc289d1b1d7c154483bc96e7a1aa",
+        "sentence_id": 1
+      },
+      {
+        "title": "Maxwell Atoms",
+        "document_id": "hp_doc_2cd85e279931d18915369ea998b62548979fd4d36611a793949c835a87d2cdaf",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab72c6d55429928e1fe382f",
+    "question": "Sister Cupid is a 1987 Hong Kong romantic fantasy comedy film starring the first Asian actress to win a prize at what?",
+    "answer": "Cannes Film Festival",
+    "original_answer": "Cannes Film Festival",
+    "gold_answer": "Cannes Film Festival",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab72c6d55429928e1fe382f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Sister Cupid actress",
+        "returned_titles": [
+          "Sister Cupid",
+          "Liberty Phoenix",
+          "Françoise Dorléac"
+        ]
+      },
+      {
+        "query": "Jacky Cheung first Asian actress",
+        "returned_titles": [
+          "Sister Cupid",
+          "Maggie Cheung",
+          "Julian Cheung"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ae459aa4c2d862dd3c7a06d916033f5c44b1da53748823231f638379a3969d3a",
+      "hp_doc_c6711b6b2b7438491cad0b0fd90a4a37035b34a16342236f9f9ae0f85b258b0f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ae459aa4c2d862dd3c7a06d916033f5c44b1da53748823231f638379a3969d3a",
+        "title": "Sister Cupid",
+        "text": "Sister Cupid is a 1987 Hong Kong romantic fantasy comedy film produced by and directed by Guy Lai and starring Jacky Cheung, Carol Cheng, Maggie Cheung and Pat Ha."
+      },
+      {
+        "id": "hp_doc_c6711b6b2b7438491cad0b0fd90a4a37035b34a16342236f9f9ae0f85b258b0f",
+        "title": "Maggie Cheung",
+        "text": "Maggie Cheung Man-yuk (; born 20 September 1964) is a Hong Kong actress. Raised in Britain and Hong Kong, she has over 80 films to her credit since starting her career in 1983. Some of her most commercially successful works were in the action genre, but Cheung once said in an interview that of all the work she has done, the films that really meant something to her are \"Song of Exile\", \"Centre Stage\", \"\" and \"In the Mood for Love\". As Emily Wang in \"Clean\", her last starring role to date, she became the first Asian actress to win a prize at the Cannes Film Festival."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Sister Cupid",
+        "document_id": "hp_doc_ae459aa4c2d862dd3c7a06d916033f5c44b1da53748823231f638379a3969d3a",
+        "sentence_id": 0
+      },
+      {
+        "title": "Maggie Cheung",
+        "document_id": "hp_doc_c6711b6b2b7438491cad0b0fd90a4a37035b34a16342236f9f9ae0f85b258b0f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Maggie Cheung",
+        "document_id": "hp_doc_c6711b6b2b7438491cad0b0fd90a4a37035b34a16342236f9f9ae0f85b258b0f",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab9143055429919ba4e2390",
+    "question": "Les deux journées, ou Le porteur d'eau (\"The Two Days, or The Water Carrier\") is an opera in three acts by Luigi Cherubini, with a libretto by Jean-Nicolas Bouilly, Bouilly claimed he took the story from a real life incident during the French Revolution but, for fear of censorship, he moved the action back to 1647 and the time of Cardinal Jules Raymond Mazarin, Duke of Rethel, Mayenne and Nevers, was an Italian cardinal, diplomat, and politician, who served as the Chief Minister to the kings of France Louis XIII and Louis XIV from 1642 until his death, in what year?",
+    "answer": "1661",
+    "original_answer": "1661",
+    "gold_answer": "1661",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab9143055429919ba4e2390.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Jean Nicolas Bouilly",
+        "returned_titles": [
+          "Héléna (opera)",
+          "Les deux journées",
+          "Knight of Cups (film)"
+        ]
+      },
+      {
+        "query": "Mazarin died",
+        "returned_titles": [
+          "Cardinal Mazarin",
+          "Pierre Broussel",
+          "Philippe Jules Mancini"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_143b2f35262ffa3e0120a35cbca67ce13f6d7518fe84fc11effd900e0e1c75cd",
+      "hp_doc_2ee2869c7dbc53834cb0ee2bbd80944fe447958cfcef78515113d431da89f749"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_143b2f35262ffa3e0120a35cbca67ce13f6d7518fe84fc11effd900e0e1c75cd",
+        "title": "Les deux journées",
+        "text": "Les deux journées, ou Le porteur d'eau (\"The Two Days, or The Water Carrier\") is an opera in three acts by Luigi Cherubini with a libretto by Jean-Nicolas Bouilly. It takes the form of an opéra comique, meaning not that the subject matter is humorous, but that the piece is a mixture of spoken dialogue and musical numbers. Bouilly claimed he took the story from a real life incident during the French Revolution but, for fear of censorship, he moved the action back to 1647 and the time of Cardinal Mazarin. The opera was first performed on 16 January 1800 at the Théâtre Feydeau in Paris."
+      },
+      {
+        "id": "hp_doc_2ee2869c7dbc53834cb0ee2bbd80944fe447958cfcef78515113d431da89f749",
+        "title": "Cardinal Mazarin",
+        "text": "Cardinal Jules Raymond Mazarin, Duke of Rethel, Mayenne and Nevers (] ; 14 July 1602 – 9 March 1661), born Giulio Raimondo Mazzarino ] or Mazarini, was an Italian cardinal, diplomat, and politician, who served as the Chief Minister to the kings of France Louis XIII and Louis XIV from 1642 until his death."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Les deux journées",
+        "document_id": "hp_doc_143b2f35262ffa3e0120a35cbca67ce13f6d7518fe84fc11effd900e0e1c75cd",
+        "sentence_id": 2
+      },
+      {
+        "title": "Cardinal Mazarin",
+        "document_id": "hp_doc_2ee2869c7dbc53834cb0ee2bbd80944fe447958cfcef78515113d431da89f749",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abba5f9554299642a094afe",
+    "question": "What nationality are both Roy Champan and Lee Chapman?",
+    "answer": "English",
+    "original_answer": "English",
+    "gold_answer": "English",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abba5f9554299642a094afe.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Roy Champan",
+        "returned_titles": [
+          "Lee Roy Selmon's",
+          "Roy Chapman",
+          "Lawrence Bittaker and Roy Norris"
+        ]
+      },
+      {
+        "query": "Lee Chapman",
+        "returned_titles": [
+          "Lee Chapman",
+          "Roy Chapman",
+          "4 Runner"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_5e4b542e3de84a25a53b238b81af5b680a5f574c1fe414ac35af6f762b0eddc5",
+      "hp_doc_ecc4d4dd1201dde729e35b676f2e602f90911598c274d25a274b6c97e8844146"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_5e4b542e3de84a25a53b238b81af5b680a5f574c1fe414ac35af6f762b0eddc5",
+        "title": "Roy Chapman",
+        "text": "Roy Clifford Chapman (18 March 1934 – 21 March 1983) was an English professional footballer and manager, born in Birmingham. He was the father of former Arsenal and Leeds United striker Lee Chapman."
+      },
+      {
+        "id": "hp_doc_ecc4d4dd1201dde729e35b676f2e602f90911598c274d25a274b6c97e8844146",
+        "title": "Lee Chapman",
+        "text": "Lee Roy Chapman (born 5 December 1959) is an English former professional footballer who played as a striker from 1978 until 1996, in which he scored almost 200 first-team goals."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Roy Chapman",
+        "document_id": "hp_doc_5e4b542e3de84a25a53b238b81af5b680a5f574c1fe414ac35af6f762b0eddc5",
+        "sentence_id": 0
+      },
+      {
+        "title": "Lee Chapman",
+        "document_id": "hp_doc_ecc4d4dd1201dde729e35b676f2e602f90911598c274d25a274b6c97e8844146",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac0e5be5542996f0d89cc33",
+    "question": "Tom Who is the editor of the Nature Photonics where American physicist Tom Baehr-Jones has been published in?",
+    "answer": "Oliver Graydon",
+    "original_answer": "Oliver Graydon",
+    "gold_answer": "Oliver Graydon",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac0e5be5542996f0d89cc33.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Tom Baehr Jones Nature Photonics",
+        "returned_titles": [
+          "Tom Baehr-Jones",
+          "Nature Photonics",
+          "ACS Photonics"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c067f4d35ea228f63ebda2982407f4f5fc78530f9763a1f5f900571d68b749d2",
+      "hp_doc_3806adcd2bc44ec8ba5f084a6d4fcf2ce33e6072c9cd12ef1ea7f70f4a06f2ef"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c067f4d35ea228f63ebda2982407f4f5fc78530f9763a1f5f900571d68b749d2",
+        "title": "Tom Baehr-Jones",
+        "text": "Tom Baehr-Jones (born January 15, 1980 in Brooklyn, New York) is an American physicist who has made contributions in the field of Nanophotonics. His findings have been published in \"Nature\", \"Nature Photonics\", \"Nature Materials\", the \"IEEE/OSA Journal of Lightwave Technology\", and \"Optics Express\", among many others. Baehr-Jones is a co-founder of Luxtera, Inc. He is currently at the University of Washington in Prof. Michael Hochberg's group."
+      },
+      {
+        "id": "hp_doc_3806adcd2bc44ec8ba5f084a6d4fcf2ce33e6072c9cd12ef1ea7f70f4a06f2ef",
+        "title": "Nature Photonics",
+        "text": "Nature Photonics is a peer-reviewed scientific journal published by the Nature Publishing Group. The editor-in-chief is Oliver Graydon. The journal covers research related to optoelectronics, laser science, imaging, communications, and other aspects of photonics and was established in January 2007. \"Nature Photonics\" publishes review articles, research papers, News and Views pieces, and research highlights summarizing the latest scientific findings in optoelectronics. This is complemented by a mix of articles dedicated to the business side of the industry covering areas such as technology commercialization and market analysis. The papers that have been published in this journal are internationally acclaimed for maintaining high research standards. The journal is regarded as top-ranking in the field of photonics."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Tom Baehr-Jones",
+        "document_id": "hp_doc_c067f4d35ea228f63ebda2982407f4f5fc78530f9763a1f5f900571d68b749d2",
+        "sentence_id": 1
+      },
+      {
+        "title": "Nature Photonics",
+        "document_id": "hp_doc_3806adcd2bc44ec8ba5f084a6d4fcf2ce33e6072c9cd12ef1ea7f70f4a06f2ef",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac165d75542994d76dcce0e",
+    "question": "Which astronaut depicted in Apollo 13  was born November 14, 1933?",
+    "answer": "Fred Haise",
+    "original_answer": "Tom Hanks",
+    "gold_answer": "Fred Haise",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac165d75542994d76dcce0e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Apollo 13 astronaut born 1933",
+        "returned_titles": [
+          "Lost Moon",
+          "Fred Haise",
+          "NASA Astronaut Group 6"
+        ]
+      },
+      {
+        "query": "Apollo 13 James Lovell",
+        "returned_titles": [
+          "Lost Moon",
+          "Apollo 13 (film)",
+          "Houston, we have a problem"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_e389bc78267a0d5126878156e4faf2cbbabe33f55e10305c72466b00674f3946",
+      "hp_doc_84fc1f8bb92cef63ee1375bad64c3596e9a8b830c250e6d895f960de4998b7c4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e389bc78267a0d5126878156e4faf2cbbabe33f55e10305c72466b00674f3946",
+        "title": "Apollo 13 (film)",
+        "text": "Apollo 13 is a 1995 American space adventure docudrama film directed by Ron Howard and starring Tom Hanks, Kevin Bacon, Bill Paxton, Gary Sinise, and Ed Harris. The screenplay by William Broyles, Jr. and Al Reinert, that dramatizes the aborted 1970 Apollo 13 lunar mission, is an adaptation of the book \"Lost Moon: The Perilous Voyage of Apollo 13\" by astronaut Jim Lovell and Jeffrey Kluger. The film depicts astronauts Lovell, Jack Swigert, and Fred Haise aboard Apollo 13 for America's third Moon landing mission. En route, an on-board explosion deprives their spacecraft of most of its oxygen supply and electric power, forcing NASA's flight controllers to abort the Moon landing, and turning the mission into a struggle to get the three men home safely."
+      },
+      {
+        "id": "hp_doc_84fc1f8bb92cef63ee1375bad64c3596e9a8b830c250e6d895f960de4998b7c4",
+        "title": "Fred Haise",
+        "text": "Fred Wallace Haise Jr. ( ; born November 14, 1933) is an American former NASA astronaut, fighter pilot with the U.S. Marine Corps and the U.S. Air Force and test pilot. He is one of only 24 people to have flown to the Moon, having flown as Lunar Module Pilot on Apollo 13. He was to have been the sixth person to land and walk on the Moon, but the Apollo 13 mission was aborted before lunar landing. He went on to fly Space Shuttle Approach and Landing Tests in 1977, and retired from NASA in 1979."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Apollo 13 (film)",
+        "document_id": "hp_doc_e389bc78267a0d5126878156e4faf2cbbabe33f55e10305c72466b00674f3946",
+        "sentence_id": 2
+      },
+      {
+        "title": "Fred Haise",
+        "document_id": "hp_doc_84fc1f8bb92cef63ee1375bad64c3596e9a8b830c250e6d895f960de4998b7c4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac24c5b5542996366519961",
+    "question": "Who both founded Snyder Communications Inc and was a majority owner of the Washington Redskins?",
+    "answer": "Daniel M. Snyder",
+    "original_answer": "Daniel Snyder",
+    "gold_answer": "Daniel M. Snyder",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac24c5b5542996366519961.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Snyder Communications Inc Washington Redskins",
+        "returned_titles": [
+          "Daniel Snyder",
+          "Snyder Communications",
+          "Washington Redskins Original Americans Foundation"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_645b1895215f33b5ccb551ceadd4c3d9782ab8441bbca564f73a8827c2d979dc",
+      "hp_doc_1946eed573ff067b20d578674be9cb63457a984436c31b5c30543fbe52f51a39"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_645b1895215f33b5ccb551ceadd4c3d9782ab8441bbca564f73a8827c2d979dc",
+        "title": "Snyder Communications",
+        "text": "Snyder Communications Inc. (SNC) was founded in 1988 by Daniel M. Snyder and his sister Michelle Snyder. Their activities were mainly outsourced marketing services, such as Direct marketing, database marketing, proprietary product sampling, sponsored information display in prime locations, call centres, field sales."
+      },
+      {
+        "id": "hp_doc_1946eed573ff067b20d578674be9cb63457a984436c31b5c30543fbe52f51a39",
+        "title": "Daniel Snyder",
+        "text": "Daniel Marc Snyder (born November 23, 1964) is a businessman who is the majority owner of the Washington Redskins American football team, founder of Snyder Communications and primary investor in Red Zebra Broadcasting, which is home to the Redskins Radio ESPN."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Snyder Communications",
+        "document_id": "hp_doc_645b1895215f33b5ccb551ceadd4c3d9782ab8441bbca564f73a8827c2d979dc",
+        "sentence_id": 0
+      },
+      {
+        "title": "Daniel Snyder",
+        "document_id": "hp_doc_1946eed573ff067b20d578674be9cb63457a984436c31b5c30543fbe52f51a39",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac4e8df5542995c82c4ad7c",
+    "question": "which family of microcontrollers was NanoVM developed to run on ",
+    "answer": "AVR",
+    "original_answer": "Atmel AVR",
+    "gold_answer": "AVR",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac4e8df5542995c82c4ad7c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "NanoVM microcontroller",
+        "returned_titles": [
+          "NanoVM",
+          "Atmel AVR",
+          "Hercules (processors)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_8d1d21a8480119d62ea6e4b22e4d36f1e1590f876a756ecc4804485b95899e04",
+      "hp_doc_19480c323dfc26ae20756fe2fd58757fa85bf8715f62fdce80e8b86f204a0ba3"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8d1d21a8480119d62ea6e4b22e4d36f1e1590f876a756ecc4804485b95899e04",
+        "title": "NanoVM",
+        "text": "NanoVM is an open-source implementation of the Java virtual machine. The NanoVM was initially developed to run on the Atmel AVR ATmega8 used in the Asuro Robot. It was ported to run on the C't-Bot and the Nibo-robot and can easily be ported to other AVR-based systems."
+      },
+      {
+        "id": "hp_doc_19480c323dfc26ae20756fe2fd58757fa85bf8715f62fdce80e8b86f204a0ba3",
+        "title": "Atmel AVR",
+        "text": "AVR is a family of microcontrollers developed by Atmel beginning in 1996. These are modified Harvard architecture 8-bit RISC single-chip microcontrollers. AVR was one of the first microcontroller families to use on-chip flash memory for program storage, as opposed to one-time programmable ROM, EPROM, or EEPROM used by other microcontrollers at the time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "NanoVM",
+        "document_id": "hp_doc_8d1d21a8480119d62ea6e4b22e4d36f1e1590f876a756ecc4804485b95899e04",
+        "sentence_id": 1
+      },
+      {
+        "title": "Atmel AVR",
+        "document_id": "hp_doc_19480c323dfc26ae20756fe2fd58757fa85bf8715f62fdce80e8b86f204a0ba3",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5adcadec5542990d50227ceb",
+    "question": "The entrepreneur behind the cancelled Eurovegas project owns what Israeli daily newspaper?",
+    "answer": "Israel Hayom",
+    "original_answer": "Israel Hayom",
+    "gold_answer": "\"Israel Hayom\"",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adcadec5542990d50227ceb.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Eurovegas cancelled",
+        "returned_titles": [
+          "Eurovegas",
+          "1981 Major League Baseball strike",
+          "Corridor 7: Alien Invasion"
+        ]
+      },
+      {
+        "query": "Sheldon Adelson newspaper",
+        "returned_titles": [
+          "Sheldon Adelson",
+          "Eurovegas",
+          "Ara (newspaper)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_7bb7e6cff9e737503ceaacaa9bff0ffaf277353e307d77bea3e1d3531f7f2e1a",
+      "hp_doc_1fd778d346911d120f2233829cd02303d34a8f5e4d16a93c4835f5cb06df0e88"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_7bb7e6cff9e737503ceaacaa9bff0ffaf277353e307d77bea3e1d3531f7f2e1a",
+        "title": "Eurovegas",
+        "text": "Eurovegas was a gambling resort project proposed in September 2012, to be completed in 2025 or 2026 in Alcorcón, Spain. The project was cancelled after disagreements between the entrepreneur, Sheldon Adelson, and the local governments."
+      },
+      {
+        "id": "hp_doc_1fd778d346911d120f2233829cd02303d34a8f5e4d16a93c4835f5cb06df0e88",
+        "title": "Sheldon Adelson",
+        "text": "Sheldon Gary Adelson (pronounced ; born August 4, 1933) is an American business magnate, investor, and philanthropist. He is the founder, chairman and chief executive officer of Las Vegas Sands Corporation, which owns the Marina Bay Sands in Singapore, and is the parent company of Venetian Macao Limited, which operates The Venetian Resort Hotel Casino and the Sands Expo and Convention Center. He also owns the Israeli daily newspaper \"Israel Hayom\", and the \"Las Vegas Review-Journal\". Adelson, a lifelong donor and philanthropist to a variety of causes, founded with his wife's initiative the Adelson Foundation. He is a member of the Republican Party."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Eurovegas",
+        "document_id": "hp_doc_7bb7e6cff9e737503ceaacaa9bff0ffaf277353e307d77bea3e1d3531f7f2e1a",
+        "sentence_id": 1
+      },
+      {
+        "title": "Sheldon Adelson",
+        "document_id": "hp_doc_1fd778d346911d120f2233829cd02303d34a8f5e4d16a93c4835f5cb06df0e88",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adcc7325542994ed6169bfe",
+    "question": "My own American was written as a World War II song by Frank C. Huston, what jobs did he have?",
+    "answer": "Army Chaplin, songwriter, and music publisher.",
+    "original_answer": "Army Chaplin and songwriter",
+    "gold_answer": "Army Chaplin, songwriter, and music publisher.",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adcc7325542994ed6169bfe.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Frank C Huston",
+        "returned_titles": [
+          "Frank C. Huston",
+          "My Own America",
+          "Tony Huston"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4af9916d3883a081d0c0e4b0d84fdc91437ee283ca8c10984a1a4488454d030b",
+      "hp_doc_c00c9db4d7604db01f8673ba348de908b3987c1725efda24d23767c8142f2b82"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4af9916d3883a081d0c0e4b0d84fdc91437ee283ca8c10984a1a4488454d030b",
+        "title": "My Own America",
+        "text": "My Own America is a World War II song for voice and piano written and composed by Frank C. Huston. The song was self-published in 1940 by F.C. Huston in Indianapolis, IN."
+      },
+      {
+        "id": "hp_doc_c00c9db4d7604db01f8673ba348de908b3987c1725efda24d23767c8142f2b82",
+        "title": "Frank C. Huston",
+        "text": "Frank C. Huston (September 12, 1871-October 14, 1959) was an Army Chaplin, songwriter, and music publisher."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "My Own America",
+        "document_id": "hp_doc_4af9916d3883a081d0c0e4b0d84fdc91437ee283ca8c10984a1a4488454d030b",
+        "sentence_id": 0
+      },
+      {
+        "title": "Frank C. Huston",
+        "document_id": "hp_doc_c00c9db4d7604db01f8673ba348de908b3987c1725efda24d23767c8142f2b82",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ade413d5542992fa25da712",
+    "question": "Which Montana tributary was Emmet Sullivan born in?",
+    "answer": "Powder River",
+    "original_answer": "Yellowstone",
+    "gold_answer": "Powder River",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ade413d5542992fa25da712.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Emmet Sullivan Montana",
+        "returned_titles": [
+          "Emmet Sullivan",
+          "Dinosaur Park",
+          "Jane Emmet de Glehn"
+        ]
+      },
+      {
+        "query": "Powder River Montana tributary",
+        "returned_titles": [
+          "Powder River (Wyoming and Montana)",
+          "Emmet Sullivan",
+          "Carp Lake River"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_234e2cc59d91223e544c5746c17f1e3e3a704b04ca82b0326b513cf16ce350a3",
+      "hp_doc_16331f541224a38883e715dc45fcdbb727e4144f4add12ee0b7d5c99e02e483c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_234e2cc59d91223e544c5746c17f1e3e3a704b04ca82b0326b513cf16ce350a3",
+        "title": "Emmet Sullivan",
+        "text": "Emmet Sullivan, (May 27, 1887 – November 3, 1970) was an American sculptor. He was born in Powder River, Montana, and worked on Mount Rushmore, and later created the five dinosaurs in Dinosaur Park in Rapid City, South Dakota in 1934, his first large scale project. His other dinosaur creations were the Apatosaurus at Wall Drug in Wall, South Dakota in the late 1960s, and the many dinosaurs of Dinosaur World in Beaver, Arkansas. In 1966 Sullivan sculpted the 20 meter tall Christ of the Ozarks statue in Eureka Springs, Arkansas."
+      },
+      {
+        "id": "hp_doc_16331f541224a38883e715dc45fcdbb727e4144f4add12ee0b7d5c99e02e483c",
+        "title": "Powder River (Wyoming and Montana)",
+        "text": "Powder River is a tributary of the Yellowstone River, approximately 375 mi long in northeastern Wyoming and southeastern Montana in the United States. It drains an area historically known as the Powder River Country on the high plains east of the Bighorn Mountains."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Emmet Sullivan",
+        "document_id": "hp_doc_234e2cc59d91223e544c5746c17f1e3e3a704b04ca82b0326b513cf16ce350a3",
+        "sentence_id": 0
+      },
+      {
+        "title": "Emmet Sullivan",
+        "document_id": "hp_doc_234e2cc59d91223e544c5746c17f1e3e3a704b04ca82b0326b513cf16ce350a3",
+        "sentence_id": 1
+      },
+      {
+        "title": "Powder River (Wyoming and Montana)",
+        "document_id": "hp_doc_16331f541224a38883e715dc45fcdbb727e4144f4add12ee0b7d5c99e02e483c",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ade495c5542997c77adedd1",
+    "question": "Nobia A. Franklin, was a Texas beautician and entrepreneur, her business, geared towards beauty products for black women, was ranked third in the country behind Madam C. J. Walker, an African American entrepreneur, philanthropist, and a political and social activist, passed away on which date?",
+    "answer": "May 25, 1919",
+    "original_answer": "May 25, 1919",
+    "gold_answer": "May 25, 1919",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ade495c5542997c77adedd1.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Nobia Franklin Madam C J Walker",
+        "returned_titles": [
+          "Madame C.J. Walker Manufacturing Company",
+          "Nobia A. Franklin",
+          "Madam C. J. Walker"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d95820578d095c0cff7899121d29ed2d10113b78fbc233765466936be0a5fa60",
+      "hp_doc_62f82f497d6ca4c5c0ad769084a8da12f160f0de7724962eabebae6287bd8ba1"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d95820578d095c0cff7899121d29ed2d10113b78fbc233765466936be0a5fa60",
+        "title": "Nobia A. Franklin",
+        "text": "Nobia A. Franklin (1892-1934, also known as Madame N.A. Franklin) was a Texas beautician and entrepreneur. Her business, geared towards beauty products for black women, was ranked third in the country behind Annie M. Turnbo-Malone's company and Madame C.J. Walker's \"beauty empire.\" Her cosmetics were \"meant to flatter, rather than lighten darker skin tones.\" Franklin's beauty products were never patented."
+      },
+      {
+        "id": "hp_doc_62f82f497d6ca4c5c0ad769084a8da12f160f0de7724962eabebae6287bd8ba1",
+        "title": "Madam C. J. Walker",
+        "text": "Sarah Breedlove (December 23, 1867 – May 25, 1919), known as Madam C. J. Walker, was an African American entrepreneur, philanthropist, and a political and social activist. Eulogized as the first female self-made millionaire in America, she became one of the wealthiest African American women in the country, \"the world's most successful female entrepreneur of her time,\" and one of the most successful African-American business owners ever."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Nobia A. Franklin",
+        "document_id": "hp_doc_d95820578d095c0cff7899121d29ed2d10113b78fbc233765466936be0a5fa60",
+        "sentence_id": 1
+      },
+      {
+        "title": "Madam C. J. Walker",
+        "document_id": "hp_doc_62f82f497d6ca4c5c0ad769084a8da12f160f0de7724962eabebae6287bd8ba1",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ade8f5e55429975fa854f11",
+    "question": "What is the name of the movie in which Edwin Brown plays a man that executed at least 400 people, including William Joyce and John Amery?",
+    "answer": "10 Rillington Place",
+    "original_answer": "10 Rillington Place",
+    "gold_answer": "10 Rillington Place",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ade8f5e55429975fa854f11.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Edwin Brown executed",
+        "returned_titles": [
+          "Mitch Brown (rugby league)",
+          "Handicraft Guild Building",
+          "Edwin Brown (actor)"
+        ]
+      },
+      {
+        "query": "10 Rillington Place William Joyce",
+        "returned_titles": [
+          "Edwin Brown (actor)",
+          "Albert Pierrepoint",
+          "Tangled: The Series"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_5acff58c8613ca0def4dfa59a354928b4baf607df92d513f8468842774cd996c",
+      "hp_doc_3d4f78f9f5fc4289325da4aefa77cdb4a9ff033927f5b076a9565a95e6d3462b"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_5acff58c8613ca0def4dfa59a354928b4baf607df92d513f8468842774cd996c",
+        "title": "Edwin Brown (actor)",
+        "text": "He had a lengthy career in television, often playing policemen or similar roles. His film roles included a prison warder in the comedy \"Two-Way Stretch\" (1960), and Albert Pierrepoint, the hangman, in \"10 Rillington Place\" (1971)."
+      },
+      {
+        "id": "hp_doc_3d4f78f9f5fc4289325da4aefa77cdb4a9ff033927f5b076a9565a95e6d3462b",
+        "title": "Albert Pierrepoint",
+        "text": "Albert Pierrepoint ( ; 30 March 1905 – 10 July 1992) was a long-serving hangman in England. He executed at least 400 people, including William Joyce (\"Lord Haw-Haw\") and John Amery. In Germany and Austria, after the Second World War, he executed some 200 people who had been convicted of war crimes. In England, Pierrepoint hanged Timothy Evans for a crime committed by his neighbour John Christie, who was also hanged by Pierrepoint."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Edwin Brown (actor)",
+        "document_id": "hp_doc_5acff58c8613ca0def4dfa59a354928b4baf607df92d513f8468842774cd996c",
+        "sentence_id": 1
+      },
+      {
+        "title": "Albert Pierrepoint",
+        "document_id": "hp_doc_3d4f78f9f5fc4289325da4aefa77cdb4a9ff033927f5b076a9565a95e6d3462b",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adf1b9b5542995534e8c751",
+    "question": "John Carroll Power served as the first custodian of a tomb of a president and how many of his sons ?",
+    "answer": "three of their four sons",
+    "original_answer": "three",
+    "gold_answer": "three of their four sons",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adf1b9b5542995534e8c751.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "John Carroll Power tomb",
+        "returned_titles": [
+          "John Carroll Power",
+          "John L. Horn",
+          "Don Shula Stadium"
+        ]
+      },
+      {
+        "query": "Abraham Lincoln sons",
+        "returned_titles": [
+          "Lincoln Tomb",
+          "John Carroll Power",
+          "Thanksgiving (United States)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d88d716d226185ef8ca3327294beb0ed9d1257f829a61e9bbe0f029bb862adda",
+      "hp_doc_1a5e4c221b4e30d54be3686db438bb4e08c84d6d1c3085339179e2dd79d4812d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d88d716d226185ef8ca3327294beb0ed9d1257f829a61e9bbe0f029bb862adda",
+        "title": "John Carroll Power",
+        "text": "John Carroll Power (September 19, 1819–January 11, 1894) was an American historian who served as the first custodian of the tomb of Abraham Lincoln, the 16th President of the United States, at Oak Ridge Cemetery in Springfield, Illinois from its opening in 1874 to his death in 1894."
+      },
+      {
+        "id": "hp_doc_1a5e4c221b4e30d54be3686db438bb4e08c84d6d1c3085339179e2dd79d4812d",
+        "title": "Lincoln Tomb",
+        "text": "The Lincoln Tomb is the final resting place of the 16th President of the United States, Abraham Lincoln, his wife, Mary Todd Lincoln, and three of their four sons. It is located in Oak Ridge Cemetery in Springfield, Illinois."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "John Carroll Power",
+        "document_id": "hp_doc_d88d716d226185ef8ca3327294beb0ed9d1257f829a61e9bbe0f029bb862adda",
+        "sentence_id": 0
+      },
+      {
+        "title": "Lincoln Tomb",
+        "document_id": "hp_doc_1a5e4c221b4e30d54be3686db438bb4e08c84d6d1c3085339179e2dd79d4812d",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adfd8c655429925eb1afab5",
+    "question": "Who recorded the sixth album of the band of the 58th greatest metal vocalist of all time, according to \"Hit Parader\"?",
+    "answer": "American Recordings",
+    "original_answer": "Tom Araya",
+    "gold_answer": "American Recordings",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adfd8c655429925eb1afab5.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hit Parader 58th greatest metal vocalist",
+        "returned_titles": [
+          "Tom Araya",
+          "David Draiman",
+          "Geoff Tate"
+        ]
+      },
+      {
+        "query": "Slayer sixth album",
+        "returned_titles": [
+          "Divine Intervention (album)",
+          "Faith (Buffy the Vampire Slayer)",
+          "Long Live (Atreyu album)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_36175398f3e757df9cbf88fc1e91681341c1fffd141780f51bab765c40eb836b",
+      "hp_doc_2bc6bcc6bc3c738e6f17e1195fdefc36bb9d2a46d8cdf124e91000be5b4ea8bd"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_36175398f3e757df9cbf88fc1e91681341c1fffd141780f51bab765c40eb836b",
+        "title": "Divine Intervention (album)",
+        "text": "Divine Intervention is the sixth studio album by American thrash metal band Slayer. Released on September 27, 1994, through American Recordings, it was their first album to feature Paul Bostaph, replacing the band's original drummer Dave Lombardo. The production posed a challenge to the record company, as its marketing situation drew arguments over the album's explicitness. The band used the \"Decade of Aggression\" live album to give them time to decide the album's style. Since it was released nearly four years after \"Seasons in the Abyss\", vocalist Tom Araya said that there was more time spent on production compared to the band's previous albums. The cover was painted and designed by Wes Benscoter as a re-imaging of the group's early \"Slayergram\" graphic."
+      },
+      {
+        "id": "hp_doc_2bc6bcc6bc3c738e6f17e1195fdefc36bb9d2a46d8cdf124e91000be5b4ea8bd",
+        "title": "Tom Araya",
+        "text": "Tomás Enrique Araya Díaz (born June 6, 1961) is a Chilean American musician, best known as the vocalist and bassist of the American thrash metal band Slayer. Araya is ranked fifty-eighth by \"Hit Parader\" on their list of the 100 Greatest Metal Vocalists of All Time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Divine Intervention (album)",
+        "document_id": "hp_doc_36175398f3e757df9cbf88fc1e91681341c1fffd141780f51bab765c40eb836b",
+        "sentence_id": 1
+      },
+      {
+        "title": "Tom Araya",
+        "document_id": "hp_doc_2bc6bcc6bc3c738e6f17e1195fdefc36bb9d2a46d8cdf124e91000be5b4ea8bd",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adfdc1c554299025d62a364",
+    "question": "Lola Glenn Graham's repertoire included working with such artists as an Australian comedian that was discribed as the most significant comedian to emerge since Charlie Chaplin by who?",
+    "answer": "Anne Pender",
+    "original_answer": "Anne Pender",
+    "gold_answer": "Anne Pender",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adfdc1c554299025d62a364.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Lola Glenn Graham comedian",
+        "returned_titles": [
+          "Lola Graham",
+          "Graham technique",
+          "Jo Graham"
+        ]
+      },
+      {
+        "query": "Barry Humphries Charlie Chaplin",
+        "returned_titles": [
+          "Barry Humphries",
+          "Chaplin (2006 musical)",
+          "Charlie: The Life and Art of Charles Chaplin"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f76bf1e5f72bcb4568570031c8b06ff97895025ec040631e3a06080465ace567",
+      "hp_doc_655068bf6ed81d8a34d065b2115f676b51e4df9e682cc720bdbf8ea7fba7c19c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f76bf1e5f72bcb4568570031c8b06ff97895025ec040631e3a06080465ace567",
+        "title": "Lola Graham",
+        "text": "Lola Glenn Graham was born in Melbourne on 23 September 1918. She first came to public attention after winning a musical competition at age six by playing the piano. In 1930 she was employed by Melbourne radio station 3?? and continued to work in radio for most of her life. She also worked extensively in live musical theatre as a band member and accompanist. Her repertoire included working with such artists as Barry Humphries. She married Fred Menhennitt on 23 February 1957 and had two sons. She died on 2 January 1992 after a long battle with cancer."
+      },
+      {
+        "id": "hp_doc_655068bf6ed81d8a34d065b2115f676b51e4df9e682cc720bdbf8ea7fba7c19c",
+        "title": "Barry Humphries",
+        "text": "John Barry Humphries, AO, CBE (born 17 February 1934) is an Australian comedian, actor, satirist, artist, and author. He is best known for writing and playing his on-stage and television alter egos Dame Edna Everage and Sir Les Patterson. He is also a film producer and script writer, a star of London's West End musical theatre, an award-winning writer, and an accomplished landscape painter. For his delivery of dadaist and absurdist humour to millions, biographer Anne Pender described Humphries in 2010 as not only \"the most significant theatrical figure of our time … [but] the most significant comedian to emerge since Charlie Chaplin\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Lola Graham",
+        "document_id": "hp_doc_f76bf1e5f72bcb4568570031c8b06ff97895025ec040631e3a06080465ace567",
+        "sentence_id": 0
+      },
+      {
+        "title": "Lola Graham",
+        "document_id": "hp_doc_f76bf1e5f72bcb4568570031c8b06ff97895025ec040631e3a06080465ace567",
+        "sentence_id": 5
+      },
+      {
+        "title": "Barry Humphries",
+        "document_id": "hp_doc_655068bf6ed81d8a34d065b2115f676b51e4df9e682cc720bdbf8ea7fba7c19c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Barry Humphries",
+        "document_id": "hp_doc_655068bf6ed81d8a34d065b2115f676b51e4df9e682cc720bdbf8ea7fba7c19c",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ae05d7355429924de1b70ba",
+    "question": "Rickey Medlocke was the frontman for the southern rock band from which Florida city?",
+    "answer": "Jacksonville",
+    "original_answer": "Jacksonville",
+    "gold_answer": "Jacksonville",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ae05d7355429924de1b70ba.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Rickey Medlocke southern rock",
+        "returned_titles": [
+          "Shorty Medlocke",
+          "Rickey Medlocke",
+          "Blackfoot (band)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ed8ae355818bf00f7be7eb3f1e3338d14808ef39262ac237abf4cb2a85159c46",
+      "hp_doc_2fbddeeb89bf98d7b228c16e8457ca81cd0a1061d9866dbf1675cc681df38fab"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ed8ae355818bf00f7be7eb3f1e3338d14808ef39262ac237abf4cb2a85159c46",
+        "title": "Rickey Medlocke",
+        "text": "Rickey Medlocke (born February 17, 1950) is an American musician best known as the frontman/guitarist for the southern rock band Blackfoot and a member of Lynyrd Skynyrd. During his first stint with Lynyrd Skynyrd from 1971-1972 he played drums and sang lead on a few songs that would initially be released on 1978's \"First and Last\". Medlocke would rejoin Blackfoot in 1972 and later returned to Lynyrd Skynyrd in 1996 as a guitarist with whom he continues to tour and record today."
+      },
+      {
+        "id": "hp_doc_2fbddeeb89bf98d7b228c16e8457ca81cd0a1061d9866dbf1675cc681df38fab",
+        "title": "Blackfoot (band)",
+        "text": "Blackfoot is an American Southern rock band from Jacksonville, Florida formed during 1970. Though they primarily play with a Southern rock style, they are also known as a hard rock act. The band's classic lineup consisted of guitarist and vocalist Rickey Medlocke, guitarist Charlie Hargrett, bassist Greg T. Walker, and drummer Jakson Spires."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Rickey Medlocke",
+        "document_id": "hp_doc_ed8ae355818bf00f7be7eb3f1e3338d14808ef39262ac237abf4cb2a85159c46",
+        "sentence_id": 0
+      },
+      {
+        "title": "Blackfoot (band)",
+        "document_id": "hp_doc_2fbddeeb89bf98d7b228c16e8457ca81cd0a1061d9866dbf1675cc681df38fab",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ae10ba85542990adbacf709",
+    "question": "what does Fatal Termination and Robin Shou have in common?",
+    "answer": "film",
+    "original_answer": "Robin Shou is a Hong Kong martial artist and actor, and Liu Kang is a character in the Mortal Kombat film series. Both are known for their roles in the Mortal Kombat film series. The film Fatal Termination features Robin Shou and Liu Kang as characters.",
+    "gold_answer": "film",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ae10ba85542990adbacf709.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Robin Shou fatal termination",
+        "returned_titles": [
+          "Fatal Termination",
+          "Robin Shou",
+          "Red Trousers – The Life of the Hong Kong Stuntmen"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c5cdfc59b6f0d856bb3f6c01a34e630c8b7cb33b3f3cf1339c992d65920d11db",
+      "hp_doc_b951ba884ebff03fb5a3e0e5c6da48c46e1241cfb6d0c70b9cd0d3f4fe976b72"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c5cdfc59b6f0d856bb3f6c01a34e630c8b7cb33b3f3cf1339c992d65920d11db",
+        "title": "Fatal Termination",
+        "text": "Fatal Termination (also known as Death Blow, original title Chi se da feng bao) is a 1990 Hong Kong action film starring Moon Lee and Robin Shou."
+      },
+      {
+        "id": "hp_doc_b951ba884ebff03fb5a3e0e5c6da48c46e1241cfb6d0c70b9cd0d3f4fe976b72",
+        "title": "Robin Shou",
+        "text": "Shou Wan Por (, born July 17, 1960), known professionally as Robin Shou, is a Hong Kong martial artist and actor. He is known for his role as Liu Kang in the \"Mortal Kombat\" film series and as Gobei in \"Beverly Hills Ninja\", with Chris Farley."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Fatal Termination",
+        "document_id": "hp_doc_c5cdfc59b6f0d856bb3f6c01a34e630c8b7cb33b3f3cf1339c992d65920d11db",
+        "sentence_id": 0
+      },
+      {
+        "title": "Robin Shou",
+        "document_id": "hp_doc_b951ba884ebff03fb5a3e0e5c6da48c46e1241cfb6d0c70b9cd0d3f4fe976b72",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  }
+]

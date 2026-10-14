@@ -1,0 +1,303 @@
+{
+  "created_utc": "2026-10-14T06:07:34.080084+00:00",
+  "models": {
+    "X": null,
+    "A": "sft_reviewed_20261013T110629Z_ff70a414",
+    "B": "sft_teacher100_20261013T162355Z_1ec152e7",
+    "C": "sft_expanded300_20261013T233348Z_306e9948",
+    "D": "sft_incremental100_20261014T044718Z_7d240a0d",
+    "E": "sft_expanded400_20261014T051518Z_59b2bf47"
+  },
+  "frozen_hashes": {
+    "outputs\\sft_reviewed_20261013T110629Z_ff70a414\\adapter\\adapter_config.json": "0d18437eb6bd31bfdcde18e657ff7b84e12bc326dfd55b0d4b0ec80e8f7ba146",
+    "outputs\\sft_reviewed_20261013T110629Z_ff70a414\\adapter\\adapter_model.safetensors": "8aed97f53cfb5c009d84d8f14f492eb2fadccf029f87073143e1452ab628fdbe",
+    "outputs\\sft_reviewed_20261013T110629Z_ff70a414\\adapter\\README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+    "outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter\\adapter_config.json": "0d18437eb6bd31bfdcde18e657ff7b84e12bc326dfd55b0d4b0ec80e8f7ba146",
+    "outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter\\adapter_model.safetensors": "8cb6de792fa76430c62cda23648b303f98ad71fe8c86e2213e578c5e51b48fb1",
+    "outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter\\README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+    "outputs\\sft_expanded300_20261013T233348Z_306e9948\\adapter\\adapter_config.json": "321b0e733db2206c0a912568c2bc8d095e53379b6fa37fb6075a95bcd74c8b4a",
+    "outputs\\sft_expanded300_20261013T233348Z_306e9948\\adapter\\adapter_model.safetensors": "e34483e3d03e26191e3e4926db351760a17c558fb6fbcd37acdbcd7ddc3cd58a",
+    "outputs\\sft_expanded300_20261013T233348Z_306e9948\\adapter\\README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+    "outputs\\sft_incremental100_20261014T044718Z_7d240a0d\\adapter\\adapter_config.json": "321b0e733db2206c0a912568c2bc8d095e53379b6fa37fb6075a95bcd74c8b4a",
+    "outputs\\sft_incremental100_20261014T044718Z_7d240a0d\\adapter\\adapter_model.safetensors": "de1a82f0ff11ada5cd92c3b3af33fe9fc1573e331b82659ff7e157f04c6071f2",
+    "outputs\\sft_incremental100_20261014T044718Z_7d240a0d\\adapter\\README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+    "outputs\\sft_expanded400_20261014T051518Z_59b2bf47\\adapter\\adapter_config.json": "321b0e733db2206c0a912568c2bc8d095e53379b6fa37fb6075a95bcd74c8b4a",
+    "outputs\\sft_expanded400_20261014T051518Z_59b2bf47\\adapter\\adapter_model.safetensors": "33bf528cf2552588f9ca571da09fc40b949835cac5b35c373f3adb93081debdd",
+    "outputs\\sft_expanded400_20261014T051518Z_59b2bf47\\adapter\\README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+    "src/run_baselines.py": "754799d1120cf89d07e833f580128b0c079c0c3e7903ebb71e0a439a9ce8f711",
+    "src/kzq_agent.py": "42c35ee836da2bb3e229845f1ac55a8afda0af41a6b276ce1fb49867f492da89",
+    "src/search.py": "72b1e02677d97d69beca3623820cb075fbd85091bd818d4baee47911445546f2",
+    "scripts/evaluate_trace.py": "cff671828c166d65af7d48cfdeeaaeb48e5e12f7281610c5fe852a22dc6f6541",
+    "scripts/hotpot_evaluate_v1.py": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0",
+    "configs/model.json": "ceedc59763c61f1c673195dcc4ecad907448065603856a75bfdea314c00b880e"
+  },
+  "binding": {
+    "retrieval_pool_id": "hotpot_fresh_blind_200_v1",
+    "questions_sha256": "8572363c2e2a066b046bf0139a0d07191379126b4ccd729e4b5091cfff7f5b7f",
+    "documents_sha256": "12d9f75301a83fa11d03f6fb762d61ad0d7dd449321fd0b3dd1c7ce3e6756e75",
+    "question_count": 200,
+    "document_count": 1995
+  },
+  "source_sha256": "d3ad9b87a18ba9a3ce5054f8633310e441ae9e13ada08d66e47acf8d0ae0f7f2",
+  "sampling_seed": 2026101406,
+  "eligible_count": 5230,
+  "excluded_existing_question_ids": 1314,
+  "excluded_existing_document_titles": 12741,
+  "exclusion_question_sources": [
+    {
+      "path": "data\\questions.jsonl",
+      "sha256": "d2ebd49d5868e1234fc8e8a320d244d34744951a74f96ddfa6da303ac8de2741"
+    },
+    {
+      "path": "data\\hotpot_bridge_v1\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "data\\hotpot_bridge_v1\\smoke\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "data\\hotpot_bridge_v1\\test\\questions.jsonl",
+      "sha256": "4548d3b0cf4059b22d6a38a9b5ae132ce49d0f8d03e580d56fc07fe4ebcfd226"
+    },
+    {
+      "path": "data\\hotpot_shards_v1\\shard_01\\sample_300_v1\\questions.jsonl",
+      "sha256": "7db00dee6570fbed0b37dcf5a501a0ad2ec715bab2e0bd7fd6e7024e010c5147"
+    },
+    {
+      "path": "data\\hotpot_teacher_expansion_v1\\questions.jsonl",
+      "sha256": "ad1aa9957488798e0cd4f2087feb4ddb0fae50767bc2b9cfe9818a3d7260d7a9"
+    },
+    {
+      "path": "data\\hotpot_train_v1\\questions.jsonl",
+      "sha256": "1f60432e45b2c10f969c5a20a4eb552d150ad307f3e4f9bc5ca33a3114f72c15"
+    },
+    {
+      "path": "data\\hotpot_train_v1\\trial\\questions.jsonl",
+      "sha256": "16955b314180678560ca88c4cea90ac9c0d060672dea1fbc49c1d928e934a714"
+    },
+    {
+      "path": "data\\synthetic_dev_v1\\questions.jsonl",
+      "sha256": "5ce2bf37bdd7eaabd579ca3659614f1cc4473fee0bcd69b586507b6d5ada20f7"
+    },
+    {
+      "path": "outputs\\baselines_20261012T081344Z_773b8314\\questions.jsonl",
+      "sha256": "5ce2bf37bdd7eaabd579ca3659614f1cc4473fee0bcd69b586507b6d5ada20f7"
+    },
+    {
+      "path": "outputs\\baselines_20261012T081814Z_d0508399\\questions.jsonl",
+      "sha256": "5ce2bf37bdd7eaabd579ca3659614f1cc4473fee0bcd69b586507b6d5ada20f7"
+    },
+    {
+      "path": "outputs\\baselines_20261013T031945Z_bb04c7bd\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T031945Z_bb04c7bd\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032451Z_d69d42f8\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032451Z_d69d42f8\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032550Z_54bf98ac\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032550Z_54bf98ac\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032744Z_518e95e9\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T032744Z_518e95e9\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T034956Z_ff997ea2\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T034956Z_ff997ea2\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T041951Z_dd6f0199\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T041951Z_dd6f0199\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T042015Z_ab0116bd\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T042015Z_ab0116bd\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T042507Z_a43b1522\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T042507Z_a43b1522\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T044720Z_97d36a36\\questions.jsonl",
+      "sha256": "16955b314180678560ca88c4cea90ac9c0d060672dea1fbc49c1d928e934a714"
+    },
+    {
+      "path": "outputs\\baselines_20261013T044720Z_97d36a36\\dataset\\questions.jsonl",
+      "sha256": "16955b314180678560ca88c4cea90ac9c0d060672dea1fbc49c1d928e934a714"
+    },
+    {
+      "path": "outputs\\baselines_20261013T085024Z_ff3b0e15\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T085024Z_ff3b0e15\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T090228Z_6837fabf\\questions.jsonl",
+      "sha256": "1f60432e45b2c10f969c5a20a4eb552d150ad307f3e4f9bc5ca33a3114f72c15"
+    },
+    {
+      "path": "outputs\\baselines_20261013T090228Z_6837fabf\\dataset\\questions.jsonl",
+      "sha256": "1f60432e45b2c10f969c5a20a4eb552d150ad307f3e4f9bc5ca33a3114f72c15"
+    },
+    {
+      "path": "outputs\\baselines_20261013T092302Z_9a649338\\questions.jsonl",
+      "sha256": "1f60432e45b2c10f969c5a20a4eb552d150ad307f3e4f9bc5ca33a3114f72c15"
+    },
+    {
+      "path": "outputs\\baselines_20261013T092302Z_9a649338\\dataset\\questions.jsonl",
+      "sha256": "1f60432e45b2c10f969c5a20a4eb552d150ad307f3e4f9bc5ca33a3114f72c15"
+    },
+    {
+      "path": "outputs\\baselines_20261013T110930Z_01052fcd\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T110930Z_01052fcd\\dataset\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T112830Z_3a8b1d09\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T112830Z_3a8b1d09\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T114347Z_6fa027bd\\questions.jsonl",
+      "sha256": "4548d3b0cf4059b22d6a38a9b5ae132ce49d0f8d03e580d56fc07fe4ebcfd226"
+    },
+    {
+      "path": "outputs\\baselines_20261013T114347Z_6fa027bd\\dataset\\questions.jsonl",
+      "sha256": "4548d3b0cf4059b22d6a38a9b5ae132ce49d0f8d03e580d56fc07fe4ebcfd226"
+    },
+    {
+      "path": "outputs\\baselines_20261013T120443Z_e7ae1bcd\\questions.jsonl",
+      "sha256": "4548d3b0cf4059b22d6a38a9b5ae132ce49d0f8d03e580d56fc07fe4ebcfd226"
+    },
+    {
+      "path": "outputs\\baselines_20261013T120443Z_e7ae1bcd\\dataset\\questions.jsonl",
+      "sha256": "4548d3b0cf4059b22d6a38a9b5ae132ce49d0f8d03e580d56fc07fe4ebcfd226"
+    },
+    {
+      "path": "outputs\\baselines_20261013T123811Z_47e5a668\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T123811Z_47e5a668\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T131405Z_6943d301\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T131405Z_6943d301\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T162936Z_b0e435fe\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T162936Z_b0e435fe\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T170134Z_37dcfd18\\questions.jsonl",
+      "sha256": "ad1aa9957488798e0cd4f2087feb4ddb0fae50767bc2b9cfe9818a3d7260d7a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T170134Z_37dcfd18\\dataset\\questions.jsonl",
+      "sha256": "ad1aa9957488798e0cd4f2087feb4ddb0fae50767bc2b9cfe9818a3d7260d7a9"
+    },
+    {
+      "path": "outputs\\baselines_20261013T234622Z_601d10b9\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261013T234622Z_601d10b9\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261014T045233Z_5c5a6ab6\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261014T045233Z_5c5a6ab6\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261014T055008Z_4a43b4f2\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\baselines_20261014T055008Z_4a43b4f2\\dataset\\questions.jsonl",
+      "sha256": "0152f85a76a07adf05b28636d755d7967a6dc80cddfd4d911e64209e50e5aa94"
+    },
+    {
+      "path": "outputs\\oracle_20261013T024106Z_22e2774b\\questions.jsonl",
+      "sha256": "6b0497a0460018b1055f1b77bed51af2329f79036e7cb7f747f80176014fb8a9"
+    }
+  ],
+  "selection": "200 structurally valid bridge questions; exclude prior IDs/text and all known corpus titles from gold titles",
+  "primary_metric": "English Hotpot lexical answer EM; E minus X",
+  "secondary_metrics": [
+    "answer F1",
+    "gold-document citation coverage",
+    "actual searches and tokens",
+    "finish rate"
+  ],
+  "budget": {
+    "max_searches": 3,
+    "max_actions": 8,
+    "max_total_tokens": 768,
+    "context_limit": 4096,
+    "language": "en"
+  },
+  "scoring_policy": "Generate all six predictions before scoring; no prompt/model/alias changes",
+  "limitations": [
+    "New held-out subset of public validation, not official hidden test.",
+    "No guarantee of absence of pretraining contamination.",
+    "Gold-title isolation does not isolate all entities or distractors.",
+    "New pooled context corpus; dev scores are not directly comparable.",
+    "One training seed; six-model ranking is secondary exploratory analysis."
+  ]
+}

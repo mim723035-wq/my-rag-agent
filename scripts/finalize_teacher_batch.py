@@ -8,6 +8,8 @@ def main():
     parser.add_argument("--batch", type=int, required=True)
     args = parser.parse_args()
     exporter.OUT = exporter.ROOT / "data" / f"teacher_batch_{args.batch:03d}_v1"
+    from pathlib import Path
+    exporter.RUN = Path(json.loads((exporter.OUT / "selection.json").read_text(encoding="utf-8"))["source_run"])
     exporter.REVIEWS = json.loads((exporter.OUT / "review_decisions.json").read_text(encoding="utf-8"))
     exporter.main()
 

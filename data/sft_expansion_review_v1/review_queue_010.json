@@ -1,0 +1,954 @@
+[
+  {
+    "question_id": "5a79e1d15542994f819ef0ee",
+    "question": "What is the name of the second book released by Bridget Marquardt's costar in The Telling?",
+    "answer": "The Vegas Diaries: Romance, Rolling the Dice, and the Road to Reinvention",
+    "original_answer": "The Vegas Diaries: Romance, Rolling the Dice, and the Road to Reinvention",
+    "gold_answer": "The Vegas Diaries: Romance, Rolling the Dice, and the Road to Reinvention",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a79e1d15542994f819ef0ee.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Bridget Marquardt The Telling",
+        "returned_titles": [
+          "The Telling (film)",
+          "Kendra Wilkinson",
+          "John Wick"
+        ]
+      },
+      {
+        "query": "Holly Madison second book",
+        "returned_titles": [
+          "Holly Madison",
+          "The Telling (film)",
+          "Kendra Wilkinson"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c2d5b2cc5b2e55670c0022f2abdead21eb5a6cc8f67fd17cb711bcb6e9bbf48c",
+      "hp_doc_6567f9419a959e27a817f53aa083a4a3e082e9bad20eab9a7a0f11ab65887e79"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c2d5b2cc5b2e55670c0022f2abdead21eb5a6cc8f67fd17cb711bcb6e9bbf48c",
+        "title": "The Telling (film)",
+        "text": "The Telling is a 2009 horror film starring Bridget Marquardt and Holly Madison from the E! television series \"The Girls Next Door\". The film is also the producing debut of Bridget Marquardt who teamed up with veteran producer Chuck Williams. It is directed by Jeff Burr and first time director Nicholas Carpenter, grandson of filmmaker Hal Roach."
+      },
+      {
+        "id": "hp_doc_6567f9419a959e27a817f53aa083a4a3e082e9bad20eab9a7a0f11ab65887e79",
+        "title": "Holly Madison",
+        "text": "Holly Madison (born December 23, 1979) is a \"New York Times\" Best-Selling author, model, showgirl, and television personality. Holly is most widely recognized for her role in the E! hit reality television show, \"The Girls Next Door\" and for her own series, \"Holly's World\". In July 2015, Madison released her first book and memoir, \".\" In May 2016, she released her second book, \"The Vegas Diaries: Romance, Rolling the Dice, and the Road to Reinvention\" detailing her career and dating life in Las Vegas."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Telling (film)",
+        "document_id": "hp_doc_c2d5b2cc5b2e55670c0022f2abdead21eb5a6cc8f67fd17cb711bcb6e9bbf48c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Holly Madison",
+        "document_id": "hp_doc_6567f9419a959e27a817f53aa083a4a3e082e9bad20eab9a7a0f11ab65887e79",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7a307e5542990198eaf0ca",
+    "question": "When was the actor better known as Chilam in a movie by Ringo Lam?",
+    "answer": "1998",
+    "original_answer": "1991",
+    "gold_answer": "1998",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7a307e5542990198eaf0ca.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Chilam Ringo Lam movie",
+        "returned_titles": [
+          "Touch and Go (1991 film)",
+          "The Suspect (1998 film)",
+          "Julian Cheung"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a656e60f27c5e2aa17bad0b4b3cf28de773c5af1f06556cef9b1ce2cf6e75b44",
+      "hp_doc_2f409ccff7248c7e8841be18f6677ca80fe7b157430dc12fe63486d0451f1fda"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a656e60f27c5e2aa17bad0b4b3cf28de773c5af1f06556cef9b1ce2cf6e75b44",
+        "title": "The Suspect (1998 film)",
+        "text": "The Suspect is a 1998 Hong Kong action film written and directed by Ringo Lam and starring Louis Koo, Julian Cheung, Simon Yam, Ray Lui, Ada Choi and Eric Moo"
+      },
+      {
+        "id": "hp_doc_2f409ccff7248c7e8841be18f6677ca80fe7b157430dc12fe63486d0451f1fda",
+        "title": "Julian Cheung",
+        "text": "Julian Cheung Chi-lam (born 27 August 1971), better known by his stage name Chilam, is a Hong Kong singer and actor. Cheung is popularly known for his role as Guo Jing in the 1994 TV series adaptation of the \"Wuxia\" novel, \"The Legend of the Condor Heroes\", and also as Chi-Kin from the TVB drama \"Cold Blood Warm Heart\" (1996)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Suspect (1998 film)",
+        "document_id": "hp_doc_a656e60f27c5e2aa17bad0b4b3cf28de773c5af1f06556cef9b1ce2cf6e75b44",
+        "sentence_id": 0
+      },
+      {
+        "title": "Julian Cheung",
+        "document_id": "hp_doc_2f409ccff7248c7e8841be18f6677ca80fe7b157430dc12fe63486d0451f1fda",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a836f375542992ef85e22c2",
+    "question": "Greenlight Capital is a hedge fund founded in 1996 by which American investor, hedge fund manager, and philanthropist, born on November 20, 1968?",
+    "answer": "David M. Einhorn",
+    "original_answer": "David Einhorn",
+    "gold_answer": "David M. Einhorn",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a836f375542992ef85e22c2.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Greenlight Capital founder",
+        "returned_titles": [
+          "David Einhorn (hedge fund manager)",
+          "Greenlight Capital",
+          "Bill Ackman"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 1,
+    "proposed_citation_ids": [
+      "hp_doc_8f12d34fb96c0c07ddc7ea573c56cf88fcf37fbb2b6eedd0e4abbd3268458763",
+      "hp_doc_81da878879cdeea3a788854304cb6c56717277b345ea5158d0ca31e29a2e41f0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8f12d34fb96c0c07ddc7ea573c56cf88fcf37fbb2b6eedd0e4abbd3268458763",
+        "title": "Greenlight Capital",
+        "text": "Greenlight Capital is a hedge fund founded in 1996 by David Einhorn. Greenlight invests primarily in publicly traded North American corporate debt offerings and equities. Greenlight is most notable for its short selling of Lehman stock prior to Lehman Brothers' collapse in 2008 and the $11 million fine they received in January 2012 for insider trading in the UK. Einhorn remains the fund's manager."
+      },
+      {
+        "id": "hp_doc_81da878879cdeea3a788854304cb6c56717277b345ea5158d0ca31e29a2e41f0",
+        "title": "David Einhorn (hedge fund manager)",
+        "text": "David M. Einhorn (born November 20, 1968) is an American investor, hedge fund manager, and philanthropist. He is the founder and president of Greenlight Capital, a \"long-short value-oriented hedge fund.\""
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Greenlight Capital",
+        "document_id": "hp_doc_8f12d34fb96c0c07ddc7ea573c56cf88fcf37fbb2b6eedd0e4abbd3268458763",
+        "sentence_id": 0
+      },
+      {
+        "title": "David Einhorn (hedge fund manager)",
+        "document_id": "hp_doc_81da878879cdeea3a788854304cb6c56717277b345ea5158d0ca31e29a2e41f0",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8addc35542992d82986fb8",
+    "question": "In what city is the animation studio which created Wallace & Gromit's Grand Adventures based?",
+    "answer": "Bristol",
+    "original_answer": "Bristol",
+    "gold_answer": "Bristol",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8addc35542992d82986fb8.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Wallace Gromit Grand Adventures",
+        "returned_titles": [
+          "Wallace &amp; Gromit's Grand Adventures",
+          "Wallace &amp; Gromit's Musical Marvels",
+          "A Grand Day Out"
+        ]
+      },
+      {
+        "query": "Aardman Animations Bristol",
+        "returned_titles": [
+          "Aardman Animations",
+          "A Close Shave",
+          "A Grand Day Out"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_554cfe02485c70f9e5847a0587a74408386ef8cab7653c5caeb2203bec166cae",
+      "hp_doc_fa979827690240f6dce39e97df23ca25308666aa0526b98cd453ce7915d471fc"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_554cfe02485c70f9e5847a0587a74408386ef8cab7653c5caeb2203bec166cae",
+        "title": "Wallace &amp; Gromit's Grand Adventures",
+        "text": "Wallace & Gromit's Grand Adventures is an episodic graphic adventure game based around the characters of \"Wallace and Gromit\" created by Nick Park and Aardman Animations. The game was developed and published by Telltale Games. It consists of four episodes, which were released to Microsoft Windows from March 23 to July 30, 2009 and to Xbox 360 from May 27 to November 4, 2009."
+      },
+      {
+        "id": "hp_doc_fa979827690240f6dce39e97df23ca25308666aa0526b98cd453ce7915d471fc",
+        "title": "Aardman Animations",
+        "text": "Aardman Animations, Ltd., also known as Aardman Studios, or simply as Aardman, is a British animation studio based in Bristol. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit. After some experimental computer animated short films during the late 1990s, beginning with \"Owzat\" (1997), it entered the computer animation market with \"Flushed Away\" (2006). Aardman films have made $973.2 million worldwide and average $163 million per film. All of their stop motion films are among the highest-grossing stop-motion films, with their debut, \"Chicken Run\" (2000), being their top-grossing film as well as the highest-grossing stop-motion film of all time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Wallace &amp; Gromit's Grand Adventures",
+        "document_id": "hp_doc_554cfe02485c70f9e5847a0587a74408386ef8cab7653c5caeb2203bec166cae",
+        "sentence_id": 0
+      },
+      {
+        "title": "Aardman Animations",
+        "document_id": "hp_doc_fa979827690240f6dce39e97df23ca25308666aa0526b98cd453ce7915d471fc",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8d0006554299441c6b9fa8",
+    "question": "One of the natives of Reggiolo was last manager of what German football club?",
+    "answer": "Bayern Munich",
+    "original_answer": "Bayern Munich",
+    "gold_answer": "Bayern Munich",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8d0006554299441c6b9fa8.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Reggiolo football manager",
+        "returned_titles": [
+          "Reggiolo",
+          "Glen Riddersholm",
+          "Eduard Geyer"
+        ]
+      },
+      {
+        "query": "Carlo Ancelotti German club",
+        "returned_titles": [
+          "Carlo Ancelotti",
+          "Reggiolo",
+          "Dresdner SC"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_dd7d0e7c7a7b1388fc5b483b27bd21d04ed2753001544aa9291e799b727bc6ff",
+      "hp_doc_3de1cd170bfe550b91cdcf8c01042e73e07e7d4a39f826af6d8ae42938efc262"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_dd7d0e7c7a7b1388fc5b483b27bd21d04ed2753001544aa9291e799b727bc6ff",
+        "title": "Reggiolo",
+        "text": "Reggiolo is a town in the province of Reggio Emilia, Emilia-Romagna, Italy. As of 31 December 2016 Reggiolo had an estimated population of 9,192. Carlo Ancelotti is a native of the town, and Formula One racer Lorenzo Bandini's funeral was held here."
+      },
+      {
+        "id": "hp_doc_3de1cd170bfe550b91cdcf8c01042e73e07e7d4a39f826af6d8ae42938efc262",
+        "title": "Carlo Ancelotti",
+        "text": "Carlo Ancelotti (] ; born 10 June 1959) is an Italian former footballer and current football manager. He last was manager of German club Bayern Munich. Ancelotti is the only manager to have won the UEFA Champions League three times and reached four finals (three finals and two victories with Milan, and one victory with Real Madrid). He also won the FIFA Club World Cup twice, managing Milan and Real Madrid. Ancelotti is regarded as one of the best and most successful managers of all time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Reggiolo",
+        "document_id": "hp_doc_dd7d0e7c7a7b1388fc5b483b27bd21d04ed2753001544aa9291e799b727bc6ff",
+        "sentence_id": 2
+      },
+      {
+        "title": "Carlo Ancelotti",
+        "document_id": "hp_doc_3de1cd170bfe550b91cdcf8c01042e73e07e7d4a39f826af6d8ae42938efc262",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8f5a6b5542992414482a73",
+    "question": "What is the estimated net worth of the owner of Carinthia VII?",
+    "answer": "$2.6 billion",
+    "original_answer": "Cannot determine",
+    "gold_answer": "$2.6 billion",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8f5a6b5542992414482a73.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Carinthia VII",
+        "returned_titles": [
+          "Carinthia VII",
+          "Edwardian era",
+          "Rich Man, Poor Man (miniseries)"
+        ]
+      },
+      {
+        "query": "Heidi Horten net worth",
+        "returned_titles": [
+          "Heidi Horten",
+          "Carinthia VII",
+          "List of Pakistani politicians by net worth"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_0b348b2ae351d36ad0c8fb7e70e744fba591939511dc7f09cd6cd30fc66fc569",
+      "hp_doc_823129c27f86ce83761bae2662190a415db1d29325a00f882513833e664a033d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_0b348b2ae351d36ad0c8fb7e70e744fba591939511dc7f09cd6cd30fc66fc569",
+        "title": "Carinthia VII",
+        "text": "The yacht Carinthia VII was built in the Lürssen Yachts yard in 2002 and refurbished in the same yard three years later. One of the largest motor yachts in the world, it is owned by Heidi Horten, widow of the German entrepreneur Helmut Horten."
+      },
+      {
+        "id": "hp_doc_823129c27f86ce83761bae2662190a415db1d29325a00f882513833e664a033d",
+        "title": "Heidi Horten",
+        "text": "Heidi Horten (née Jelinek; born 13 February 1941) is an Austrian billionaire, and the widow of businessman Helmut Horten. In November 2015 \"Forbes\" estimated her net worth at US $2.6 billion."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Carinthia VII",
+        "document_id": "hp_doc_0b348b2ae351d36ad0c8fb7e70e744fba591939511dc7f09cd6cd30fc66fc569",
+        "sentence_id": 1
+      },
+      {
+        "title": "Heidi Horten",
+        "document_id": "hp_doc_823129c27f86ce83761bae2662190a415db1d29325a00f882513833e664a033d",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a90c9cc5542995651fb51f5",
+    "question": "Who was the Japanese writer and translator for the film director Russell Capra?",
+    "answer": "He is regarded as an expert on cinema and works of Frank Capra.",
+    "original_answer": "Atsuo Inoue",
+    "gold_answer": "He is regarded as an expert on cinema and works of Frank Capra.",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a90c9cc5542995651fb51f5.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Russell Capra Japanese writer",
+        "returned_titles": [
+          "Frank Capra",
+          "Atsuo Inoue",
+          "Frank Capra Jr."
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_e3b36aed194d411f30229214f3a270100175707eedc4595b324035114d729364",
+      "hp_doc_c462e494d99225b0884838dad5f6ed5a5e5c0beebdd69018faf1a811360fa2f0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e3b36aed194d411f30229214f3a270100175707eedc4595b324035114d729364",
+        "title": "Atsuo Inoue",
+        "text": "Atsuo Inoue (井上 篤夫/いのうえあつお , born July 15, 1947) is a Japanese writer and translator. He is regarded as an expert on cinema and works of Frank Capra. and the author of Aiming High—A Biography of Masayoshi Son."
+      },
+      {
+        "id": "hp_doc_c462e494d99225b0884838dad5f6ed5a5e5c0beebdd69018faf1a811360fa2f0",
+        "title": "Frank Capra",
+        "text": "Frank Russell Capra (born Francesco Rosario Capra; May 18, 1897September 3, 1991) was an Italian-American film director, producer and writer who became the creative force behind some of the major award-winning films of the 1930s and 1940s. Born in Italy and raised in Los Angeles from the age of five, his rags-to-riches story has led film historians such as Ian Freer to consider him the \"American dream personified.\""
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Atsuo Inoue",
+        "document_id": "hp_doc_e3b36aed194d411f30229214f3a270100175707eedc4595b324035114d729364",
+        "sentence_id": 1
+      },
+      {
+        "title": "Frank Capra",
+        "document_id": "hp_doc_c462e494d99225b0884838dad5f6ed5a5e5c0beebdd69018faf1a811360fa2f0",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab4f4e25542991779162d2f",
+    "question": "Petters Group Worldwide had assents in an airline headquartered in what Minnesota town?",
+    "answer": "Eagan",
+    "original_answer": "Eagan",
+    "gold_answer": "Eagan",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab4f4e25542991779162d2f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Petters Group Worldwide",
+        "returned_titles": [
+          "Petters Group Worldwide",
+          "Tom Petters",
+          "Carlos Ghosn"
+        ]
+      },
+      {
+        "query": "Sun Country Airlines",
+        "returned_titles": [
+          "Sun Country Airlines",
+          "Petters Group Worldwide",
+          "China Airlines"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c17f6455fa52210a5ace3d0bbef674a3b97ee86b66fd1a502a7ba10f53979402",
+      "hp_doc_68d2d2d41426bce52d42fa6c95a413ca1a15350f0b6e7e64a0016878a241e2e4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c17f6455fa52210a5ace3d0bbef674a3b97ee86b66fd1a502a7ba10f53979402",
+        "title": "Petters Group Worldwide",
+        "text": "Petters Group Worldwide was a diversified company based in Minnetonka, Minnesota that was turned into a $3.65 billion Ponzi scheme by its founder and CEO, Tom Petters. It had 3,200 employees and investments or full ownership in 60 companies, of which it actively managed 20, with offices in North America, South America, Asia, and Europe. Among its assets were Sun Country Airlines, Petters Warehouse Direct, and the remnants of Polaroid. Petters Group Worldwide had $2.3 billion in revenue in 2007."
+      },
+      {
+        "id": "hp_doc_68d2d2d41426bce52d42fa6c95a413ca1a15350f0b6e7e64a0016878a241e2e4",
+        "title": "Sun Country Airlines",
+        "text": "Sun Country Airlines is an United States based airline headquartered in the Minneapolis–Saint Paul suburb of Eagan, Minnesota and based at nearby Minneapolis–Saint Paul International Airport. The airline's main focus is flying Minnesotans to warmer destinations during the winter months, such as Florida and Mexico. In the summer months, the airline flies passengers between the Twin Cities and the east and west coast in the U.S. Sun Country also operates flights from Dallas/Fort Worth which serves as a focus city for the airline. It operates scheduled and charter flights to destinations in the United States, Mexico, Costa Rica and the Caribbean (including Cuba from 2015) as well as ad-hoc charters."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Petters Group Worldwide",
+        "document_id": "hp_doc_c17f6455fa52210a5ace3d0bbef674a3b97ee86b66fd1a502a7ba10f53979402",
+        "sentence_id": 2
+      },
+      {
+        "title": "Sun Country Airlines",
+        "document_id": "hp_doc_68d2d2d41426bce52d42fa6c95a413ca1a15350f0b6e7e64a0016878a241e2e4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab6a4cb554299710c8d1f18",
+    "question": "How much cargo passes through the Chennai Airport Flyover?",
+    "answer": "Over 400 aircraft movements are handled by the airport per day.",
+    "original_answer": "Cannot determine",
+    "gold_answer": "Over 400 aircraft movements are handled by the airport per day.",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab6a4cb554299710c8d1f18.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Chennai Airport Flyover",
+        "returned_titles": [
+          "Chennai Airport Flyover",
+          "Tindivanam flyover",
+          "Airport Flyover, Brisbane"
+        ]
+      },
+      {
+        "query": "Chennai International Airport cargo",
+        "returned_titles": [
+          "Chennai International Airport",
+          "Chennai Airport Flyover",
+          "Radisson Blu City Centre"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_811eca5754f7f9e7f3bf43f0852b256b44b6e7c30f10af3c200233d8383bc5bb",
+      "hp_doc_0c260a6b2a732ab9ad19c638241663e4f67aa0b102dd76499b5fece32fcc4451"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_811eca5754f7f9e7f3bf43f0852b256b44b6e7c30f10af3c200233d8383bc5bb",
+        "title": "Chennai Airport Flyover",
+        "text": "Chennai Airport Flyover is a 1.6 km long flyover in front of the Chennai International Airport in Chennai city."
+      },
+      {
+        "id": "hp_doc_0c260a6b2a732ab9ad19c638241663e4f67aa0b102dd76499b5fece32fcc4451",
+        "title": "Chennai International Airport",
+        "text": "Chennai International Airport (IATA: MAA, ICAO: VOMM) is an international airport serving the city of Chennai (Madras), Tamil Nadu, India and its metropolitan area. It is the fourth busiest airport in India in terms of total passenger traffic after airports at Delhi, Mumbai and Bengaluru. It is the 49th busiest airport in Asia for CY 2016. In the fiscal year 2016-17, the airport handled over 18.3 million passengers. Over 400 aircraft movements are handled by the airport per day. Third busiest Airport in terms of cargo handling in India. The planned extension of the terminals are about to start as the union government has told that Chennai might not get its new airport soon."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Chennai Airport Flyover",
+        "document_id": "hp_doc_811eca5754f7f9e7f3bf43f0852b256b44b6e7c30f10af3c200233d8383bc5bb",
+        "sentence_id": 0
+      },
+      {
+        "title": "Chennai International Airport",
+        "document_id": "hp_doc_0c260a6b2a732ab9ad19c638241663e4f67aa0b102dd76499b5fece32fcc4451",
+        "sentence_id": 4
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab6c7a655429953192ad38e",
+    "question": "How many regular season games did the man who wrote Personal Foul: A First-Person Account of the Scandal That Rocked the NBA officiate?",
+    "answer": "772",
+    "original_answer": "772",
+    "gold_answer": "772",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab6c7a655429953192ad38e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Personal Foul author",
+        "returned_titles": [
+          "Flagrant foul",
+          "Technical foul",
+          "Personal Foul (book)"
+        ]
+      },
+      {
+        "query": "Tim Donaghy NBA",
+        "returned_titles": [
+          "Tim Donaghy",
+          "Personal Foul (book)",
+          "Big Three (San Antonio Spurs)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_642d4967fc92a00c04eeb0926fbb3840330fbf4b583cdf10c3f857739664f943",
+      "hp_doc_499bd9cee4677ac56942e58ac8335fed441d6e5cf08143ed2aa82277b4db3fa6"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_642d4967fc92a00c04eeb0926fbb3840330fbf4b583cdf10c3f857739664f943",
+        "title": "Personal Foul (book)",
+        "text": "Personal Foul: A First-Person Account of the Scandal That Rocked the NBA is an autobiography written by former National Basketball Association (NBA) referee Tim Donaghy and published by Florida-based VTi-Group, Inc. in December, 2009. Donaghy, who had resigned from the league as a central figure in the 2007 NBA betting scandal, describes his involvement in and inner workings of the scandal, as well as his gambling addiction."
+      },
+      {
+        "id": "hp_doc_499bd9cee4677ac56942e58ac8335fed441d6e5cf08143ed2aa82277b4db3fa6",
+        "title": "Tim Donaghy",
+        "text": "Tim Donaghy ( ; born January 7, 1967) is a former professional basketball referee who worked in the National Basketball Association (NBA) for 13 seasons from 1994 to 2007. During his career in the NBA, Donaghy officiated in 772 regular season games and 20 playoff games."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Personal Foul (book)",
+        "document_id": "hp_doc_642d4967fc92a00c04eeb0926fbb3840330fbf4b583cdf10c3f857739664f943",
+        "sentence_id": 0
+      },
+      {
+        "title": "Tim Donaghy",
+        "document_id": "hp_doc_499bd9cee4677ac56942e58ac8335fed441d6e5cf08143ed2aa82277b4db3fa6",
+        "sentence_id": 0
+      },
+      {
+        "title": "Tim Donaghy",
+        "document_id": "hp_doc_499bd9cee4677ac56942e58ac8335fed441d6e5cf08143ed2aa82277b4db3fa6",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab6f6035542991d322236ee",
+    "question": "The Grohl Sessions, Vol. 1 is by a band based in what city?",
+    "answer": "Atlanta, Georgia",
+    "original_answer": "Atlanta",
+    "gold_answer": "Atlanta, Georgia",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab6f6035542991d322236ee.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Grohl Sessions Vol 1",
+        "returned_titles": [
+          "The Grohl Sessions, Vol. 1",
+          "All Alright",
+          "Congregation (song)"
+        ]
+      },
+      {
+        "query": "Zac Brown Band city",
+        "returned_titles": [
+          "Zac Brown Band",
+          "Congregation (song)",
+          "All Alright"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_19a4e57c3c34db3f2a7d3550ebccbf3be41f9f8131237ab58039d0cc0fc7cda3",
+      "hp_doc_14ecae5392b6e63e1ea0a57e866c1224ad48aebbda4430dfebf65fc74c440c64"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_19a4e57c3c34db3f2a7d3550ebccbf3be41f9f8131237ab58039d0cc0fc7cda3",
+        "title": "The Grohl Sessions, Vol. 1",
+        "text": "The Grohl Sessions, Vol. 1 is an extended play which was released by the Zac Brown Band on December 10, 2013. Originally released only to digital retailers, it was physically released on May 19, 2014. The physical release includes a 45-minute DVD on the creation of the album. Included on the album is the single \"All Alright\", which was sent to radio on April 28, 2014."
+      },
+      {
+        "id": "hp_doc_14ecae5392b6e63e1ea0a57e866c1224ad48aebbda4430dfebf65fc74c440c64",
+        "title": "Zac Brown Band",
+        "text": "Zac Brown Band is an American country music band based in Atlanta, Georgia, on the Southern Ground Artists label. The lineup consists of Zachry Alexander \"Zac\" Brown (born July 31, 1978) (lead vocals, guitar), Jimmy De Martini (born August 3, 1976) (fiddle, vocals), John Driskell Hopkins (born May 3, 1971) (bass guitar, guitar, baritone guitar, banjo, ukulele, upright bass, vocals), Coy Bowles (born February 20, 1979) (guitar, keyboards), Chris Fryar (born November 22, 1970) (drums), Clay Cook (born April 20, 1978) (guitar, keyboards, mandolin, steel guitar, vocals), Matt Mangano (born May 12, 1976) (bass guitar), and Daniel de los Reyes (born July 18, 1962) (percussion)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Grohl Sessions, Vol. 1",
+        "document_id": "hp_doc_19a4e57c3c34db3f2a7d3550ebccbf3be41f9f8131237ab58039d0cc0fc7cda3",
+        "sentence_id": 0
+      },
+      {
+        "title": "Zac Brown Band",
+        "document_id": "hp_doc_14ecae5392b6e63e1ea0a57e866c1224ad48aebbda4430dfebf65fc74c440c64",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abc08bc5542993f40c73c58",
+    "question": "Syed Kalbe Hussain was from the capital of which Indian state?",
+    "answer": "Uttar Pradesh",
+    "original_answer": "Uttar Pradesh",
+    "gold_answer": "Uttar Pradesh",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abc08bc5542993f40c73c58.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Syed Kalbe Hussain",
+        "returned_titles": [
+          "Syed Kalbe Hussain",
+          "Kalbe Abid",
+          "Ahmed and Mohammed Hussain"
+        ]
+      },
+      {
+        "query": "Lucknow capital Indian state",
+        "returned_titles": [
+          "Lucknow",
+          "Hakim Syed Khaleefathullah",
+          "Ahmed and Mohammed Hussain"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_cdede289735eefae7f02740446d9063af33b0c3e84a9ca848788a08e1abce110",
+      "hp_doc_9100852f391448b870958843003f22766864e572d3db56cd5de135dcfca16bc2"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_cdede289735eefae7f02740446d9063af33b0c3e84a9ca848788a08e1abce110",
+        "title": "Syed Kalbe Hussain",
+        "text": "Maulana Syed Kalbe Hussain Naqvi (مولانا سيد كلب حسين نقوى) nicknamed \"Kabban\" was a mujtahid from Lucknow, India who preached Twelver Shi'a Islam and came from a family of scholars known as \"Khandaan-e-Ijtehad\", notably Syed Dildar Ali Nasirabadi, also known as Ghufran Ma'ab. His father was Maulana Syed Aqa Hasan. Originally Kalbe Gharana is from Jais, Raibareli, a prominent town of Uttar Pradesh."
+      },
+      {
+        "id": "hp_doc_9100852f391448b870958843003f22766864e572d3db56cd5de135dcfca16bc2",
+        "title": "Lucknow",
+        "text": "Lucknow( Lakhna'ū ) is the capital of the Indian state of Uttar Pradesh and is also the administrative headquarters of the eponymous District and Division."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Syed Kalbe Hussain",
+        "document_id": "hp_doc_cdede289735eefae7f02740446d9063af33b0c3e84a9ca848788a08e1abce110",
+        "sentence_id": 0
+      },
+      {
+        "title": "Lucknow",
+        "document_id": "hp_doc_9100852f391448b870958843003f22766864e572d3db56cd5de135dcfca16bc2",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abfe2df5542997d6429591f",
+    "question": "I Am Your Gummy Bear is the debut album by what German multilingual character?",
+    "answer": "Gummibär",
+    "original_answer": "Gummibär",
+    "gold_answer": "Gummibär",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abfe2df5542997d6429591f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "I Am Your Gummy Bear album",
+        "returned_titles": [
+          "I Am Your Gummy Bear",
+          "Gummibär",
+          "La La Love to Dance"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_3feac0b31f5179d879bbc4b7075f1ab39da0842432d936a5298fc327885284b4",
+      "hp_doc_4100069df987fc29f8d04657cb4ad9a73d095e10f8210dc7012aba37c1d54d44"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_3feac0b31f5179d879bbc4b7075f1ab39da0842432d936a5298fc327885284b4",
+        "title": "I Am Your Gummy Bear",
+        "text": "I Am Your Gummy Bear is the debut album by Gummibär released on the Gummybear International label. It contains 20 songs interpreted by Gummibär including the big hit \"I'm a Gummy Bear (The Gummy Bear Song)\"."
+      },
+      {
+        "id": "hp_doc_4100069df987fc29f8d04657cb4ad9a73d095e10f8210dc7012aba37c1d54d44",
+        "title": "Gummibär",
+        "text": "Gummibär is a German international multi-lingual character and virtual band based in Berlin who is known for performing the Gummy bear-related series of songs on various albums, including \"I Am Your Gummy Bear\" and \"La La Love to Dance\". It is most notable for the song and video \"I'm a Gummy Bear (The Gummy Bear Song)\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "I Am Your Gummy Bear",
+        "document_id": "hp_doc_3feac0b31f5179d879bbc4b7075f1ab39da0842432d936a5298fc327885284b4",
+        "sentence_id": 0
+      },
+      {
+        "title": "Gummibär",
+        "document_id": "hp_doc_4100069df987fc29f8d04657cb4ad9a73d095e10f8210dc7012aba37c1d54d44",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac4786e5542995c82c4ad51",
+    "question": "What year did the series Hard Fate starring Hong Kong American actor Kevin Cheng air on TVB?",
+    "answer": "2004",
+    "original_answer": "2004",
+    "gold_answer": "2004",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac4786e5542995c82c4ad51.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hard Fate Kevin Cheng TVB",
+        "returned_titles": [
+          "Kevin Cheng",
+          "Hard Fate",
+          "Placebo Cure"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_af94b663376439b221a06cb12438f1ba923f8c70968a0a5a62533e88937aefd4",
+      "hp_doc_e9eb6b52572522b3eb4889cde127ede98f5879c7cf74b90df6559c92df08b46f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_af94b663376439b221a06cb12438f1ba923f8c70968a0a5a62533e88937aefd4",
+        "title": "Hard Fate",
+        "text": "Hard Fate (Traditional Chinese - 翡翠戀曲) is a 30-episode series which aired on TVB in 2004. It stars Flora Chan 陳慧珊, Damian Lau 劉松仁, Kevin Cheng 鄭嘉穎 and Niki Chow 周麗淇."
+      },
+      {
+        "id": "hp_doc_e9eb6b52572522b3eb4889cde127ede98f5879c7cf74b90df6559c92df08b46f",
+        "title": "Kevin Cheng",
+        "text": "Kevin Cheng Ka-wing (born 15 August 1969) is a Hong Kong American actor and singer who is currently under the management of the Hong Kong television network TVB. Cheng rose to fame in late 2004 after playing his first lead role in the TVB drama \"Hard Fate\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Hard Fate",
+        "document_id": "hp_doc_af94b663376439b221a06cb12438f1ba923f8c70968a0a5a62533e88937aefd4",
+        "sentence_id": 0
+      },
+      {
+        "title": "Kevin Cheng",
+        "document_id": "hp_doc_e9eb6b52572522b3eb4889cde127ede98f5879c7cf74b90df6559c92df08b46f",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adca1375542994d58a2f686",
+    "question": "Hannah Baker played by Katherine Langford in ?",
+    "answer": "Thirteen Reasons Why",
+    "original_answer": "13 Reasons Why",
+    "gold_answer": "Thirteen Reasons Why",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adca1375542994d58a2f686.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hannah Baker Katherine Langford",
+        "returned_titles": [
+          "Katherine Langford",
+          "Hannah Baker",
+          "13 Reasons Why"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 1,
+    "proposed_citation_ids": [
+      "hp_doc_e76514902da71d594727ed83008f96bc049572ae2a940d665fe36a3a420f8887",
+      "hp_doc_f3c046bf0c43320ea65c1cfa5e3a3050defe8e3b6af58b39e13e7ba329bc2115"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e76514902da71d594727ed83008f96bc049572ae2a940d665fe36a3a420f8887",
+        "title": "Katherine Langford",
+        "text": "Katherine Langford (born 29 April 1996) is an Australian actress. She is known for playing Hannah Baker in the 2017 Netflix series \"13 Reasons Why\", based on the novel of the same name."
+      },
+      {
+        "id": "hp_doc_f3c046bf0c43320ea65c1cfa5e3a3050defe8e3b6af58b39e13e7ba329bc2115",
+        "title": "Hannah Baker",
+        "text": "Hannah Baker is a fictional character created by American author Jay Asher. She is the subject of his 2007 mystery novel \"Thirteen Reasons Why\", and Netflix's adaptation of the book, \"13 Reasons Why\". Hannah is introduced as a sophomore at the fictional Liberty High School, characterized by her struggle adjusting to life in an unsympathetic school environment. She is played by Katherine Langford on the television series. Langford is signed on to appear in the show's second season, which is set to air in 2018."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Katherine Langford",
+        "document_id": "hp_doc_e76514902da71d594727ed83008f96bc049572ae2a940d665fe36a3a420f8887",
+        "sentence_id": 1
+      },
+      {
+        "title": "Hannah Baker",
+        "document_id": "hp_doc_f3c046bf0c43320ea65c1cfa5e3a3050defe8e3b6af58b39e13e7ba329bc2115",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hannah Baker",
+        "document_id": "hp_doc_f3c046bf0c43320ea65c1cfa5e3a3050defe8e3b6af58b39e13e7ba329bc2115",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  }
+]

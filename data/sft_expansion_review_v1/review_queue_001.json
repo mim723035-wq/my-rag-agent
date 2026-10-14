@@ -1,0 +1,1302 @@
+[
+  {
+    "question_id": "5a718f575542994082a3e879",
+    "question": "which American historical theologian is featured on KCFO (970 AM) radio station?",
+    "answer": "Albert Mohler",
+    "original_answer": "Albert Mohler",
+    "gold_answer": "Albert Mohler",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a718f575542994082a3e879.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "KCFO 970 AM radio station",
+        "returned_titles": [
+          "KCFO",
+          "KBUL (AM)",
+          "XEO-AM"
+        ]
+      },
+      {
+        "query": "Albert Mohler historical theologian",
+        "returned_titles": [
+          "Albert Mohler",
+          "Richard Muller (theologian)",
+          "KCFO"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_08783905bcf355cbbfee0cc5ef223b17230ccb9a17931c836c4bd552cf8595f5",
+      "hp_doc_d805a981392a25f30f7a7e9db2dddb5bb7dcb0cfdffeac52a24eb33d36c4d8a1"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_08783905bcf355cbbfee0cc5ef223b17230ccb9a17931c836c4bd552cf8595f5",
+        "title": "KCFO",
+        "text": "KCFO (970 AM) is a Tulsa, Oklahoma, area Christian radio station. KCFO airs national shows such as Dave Ramsey, J. Vernon McGee, David Jeremiah, Dennis Rainey, and Albert Mohler."
+      },
+      {
+        "id": "hp_doc_d805a981392a25f30f7a7e9db2dddb5bb7dcb0cfdffeac52a24eb33d36c4d8a1",
+        "title": "Albert Mohler",
+        "text": "Richard Albert Mohler Jr. (born October 19, 1959), is an American historical theologian and the ninth president of the Southern Baptist Theological Seminary in Louisville, Kentucky. He has been described as \"one of America's most influential evangelicals\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "KCFO",
+        "document_id": "hp_doc_08783905bcf355cbbfee0cc5ef223b17230ccb9a17931c836c4bd552cf8595f5",
+        "sentence_id": 1
+      },
+      {
+        "title": "Albert Mohler",
+        "document_id": "hp_doc_d805a981392a25f30f7a7e9db2dddb5bb7dcb0cfdffeac52a24eb33d36c4d8a1",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a72d28555429901807daf4a",
+    "question": "Who led the Jeanson network in the war which led to Algeria gaining its independence from France?",
+    "answer": "Francis Jeanson",
+    "original_answer": "Francis Jeanson",
+    "gold_answer": "Francis Jeanson",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a72d28555429901807daf4a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Jeanson network Algeria independence",
+        "returned_titles": [
+          "Jacques Charby",
+          "Jeanson network",
+          "French Algeria"
+        ]
+      },
+      {
+        "query": "Simone de Beauvoir Algerian War",
+        "returned_titles": [
+          "Jeanson network",
+          "Algerian War",
+          "Jacques Charby"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_0bfc4a1f5589f16c7c8735704be989f8cf45e02387fdc65b6691a3e9b292ca13",
+      "hp_doc_7dc11ac0e77751fb43d80c71eb064e04b92cdfa0f76acc9cda4397b4d195c7f9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_0bfc4a1f5589f16c7c8735704be989f8cf45e02387fdc65b6691a3e9b292ca13",
+        "title": "Jeanson network",
+        "text": "The Jeanson network (French: \"Réseau Jeanson\" ) was a group of French leftwing militants led by Francis Jeanson who helped Algerian National Liberation Front agents operating in the French metropolitan territory during the Algerian War. They were mainly involved in carrying money and papers for the Algerians and were sometimes called \"the suitcase carriers\" (\"les porteurs de valises\"), a notion from the French resistance movement during World War II. The famous communist anticolonialist activist Henri Curiel participated in the network, as did the forger Adolfo Kaminsky. The philosopher Jean-Paul Sartre and writer Simone de Beauvoir were supportive of the Jeanson network. Photojournalist and author Dominique Darbois was another intellectual in Jeanson's network."
+      },
+      {
+        "id": "hp_doc_7dc11ac0e77751fb43d80c71eb064e04b92cdfa0f76acc9cda4397b4d195c7f9",
+        "title": "Algerian War",
+        "text": "The Algerian War, also known as the Algerian War of Independence or the Algerian Revolution (Arabic: الثورة الجزائرية‎ ‎ \"Al-thawra Al-Jazaa'iriyya \";, Berber: ;, French: \"Guerre d'Algérie\" or \"Révolution algérienne \") was a war between France and the Algerian National Liberation Front (French: \"Front de Libération Nationale\" – FLN) from 1954 to 1962, which led to Algeria gaining its independence from France. An important decolonization war, it was a complex conflict characterized by guerrilla warfare, maquis fighting, and the use of torture by both sides. The conflict also became a civil war between the different communities and within the communities . The war took place mainly on the territory of Algeria, with repercussions in metropolitan France."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Jeanson network",
+        "document_id": "hp_doc_0bfc4a1f5589f16c7c8735704be989f8cf45e02387fdc65b6691a3e9b292ca13",
+        "sentence_id": 0
+      },
+      {
+        "title": "Algerian War",
+        "document_id": "hp_doc_7dc11ac0e77751fb43d80c71eb064e04b92cdfa0f76acc9cda4397b4d195c7f9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a737c735542992d56e7e32c",
+    "question": "What high school is named after an inventor who is credited with creating and building the world's first liquid-fueled rocket?",
+    "answer": "Robert H. Goddard High School",
+    "original_answer": "Robert H. Goddard High School",
+    "gold_answer": "Robert H. Goddard High School",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a737c735542992d56e7e32c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "liquid fueled rocket inventor",
+        "returned_titles": [
+          "Robert H. Goddard",
+          "Goddard Rocket Launching Site",
+          "Friedrich Zander"
+        ]
+      },
+      {
+        "query": "Goddard high school",
+        "returned_titles": [
+          "Goddard High School (New Mexico)",
+          "Robert H. Goddard",
+          "Ottawa High School and Junior High School"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d7ee9d212e31f6256c9ff226aba0823f0aaaece840a4dfecadbb558806e7a233",
+      "hp_doc_32cef6356edb9e830cac1245e4ff02dd3b8a44a69f5113160f33ecb49978dee3"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d7ee9d212e31f6256c9ff226aba0823f0aaaece840a4dfecadbb558806e7a233",
+        "title": "Goddard High School (New Mexico)",
+        "text": "Robert H. Goddard High School (Goddard High School, GHS) is a public senior high school in Roswell, New Mexico, United States. It is a part of the Roswell Independent School District. Established in 1965, the school is named after rocket pioneer Robert Hutchings Goddard. The colors of GHS are navy blue, Columbia blue and white, and the school mascot is the Rocket. Enrollment at the school currently stands at 1,213."
+      },
+      {
+        "id": "hp_doc_32cef6356edb9e830cac1245e4ff02dd3b8a44a69f5113160f33ecb49978dee3",
+        "title": "Robert H. Goddard",
+        "text": "Robert Hutchings Goddard (October 5, 1882 – August 10, 1945) was an American engineer, professor, physicist, and inventor who is credited with creating and building the world's first liquid-fueled rocket. Goddard successfully launched his model on March 16, 1926, ushering in an era of space flight and innovation. He and his team launched 34 rockets between 1926 and 1941, achieving altitudes as high as 2.6 km and speeds as fast as 885 km/h (550 mph)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Goddard High School (New Mexico)",
+        "document_id": "hp_doc_d7ee9d212e31f6256c9ff226aba0823f0aaaece840a4dfecadbb558806e7a233",
+        "sentence_id": 0
+      },
+      {
+        "title": "Goddard High School (New Mexico)",
+        "document_id": "hp_doc_d7ee9d212e31f6256c9ff226aba0823f0aaaece840a4dfecadbb558806e7a233",
+        "sentence_id": 2
+      },
+      {
+        "title": "Robert H. Goddard",
+        "document_id": "hp_doc_32cef6356edb9e830cac1245e4ff02dd3b8a44a69f5113160f33ecb49978dee3",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7641b35542992d0ec0606e",
+    "question": "Which actor in the upcoming movie \"The Underdog\" was born in 1993",
+    "answer": "Do Kyung-soo",
+    "original_answer": "D.O.",
+    "gold_answer": "Do Kyung-soo",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7641b35542992d0ec0606e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Underdog actor born 1993",
+        "returned_titles": [
+          "The Underdog (film)",
+          "Yoo Seung-ho",
+          "Ben Savage"
+        ]
+      },
+      {
+        "query": "Do Kyung-soo born 1993",
+        "returned_titles": [
+          "D.O. (entertainer)",
+          "The Underdog (film)",
+          "After the Banquet (film)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ff3c60ab2b0509aa119aa3cefe55b417344478c3c129cfee0a4e62fb85d380c3",
+      "hp_doc_12f19e113c9f04f03a97c3e691135f3d64788357e7db39e8a90800111fb3c8ac"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ff3c60ab2b0509aa119aa3cefe55b417344478c3c129cfee0a4e62fb85d380c3",
+        "title": "The Underdog (film)",
+        "text": "The Underdog (Hangul: 언더독 ; RR: \"eondeodog \"; lit. Underdog ) is an upcoming South Korean theatrical animated film about the story of abandoned dogs. The film is directed by Lee Chun-baek and Oh Sung-yoon and stars Do Kyung-soo, Park So-dam and Park Chul-min in the lead roles. It will be released in summer of 2017."
+      },
+      {
+        "id": "hp_doc_12f19e113c9f04f03a97c3e691135f3d64788357e7db39e8a90800111fb3c8ac",
+        "title": "D.O. (entertainer)",
+        "text": "Do Kyung-soo (born (1993--) 12, 1993 ), better known by his stage name D.O., is a South Korean singer and actor. He is best known as a member and one of the main vocalists of the South Korean-Chinese boy group EXO. Apart from his group's activities, D.O. has also starred in various television dramas and movies such as \"Pure Love\" (2016) and \"My Annoying Brother\" (2016)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Underdog (film)",
+        "document_id": "hp_doc_ff3c60ab2b0509aa119aa3cefe55b417344478c3c129cfee0a4e62fb85d380c3",
+        "sentence_id": 2
+      },
+      {
+        "title": "D.O. (entertainer)",
+        "document_id": "hp_doc_12f19e113c9f04f03a97c3e691135f3d64788357e7db39e8a90800111fb3c8ac",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a78abff5542990784727726",
+    "question": "Howdilly Doodilly is an album that features music themes based on a character from what TV show?",
+    "answer": "The Simpsons",
+    "original_answer": "The Simpsons",
+    "gold_answer": "The Simpsons",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a78abff5542990784727726.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Doodilly Doodilly",
+        "returned_titles": [
+          "Howdilly Doodilly"
+        ]
+      },
+      {
+        "query": "Ned Flanders TV show",
+        "returned_titles": [
+          "Okilly Dokilly",
+          "Howdilly Doodilly",
+          "Brawl in the Family (The Simpsons)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_914a4577a6bbb7d06d226c7f58d6a90674829bd4a8b1f34ece181892d7a9fc62",
+      "hp_doc_4c25fa0c7285fc3f53d8c82c0d6e181eaf700e16d4287f663741300335debf25"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_914a4577a6bbb7d06d226c7f58d6a90674829bd4a8b1f34ece181892d7a9fc62",
+        "title": "Howdilly Doodilly",
+        "text": "Howdilly Doodilly is the first studio album by Phoenix-based, Ned Flanders-themed metalcore band Okilly Dokilly, released on November 11, 2016. According to the band, the lyrics contain \"75% Ned quotes and 25% other characters/original.\" The album was recorded and mixed by Jalipaz Nelson at Audioconfusion in Mesa, Arizona in early 2016."
+      },
+      {
+        "id": "hp_doc_4c25fa0c7285fc3f53d8c82c0d6e181eaf700e16d4287f663741300335debf25",
+        "title": "Okilly Dokilly",
+        "text": "Okilly Dokilly is a metalcore band from Phoenix, Arizona that plays \"Nedal\" music; a subgenre of metal music themed around the animated character Ned Flanders from the television series \"The Simpsons\". All five of the band's members perform dressed as Flanders, and the majority of the lyrics to their songs are quotes of his. The band members go by the names Head Ned, Bled Ned, Red Ned, Thread Ned and Stead Ned. The unusual concept behind the group has resulted in worldwide attention. The lead singer, Head Ned, said that Nedal music is \"Not as fast as Bartcore, and a little cleaner than Krusty Punk”, references to hardcore punk and crust punk, respectively."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Howdilly Doodilly",
+        "document_id": "hp_doc_914a4577a6bbb7d06d226c7f58d6a90674829bd4a8b1f34ece181892d7a9fc62",
+        "sentence_id": 0
+      },
+      {
+        "title": "Okilly Dokilly",
+        "document_id": "hp_doc_4c25fa0c7285fc3f53d8c82c0d6e181eaf700e16d4287f663741300335debf25",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7c15195542997c3ec972df",
+    "question": "What is the address where the Peace Conference of 1861 was held?",
+    "answer": "1401 Pennsylvania Avenue NW",
+    "original_answer": "1401 Pennsylvania Avenue NW",
+    "gold_answer": "1401 Pennsylvania Avenue NW",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7c15195542997c3ec972df.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Peace Conference 1861",
+        "returned_titles": [
+          "Peace Conference of 1861",
+          "Paris Peace Conference, 1919",
+          "Annapolis Conference"
+        ]
+      },
+      {
+        "query": "Willard Hotel Washington DC",
+        "returned_titles": [
+          "Willard InterContinental Washington",
+          "Peace Conference of 1861",
+          "Asoka Bandarage"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c58e5c895da5bfc8d35c681ddcae631ae7b653b257f37d733fc5f183072e0bff",
+      "hp_doc_adf9e09b7dd346deffa131dcccc2afb3676fbc82c357141068a732a1dcd38c50"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c58e5c895da5bfc8d35c681ddcae631ae7b653b257f37d733fc5f183072e0bff",
+        "title": "Peace Conference of 1861",
+        "text": "The Peace Conference of 1861 was a meeting of 131 leading American politicians in February 1861, at the Willard's Hotel in Washington, DC, on the eve of the American Civil War. The success of President Abraham Lincoln and the Republican Party in the 1860 presidential elections led to a flurry of political activity. In much of the South, elections were held to select delegates to special conventions to consider secession from the Union. In Congress, efforts were made in both the House of Representatives and the Senate to reach compromise over the issues relating to slavery that were dividing the nation. The conference was the final effort by the individual states to resolve the crisis. With the seven states of the Cotton South already committed to secession, the emphasis to preserve the Union peacefully focused on the eight slaveholding states representing the Upper and Border South, with the states of Virginia and Kentucky playing key roles."
+      },
+      {
+        "id": "hp_doc_adf9e09b7dd346deffa131dcccc2afb3676fbc82c357141068a732a1dcd38c50",
+        "title": "Willard InterContinental Washington",
+        "text": "The Willard InterContinental Washington is a historic luxury Beaux-Arts hotel located at 1401 Pennsylvania Avenue NW in Washington, D.C. Among its facilities are numerous luxurious guest rooms, several restaurants, the famed Round Robin Bar, the Peacock Alley series of luxury shops, and voluminous function rooms. Owned by InterContinental Hotels & Resorts, it is two blocks east of the White House, and two blocks west of the Metro Center station of the Washington Metro."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Peace Conference of 1861",
+        "document_id": "hp_doc_c58e5c895da5bfc8d35c681ddcae631ae7b653b257f37d733fc5f183072e0bff",
+        "sentence_id": 0
+      },
+      {
+        "title": "Willard InterContinental Washington",
+        "document_id": "hp_doc_adf9e09b7dd346deffa131dcccc2afb3676fbc82c357141068a732a1dcd38c50",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7dbabc5542990b8f503a4a",
+    "question": "The American dancer, actor, singer, film director, producer, and choreographer, starred in The Young Girls of Rochefort with which other actress?",
+    "answer": "Catherine Deneuve",
+    "original_answer": "Catherine Deneuve",
+    "gold_answer": "Catherine Deneuve",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7dbabc5542990b8f503a4a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Young Girls Rochefort dancer",
+        "returned_titles": [
+          "The Young Girls of Rochefort",
+          "The Young Girls Turn 25",
+          "Jean Barthet"
+        ]
+      },
+      {
+        "query": "Gene Kelly Catherine Deneuve",
+        "returned_titles": [
+          "The Young Girls of Rochefort",
+          "Gene Kelly",
+          "Françoise Dorléac"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_516aa65cc8eeb86f630de963029f43e78e57a8aa41a211daa6897ab9db135fcc",
+      "hp_doc_cf9769554d0931cd9aa850ccaade93714550eff89c23c8b05b359676cda4b00a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_516aa65cc8eeb86f630de963029f43e78e57a8aa41a211daa6897ab9db135fcc",
+        "title": "The Young Girls of Rochefort",
+        "text": "The Young Girls of Rochefort (French: Les Demoiselles de Rochefort ; literally \"The Young Ladies of Rochefort\") is a 1967 French musical film written and directed by Jacques Demy, starring Gene Kelly, Catherine Deneuve and Françoise Dorléac. It also starred Jacques Perrin, Michel Piccoli, Danielle Darrieux, George Chakiris and Grover Dale. The choreography was by Norman Maen."
+      },
+      {
+        "id": "hp_doc_cf9769554d0931cd9aa850ccaade93714550eff89c23c8b05b359676cda4b00a",
+        "title": "Gene Kelly",
+        "text": "Eugene Curran Kelly (August 23, 1912 – February 2, 1996) was an American dancer, actor of film, stage and television, singer, film director, producer, and choreographer. He was known for his energetic and athletic dancing style, his good looks, and the likeable characters that he played on screen."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Young Girls of Rochefort",
+        "document_id": "hp_doc_516aa65cc8eeb86f630de963029f43e78e57a8aa41a211daa6897ab9db135fcc",
+        "sentence_id": 0
+      },
+      {
+        "title": "Gene Kelly",
+        "document_id": "hp_doc_cf9769554d0931cd9aa850ccaade93714550eff89c23c8b05b359676cda4b00a",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7dcd525542990b8f503aba",
+    "question": "An animal carcass tha twashed ashore on a beach under the Brooklyn Bridge has been compared to another animal carcass that washed ashore on a beach near Montauk, New York, in what year?",
+    "answer": "2008",
+    "original_answer": "2008",
+    "gold_answer": "2008",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7dcd525542990b8f503aba.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Brooklyn Bridge animal carcass",
+        "returned_titles": [
+          "East River Monster",
+          "Brooklyn Bridge",
+          "Montauk Monster"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_5671f2bd40adfab7ae547b48845066805e06ce7aa995fa4ac280cc8d7fd8d485",
+      "hp_doc_df99306068806e9b86ba331f42506518e79b13ab6879e3c311315e6f1c49554c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_5671f2bd40adfab7ae547b48845066805e06ce7aa995fa4ac280cc8d7fd8d485",
+        "title": "East River Monster",
+        "text": "The \"East River Monster\" was an animal carcass that washed ashore on a beach under the Brooklyn Bridge in New York City, New York. It was photographed by Denise Ginley on July 22, 2012. The creature has been compared to the Montauk Monster discovered four years earlier. The NYC Parks Department said that it was a discarded cooked pig, but Ginley says \"the feet are not pig-like at all,\" and that there were \"No hooves or cloven feet to be seen — it definitely had five toes on all its paws, front and back.\" Paul Curtis, a naturalist professor at Cornell University, identified the animal as a small dog after examining the photos."
+      },
+      {
+        "id": "hp_doc_df99306068806e9b86ba331f42506518e79b13ab6879e3c311315e6f1c49554c",
+        "title": "Montauk Monster",
+        "text": "The \"Montauk Monster\" was an animal carcass, thought to be a raccoon, that washed ashore on a beach near the business district of Montauk, New York in July 2008. The identity of the creature and the veracity of stories surrounding it have been the subject of controversy and speculation. It is not known what happened to the carcass; it was said to have mysteriously disappeared."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "East River Monster",
+        "document_id": "hp_doc_5671f2bd40adfab7ae547b48845066805e06ce7aa995fa4ac280cc8d7fd8d485",
+        "sentence_id": 0
+      },
+      {
+        "title": "East River Monster",
+        "document_id": "hp_doc_5671f2bd40adfab7ae547b48845066805e06ce7aa995fa4ac280cc8d7fd8d485",
+        "sentence_id": 2
+      },
+      {
+        "title": "Montauk Monster",
+        "document_id": "hp_doc_df99306068806e9b86ba331f42506518e79b13ab6879e3c311315e6f1c49554c",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7ddfd45542997cc2c474b6",
+    "question": "What field did the creator of the Plum pudding atomic model win a Nobel prize?",
+    "answer": "Physics",
+    "original_answer": "Physics",
+    "gold_answer": "physics",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7ddfd45542997cc2c474b6.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Plum pudding model Nobel Prize",
+        "returned_titles": [
+          "Plum pudding model",
+          "Nobel Prize in Literature",
+          "Thomson problem"
+        ]
+      },
+      {
+        "query": "J J Thomson Nobel Prize",
+        "returned_titles": [
+          "J. J. Thomson",
+          "Thomson problem",
+          "Nobel Prize in Literature"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_14d238daaaf2c302179bf37198f610c176036bf5831c82546e220de2b996bfd4",
+      "hp_doc_c665b2a0df9373f935eef2787d7403bdb9802a8fea0a96c4f168b4898ed58ccc"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_14d238daaaf2c302179bf37198f610c176036bf5831c82546e220de2b996bfd4",
+        "title": "Plum pudding model",
+        "text": "The plum pudding model is one of several scientific models of the atom. First proposed by J. J. Thomson in 1904 soon after the discovery of the electron, but before the discovery of the atomic nucleus, the model represented an attempt to consolidate the known properties of atoms at the time: 1) electrons are negatively-charged particles and 2) atoms are neutrally-charged."
+      },
+      {
+        "id": "hp_doc_c665b2a0df9373f935eef2787d7403bdb9802a8fea0a96c4f168b4898ed58ccc",
+        "title": "J. J. Thomson",
+        "text": "Sir Joseph John Thomson {'1': \", '2': \", '3': \", '4': \"} ( ; 18 December 1856 – 30 August 1940) was an English physicist and Nobel laureate in physics, credited with the discovery and identification of the electron; and with the discovery of the first subatomic particle."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Plum pudding model",
+        "document_id": "hp_doc_14d238daaaf2c302179bf37198f610c176036bf5831c82546e220de2b996bfd4",
+        "sentence_id": 1
+      },
+      {
+        "title": "J. J. Thomson",
+        "document_id": "hp_doc_c665b2a0df9373f935eef2787d7403bdb9802a8fea0a96c4f168b4898ed58ccc",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a80d5a555429938b6142205",
+    "question": "The American actor Logan Lerman appeared in this film directed by David Ayer that portrays which world event?",
+    "answer": "World War II",
+    "original_answer": "World War II",
+    "gold_answer": "World War II",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a80d5a555429938b6142205.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Logan Lerman David Ayer",
+        "returned_titles": [
+          "Fury (2014 film)",
+          "Logan Lerman",
+          "Sidney Hall (film)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d386e1b2f89629cc7eec58eb70ea4b061af6c91742120b7b2e51c4e7a3e3fa11",
+      "hp_doc_8ae9a384064d55c9eb14665ca19d3cface1d70b417b7cf9006eecbb8b7cfe576"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d386e1b2f89629cc7eec58eb70ea4b061af6c91742120b7b2e51c4e7a3e3fa11",
+        "title": "Logan Lerman",
+        "text": "Logan Wade Lerman (born January 19, 1992) is an American actor, known for playing the title role in the fantasy-adventure \"Percy Jackson\" films. He appeared in commercials in the mid-1990s, before starring in the series \"Jack & Bobby\" (2004–2005) and the movies \"The Butterfly Effect\" (2004) and \"Hoot\" (2006). Lerman gained further recognition for his roles in the western \"\", the thriller \"The Number 23\", the comedy \"Meet Bill\", and 2009's \"Gamer\" and \"My One and Only\". He subsequently played d'Artagnan in 2011's \"The Three Musketeers\", starred in the coming-of-age dramas \"The Perks of Being a Wallflower\" (2012), \"Indignation\" (2016) and \"Sidney Hall\" (2017), and had major roles in the 2014 films \"Noah\" and \"Fury\"."
+      },
+      {
+        "id": "hp_doc_8ae9a384064d55c9eb14665ca19d3cface1d70b417b7cf9006eecbb8b7cfe576",
+        "title": "Fury (2014 film)",
+        "text": "Fury is a 2014 American war film written and directed by David Ayer, and stars Brad Pitt, Shia LaBeouf, Logan Lerman, Michael Peña, Jon Bernthal and Jason Isaacs. The film portrays US tank crews in Nazi Germany during the final days of World War II. Ayer was influenced by the service of veterans in his family and by reading books, such as Belton Y. Cooper's \"Death Traps\", about American armored units in World War II and the high casualty rates suffered by tank crews in Europe."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Logan Lerman",
+        "document_id": "hp_doc_d386e1b2f89629cc7eec58eb70ea4b061af6c91742120b7b2e51c4e7a3e3fa11",
+        "sentence_id": 0
+      },
+      {
+        "title": "Logan Lerman",
+        "document_id": "hp_doc_d386e1b2f89629cc7eec58eb70ea4b061af6c91742120b7b2e51c4e7a3e3fa11",
+        "sentence_id": 3
+      },
+      {
+        "title": "Fury (2014 film)",
+        "document_id": "hp_doc_8ae9a384064d55c9eb14665ca19d3cface1d70b417b7cf9006eecbb8b7cfe576",
+        "sentence_id": 0
+      },
+      {
+        "title": "Fury (2014 film)",
+        "document_id": "hp_doc_8ae9a384064d55c9eb14665ca19d3cface1d70b417b7cf9006eecbb8b7cfe576",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a80db8b55429938b614221a",
+    "question": "Shane and Friends is an American audio podcast created by an American YouTube personality who  uses his second YouTube channel to post mostly what?",
+    "answer": "comedic vlogs",
+    "original_answer": "comedy",
+    "gold_answer": "comedic vlogs",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a80db8b55429938b614221a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Shane and Friends",
+        "returned_titles": [
+          "Shane and Friends",
+          "Eugenia Cooney",
+          "Shane Dawson"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4d4e607971b662be428b9652d9d27a63f0bf200a846423a0c268e597a72aee65",
+      "hp_doc_125cdca341062ae86b0331a731f8ffc142a1ca93be2c3d9dc5a055c0be08e4bf"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4d4e607971b662be428b9652d9d27a63f0bf200a846423a0c268e597a72aee65",
+        "title": "Shane and Friends",
+        "text": "Shane and Friends is an American audio podcast created by YouTuber Shane Dawson, starring him and his friend Jessie Buttafuoco (originally his producer, Lauren Schnipper) and Drew Monson. The podcast premiered on June 5, 2013 on SoundCloud and iTunes. The show focuses on Dawson and co-host Jessie Buttafuoco discussing events happening in popular culture, their personal lives, and those of other celebrities. They also interview various celebrities such as Jennette McCurdy, Jamie Kennedy, Eugenia Cooney, Joey Graceffa, CupcakKe, Aislinn Paul, Chris Crocker, Dita von Teese, and Farrah Abraham."
+      },
+      {
+        "id": "hp_doc_125cdca341062ae86b0331a731f8ffc142a1ca93be2c3d9dc5a055c0be08e4bf",
+        "title": "Shane Dawson",
+        "text": "Shane Lee Dawson (née Yaw; born July 19, 1988) is an American YouTube personality, actor, author, sketch comedian, singer, songwriter and film director. Dawson was known for making comedy videos featuring recurring original characters he has created (such as Shananay, Ned the Nerd, S. Deezy, Mom, Aunt Hilda, Fruitlupe and Amy), celebrity impersonations (such as Paris Hilton, Miley Cyrus, Sarah Palin, Michael Jackson, Justin Bieber), and spoofs of popular music videos and television shows. Most of his major productions were done with the help of producer Lauren Schnipper. As of 2017, Dawson predominantly uses his second YouTube channel, \"shane\", posting mostly comedic vlogs."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Shane and Friends",
+        "document_id": "hp_doc_4d4e607971b662be428b9652d9d27a63f0bf200a846423a0c268e597a72aee65",
+        "sentence_id": 0
+      },
+      {
+        "title": "Shane Dawson",
+        "document_id": "hp_doc_125cdca341062ae86b0331a731f8ffc142a1ca93be2c3d9dc5a055c0be08e4bf",
+        "sentence_id": 0
+      },
+      {
+        "title": "Shane Dawson",
+        "document_id": "hp_doc_125cdca341062ae86b0331a731f8ffc142a1ca93be2c3d9dc5a055c0be08e4bf",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a825f5755429940e5e1a88f",
+    "question": " Sigur Rós' EP consists of the songs the group composed for an American dancer and choreographer who was at the forefront of the American modern dance for more than how many years?",
+    "answer": "50",
+    "original_answer": "50",
+    "gold_answer": "50",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a825f5755429940e5e1a88f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Sigur Ros EP",
+        "returned_titles": [
+          "Ba Ba Ti Ki Di Do",
+          "Sigur Rós discography",
+          "Kjartan Sveinsson"
+        ]
+      },
+      {
+        "query": "Merce Cunningham dance",
+        "returned_titles": [
+          "Merce Cunningham",
+          "Graham technique",
+          "Ba Ba Ti Ki Di Do"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4c18876ed1c706ec6cea5434e32e917093a777a7946d74476d615279c661e249",
+      "hp_doc_7a9f085e36b1e78306f1a563cd7a2852d43f34fb2628deb3c00ae6adc2b98ddd"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4c18876ed1c706ec6cea5434e32e917093a777a7946d74476d615279c661e249",
+        "title": "Ba Ba Ti Ki Di Do",
+        "text": "Ba Ba Ti Ki Di Do is an EP by Sigur Rós, released in 2004 by Geffen Records. The EP consists of the songs the group composed for Merce Cunningham's dance piece \"Split Sides\", which also involved Radiohead."
+      },
+      {
+        "id": "hp_doc_7a9f085e36b1e78306f1a563cd7a2852d43f34fb2628deb3c00ae6adc2b98ddd",
+        "title": "Merce Cunningham",
+        "text": "Mercier Philip \"Merce\" Cunningham (April 16, 1919 – July 26, 2009) was an American dancer and choreographer who was at the forefront of the American modern dance for more than 50 years. He is also notable for his frequent collaborations with artists of other disciplines, including musicians John Cage and David Tudor, and artists Robert Rauschenberg and Bruce Nauman. Works that he produced with these artists had a profound impact on avant-garde art beyond the world of dance."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Ba Ba Ti Ki Di Do",
+        "document_id": "hp_doc_4c18876ed1c706ec6cea5434e32e917093a777a7946d74476d615279c661e249",
+        "sentence_id": 0
+      },
+      {
+        "title": "Ba Ba Ti Ki Di Do",
+        "document_id": "hp_doc_4c18876ed1c706ec6cea5434e32e917093a777a7946d74476d615279c661e249",
+        "sentence_id": 1
+      },
+      {
+        "title": "Merce Cunningham",
+        "document_id": "hp_doc_7a9f085e36b1e78306f1a563cd7a2852d43f34fb2628deb3c00ae6adc2b98ddd",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a83398a55429966c78a6b50",
+    "question": "Henry Patrick \"Hank\" Egan Jr., is a professional basketball coach in the National Basketball Association, he has also been an assistant with the San Antonio Spurs, to which American basketball coach who is currently the head coach of the San Antonio Spurs?",
+    "answer": "Gregg Charles Popovich",
+    "original_answer": "Gregg Popovich",
+    "gold_answer": "Gregg Charles Popovich",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a83398a55429966c78a6b50.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "San Antonio Spurs Hank Egan Jr",
+        "returned_titles": [
+          "Hank Egan",
+          "Spurs Sports &amp; Entertainment",
+          "Big Three (San Antonio Spurs)"
+        ]
+      },
+      {
+        "query": "Gregg Popovich coach Spurs",
+        "returned_titles": [
+          "Gregg Popovich",
+          "Hank Egan",
+          "Dennis Felton"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_b43d0d5ac0fef0a93a41473c4280c13ea64d066614ecee95fd5188515c6b9f72",
+      "hp_doc_ca80888f91e3a6ef2805b98eadca50370198d0532d12484e56fe9e6d42ae10e2"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_b43d0d5ac0fef0a93a41473c4280c13ea64d066614ecee95fd5188515c6b9f72",
+        "title": "Hank Egan",
+        "text": "Henry Patrick \"Hank\" Egan Jr. (born August 17, 1937) is a professional basketball coach in the National Basketball Association. He has most recently served as an assistant coach for the Cleveland Cavaliers (to Mike Brown). He has also been an assistant with the Golden State Warriors (to Eric Musselman) and San Antonio Spurs (to Gregg Popovich)."
+      },
+      {
+        "id": "hp_doc_ca80888f91e3a6ef2805b98eadca50370198d0532d12484e56fe9e6d42ae10e2",
+        "title": "Gregg Popovich",
+        "text": "Gregg Charles Popovich (born January 28, 1949) is an American basketball coach who is currently the head coach of the San Antonio Spurs of the National Basketball Association (NBA). Taking over as coach of the Spurs in 1996, Popovich is the longest tenured active coach in both the NBA and all US major sports leagues. He is often referred to as \"Coach Pop\" or simply \"Pop.\""
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Hank Egan",
+        "document_id": "hp_doc_b43d0d5ac0fef0a93a41473c4280c13ea64d066614ecee95fd5188515c6b9f72",
+        "sentence_id": 2
+      },
+      {
+        "title": "Gregg Popovich",
+        "document_id": "hp_doc_ca80888f91e3a6ef2805b98eadca50370198d0532d12484e56fe9e6d42ae10e2",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a84a67e5542997b5ce3fefc",
+    "question": "What is the name of the cognac house that makes the main ingredient in The Hennchata?",
+    "answer": "Jas Hennessy & Co.",
+    "original_answer": "Hennessy",
+    "gold_answer": "Jas Hennessy & Co.",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a84a67e5542997b5ce3fefc.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hennchata cognac house",
+        "returned_titles": [
+          "Hennchata",
+          "Otard",
+          "Hennessy"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_50a556d6f77b6a3874c348da6d89c7d97b881dffb96f757d7db7b9cdb48c5e56",
+      "hp_doc_35c6d69d97c972d1f329ca6053d68df6b8328f42411bbc7d3506ef0ae2d40fd4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_50a556d6f77b6a3874c348da6d89c7d97b881dffb96f757d7db7b9cdb48c5e56",
+        "title": "Hennchata",
+        "text": "The Hennchata is a cocktail consisting of Hennessy cognac and Mexican rice horchata agua fresca. It was invented by a restaurant owner in San Jose, California."
+      },
+      {
+        "id": "hp_doc_35c6d69d97c972d1f329ca6053d68df6b8328f42411bbc7d3506ef0ae2d40fd4",
+        "title": "Hennessy",
+        "text": "Jas Hennessy & Co., or more simply Hennessy, is a cognac house with headquarters in Cognac, France. Jas Hennessy & Co. sells about 50 million bottles a year worldwide, or more than 40 percent of the world’s cognac, making it the world's largest cognac producer. It is owned by Moët Hennessy, which is in turn owned by LVMH (66%) and Diageo (34%)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Hennchata",
+        "document_id": "hp_doc_50a556d6f77b6a3874c348da6d89c7d97b881dffb96f757d7db7b9cdb48c5e56",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hennessy",
+        "document_id": "hp_doc_35c6d69d97c972d1f329ca6053d68df6b8328f42411bbc7d3506ef0ae2d40fd4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8877b6554299206df2b297",
+    "question": "Invincible is based on the story of which Philadelphia Eagles player?",
+    "answer": "Vincent Papale",
+    "original_answer": "Vincent Papale",
+    "gold_answer": "Vincent Papale",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8877b6554299206df2b297.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Invincible Eagles Philadelphia",
+        "returned_titles": [
+          "Invincible (2006 film)",
+          "Vince Papale",
+          "List of Philadelphia Eagles head coaches"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 1,
+    "proposed_citation_ids": [
+      "hp_doc_7043b2cd7b88e41dcb63646e8b84800953ad630ec648d6be6d0a4e621a32a105",
+      "hp_doc_466f40708e049ce4853c8306288b469b4f149b1df9f83e1439b28a829e3b882a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_7043b2cd7b88e41dcb63646e8b84800953ad630ec648d6be6d0a4e621a32a105",
+        "title": "Invincible (2006 film)",
+        "text": "Invincible is a 2006 American sports drama film directed by Ericson Core. It is based on the true story of Vince Papale (Mark Wahlberg), who played for the Philadelphia Eagles from 1976 to 1978 with the help of his coach, Dick Vermeil (Greg Kinnear). The film was released in the United States on August 25, 2006."
+      },
+      {
+        "id": "hp_doc_466f40708e049ce4853c8306288b469b4f149b1df9f83e1439b28a829e3b882a",
+        "title": "Vince Papale",
+        "text": "Vincent Papale (born February 9, 1946 in Chester, Pennsylvania) is a former professional American football player. He played three seasons with the Philadelphia Eagles of the National Football League following two seasons with the Philadelphia Bell of the World Football League. Papale was the inspiration for the 2006 movie \"Invincible\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Invincible (2006 film)",
+        "document_id": "hp_doc_7043b2cd7b88e41dcb63646e8b84800953ad630ec648d6be6d0a4e621a32a105",
+        "sentence_id": 1
+      },
+      {
+        "title": "Vince Papale",
+        "document_id": "hp_doc_466f40708e049ce4853c8306288b469b4f149b1df9f83e1439b28a829e3b882a",
+        "sentence_id": 0
+      },
+      {
+        "title": "Vince Papale",
+        "document_id": "hp_doc_466f40708e049ce4853c8306288b469b4f149b1df9f83e1439b28a829e3b882a",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8a409c55429930ff3c0d27",
+    "question": "What country is The Electoral district of Ivanhoe in?",
+    "answer": "Australia",
+    "original_answer": "Victoria",
+    "gold_answer": "Australia",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8a409c55429930ff3c0d27.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Ivanhoe electoral district",
+        "returned_titles": [
+          "Electoral district of Ivanhoe",
+          "Electoral results for the district of Ivanhoe",
+          "Electoral district of Ivanhoe (Western Australia)"
+        ]
+      },
+      {
+        "query": "Melbourne suburbs Ivanhoe",
+        "returned_titles": [
+          "Electoral district of Ivanhoe",
+          "Ivanhoe, Victoria",
+          "Western Highway (Victoria)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_cce5a053a012c4d72e006b0646cb1be8dc0d88d0e4e28829bdc4b9229826f0b0",
+      "hp_doc_d1dac4c353a07010b32b844937904499bef5e52e8acf888a892aa2be014088d9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_cce5a053a012c4d72e006b0646cb1be8dc0d88d0e4e28829bdc4b9229826f0b0",
+        "title": "Electoral district of Ivanhoe",
+        "text": "The Electoral district of Ivanhoe is an electoral district of the Victorian Legislative Assembly. It is located in the north-eastern suburbs of Melbourne and includes the suburbs of Heidelberg, Ivanhoe, Rosanna and Macleod."
+      },
+      {
+        "id": "hp_doc_d1dac4c353a07010b32b844937904499bef5e52e8acf888a892aa2be014088d9",
+        "title": "Ivanhoe, Victoria",
+        "text": "Ivanhoe is a suburb of Melbourne, Victoria, Australia, 10 km north-east of Melbourne's Central Business District. Its local government area is the City of Banyule. At the 2016 Census, Ivanhoe had a population of 12,171."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Electoral district of Ivanhoe",
+        "document_id": "hp_doc_cce5a053a012c4d72e006b0646cb1be8dc0d88d0e4e28829bdc4b9229826f0b0",
+        "sentence_id": 1
+      },
+      {
+        "title": "Ivanhoe, Victoria",
+        "document_id": "hp_doc_d1dac4c353a07010b32b844937904499bef5e52e8acf888a892aa2be014088d9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8b59b255429950cd6afcc6",
+    "question": "What  is the debut and only studio album of American actor Brian Green that was produced by an American alternative hip hop group, formed in 1989, from South Central Los Angeles ?",
+    "answer": "One Stop Carnival",
+    "original_answer": "Bizarre Ride II the Pharcyde",
+    "gold_answer": "One Stop Carnival",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8b59b255429950cd6afcc6.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Brian Green debut album",
+        "returned_titles": [
+          "One Stop Carnival",
+          "Brian McComas (album)",
+          "RDGLDGRN"
+        ]
+      },
+      {
+        "query": "Pharcyde formed",
+        "returned_titles": [
+          "The Pharcyde",
+          "Bizarre Ride II the Pharcyde",
+          "One Stop Carnival"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_3f39d45165ebd1188256ce0bc72ee0c36f262146534b73a1c40b63c933dc94ea",
+      "hp_doc_35743ef9fc86d3a259c263987291c09701a27abf03b277fe5f06fef4862e4ea9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_3f39d45165ebd1188256ce0bc72ee0c36f262146534b73a1c40b63c933dc94ea",
+        "title": "One Stop Carnival",
+        "text": "One Stop Carnival is the debut and only studio album of American actor Brian Green. Released in 1996, it is Green's only album. The album was produced by The Pharcyde member Slimkid3. Allmusic reviewer Jason Ankeny called the album \"pallid, uninspired, and insufferably arrogant, with no acknowledgement that its very existence rests solely on Green's limited success as a secondary actor on a fading prime-time drama.\""
+      },
+      {
+        "id": "hp_doc_35743ef9fc86d3a259c263987291c09701a27abf03b277fe5f06fef4862e4ea9",
+        "title": "The Pharcyde",
+        "text": "The Pharcyde ( ) is an American alternative hip hop group, formed in 1989, from South Central Los Angeles. The original four members of the group are Imani (Emandu Wilcox), Slimkid3 (Trevant Hardson), Bootie Brown (Romye Robinson), and Fatlip (Derrick Stewart). DJ Mark Luv was the group's first disc jockey (DJ), followed by producer J-Swift and then J Dilla. The group is perhaps best known for the hit singles \"Drop\", \"Passin' Me By\" and \"Runnin'\", as well as their first album, \"Bizarre Ride II the Pharcyde\" (1992). The group continues to tour and record, both collaboratively and in solo projects—the most recent being Hardson's collaborative EP with the award-winning DJ Nu-Mark (of Jurassic 5) released in 2014 on Delicious Vinyl."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "One Stop Carnival",
+        "document_id": "hp_doc_3f39d45165ebd1188256ce0bc72ee0c36f262146534b73a1c40b63c933dc94ea",
+        "sentence_id": 0
+      },
+      {
+        "title": "The Pharcyde",
+        "document_id": "hp_doc_35743ef9fc86d3a259c263987291c09701a27abf03b277fe5f06fef4862e4ea9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8d9da5554299068b959d61",
+    "question": "What person does Wormholes in fiction and Nathan Rosen have in common?",
+    "answer": "Einstein",
+    "original_answer": "Nathan Rosen",
+    "gold_answer": "Einstein",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8d9da5554299068b959d61.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Wormholes fiction Nathan Rosen",
+        "returned_titles": [
+          "Wormholes in fiction",
+          "Nathan Rosen",
+          "Einstein–Rosen metric"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f42862adf0534c61e608081b90f69d7bd646267639b53487942970e394f10154",
+      "hp_doc_419950d013e313109e7266b6b9f9dc95c2c9e1010896ffad272dd11c9de6efd4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f42862adf0534c61e608081b90f69d7bd646267639b53487942970e394f10154",
+        "title": "Wormholes in fiction",
+        "text": "An Einstein–Rosen bridge, or wormhole, is a postulated method, within the general theory of relativity, of moving from one point in space to another without crossing the space between. Wormholes are a popular feature of science fiction as they allow faster-than-light (FTL) interstellar travel within human timescales."
+      },
+      {
+        "id": "hp_doc_419950d013e313109e7266b6b9f9dc95c2c9e1010896ffad272dd11c9de6efd4",
+        "title": "Nathan Rosen",
+        "text": "Nathan Rosen (Hebrew: נתן רוזן; March 22, 1909 – December 18, 1995) was an American-Israeli physicist noted for his study on the structure of the hydrogen atom and his work with Albert Einstein and Boris Podolsky on entangled wave functions and the EPR paradox. The Einstein–Rosen bridge, later named the wormhole, was a theory of Nathan Rosen."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Wormholes in fiction",
+        "document_id": "hp_doc_f42862adf0534c61e608081b90f69d7bd646267639b53487942970e394f10154",
+        "sentence_id": 0
+      },
+      {
+        "title": "Nathan Rosen",
+        "document_id": "hp_doc_419950d013e313109e7266b6b9f9dc95c2c9e1010896ffad272dd11c9de6efd4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8e205c554299068b959e66",
+    "question": "Who was a populist politician and the effective ruler of Athens when Admetus was King of the Molossians?",
+    "answer": "Themistocles",
+    "original_answer": "Themistocles",
+    "gold_answer": "Themistocles",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8e205c554299068b959e66.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Admetus Molossian",
+        "returned_titles": [
+          "Admetus of Epirus"
+        ]
+      },
+      {
+        "query": "Themistocles Athens",
+        "returned_titles": [
+          "Admetus of Epirus",
+          "Themistocles",
+          "The B-52's"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f2c4798fc77f06437b5466a44432fce1b9b5a9e40cf170ea71f31d03d2653840",
+      "hp_doc_7d60f2f15530171926691937dd7248cb5403a02d7a4d83ba0823ca4f4664b2fc"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f2c4798fc77f06437b5466a44432fce1b9b5a9e40cf170ea71f31d03d2653840",
+        "title": "Admetus of Epirus",
+        "text": "Admetus (Greek: Αδμητος ) (before 470-430 BC) was a Greek king of the Molossians at the time that Themistocles (524–459 BC) was the effective ruler of Athens. When Themistocles was in control of Athens, Admetus had opposed him, but without any rancour."
+      },
+      {
+        "id": "hp_doc_7d60f2f15530171926691937dd7248cb5403a02d7a4d83ba0823ca4f4664b2fc",
+        "title": "Themistocles",
+        "text": "Themistocles ( ; Greek: Θεμιστοκλῆς \"Themistoklẽs\"; \"Glory of the Law\"; c. 524–459 BC) was an Athenian politician and general. He was one of a new breed of non-aristocratic politicians who rose to prominence in the early years of the Athenian democracy. As a politician, Themistocles was a populist, having the support of lower-class Athenians, and generally being at odds with the Athenian nobility. Elected archon in 493 BC, he convinced the polis to increase the naval power of Athens, a recurring theme in his political career. During the first Persian invasion of Greece he fought at the Battle of Marathon (490 BC) and was possibly one of the ten Athenian \"strategoi\" (generals) in that battle."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Admetus of Epirus",
+        "document_id": "hp_doc_f2c4798fc77f06437b5466a44432fce1b9b5a9e40cf170ea71f31d03d2653840",
+        "sentence_id": 0
+      },
+      {
+        "title": "Themistocles",
+        "document_id": "hp_doc_7d60f2f15530171926691937dd7248cb5403a02d7a4d83ba0823ca4f4664b2fc",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8fa8ce5542992414482b28",
+    "question": "Wolf Laurel, North Carolina is a private gated community that borders a large National Forest managed by the U.S. Forest Service and encompasses how many acre?",
+    "answer": "655598",
+    "original_answer": "655598",
+    "gold_answer": "655598",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8fa8ce5542992414482b28.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Wolf Laurel NC National Forest",
+        "returned_titles": [
+          "Wolf Laurel, North Carolina",
+          "Pryor Mountains National Forest",
+          "Cherokee National Forest"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f588e495393c51f6621324f8105f7250b669041ac7d406b21c027f9ef03fdb91",
+      "hp_doc_cca4fa41fcd75e8dbc964f0dc55a63fb07f14e9379c6d5b339f4d2ddd7ac36a5"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f588e495393c51f6621324f8105f7250b669041ac7d406b21c027f9ef03fdb91",
+        "title": "Wolf Laurel, North Carolina",
+        "text": "Wolf Laurel, North Carolina, is an unincorporated, private gated community, located in Madison and Yancey Counties of Western North Carolina. The unincorporated community is located approximately 30 miles north of Asheville, North Carolina, 6 miles from interstate 26 and borders the Cherokee National Forest, Tennessee state line and Appalachian Trail. It is named after Wolf Laurel Branch, which flows into Puncheon Fork after leaving the community upstream."
+      },
+      {
+        "id": "hp_doc_cca4fa41fcd75e8dbc964f0dc55a63fb07f14e9379c6d5b339f4d2ddd7ac36a5",
+        "title": "Cherokee National Forest",
+        "text": "The Cherokee National Forest is a large National Forest created on June 14, 1920 and managed by the U.S. Forest Service and encompassing some 655598 acre ."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Wolf Laurel, North Carolina",
+        "document_id": "hp_doc_f588e495393c51f6621324f8105f7250b669041ac7d406b21c027f9ef03fdb91",
+        "sentence_id": 0
+      },
+      {
+        "title": "Wolf Laurel, North Carolina",
+        "document_id": "hp_doc_f588e495393c51f6621324f8105f7250b669041ac7d406b21c027f9ef03fdb91",
+        "sentence_id": 1
+      },
+      {
+        "title": "Cherokee National Forest",
+        "document_id": "hp_doc_cca4fa41fcd75e8dbc964f0dc55a63fb07f14e9379c6d5b339f4d2ddd7ac36a5",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  }
+]

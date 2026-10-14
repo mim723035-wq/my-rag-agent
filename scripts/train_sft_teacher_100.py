@@ -1,4 +1,4 @@
-"""Fresh-base LoRA training on the frozen 100-trajectory dataset.
+"""Fresh-base LoRA training on a frozen, validated trajectory dataset.
 
 Sparse vocabulary projection computes exactly the supervised next-token loss;
 full sequence attention is retained. --smoke-longest checks loss equivalence
@@ -17,7 +17,7 @@ from uuid import uuid4
 
 import torch
 from torch.nn import functional as F
-from peft import LoraConfig, TaskType, get_peft_model
+from peft import LoraConfig, TaskType, get_peft_model, PeftModel, get_peft_model_state_dict
 from transformers import AutoModelForCausalLM
 from tqdm import tqdm
 
@@ -43,39 +43,66 @@ def supervised_loss(model,batch):
 def main():
  parser=argparse.ArgumentParser()
  parser.add_argument("--epochs",type=int,default=1)
+ parser.add_argument("--data-dir",type=Path,default=DATA)
+ parser.add_argument("--init-adapter",type=Path,default=None)
  parser.add_argument("--smoke-longest",action="store_true")
  args=parser.parse_args()
+ data=args.data_dir.resolve()
  if args.epochs<1:parser.error("epochs must be positive")
- report=read(DATA/"validation_report.json");manifest=read(DATA/"manifest.json")
+ report=read(data/"validation_report.json");manifest=read(data/"manifest.json")
  if report["status"]!="PASS" or report.get("token_mask")!="PASS":raise ValueError("Dataset validation incomplete")
- if sha(DATA/"train.jsonl")!=manifest["train_sha256"] or sha(DATA/"tokenized.jsonl")!=report["tokenized_sha256"]:
+ if sha(data/"train.jsonl")!=manifest["train_sha256"] or sha(data/"tokenized.jsonl")!=report["tokenized_sha256"]:
   raise ValueError("Frozen dataset changed; revalidate before training")
- rows=[json.loads(s) for s in (DATA/"tokenized.jsonl").read_text(encoding="utf-8").splitlines() if s.strip()]
+ rows=[json.loads(s) for s in (data/"tokenized.jsonl").read_text(encoding="utf-8").splitlines() if s.strip()]
  config=read(ROOT/"configs/model.json")
- if len(rows)!=280 or len({r["metadata"]["question_id"] for r in rows})!=100:raise ValueError("Unexpected dataset")
+ parent=None;parent_hash=None
+ if args.init_adapter is not None:
+  parent=args.init_adapter.resolve()
+  parent_config=read(parent.parent/"training_config.json")
+  if parent_config["model"]!=config:raise ValueError("Parent base revision/config mismatch")
+  for key,value in {"lora_r":8,"lora_alpha":16,"lora_dropout":0.,"target_modules":["q_proj","v_proj"]}.items():
+   if parent_config[key]!=value:raise ValueError(("Parent LoRA configuration mismatch",key))
+  parent_hash=sha(parent/"adapter_model.safetensors")
+ trajectories=manifest["trajectory_count"]
+ if len(rows)!=report["supervised_action_count"] or len({r["metadata"]["question_id"] for r in rows})!=trajectories:raise ValueError("Unexpected dataset")
  for row in rows:
   if row["metadata"]["model"]!=config or len(row["input_ids"])>4096:raise ValueError("Model/length mismatch")
  if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported():raise RuntimeError("BF16 CUDA is required")
  torch.manual_seed(42);rng=random.Random(42)
- kind="sft_teacher100_smoke" if args.smoke_longest else "sft_teacher100"
+ kind=("sft_teacher100" if trajectories==100 else f"sft_expanded{trajectories}")+("_smoke" if args.smoke_longest else "")
+ if parent is not None:kind=f"sft_incremental{trajectories}"+("_smoke" if args.smoke_longest else "")
  stamp=datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
  run=ROOT/"outputs"/f"{kind}_{stamp}_{uuid4().hex[:8]}";run.mkdir(parents=True)
  training={"experiment":kind,"model":config,"initialization":"fresh original base; no previous adapter loaded",
-    "data_file":str(DATA/"tokenized.jsonl"),"data_sha256":sha(DATA/"tokenized.jsonl"),
-    "train_sha256":sha(DATA/"train.jsonl"),"trajectories":100,"action_examples":len(rows),
+    "data_file":str(data/"tokenized.jsonl"),"data_sha256":sha(data/"tokenized.jsonl"),
+    "train_sha256":sha(data/"train.jsonl"),"trajectories":trajectories,"action_examples":len(rows),
     "epochs":args.epochs,"seed":42,"learning_rate":1e-4,"batch_size":1,"gradient_accumulation_steps":1,
     "weight_decay":0.,"lora_r":8,"lora_alpha":16,"lora_dropout":0.,"target_modules":["q_proj","v_proj"],
     "gradient_checkpointing":True,"precision":"BF16 base; adapter runtime dtypes recorded",
     "loss":"mean supervised next-token cross entropy; vocabulary head projected only at supervised predictor positions",
     "maximum_sequence_tokens":max(len(r["input_ids"]) for r in rows),
-    "limitation":"Compared with old41, data source/composition and training compute also change."}
+    "limitation":"Compared with prior datasets, data source/composition and training compute also change."}
  save(run/"training_config.json",training)
+ if parent is not None:
+  training.update(initialization="trainable parent adapter loaded on identical base; no second adapter or merge",
+      parent_adapter=str(parent),parent_adapter_sha256=parent_hash,
+      optimizer_initialization="fresh AdamW state; parent optimizer state was not checkpointed; weight continuation, not exact optimizer resume")
+  save(run/"training_config.json",training)
  print("Loading fresh base model...",flush=True)
  model=AutoModelForCausalLM.from_pretrained(config["model_id"],revision=config["revision"],
         dtype=torch.bfloat16,use_safetensors=True,attn_implementation="sdpa").to("cuda")
  model.config.use_cache=False
- model=get_peft_model(model,LoraConfig(task_type=TaskType.CAUSAL_LM,r=8,lora_alpha=16,
+ if parent is None:
+  model=get_peft_model(model,LoraConfig(task_type=TaskType.CAUSAL_LM,r=8,lora_alpha=16,
        lora_dropout=0.,target_modules=["q_proj","v_proj"],bias="none"))
+ else:
+  from safetensors.torch import load_file
+  model=PeftModel.from_pretrained(model,parent,is_trainable=True)
+  installed=get_peft_model_state_dict(model);checkpoint=load_file(str(parent/"adapter_model.safetensors"))
+  if set(installed)!=set(checkpoint) or not all(torch.equal(installed[k].detach().cpu(),checkpoint[k]) for k in checkpoint):
+   raise ValueError("Loaded parent tensors are not byte-value equal")
+  save(run/"parent_initialization_check.json",{"status":"PASS","adapter_tensors":len(checkpoint),"parent_sha256":parent_hash})
+  del installed,checkpoint
  model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant":False})
  trainable=[p for p in model.parameters() if p.requires_grad]
  assert all("lora_" in n for n,p in model.named_parameters() if p.requires_grad)
@@ -117,6 +144,10 @@ def main():
   if not args.smoke_longest:
    model.save_pretrained(run/"adapter",safe_serialization=True);result["adapter_dir"]=str(run/"adapter")
   else:result["limitation"]="One longest-sample update only; no adapter checkpoint produced."
+  if parent is not None:
+   if sha(parent/"adapter_model.safetensors")!=parent_hash:raise ValueError("Frozen parent weights changed")
+   result["parent_unchanged"]=True
+   result["adapter_changed_from_parent"]=sha(run/"adapter/adapter_model.safetensors")!=parent_hash if not args.smoke_longest else None
   save(run/"result.json",result);print(json.dumps(result,indent=2),flush=True)
  except Exception as error:
   save(run/"result.json",{"status":"failed","completed_steps":steps,"error":f"{type(error).__name__}: {error}"})

@@ -1,0 +1,1315 @@
+[
+  {
+    "question_id": "5a7b6fd15542997c3ec97179",
+    "question": "Amigos para la aventura was Directed by this Argentine singer and Actor who was born on what date?",
+    "answer": "March 8, 1942",
+    "original_answer": "March 8, 1942",
+    "gold_answer": "March 8, 1942",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7b6fd15542997c3ec97179.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Amigos para la aventura director",
+        "returned_titles": [
+          "Amigos para La Aventura",
+          "Amor a primera vista",
+          "Bailoretto, la aventura de un rebelde"
+        ]
+      },
+      {
+        "query": "Palito Ortega born",
+        "returned_titles": [
+          "Palito Ortega",
+          "Amigos para La Aventura",
+          "José Ortega Spottorno"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_87f69c2b33a58c3c1b4f274a5bbed5d9874707310ec671047fea66e422a9799f",
+      "hp_doc_c04f9b802e9be8b62429f28a7e04e0e2dc6abba5bc92b19a6a2456be3d50ece4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_87f69c2b33a58c3c1b4f274a5bbed5d9874707310ec671047fea66e422a9799f",
+        "title": "Amigos para La Aventura",
+        "text": "Amigos para la aventura (English language: Friends for the Adventure) is a 1978 Argentine comedy film directed by Palito Ortega and written by Víctor Sueiro."
+      },
+      {
+        "id": "hp_doc_c04f9b802e9be8b62429f28a7e04e0e2dc6abba5bc92b19a6a2456be3d50ece4",
+        "title": "Palito Ortega",
+        "text": "Ramón Bautista Ortega (born March 8, 1942) is an Argentine singer and actor, better known as Palito Ortega. (] ) Ortega It's icon of Popular Argentine Music. Considered one of the main Argentine representatives of the musical style called New wave that marked the Hispanic-American music between the years '60 and '70. Ortega reached international fame, particularly in Latin America and Spain, during the 1960s, when the rock en español style of rock and roll music was popularized among teenagers in the region."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Amigos para La Aventura",
+        "document_id": "hp_doc_87f69c2b33a58c3c1b4f274a5bbed5d9874707310ec671047fea66e422a9799f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Palito Ortega",
+        "document_id": "hp_doc_c04f9b802e9be8b62429f28a7e04e0e2dc6abba5bc92b19a6a2456be3d50ece4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a89dac5554299669944a5cd",
+    "question": "Yazdegerd II fought wars against which Central Asian people based in Bactria?",
+    "answer": "Hephthalite Empire",
+    "original_answer": "Hephthalite Empire",
+    "gold_answer": "Hephthalite Empire",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a89dac5554299669944a5cd.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Yazdegerd II Bactria",
+        "returned_titles": [
+          "Eran-Khwarrah-Yazdegerd",
+          "Mihr Narseh",
+          "Yazdegerd II"
+        ]
+      },
+      {
+        "query": "Hephthalite Empire Bactria",
+        "returned_titles": [
+          "Hephthalite Empire",
+          "Yazdegerd II",
+          "Francis II, Holy Roman Emperor"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_144cdfa400ba18687195bf74775d6920661ddaf6f6c733a533b301c086ae34ee",
+      "hp_doc_044aaf3091258b98abdb2d52b472f88b2803d4eff6264769ab2972702c143f78"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_144cdfa400ba18687195bf74775d6920661ddaf6f6c733a533b301c086ae34ee",
+        "title": "Yazdegerd II",
+        "text": "Yazdegerd II (Middle Persian: 𐭩𐭦𐭣𐭪𐭥𐭲𐭩 \"Yazdākird\", meaning \"made by God\"; <a href=\"Persian%20language\">Persianزدگرد‎ ‎ ), was the sixteenth <a href=\"Sasanian%20Empire\">Sasanian</a> emperor of <a href=\"Iran\">Iran</a>. He was the successor and son of Bahram V (420–438) and reigned from 438 to 457. His name may also be spelled Yazdgard II. His reign was marked by wars against the Byzantine Empire in the west and the Hephthalite Empire in the east, as well as by his efforts and attempts to impose Zoroastrianism on the largest religious minority within the empire, namely the Christians."
+      },
+      {
+        "id": "hp_doc_044aaf3091258b98abdb2d52b472f88b2803d4eff6264769ab2972702c143f78",
+        "title": "Hephthalite Empire",
+        "text": "The Hephthalites (or Ephthalites) were a people of Central Asia who were militarily important circa 450-560. They were based in Bactria and expanded east to the Tarim Basin, west to Sogdia and south through Afghanistan to northern India. They were a tribal confederation and included both nomadic and urban, settled communities. They were part of the four major \"Hunic\" states known collectively as Xionites or \"Hunas\", being preceeded by the Kidarites, and succeeded by the Alchon Huns and lastly the Nezak Huns. The Sveta Huna or \"White Huns\" who invaded northern India are probably the Ephthalites, but the exact relation is not clear."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Yazdegerd II",
+        "document_id": "hp_doc_144cdfa400ba18687195bf74775d6920661ddaf6f6c733a533b301c086ae34ee",
+        "sentence_id": 3
+      },
+      {
+        "title": "Hephthalite Empire",
+        "document_id": "hp_doc_044aaf3091258b98abdb2d52b472f88b2803d4eff6264769ab2972702c143f78",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hephthalite Empire",
+        "document_id": "hp_doc_044aaf3091258b98abdb2d52b472f88b2803d4eff6264769ab2972702c143f78",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8a2fa655429930ff3c0ce6",
+    "question": " Valkarkay is a bay was the primary location used in a film that was critically acclaimed and nominated for the Golden Bear at the 60th what?",
+    "answer": "Berlin International Film Festival",
+    "original_answer": "Berlin International Film Festival",
+    "gold_answer": "Berlin International Film Festival",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8a2fa655429930ff3c0ce6.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Valkarkay bay",
+        "returned_titles": [
+          "Valkarkay",
+          "Damien Bay",
+          "Van Ness Avenue"
+        ]
+      },
+      {
+        "query": "How I Ended This Summer Golden Bear",
+        "returned_titles": [
+          "How I Ended This Summer",
+          "Alexei Popogrebski",
+          "Valkarkay"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_2c07ece07a33cec76ee35a215435c9b619de9563dd27fe1c15adeb3d5fc26105",
+      "hp_doc_5093a70182f2356ec1999c9f842fc38d7299f814a36478f94b8cdbcef6b8bc13"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_2c07ece07a33cec76ee35a215435c9b619de9563dd27fe1c15adeb3d5fc26105",
+        "title": "Valkarkay",
+        "text": "Valkarkay (Russian: Валькаркай ) is a bay in the very north of Chaunsky District, Chukotka, Russia on the Chukchi Sea. It is the site of a polar weather station established in 1932 and was the primary location used in the film \"How I Ended This Summer\"."
+      },
+      {
+        "id": "hp_doc_5093a70182f2356ec1999c9f842fc38d7299f814a36478f94b8cdbcef6b8bc13",
+        "title": "How I Ended This Summer",
+        "text": "How I Ended This Summer (Russian: Как я провёл этим летом , translit. \"Kak ya provyol etim letom\") is a 2010 Russian drama film directed by Alexei Popogrebski. It was critically acclaimed and garnered several awards and nominations; it was nominated for the Golden Bear at the 60th Berlin International Film Festival."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Valkarkay",
+        "document_id": "hp_doc_2c07ece07a33cec76ee35a215435c9b619de9563dd27fe1c15adeb3d5fc26105",
+        "sentence_id": 0
+      },
+      {
+        "title": "Valkarkay",
+        "document_id": "hp_doc_2c07ece07a33cec76ee35a215435c9b619de9563dd27fe1c15adeb3d5fc26105",
+        "sentence_id": 1
+      },
+      {
+        "title": "How I Ended This Summer",
+        "document_id": "hp_doc_5093a70182f2356ec1999c9f842fc38d7299f814a36478f94b8cdbcef6b8bc13",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8aa2955542996c9b8d5f45",
+    "question": "I Feel Sick is a \"doubleshot\", full-color comic book written and drawn by the comic artist Jhonen Vasquez,Vasquez stated that the creation process of \"I Feel Sick\" was which term, that's the purification and purgation of emotions—particularly pity and fear—through art or any extreme change in emotion that results in renewal and restoration?",
+    "answer": "Catharsis",
+    "original_answer": "Catharsis",
+    "gold_answer": "Catharsis",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8aa2955542996c9b8d5f45.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "I Feel Sick Jhonen Vasquez",
+        "returned_titles": [
+          "Jhonen Vasquez",
+          "I Feel Sick",
+          "Johnny the Homicidal Maniac"
+        ]
+      },
+      {
+        "query": "cathartic purification",
+        "returned_titles": [
+          "Catharsis",
+          "Foo Fighters (album)",
+          "I Feel Sick"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_88e947c9c3ebef20d9e9fec2a165baa9226f2adb711b4241854cf676956d3960",
+      "hp_doc_7d3734f36385ddcd9352f05b48b93ef8d33e4fe3c237281fdefaff8b3bc5e672"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_88e947c9c3ebef20d9e9fec2a165baa9226f2adb711b4241854cf676956d3960",
+        "title": "I Feel Sick",
+        "text": "I Feel Sick is a \"doubleshot\", full-color comic book written and drawn by the comic artist Jhonen Vasquez and colored by Rosearik Rikki Simons (who also voiced GIR in \"Invader Zim\"). It revolves around Devi D. from \"Johnny the Homicidal Maniac\" (JTHM), and her dealings with the same supernatural and/or psychological forces that drove Johnny to lunacy. Originally intended as a single paperback, it was later split into two issues so as to avoid compromising the length of the story. It was published by Slave Labor Graphics. Vasquez stated that the creation process of \"I Feel Sick\" was cathartic. The problems Devi had while working for NERVE and neglecting her own work was reminiscent to the pressure Vasquez had while working on \"Invader Zim\"."
+      },
+      {
+        "id": "hp_doc_7d3734f36385ddcd9352f05b48b93ef8d33e4fe3c237281fdefaff8b3bc5e672",
+        "title": "Catharsis",
+        "text": "Catharsis (from Greek κάθαρσις \"katharsis\" meaning \"purification\" or \"cleansing\") is the purification and purgation of emotions—particularly pity and fear—through art or any extreme change in emotion that results in renewal and restoration. It is a metaphor originally used by Aristotle in the \"Poetics,\" comparing the effects of tragedy on the mind of a spectator to the effect of a cathartic on the body."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "I Feel Sick",
+        "document_id": "hp_doc_88e947c9c3ebef20d9e9fec2a165baa9226f2adb711b4241854cf676956d3960",
+        "sentence_id": 4
+      },
+      {
+        "title": "Catharsis",
+        "document_id": "hp_doc_7d3734f36385ddcd9352f05b48b93ef8d33e4fe3c237281fdefaff8b3bc5e672",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a909a565542995651fb51b2",
+    "question": "Stephen Parkinson is a special adviser to a prime minister who leads which party ?",
+    "answer": "Conservative Party",
+    "original_answer": "Conservative Party",
+    "gold_answer": "the Conservative Party",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a909a565542995651fb51b2.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Stephen Parkinson prime minister",
+        "returned_titles": [
+          "Stephen Parkinson (adviser)",
+          "Swedish governmental line of succession",
+          "Prime Minister of Armenia"
+        ]
+      },
+      {
+        "query": "Theresa May party",
+        "returned_titles": [
+          "Theresa May",
+          "Stephen Parkinson (adviser)",
+          "Black Widow (1987 film)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4802c4e6c943532a237aff7097e6a6524601de47aea3079a1df4831149600e7a",
+      "hp_doc_df364c68da754e7101b2f468bce975a42eb7161e0a2b72d6f5b28432cf63e7ed"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4802c4e6c943532a237aff7097e6a6524601de47aea3079a1df4831149600e7a",
+        "title": "Stephen Parkinson (adviser)",
+        "text": "Stephen Parkinson (born 1983) is a special adviser to British Prime Minister Theresa May, former think tank researcher, and former lobbyist."
+      },
+      {
+        "id": "hp_doc_df364c68da754e7101b2f468bce975a42eb7161e0a2b72d6f5b28432cf63e7ed",
+        "title": "Theresa May",
+        "text": "Theresa Mary May ( , \"née\" Brasier ; born 1 October 1956) is a British politician who has served as Prime Minister of the United Kingdom and Leader of the Conservative Party since 2016, the second woman to hold both positions, the first being Margaret Thatcher. She has been the Member of Parliament (MP) for Maidenhead since 1997. Ideologically, she identifies herself as a one-nation conservative."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Stephen Parkinson (adviser)",
+        "document_id": "hp_doc_4802c4e6c943532a237aff7097e6a6524601de47aea3079a1df4831149600e7a",
+        "sentence_id": 0
+      },
+      {
+        "title": "Theresa May",
+        "document_id": "hp_doc_df364c68da754e7101b2f468bce975a42eb7161e0a2b72d6f5b28432cf63e7ed",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab28eab554299449642c8f4",
+    "question": "The Black Mountains are named for the spruce-fir forest in the southern Appalachian Mountains that are an eco region of what sort of biome?",
+    "answer": "temperate coniferous forests biome",
+    "original_answer": "temperate coniferous forests biome",
+    "gold_answer": "temperate coniferous forests biome",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab28eab554299449642c8f4.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Black Mountains spruce fir",
+        "returned_titles": [
+          "Black Mountains (North Carolina)",
+          "Southern Appalachian spruce–fir forest",
+          "Appalachian temperate rainforest"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_26b094a9668587ecaa5391fdee35be8481b588c79254086cf1fd9f605810a415",
+      "hp_doc_1f092381302f7cb24a2c0cc6117ade89112ee06b33780804fa7716aa657fd3d4"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_26b094a9668587ecaa5391fdee35be8481b588c79254086cf1fd9f605810a415",
+        "title": "Black Mountains (North Carolina)",
+        "text": "The Black Mountains are a mountain range in western North Carolina, in the southeastern United States. They are part of the Blue Ridge Province of the Southern Appalachian Mountains. The Blacks are the highest mountains in the Eastern United States. The range takes its name from the dark appearance of the red spruce and Fraser fir trees that form a spruce-fir forest on the upper slopes which contrasts with the brown (during winter) or lighter green (during the growing season) appearance of the deciduous trees at lower elevations. The Eastern Continental Divide, which runs along the eastern Blue Ridge crest, intersects the southern tip of the Black Mountain range."
+      },
+      {
+        "id": "hp_doc_1f092381302f7cb24a2c0cc6117ade89112ee06b33780804fa7716aa657fd3d4",
+        "title": "Southern Appalachian spruce–fir forest",
+        "text": "The southern Appalachian spruce–fir forest is an ecoregion of the temperate coniferous forests biome, a type of montane coniferous forest that grows in the highest elevations in the southern Appalachian Mountains of the eastern United States."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Black Mountains (North Carolina)",
+        "document_id": "hp_doc_26b094a9668587ecaa5391fdee35be8481b588c79254086cf1fd9f605810a415",
+        "sentence_id": 0
+      },
+      {
+        "title": "Black Mountains (North Carolina)",
+        "document_id": "hp_doc_26b094a9668587ecaa5391fdee35be8481b588c79254086cf1fd9f605810a415",
+        "sentence_id": 3
+      },
+      {
+        "title": "Southern Appalachian spruce–fir forest",
+        "document_id": "hp_doc_1f092381302f7cb24a2c0cc6117ade89112ee06b33780804fa7716aa657fd3d4",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab2bb28554299545a2cfa39",
+    "question": "What was the career of the man on which the novel Black Ajax is based ?",
+    "answer": "bare-knuckle boxer.",
+    "original_answer": "African-American bare-knuckle boxer",
+    "gold_answer": "bare-knuckle boxer.",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab2bb28554299545a2cfa39.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Black Ajax novel",
+        "returned_titles": [
+          "Black Ajax",
+          "Ajax Hup Hup Hup",
+          "White Mischief (novel)"
+        ]
+      },
+      {
+        "query": "Tom Molineaux career",
+        "returned_titles": [
+          "Tom Molineaux",
+          "Black Ajax",
+          "Mr. Baseball"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_41c638e3dec330ff700681152c71384b6d427559b55397b85db762f2f30d2d88",
+      "hp_doc_23ebfcbb6dabd92f316770559053bcbad418822168835a44b0de5f078ac7dd26"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_41c638e3dec330ff700681152c71384b6d427559b55397b85db762f2f30d2d88",
+        "title": "Black Ajax",
+        "text": "Black Ajax is a historical novel by George MacDonald Fraser based on the career of Tom Molineaux."
+      },
+      {
+        "id": "hp_doc_23ebfcbb6dabd92f316770559053bcbad418822168835a44b0de5f078ac7dd26",
+        "title": "Tom Molineaux",
+        "text": "Tom \"The Moor\" Molineaux (1784 – 4 August 1818) was an African-American bare-knuckle boxer. He spent much of his career in Great Britain and Ireland, where he had some notable successes."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Black Ajax",
+        "document_id": "hp_doc_41c638e3dec330ff700681152c71384b6d427559b55397b85db762f2f30d2d88",
+        "sentence_id": 0
+      },
+      {
+        "title": "Tom Molineaux",
+        "document_id": "hp_doc_23ebfcbb6dabd92f316770559053bcbad418822168835a44b0de5f078ac7dd26",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab48c1a55429942dd415f67",
+    "question": "The Elisabeth Morrow School is located in what county?",
+    "answer": "Bergen County",
+    "original_answer": "Bergen County",
+    "gold_answer": "Bergen County",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab48c1a55429942dd415f67.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Elisabeth Morrow School",
+        "returned_titles": [
+          "Elisabeth Morrow School",
+          "Morrow High School (Georgia)",
+          "Little Miami High School"
+        ]
+      },
+      {
+        "query": "Englewood New Jersey county",
+        "returned_titles": [
+          "Englewood, New Jersey",
+          "Elisabeth Morrow School",
+          "17th Legislative District (New Jersey)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_01055fa446d0750099476ca597b4856a45916b51d92717587d9eec5e98308b0c",
+      "hp_doc_59d68a2b3f456b9da91065cc09bff4153bab05feee9d2871171e6bacd4fcd897"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_01055fa446d0750099476ca597b4856a45916b51d92717587d9eec5e98308b0c",
+        "title": "Elisabeth Morrow School",
+        "text": "The Elisabeth Morrow School is a private coeducational day school located in Englewood, New Jersey, United States, serving students age three through the grade eight."
+      },
+      {
+        "id": "hp_doc_59d68a2b3f456b9da91065cc09bff4153bab05feee9d2871171e6bacd4fcd897",
+        "title": "Englewood, New Jersey",
+        "text": "Englewood is a city located in Bergen County, New Jersey, United States. As of the 2010 United States Census, the city had a total population of 27,147, reflecting an increase of 944 (+3.6%) from the 26,203 counted in the 2000 Census, which had in turn increased by 1,353 (+5.4%) from the 24,850 counted in the 1990 Census."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Elisabeth Morrow School",
+        "document_id": "hp_doc_01055fa446d0750099476ca597b4856a45916b51d92717587d9eec5e98308b0c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Englewood, New Jersey",
+        "document_id": "hp_doc_59d68a2b3f456b9da91065cc09bff4153bab05feee9d2871171e6bacd4fcd897",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab55631554299488d4d9949",
+    "question": "In what year was Casa Valentina's author inducted into the American Theater Hall of Fame?",
+    "answer": "2007",
+    "original_answer": "2007",
+    "gold_answer": "2007",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab55631554299488d4d9949.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Casa Valentina author",
+        "returned_titles": [
+          "Casa Valentina",
+          "Giorgio de Chirico House Museum",
+          "Sue Grafton"
+        ]
+      },
+      {
+        "query": "Harvey Fierstein American Theater Hall of Fame",
+        "returned_titles": [
+          "Harvey Fierstein",
+          "American Theater Hall of Fame",
+          "Brian Murray (actor)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_85eaa85523d515fdb4595800608d69381797dd4fce94dc308717630e9fe79526",
+      "hp_doc_395aea4a569cd02ae4d87521ac6089b04a470b61ebdb979789f1c8523400b2c5"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_85eaa85523d515fdb4595800608d69381797dd4fce94dc308717630e9fe79526",
+        "title": "Casa Valentina",
+        "text": "Casa Valentina is a play written by Harvey Fierstein which premiered on Broadway in April 2014 and opened in London in September 2015. It tells the story of men who spend weekends at a resort in the Catskill mountains, dressed as women."
+      },
+      {
+        "id": "hp_doc_395aea4a569cd02ae4d87521ac6089b04a470b61ebdb979789f1c8523400b2c5",
+        "title": "Harvey Fierstein",
+        "text": "Harvey Forbes Fierstein (born June 6, 1954) is an American actor, playwright, and voice actor. Fierstein has won the Tony Award for Best Actor in a Play for his own play \"Torch Song Trilogy\" (about a gay drag-performer and his quest for true love and family) and the Tony Award for Best Actor in a Musical for playing Edna Turnblad in \"Hairspray\". He also wrote the book for the musical \"La Cage aux Folles\", for which he won the Tony Award for Best Book of a Musical, and wrote the book for the Tony Award-winning \"Kinky Boots\". He was inducted into the American Theater Hall of Fame in 2007."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Casa Valentina",
+        "document_id": "hp_doc_85eaa85523d515fdb4595800608d69381797dd4fce94dc308717630e9fe79526",
+        "sentence_id": 0
+      },
+      {
+        "title": "Harvey Fierstein",
+        "document_id": "hp_doc_395aea4a569cd02ae4d87521ac6089b04a470b61ebdb979789f1c8523400b2c5",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab7f9765542990e739ec7ab",
+    "question": "From 2009 to 2013, what office was held by the candidate supported by Hookers for Hillary?",
+    "answer": "United States Secretary of State",
+    "original_answer": "Secretary of State",
+    "gold_answer": "United States Secretary of State",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab7f9765542990e739ec7ab.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hookers Hillary",
+        "returned_titles": [
+          "Hookers for Hillary",
+          "Electoral history of Hillary Clinton",
+          "Hillary Clinton"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4a11202e5c3e882f6c21039f6fb8ae56b92f6d098ea8632f81bd122f67ab706c",
+      "hp_doc_1caac669b5bd14cb1b8ac2f9f5b1ccf65b6c6a897e46dbc19c44015ef469d458"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4a11202e5c3e882f6c21039f6fb8ae56b92f6d098ea8632f81bd122f67ab706c",
+        "title": "Hookers for Hillary",
+        "text": "Hookers for Hillary is a semi-formal organization of Nevada-based sex workers who support Hillary Clinton's candidacy in the 2016 United States presidential election. The group, which claims a membership of 500 prostitutes, is not registered with the Federal Elections Commission as a political action committee and does not, therefore, directly provide political donations. Its members, instead, evangelize support of Clinton to their clients and have, in some instances, reportedly offered enhanced sexual services to existing customers in exchange for direct donations to Clinton's presidential campaign."
+      },
+      {
+        "id": "hp_doc_1caac669b5bd14cb1b8ac2f9f5b1ccf65b6c6a897e46dbc19c44015ef469d458",
+        "title": "Hillary Clinton",
+        "text": "Hillary Diane Rodham Clinton ( ; born October 26, 1947) is an American politician who was the First Lady of the United States from 1993 to 2001, U.S. Senator from New York from 2001 to 2009, 67th United States Secretary of State from 2009 to 2013, and the Democratic Party's nominee for President of the United States in the 2016 election."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Hookers for Hillary",
+        "document_id": "hp_doc_4a11202e5c3e882f6c21039f6fb8ae56b92f6d098ea8632f81bd122f67ab706c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hillary Clinton",
+        "document_id": "hp_doc_1caac669b5bd14cb1b8ac2f9f5b1ccf65b6c6a897e46dbc19c44015ef469d458",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab87c795542992aa3b8c8ed",
+    "question": "What country of origin does The Polar Express and Daryl Sabarahave in common?",
+    "answer": "American",
+    "original_answer": "United States",
+    "gold_answer": "American",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab87c795542992aa3b8c8ed.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Polar Express Daryl Sabarahave",
+        "returned_titles": [
+          "Daryl Sabara",
+          "The Polar Express (film)",
+          "The Polar Express"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_6b5a100a2fec8cef555500b617c557e29547a2ebf99f8a607f7b25edf1d2e4b1",
+      "hp_doc_16665f7bffe3065a5d027e4ce5e23b9ce01a8ec7533e9c8a327cb8908a424c9f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_6b5a100a2fec8cef555500b617c557e29547a2ebf99f8a607f7b25edf1d2e4b1",
+        "title": "The Polar Express (film)",
+        "text": "The Polar Express is a 2004 American 3D computer-animated Christmas musical fantasy film based on the 1985 children's book of the same name by Chris Van Allsburg, who served as one of the executive producers on the film. Written, produced, and directed by Robert Zemeckis, the film features human characters animated using live action motion capture animation. The film stars Daryl Sabara, Nona Gaye, Jimmy Bennett, and Eddie Deezen, with Tom Hanks in six distinct roles. The film also included a performance by Tinashe at age 9, who later gained exposure as a pop singer in 2010, as the CGI-model for the female protagonist."
+      },
+      {
+        "id": "hp_doc_16665f7bffe3065a5d027e4ce5e23b9ce01a8ec7533e9c8a327cb8908a424c9f",
+        "title": "Daryl Sabara",
+        "text": "Daryl Christopher Sabara (born June 14, 1992) is an American actor, perhaps best known for playing Juni Cortez in the \"Spy Kids\" film series, as well as for a variety of television and film appearances, including \"Generator Rex\", \"Wizards of Waverly Place\", \"Father of the Pride\", \"The Polar Express\", \"Keeping Up with the Steins\", \"Halloween\", and \"America's Most Talented Kids\" (on which he was a judge)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Polar Express (film)",
+        "document_id": "hp_doc_6b5a100a2fec8cef555500b617c557e29547a2ebf99f8a607f7b25edf1d2e4b1",
+        "sentence_id": 0
+      },
+      {
+        "title": "Daryl Sabara",
+        "document_id": "hp_doc_16665f7bffe3065a5d027e4ce5e23b9ce01a8ec7533e9c8a327cb8908a424c9f",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab97a375542996be2020518",
+    "question": "What Florida county is the PGA National Resort & Spa in Palm Beach Gardens, Florida located in?",
+    "answer": "Palm Beach County",
+    "original_answer": "Palm Beach County",
+    "gold_answer": "Palm Beach County",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab97a375542996be2020518.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "PGA National Resort Spa Palm Beach Gardens Florida",
+        "returned_titles": [
+          "PGA National Golf Club",
+          "PGA National Champion Course",
+          "1971 PGA Championship"
+        ]
+      },
+      {
+        "query": "Palm Beach Gardens Florida county",
+        "returned_titles": [
+          "Palm Beach Gardens, Florida",
+          "North Palm Beach County General Aviation Airport",
+          "2004 Palm Beach Gardens Challenger"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_b7b8a4bbb6131f918981ea30471640905b0ccaa1a941d460dfda9bd215c89f5f",
+      "hp_doc_d22e38318fa2dd7ca51f5ea0a98e436ce428299cf8d9f79fcb0b649bf9c9fa92"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_b7b8a4bbb6131f918981ea30471640905b0ccaa1a941d460dfda9bd215c89f5f",
+        "title": "PGA National Golf Club",
+        "text": "PGA National Golf Club, the home of the Professional Golfers' Association of America, is in the southeastern United States, located at the PGA National Resort & Spa in Palm Beach Gardens, Florida. The golf facilities include five championship 18-hole courses, four within the main resort ground and another 5 mi west. The resort was acquired in August 2006 by Century Golf Partners in conjunction with Walton Street Capital, LLC and SCS Advisors, Inc."
+      },
+      {
+        "id": "hp_doc_d22e38318fa2dd7ca51f5ea0a98e436ce428299cf8d9f79fcb0b649bf9c9fa92",
+        "title": "Palm Beach Gardens, Florida",
+        "text": "Palm Beach Gardens is a city in Palm Beach County in the U.S. state of Florida. As of the 2010 United States Census , the population was 48,452. The city has a number of gated communities."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "PGA National Golf Club",
+        "document_id": "hp_doc_b7b8a4bbb6131f918981ea30471640905b0ccaa1a941d460dfda9bd215c89f5f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Palm Beach Gardens, Florida",
+        "document_id": "hp_doc_d22e38318fa2dd7ca51f5ea0a98e436ce428299cf8d9f79fcb0b649bf9c9fa92",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abb40125542992ccd8e7f3a",
+    "question": "Which nine-time Grammy Award-winning gospel group helped found the National Quartet Convention?",
+    "answer": "The Blackwood Brothers",
+    "original_answer": "The Blackwood Brothers",
+    "gold_answer": "The Blackwood Brothers",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abb40125542992ccd8e7f3a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "National Quartet Convention gospel",
+        "returned_titles": [
+          "National Quartet Convention",
+          "Singing News Fan Awards",
+          "Stephen Underwood"
+        ]
+      },
+      {
+        "query": "Blackwood Brothers gospel",
+        "returned_titles": [
+          "The Blackwood Brothers",
+          "National Quartet Convention",
+          "Stephen Underwood"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_bba3c7540b319fd1be1d892518969bbabfce5149aea41cc44de188ad574903af",
+      "hp_doc_ebf3fec2d76c8eeabbc4472b73365b087e65ebfb609a574b8da4f8230a3af932"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bba3c7540b319fd1be1d892518969bbabfce5149aea41cc44de188ad574903af",
+        "title": "National Quartet Convention",
+        "text": "The first National Quartet Convention was held in 1957. J. D. Sumner, Cecil Blackwood and James Blackwood of The Blackwood Brothers were the founders of the famous National Quartet Convention formerly held in Memphis, Tennessee. The National Quartet Convention featured all the major gospel groups at a three-day event at the Ellis Auditorium in Memphis, Tennessee. After the first couple of years, the NQC was moved to Birmingham, Alabama in 1959 and Atlanta, Georgia in 1960. It returned to Memphis in 1961 and was drawing annual crowds of 20,000 by the mid-1960s. Sumner bought the convention in 1971 and moved it to Nashville, Tennessee in 1972, where it remained until 1993. The National Quartet Convention was held in Nashville, Tn. through 1993. After 1993, it was moved to a new home, Louisville, Kentucky. In 2014 the convention moved to Pigeon Forge, Tennessee."
+      },
+      {
+        "id": "hp_doc_ebf3fec2d76c8eeabbc4472b73365b087e65ebfb609a574b8da4f8230a3af932",
+        "title": "The Blackwood Brothers",
+        "text": "The Blackwood Brothers are an American southern gospel quartet. They are nine-time Grammy Award-winning pioneers of the Christian music industry."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "National Quartet Convention",
+        "document_id": "hp_doc_bba3c7540b319fd1be1d892518969bbabfce5149aea41cc44de188ad574903af",
+        "sentence_id": 1
+      },
+      {
+        "title": "The Blackwood Brothers",
+        "document_id": "hp_doc_ebf3fec2d76c8eeabbc4472b73365b087e65ebfb609a574b8da4f8230a3af932",
+        "sentence_id": 0
+      },
+      {
+        "title": "The Blackwood Brothers",
+        "document_id": "hp_doc_ebf3fec2d76c8eeabbc4472b73365b087e65ebfb609a574b8da4f8230a3af932",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abbca545542992ccd8e7fa2",
+    "question": "What nationality was the woman who was first-seeded and won the singles title in The 1997 Porsche Tennis Grand Prix?",
+    "answer": "Swiss",
+    "original_answer": "Swiss",
+    "gold_answer": "Swiss",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abbca545542992ccd8e7fa2.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "1997 Porsche Tennis Grand Prix singles",
+        "returned_titles": [
+          "1997 Porsche Tennis Grand Prix",
+          "2015 Porsche Tennis Grand Prix",
+          "2013 Porsche Tennis Grand Prix"
+        ]
+      },
+      {
+        "query": "Martina Hingis nationality",
+        "returned_titles": [
+          "Martina Hingis",
+          "1997 Porsche Tennis Grand Prix",
+          "Gyatsho Tshering"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c9e6e6279cc9205e039017f4d5921e1ebcd7397521231866a7c240700a044623",
+      "hp_doc_5dbf2ed49bafbfe40937d38935a393ae71181a99c569e5bf7dff96e801dd8964"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c9e6e6279cc9205e039017f4d5921e1ebcd7397521231866a7c240700a044623",
+        "title": "1997 Porsche Tennis Grand Prix",
+        "text": "The 1997 Porsche Tennis Grand Prix was a women's tennis tournament played on indoor hard courts at the Filderstadt Tennis Club in Filderstadt in Germany that was part of Tier II of the 1997 WTA Tour. It was the 20th edition of the tournament and was held from 6 October through 12 October 1997. First-seeded Martina Hingis won the singles title, her second consecutive at the event."
+      },
+      {
+        "id": "hp_doc_5dbf2ed49bafbfe40937d38935a393ae71181a99c569e5bf7dff96e801dd8964",
+        "title": "Martina Hingis",
+        "text": "Martina Hingis (born 30 September 1980) is a Swiss professional tennis player, a former world No. 1 singles player and currently ranked world No. 2 in doubles by the WTA. She has spent a total of 209 weeks as the singles No. 1 and has won five Grand Slam singles titles, thirteen Grand Slam women's doubles titles, winning a calendar-year doubles Grand Slam in 1998, and seven Grand Slam mixed doubles titles; for a combined total of twenty-five major titles. In addition, she has won the season-ending WTA Championships two times in singles and three times in doubles, and an Olympic silver medal."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "1997 Porsche Tennis Grand Prix",
+        "document_id": "hp_doc_c9e6e6279cc9205e039017f4d5921e1ebcd7397521231866a7c240700a044623",
+        "sentence_id": 2
+      },
+      {
+        "title": "Martina Hingis",
+        "document_id": "hp_doc_5dbf2ed49bafbfe40937d38935a393ae71181a99c569e5bf7dff96e801dd8964",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abc8cba554299700f9d78fc",
+    "question": "O'Sheas Casino is a casino located within which 2,640-room hotel, casino and shopping promenade on the Las Vegas Strip in Paradise, Nevada?",
+    "answer": "The Linq",
+    "original_answer": "The Linq",
+    "gold_answer": "The Linq",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abc8cba554299700f9d78fc.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "O'Sheas Casino Paradise Nevada",
+        "returned_titles": [
+          "O'Sheas Casino",
+          "Klondike Hotel and Casino",
+          "Gold Coast Hotel and Casino"
+        ]
+      },
+      {
+        "query": "Linq Paradise Nevada casino",
+        "returned_titles": [
+          "The Linq",
+          "O'Sheas Casino",
+          "Klondike Hotel and Casino"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_7299b379f547eb4d4d7acbabf2c75f0342a10c55e118e56ca97332b352adade4",
+      "hp_doc_18329c7a7782940a6e0e3a84c2fcc98d774a29227dea79a13633b843ac61909f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_7299b379f547eb4d4d7acbabf2c75f0342a10c55e118e56ca97332b352adade4",
+        "title": "O'Sheas Casino",
+        "text": "O'Sheas Casino is a casino located within The Linq on the Las Vegas Strip in Paradise, Nevada. As part of The Linq, it is owned and operated by Caesars Entertainment Corporation and is connected on the exterior to a shopping/dining promenade, also owned by Caesars. The revitalized O'Sheas has three bars - the main Dublin Up Bar, the Lucky Bar and the exterior-facing Blarney Bar. The casino includes beer pong tables, a stage, a dance floor and a pit with games including blackjack, roulette, and craps."
+      },
+      {
+        "id": "hp_doc_18329c7a7782940a6e0e3a84c2fcc98d774a29227dea79a13633b843ac61909f",
+        "title": "The Linq",
+        "text": "The Linq (formerly Flamingo Capri, Imperial Palace and The Quad) is a 2,640-room hotel, casino and shopping promenade on the Las Vegas Strip in Paradise, Nevada. It is owned and operated by Caesars Entertainment Corporation. As of 2012, the casino is 32890 sqft with 830 slot machines, 55 table games, and a race and sports book."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "O'Sheas Casino",
+        "document_id": "hp_doc_7299b379f547eb4d4d7acbabf2c75f0342a10c55e118e56ca97332b352adade4",
+        "sentence_id": 0
+      },
+      {
+        "title": "The Linq",
+        "document_id": "hp_doc_18329c7a7782940a6e0e3a84c2fcc98d774a29227dea79a13633b843ac61909f",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abd8ca65542996e802b47bd",
+    "question": "Never Never Love is an album by the musician that was part of the band from what city?",
+    "answer": "Liverpool",
+    "original_answer": "Liverpool",
+    "gold_answer": "Liverpool",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abd8ca65542996e802b47bd.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Never Never Love album",
+        "returned_titles": [
+          "Never Never Love",
+          "Never Never Love (Simply Red song)",
+          "Never Love You Enough (song)"
+        ]
+      },
+      {
+        "query": "Ladytron city",
+        "returned_titles": [
+          "Ladytron",
+          "Never Never Love",
+          "Saginaw City, Michigan"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_401d2c53422c20ff0f8da8c0b6f726ec75902b97b505ddca4cd2e6f33effa6eb",
+      "hp_doc_af3e160a8f7ae67b1c5bf79461cf65123127e529f4d4f92f91a94ad4f231ec7c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_401d2c53422c20ff0f8da8c0b6f726ec75902b97b505ddca4cd2e6f33effa6eb",
+        "title": "Never Never Love",
+        "text": "Never Never Love is the second album by musician Pop Levi (former Super Numeri member, Ladytron bassist and remixer), released on 14 July 2008."
+      },
+      {
+        "id": "hp_doc_af3e160a8f7ae67b1c5bf79461cf65123127e529f4d4f92f91a94ad4f231ec7c",
+        "title": "Ladytron",
+        "text": "Ladytron are an electronic band formed in Liverpool in 1999. The group consists of Helen Marnie (lead vocals, synthesizers), Mira Aroyo (vocals, synthesizers), Daniel Hunt (synthesizers, guitar, vocals) and Reuben Wu (synthesizers)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Never Never Love",
+        "document_id": "hp_doc_401d2c53422c20ff0f8da8c0b6f726ec75902b97b505ddca4cd2e6f33effa6eb",
+        "sentence_id": 0
+      },
+      {
+        "title": "Ladytron",
+        "document_id": "hp_doc_af3e160a8f7ae67b1c5bf79461cf65123127e529f4d4f92f91a94ad4f231ec7c",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abd9fb65542992ac4f382df",
+    "question": "Lee Hae-young's third feature film stars who ?",
+    "answer": "Park Bo-young and Uhm Ji-won",
+    "original_answer": "Park Bo-young and Uhm Ji-won",
+    "gold_answer": "Park Bo-young and Uhm Ji-won",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abd9fb65542992ac4f382df.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Lee Hae-young third film",
+        "returned_titles": [
+          "Lee Hae-young",
+          "The Silenced",
+          "Like a Virgin (film)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_feb37202a4b3d840f9a6ce9bc0d032689748308b01be8cc92a045e14ba7fe169",
+      "hp_doc_d7a359bb30e2f07afcae6341dc351377d889dfbfea67c4b65b319f3d8514752e"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_feb37202a4b3d840f9a6ce9bc0d032689748308b01be8cc92a045e14ba7fe169",
+        "title": "Lee Hae-young",
+        "text": "Lee Hae-young (born 1973) is a South Korean film director and screenwriter. Lee wrote and directed his debut feature \"Like a Virgin\" (2006) (with director Lee Hae-jun), which won several awards for Best New Director and Best Screenplay. His first solo feature \"Foxy Festival\" (2010) is a comedy that showed people with seemingly abnormal sexual tastes as SM, transvestism, and doll fetishism are in real life absolutely normal otherwise. His third feature is a mystery genre film \"The Silenced\" (2015)."
+      },
+      {
+        "id": "hp_doc_d7a359bb30e2f07afcae6341dc351377d889dfbfea67c4b65b319f3d8514752e",
+        "title": "The Silenced",
+        "text": "The Silenced (; lit. \"Gyeongseong School: The Lost Girls\") is a 2015 South Korean mystery-thriller film written and directed by Lee Hae-young, starring Park Bo-young and Uhm Ji-won."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Lee Hae-young",
+        "document_id": "hp_doc_feb37202a4b3d840f9a6ce9bc0d032689748308b01be8cc92a045e14ba7fe169",
+        "sentence_id": 3
+      },
+      {
+        "title": "The Silenced",
+        "document_id": "hp_doc_d7a359bb30e2f07afcae6341dc351377d889dfbfea67c4b65b319f3d8514752e",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac06c735542996f0d89cbbd",
+    "question": "\"Business School\" is the seventeenth episode of the third season of the American comedy television series \"The Office\", written by which American writer and producer, who wrote several episodes of the animated television sitcom, \"The Simpsons\" between 1993 and 1997?",
+    "answer": "Brent Forrester",
+    "original_answer": "Brent Forrester",
+    "gold_answer": "Brent Forrester",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac06c735542996f0d89cbbd.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Office season 3 episode 17",
+        "returned_titles": [
+          "Threat Level Midnight",
+          "Business School (The Office)",
+          "Booze Cruise (The Office)"
+        ]
+      },
+      {
+        "query": "Brent Forrester Simpsons",
+        "returned_titles": [
+          "Brent Forrester",
+          "Test the Store",
+          "Business School (The Office)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_30a9c51a64a42eec3f4b5d55a93bd456aba328ae397ba31f92f5d4d3359c8d2d",
+      "hp_doc_dfa5a95229e568d544af8a8c34091d38b3c65f4b4d4f370b208db05c5107bfc9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_30a9c51a64a42eec3f4b5d55a93bd456aba328ae397ba31f92f5d4d3359c8d2d",
+        "title": "Business School (The Office)",
+        "text": "\"Business School\" is the seventeenth episode of the third season of the American comedy television series \"The Office\", and the show's forty-fifth episode overall. Written by Brent Forrester, and directed by \"Buffy the Vampire Slayer\" and \"Firefly\" creator Joss Whedon, the episode aired on NBC on February 15, 2007."
+      },
+      {
+        "id": "hp_doc_dfa5a95229e568d544af8a8c34091d38b3c65f4b4d4f370b208db05c5107bfc9",
+        "title": "Brent Forrester",
+        "text": "Brent Forrester (born May 12, 1967) is an American writer and producer, who wrote several episodes of the animated television sitcom \"The Simpsons\" between 1993 and 1997. He has also worked as an executive producer on \"King of the Hill\", and a writer on \"The Ben Stiller Show\", \"Mr. Show with Bob and David\", \"Undeclared\", and \"The Office\". Forrester has also written feature films."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Business School (The Office)",
+        "document_id": "hp_doc_30a9c51a64a42eec3f4b5d55a93bd456aba328ae397ba31f92f5d4d3359c8d2d",
+        "sentence_id": 1
+      },
+      {
+        "title": "Brent Forrester",
+        "document_id": "hp_doc_dfa5a95229e568d544af8a8c34091d38b3c65f4b4d4f370b208db05c5107bfc9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac12a765542994ab5c67cae",
+    "question": "What 1993 science fiction horror-themed first person shooter video game surpassed Corridor 7: Alien Invasion?",
+    "answer": "Doom",
+    "original_answer": "Doom",
+    "gold_answer": "Doom",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac12a765542994ab5c67cae.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Corridor 7 Alien Invasion",
+        "returned_titles": [
+          "Corridor 7: Alien Invasion",
+          "Capstone Software",
+          "Armada (novel)"
+        ]
+      },
+      {
+        "query": "Doom first person shooter",
+        "returned_titles": [
+          "Doom (1993 video game)",
+          "Corridor 7: Alien Invasion",
+          "First Person Shooter (The X-Files)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a546989a976650dab12ab2cc48fca7ad000631f4d761c40706effb1ae90346b0",
+      "hp_doc_008fdbe19c56a9facdd37f71a70a7ecbe00f3fcf113b05e036bc235398cd190a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a546989a976650dab12ab2cc48fca7ad000631f4d761c40706effb1ae90346b0",
+        "title": "Corridor 7: Alien Invasion",
+        "text": "Corridor 7: Alien Invasion is a first-person shooter video game developed by Capstone Software and published by Intracorp and GameTek. It was widely ignored for its outdated \"Wolfenstein 3D\" engine, which was technologically surpassed by \"Doom\" at the time. A sequel, \"Corridor 8: Galactic Wars\", was in development, but later cancelled."
+      },
+      {
+        "id": "hp_doc_008fdbe19c56a9facdd37f71a70a7ecbe00f3fcf113b05e036bc235398cd190a",
+        "title": "Doom (1993 video game)",
+        "text": "Doom (typeset as DOOM in official documents) is a 1993 science fiction horror-themed first-person shooter (FPS) video game by id Software. It is considered one of the most significant and influential titles in video game history, for having helped to pioneer the now-ubiquitous first-person shooter. The original game was divided into three nine-level episodes and was distributed via shareware and mail order. The Ultimate Doom, an updated release of the original game featuring a fourth episode, was released in 1995 and sold at retail."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Corridor 7: Alien Invasion",
+        "document_id": "hp_doc_a546989a976650dab12ab2cc48fca7ad000631f4d761c40706effb1ae90346b0",
+        "sentence_id": 1
+      },
+      {
+        "title": "Doom (1993 video game)",
+        "document_id": "hp_doc_008fdbe19c56a9facdd37f71a70a7ecbe00f3fcf113b05e036bc235398cd190a",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac1324355429964131be177",
+    "question": "The Helen Street police station is used for detaining suspects arrested under a general Terrorism Act, passed by the Parliament of where?",
+    "answer": "United Kingdom",
+    "original_answer": "United Kingdom",
+    "gold_answer": "United Kingdom",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac1324355429964131be177.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Helen Street police station",
+        "returned_titles": [
+          "Helen Street police station",
+          "Ramgopalpet Police Station",
+          "Waldo Street Police Station"
+        ]
+      },
+      {
+        "query": "Terrorism Act passed by Parliament",
+        "returned_titles": [
+          "Terrorism Act 2000",
+          "Helen Street police station",
+          "Days of Future Passed"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_fa997606809ec455b90630dbbc757c8854701921caaabdadf302608085a22f60",
+      "hp_doc_53082db43328d623d4585bbcc66d5f5b24cc5dcc990a930b1325e223c768fd1b"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_fa997606809ec455b90630dbbc757c8854701921caaabdadf302608085a22f60",
+        "title": "Helen Street police station",
+        "text": "Helen Street police station, also known as Govan police station, in the Govan district of Glasgow, is the most secure police station in Scotland. It is used for example for detaining suspects arrested under the Terrorism Act."
+      },
+      {
+        "id": "hp_doc_53082db43328d623d4585bbcc66d5f5b24cc5dcc990a930b1325e223c768fd1b",
+        "title": "Terrorism Act 2000",
+        "text": "The Terrorism Act 2000 (c.11) is the first of a number of general Terrorism Acts passed by the Parliament of the United Kingdom. It superseded and repealed the Prevention of Terrorism (Temporary Provisions) Act 1989 and the Northern Ireland (Emergency Provisions) Act 1996. The powers it provides the police have been controversial, leading to noted cases of alleged abuse, and to legal challenges in British and European courts. The stop-and-search powers under section 44 of the Act have been ruled illegal by the European Court of Human Rights."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Helen Street police station",
+        "document_id": "hp_doc_fa997606809ec455b90630dbbc757c8854701921caaabdadf302608085a22f60",
+        "sentence_id": 0
+      },
+      {
+        "title": "Helen Street police station",
+        "document_id": "hp_doc_fa997606809ec455b90630dbbc757c8854701921caaabdadf302608085a22f60",
+        "sentence_id": 1
+      },
+      {
+        "title": "Terrorism Act 2000",
+        "document_id": "hp_doc_53082db43328d623d4585bbcc66d5f5b24cc5dcc990a930b1325e223c768fd1b",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  }
+]

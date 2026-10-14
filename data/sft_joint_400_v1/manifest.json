@@ -1,0 +1,38 @@
+{
+  "trajectory_count": 400,
+  "unique_parent_questions": 400,
+  "sources": [
+    {
+      "directory": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_expanded_300_v1",
+      "trajectories": 300,
+      "action_examples": 813,
+      "train_sha256": "e4f6da0d56326806889ecf19b53255167ece1555aa9d710dfada092f03f894d9",
+      "tokenized_sha256": "93c2e156d1e0f1241360bcb9fc1812ec9767ba2dac1c262777e5b4509d08069a",
+      "validation_report_sha256": "38e1505be1ca541e57291757ddc08a172f5067038996aab2d333b6760d4b06db"
+    },
+    {
+      "directory": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\data\\sft_targeted_shard_100_v2",
+      "trajectories": 100,
+      "action_examples": 257,
+      "train_sha256": "e57d04743f91a5d693b36ba037c489116b9859f68a79be7a19b7c3237b2a51fd",
+      "tokenized_sha256": "90c129a30622ce8d7933b237df6a099401dc51c26e0ce975ee9343b09050c505",
+      "validation_report_sha256": "0952bfa97d5abdbbaa9dd0aa8641422cc65b11eaa4360cd11082b7a3611e8244"
+    }
+  ],
+  "source_blocks_byte_preserved": true,
+  "train_sha256": "7fdf5c69a65bf21ac4f8091837baf0f0132dc6f7996a0b020c06379ad2788fa3",
+  "source_types": {
+    "teacher_generated": 185,
+    "controlled_recovery": 45,
+    "controlled_missing_relation": 25,
+    "student_candidate_teacher_revised": 94,
+    "student_candidate_reviewed": 41,
+    "teacher_stop_revised": 10
+  },
+  "training_initialization": "fresh original Qwen3-1.7B with new LoRA; do not load C or D",
+  "limitations": [
+    "Hybrid source/behavior dataset, not 400 independent teacher generations.",
+    "Source corpora remain per-trajectory; this is not a merged retrieval library.",
+    "Compare joint shuffling with staged training separately; no pure data-quantity causal claim."
+  ]
+}

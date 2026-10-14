@@ -1,0 +1,51 @@
+{
+  "trajectory_count": 100,
+  "unique_parent_questions": 100,
+  "pool_id": "hotpot_shards_v1:shard_01:sample_300_v1",
+  "source_pool_sha256": "ce6fd189869c44ad3418468f8347334c8cce637407f1657a7fc27ee15b01e1cb",
+  "train_sha256": "e57d04743f91a5d693b36ba037c489116b9859f68a79be7a19b7c3237b2a51fd",
+  "primary_categories": {
+    "query_progression": 30,
+    "constraint_verification": 25,
+    "stop_decision": 25,
+    "citation_recovery": 15,
+    "insufficient_evidence": 5
+  },
+  "target_behaviors": {
+    "query_progression": 30,
+    "constraint_verification": 25,
+    "continue_missing_relation": 15,
+    "stop_when_sufficient": 10,
+    "citation_recovery": 15,
+    "insufficient_evidence": 5
+  },
+  "source_types": {
+    "teacher_stop_revised": 10,
+    "teacher_generated": 70,
+    "controlled_recovery": 15,
+    "controlled_missing_relation": 5
+  },
+  "controlled_interventions": {
+    "near_miss_citation": 12,
+    "multiple_json_objects": 3,
+    "three_document_closed_corpus": 5
+  },
+  "candidate_questions_attempted": 132,
+  "raw_finished": 116,
+  "unexported_candidates": 32,
+  "old_300_parent_overlap": 0,
+  "training_started": false,
+  "annotation_exposed_draft_parents_excluded": [
+    0,
+    1,
+    2
+  ],
+  "limitations": [
+    "Same assistant generation and semantic review; not independent human adjudication.",
+    "Behavior-targeted selection changes source/composition; not representative Hotpot sampling.",
+    "Query progression includes retrieval reformulation; number of searches is not logical hops.",
+    "15 recovery and 5 missing-relation demonstrations are controlled interventions, not naturally occurring failures.",
+    "Restricted three-document abstention does not prove original-corpus unanswerability.",
+    "No training, capability gain or new blind evaluation established."
+  ]
+}

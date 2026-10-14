@@ -1,0 +1,1326 @@
+[
+  {
+    "question_id": "5a726a485542997f827839bc",
+    "question": "The MLB player who's career ended with precisely 3,000 hits in 1972 was from which location?",
+    "answer": "Puerto Rican",
+    "original_answer": "Portland",
+    "gold_answer": "Puerto Rican",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a726a485542997f827839bc.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "MLB player 3000 hits 1972",
+        "returned_titles": [
+          "3,000 hit club",
+          "Jiggs Parrott",
+          "Sandy Koufax"
+        ]
+      },
+      {
+        "query": "Roberto Clemente Oregon",
+        "returned_titles": [
+          "Roberto Clemente",
+          "The Bigs 2",
+          "Derek Jeter"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d8aa9a6be8c797c5106033dee2b708321514ff02f032ea6348710885f7ebe13c",
+      "hp_doc_5a1f07d11851119afff3220a733cc90e7c5f5f78e6e9b7b82c2f4a8494afdbc9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d8aa9a6be8c797c5106033dee2b708321514ff02f032ea6348710885f7ebe13c",
+        "title": "3,000 hit club",
+        "text": "In Major League Baseball (MLB), the 3,000 hit club is the group of batters who have collected 3,000 or more regular-season hits in their careers. Cap Anson was the first to join the club on July 18, 1897, although his precise career hit total is unclear. Two players—Nap Lajoie and Honus Wagner—reached 3,000 hits during the 1914 season. Ty Cobb became the club's fourth member in 1921 and became the first player in MLB history to reach 4,000 hits in 1927; he ultimately finished his career with more than 4,100. Pete Rose became the second member of the 4,000 hit club on April 13, 1984 while playing for the Montreal Expos. Cobb, also the major leagues' all-time career batting average leader, remained the MLB hit leader until September 11, 1985, when Rose collected his 4,192nd hit. Rose, the current record holder, finished his career with 4,256 hits. Roberto Clemente's career ended with precisely 3,000 hits, reaching the mark in the last at bat of his career on September 30, 1972."
+      },
+      {
+        "id": "hp_doc_5a1f07d11851119afff3220a733cc90e7c5f5f78e6e9b7b82c2f4a8494afdbc9",
+        "title": "Roberto Clemente",
+        "text": "Roberto Enrique Clemente Walker (] ; August 18, 1934 – December 31, 1972) was a Puerto Rican professional baseball right fielder who played 18 seasons in Major League Baseball (MLB) for the Pittsburgh Pirates. He was inducted into the National Baseball Hall of Fame in 1973, becoming the first Latin American and Caribbean player to be enshrined. His untimely death established the precedent that, as an alternative to the five-year retirement period, a player who has been deceased for at least six months is eligible for entry into the Hall of Fame."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "3,000 hit club",
+        "document_id": "hp_doc_d8aa9a6be8c797c5106033dee2b708321514ff02f032ea6348710885f7ebe13c",
+        "sentence_id": 7
+      },
+      {
+        "title": "Roberto Clemente",
+        "document_id": "hp_doc_5a1f07d11851119afff3220a733cc90e7c5f5f78e6e9b7b82c2f4a8494afdbc9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a77323655429972597f1496",
+    "question": "This journalist wrote Diary of a Chav and has her own weekly opinion column in The Independent.",
+    "answer": "Grace Dent",
+    "original_answer": "Grace Dent",
+    "gold_answer": "Grace Dent",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a77323655429972597f1496.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Diary of a Chav",
+        "returned_titles": [
+          "Diary of a Chav",
+          "The Diary of a Young Girl",
+          "Owen Harris (director)"
+        ]
+      },
+      {
+        "query": "Grace Dent The Independent",
+        "returned_titles": [
+          "Grace Dent",
+          "Diary of a Chav",
+          "The Finale (Will &amp; Grace)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_9c7314046713679d29d4c044cb4a452793a3f40505ce800babbef04e7ea54384",
+      "hp_doc_8413d56c93edcec2a927f4efce000f1f777e6db74ba7767561c0028ef93e6ca5"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_9c7314046713679d29d4c044cb4a452793a3f40505ce800babbef04e7ea54384",
+        "title": "Diary of a Chav",
+        "text": "Diary of a Chav is a young adult series that was written by the English journalist, author, and broadcaster Grace Dent. The series consists of six books that were originally released in the United Kingdom from 2007 to 2009. An attempt to publish the books overseas in the United States was largely unsuccessful and only the first two books, re-titled for American publication, were released."
+      },
+      {
+        "id": "hp_doc_8413d56c93edcec2a927f4efce000f1f777e6db74ba7767561c0028ef93e6ca5",
+        "title": "Grace Dent",
+        "text": "Grace Dent (born 3 October 1973) is an English journalist, author and broadcaster. Dent chiefly writes for \"The Independent\", with an opinion column on Wednesday and a television column every Saturday. She writes \"Grace and Flavour\", a restaurant critic for the \"London Evening Standard\" and contributes to magazines such as \"Tatler\" and \"Marie Claire\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Diary of a Chav",
+        "document_id": "hp_doc_9c7314046713679d29d4c044cb4a452793a3f40505ce800babbef04e7ea54384",
+        "sentence_id": 0
+      },
+      {
+        "title": "Grace Dent",
+        "document_id": "hp_doc_8413d56c93edcec2a927f4efce000f1f777e6db74ba7767561c0028ef93e6ca5",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a78b947554299148911f970",
+    "question": "Crump Stadium was named after which American politician who served as mayor of Memphis from 1910 through 1915?",
+    "answer": "E. H. Crump",
+    "original_answer": "Edward Hull Crump",
+    "gold_answer": "E. H. Crump",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a78b947554299148911f970.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Crump Stadium Memphis mayor",
+        "returned_titles": [
+          "Crump Stadium",
+          "E. H. Crump House",
+          "E. H. Crump"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_b1e616186fcdf8b804993e76ecc489a97986571a638cde1c2cc756ecd3e0f171",
+      "hp_doc_dfbae0309d4e0905333a6051e083e88298a33debf49cd3a530cbcdc06e2ae69a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_b1e616186fcdf8b804993e76ecc489a97986571a638cde1c2cc756ecd3e0f171",
+        "title": "Crump Stadium",
+        "text": "Crump Stadium was a sports stadium in Memphis, Tennessee, built in 1934 and largely demolished in 2006. It was built as a Works Progress Administration (WPA) project with a capacity of 7,500. In 1939 it was enlarged to hold 25,000 spectators. In 1948 and 1949 it staged the Delta Bowl, a college football bowl game. In 1947 the Arkansas–Texas football game was played there. The annual Ole Miss–Tennessee game was also held there in 1960s. Memphis State University (now University of Memphis) home football games were played there until the completion of Memphis Memorial Stadium (now Liberty Bowl Memorial Stadium) in the mid-1960s. The stadium was named for the late Memphis political boss E. H. Crump. It is now home to Central High School."
+      },
+      {
+        "id": "hp_doc_dfbae0309d4e0905333a6051e083e88298a33debf49cd3a530cbcdc06e2ae69a",
+        "title": "E. H. Crump",
+        "text": "Edward Hull \"Boss\" Crump (October 2, 1874 – October 16, 1954) was an American politician from Memphis, Tennessee. Representing the Democratic Party, he was the dominant force in the city's politics for most of the first half of the 20th century, during which the city had a commission form of government. He also dominated Tennessee state politics for most of the time from the 1920s to the 1940s. He was elected and served as mayor of Memphis from 1910 through 1915, and again briefly in 1940. However, he effectively appointed every mayor elected from 1915 to 1954."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Crump Stadium",
+        "document_id": "hp_doc_b1e616186fcdf8b804993e76ecc489a97986571a638cde1c2cc756ecd3e0f171",
+        "sentence_id": 0
+      },
+      {
+        "title": "Crump Stadium",
+        "document_id": "hp_doc_b1e616186fcdf8b804993e76ecc489a97986571a638cde1c2cc756ecd3e0f171",
+        "sentence_id": 6
+      },
+      {
+        "title": "Crump Stadium",
+        "document_id": "hp_doc_b1e616186fcdf8b804993e76ecc489a97986571a638cde1c2cc756ecd3e0f171",
+        "sentence_id": 7
+      },
+      {
+        "title": "E. H. Crump",
+        "document_id": "hp_doc_dfbae0309d4e0905333a6051e083e88298a33debf49cd3a530cbcdc06e2ae69a",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7d135555429909bec7693f",
+    "question": "In what year was the author of the single-player adventure gamebook published by Puffin Books in 1984 and republished by Wizard Books in 2002 born?",
+    "answer": "1949",
+    "original_answer": "1949",
+    "gold_answer": "1949",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7d135555429909bec7693f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Puffin Books 1984 single player adventure gamebook",
+        "returned_titles": [
+          "Deathtrap Dungeon",
+          "Island of the Lizard King",
+          "City of Thieves (gamebook)"
+        ]
+      },
+      {
+        "query": "Ian Livingstone birth year",
+        "returned_titles": [
+          "Ian Livingstone",
+          "Deathtrap Dungeon",
+          "City of Thieves (gamebook)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_798795a5ec816313bf5d29e7ac00cfb32e19401b9bff93b968ee5ecb4da78f07",
+      "hp_doc_2692f499b6d37abcf903f816b598d24f6591d73ec1677d45e57d169ed866665a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_798795a5ec816313bf5d29e7ac00cfb32e19401b9bff93b968ee5ecb4da78f07",
+        "title": "Island of the Lizard King",
+        "text": "Island of the Lizard King is a single-player adventure gamebook written by Ian Livingstone, and illustrated by Alan Langford. Originally published by Puffin Books in 1984, the title is the seventh gamebook in the Fighting Fantasy series. It was later republished by Wizard Books in 2002. A digital version developed by Tin Man Games was released for Android and iOS."
+      },
+      {
+        "id": "hp_doc_2692f499b6d37abcf903f816b598d24f6591d73ec1677d45e57d169ed866665a",
+        "title": "Ian Livingstone",
+        "text": "Ian Livingstone CBE (born 29 December 1949 ) is an English fantasy author and entrepreneur. Along with Steve Jackson, he is the co-founder of a series of role-playing gamebooks, \"Fighting Fantasy\", and the author of many books within that series. He is also one of the co-founders of prominent games company Games Workshop."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Island of the Lizard King",
+        "document_id": "hp_doc_798795a5ec816313bf5d29e7ac00cfb32e19401b9bff93b968ee5ecb4da78f07",
+        "sentence_id": 0
+      },
+      {
+        "title": "Island of the Lizard King",
+        "document_id": "hp_doc_798795a5ec816313bf5d29e7ac00cfb32e19401b9bff93b968ee5ecb4da78f07",
+        "sentence_id": 1
+      },
+      {
+        "title": "Island of the Lizard King",
+        "document_id": "hp_doc_798795a5ec816313bf5d29e7ac00cfb32e19401b9bff93b968ee5ecb4da78f07",
+        "sentence_id": 2
+      },
+      {
+        "title": "Ian Livingstone",
+        "document_id": "hp_doc_2692f499b6d37abcf903f816b598d24f6591d73ec1677d45e57d169ed866665a",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7dc6ac5542995ed0d16671",
+    "question": "When did The Simpson's episode air that introduced the character Nelson Muntz?",
+    "answer": "February 4, 1990",
+    "original_answer": "February 4, 1990",
+    "gold_answer": "February 4, 1990",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7dc6ac5542995ed0d16671.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Simpson's Nelson Muntz",
+        "returned_titles": [
+          "Nelson Muntz",
+          "Lisa's Date with Density",
+          "Bart the General"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ed1c4af860ee0499b5cd217a664e6ce62675e86a849b3b338d9ed4a4be564e62",
+      "hp_doc_62054b69df5c2e995d4106419f9dffbad8e5504126e4bdead96ed1ad02a1a04a"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ed1c4af860ee0499b5cd217a664e6ce62675e86a849b3b338d9ed4a4be564e62",
+        "title": "Nelson Muntz",
+        "text": "Nelson Mandela Muntz is a fictional character and the lead school bully from the animated TV series \"The Simpsons\". He is voiced by Nancy Cartwright. Nelson was introduced in Season 1's \"Bart the General\" as an antagonist but later turned into a on-and-off friend of Bart Simpson. He is well known for his signature mocking laugh \"Ha-ha!\""
+      },
+      {
+        "id": "hp_doc_62054b69df5c2e995d4106419f9dffbad8e5504126e4bdead96ed1ad02a1a04a",
+        "title": "Bart the General",
+        "text": "\"Bart the General\" is the fifth episode of \"The Simpsons\"<nowiki>'</nowiki> first season. It originally aired on the Fox network in the United States on February 4, 1990. The episode deals with Bart's troubles with the bully Nelson Muntz. Bart chooses to go to war with Nelson uniting the neighborhood children against him. The episode was written by John Swartzwelder and directed by David Silverman."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Nelson Muntz",
+        "document_id": "hp_doc_ed1c4af860ee0499b5cd217a664e6ce62675e86a849b3b338d9ed4a4be564e62",
+        "sentence_id": 2
+      },
+      {
+        "title": "Bart the General",
+        "document_id": "hp_doc_62054b69df5c2e995d4106419f9dffbad8e5504126e4bdead96ed1ad02a1a04a",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7f0c8355429934daa2fcaa",
+    "question": "What is the name of the rapper known as iLoveMakonnen known for his song \"Tuesday\"?",
+    "answer": "Makonnen Sheran",
+    "original_answer": "ILoveMakonnen",
+    "gold_answer": "Makonnen Sheran",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7f0c8355429934daa2fcaa.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Tuesday iLoveMakonnen",
+        "returned_titles": [
+          "Tuesday (ILoveMakonnen song)",
+          "Tuesday (Burak Yeter song)",
+          "ILoveMakonnen"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_09a9ceb2da04c60f6d3e3da6caa2a337c9797dfc4491af60b07068cce43716b6",
+      "hp_doc_abb299703c770d9d49d53b9678752e59319db5d7c93367e08ba735c96f5cb65d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_09a9ceb2da04c60f6d3e3da6caa2a337c9797dfc4491af60b07068cce43716b6",
+        "title": "Tuesday (Burak Yeter song)",
+        "text": "\"Tuesday\" is a song recorded by Turkish producer Burak Yeter, featuring vocals from Danelle Sandoval. It is a cover of \"Tuesday\" by ILoveMakonnen. The song was released as a digital download in UK on 12 August 2016 through Warner Music Group."
+      },
+      {
+        "id": "hp_doc_abb299703c770d9d49d53b9678752e59319db5d7c93367e08ba735c96f5cb65d",
+        "title": "ILoveMakonnen",
+        "text": "Makonnen Sheran (born April 12, 1989), better known by his stage name iLoveMakonnen, is an American rapper and singer from Atlanta, Georgia, who currently lives in Portland, Oregon. His rise to fame began in 2014, after Canadian rapper Drake released a remix to his song \"Tuesday\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Tuesday (Burak Yeter song)",
+        "document_id": "hp_doc_09a9ceb2da04c60f6d3e3da6caa2a337c9797dfc4491af60b07068cce43716b6",
+        "sentence_id": 0
+      },
+      {
+        "title": "Tuesday (Burak Yeter song)",
+        "document_id": "hp_doc_09a9ceb2da04c60f6d3e3da6caa2a337c9797dfc4491af60b07068cce43716b6",
+        "sentence_id": 1
+      },
+      {
+        "title": "ILoveMakonnen",
+        "document_id": "hp_doc_abb299703c770d9d49d53b9678752e59319db5d7c93367e08ba735c96f5cb65d",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7f5a2155429969796c1a0a",
+    "question": "Petticoat Government was written by the author of \"The Scarlet Pimpernel,\" which was set during the Reign of Terror following the start of  what?",
+    "answer": "French Revolution",
+    "original_answer": "1792",
+    "gold_answer": "French Revolution",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7f5a2155429969796c1a0a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Petticoat Government Scarlet Pimpernel",
+        "returned_titles": [
+          "Petticoat Government",
+          "The Scarlet Pimpernel (1982 film)",
+          "The Way of the Scarlet Pimpernel"
+        ]
+      },
+      {
+        "query": "Reign Terror French Revolution",
+        "returned_titles": [
+          "The Scarlet Pimpernel",
+          "The Scarlet Pimpernel (1982 film)",
+          "Algerian War"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4815b9e04aaf5617aa45823b7444917147ca2fcd4468b5f4c2e0e153fd488096",
+      "hp_doc_9637b9e6f67a20238afc42e5f570c4e86fdb835cd028f3c4578368963b3d59b3"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4815b9e04aaf5617aa45823b7444917147ca2fcd4468b5f4c2e0e153fd488096",
+        "title": "Petticoat Government",
+        "text": "Petticoat Government was written by Baroness Orczy, author of \"The Scarlet Pimpernel\", in 1910. It was released under the title \"Petticoat Rule\" in the U.S. in the same year."
+      },
+      {
+        "id": "hp_doc_9637b9e6f67a20238afc42e5f570c4e86fdb835cd028f3c4578368963b3d59b3",
+        "title": "The Scarlet Pimpernel",
+        "text": "The Scarlet Pimpernel is the first novel in a series of historical fiction by Baroness Orczy set during the Reign of Terror following the start of the French Revolution, first published in 1905. The novel was written after Orczy's stage play of the same title enjoyed a long run in London and popular success earlier in 1905, after a first run in Nottingham in 1903."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Petticoat Government",
+        "document_id": "hp_doc_4815b9e04aaf5617aa45823b7444917147ca2fcd4468b5f4c2e0e153fd488096",
+        "sentence_id": 0
+      },
+      {
+        "title": "The Scarlet Pimpernel",
+        "document_id": "hp_doc_9637b9e6f67a20238afc42e5f570c4e86fdb835cd028f3c4578368963b3d59b3",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7f7e6c55429969796c1a76",
+    "question": "Who wrote a biography of the jazz musician that lived his adult life as a man, but was assigned female at birth?",
+    "answer": "Diane Helen Wood Middlebrook",
+    "original_answer": "Diane Middlebrook",
+    "gold_answer": "Diane Helen Wood Middlebrook",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7f7e6c55429969796c1a76.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "jazz musician born female",
+        "returned_titles": [
+          "Billy Tipton",
+          "Jorun Marie Kvernberg",
+          "David Clayton-Thomas"
+        ]
+      },
+      {
+        "query": "Billy Tipton biography",
+        "returned_titles": [
+          "Diane Middlebrook",
+          "Billy Tipton",
+          "The Born Losers"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d7169a7d15f4fc6590eb7bc79d1374b16460b9f83a086dd0e1393f6ae7c7c2e0",
+      "hp_doc_05e09c3aa0dd4a5b2aef00b278c29ef0e1f9b6415b58dc4376673aae11a96230"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d7169a7d15f4fc6590eb7bc79d1374b16460b9f83a086dd0e1393f6ae7c7c2e0",
+        "title": "Diane Middlebrook",
+        "text": "Diane Helen Wood Middlebrook (April 16, 1939 – December 15, 2007) was an American biographer, poet, and teacher. She taught feminist studies for many years at Stanford University. She is best known for critically acclaimed biographies of poets Anne Sexton and Sylvia Plath (along with Plath's husband Ted Hughes), and jazz musician Billy Tipton. Middlebrook was preparing a biography of the Roman poet Ovid, to be published in 2008. Her death brought that project to a close."
+      },
+      {
+        "id": "hp_doc_05e09c3aa0dd4a5b2aef00b278c29ef0e1f9b6415b58dc4376673aae11a96230",
+        "title": "Billy Tipton",
+        "text": "William Lee Tipton (December 29, 1914 – January 21, 1989) was an American jazz musician and bandleader. He is also notable for the postmortem discovery that, although he lived his adult life as a man, he was assigned female at birth."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Diane Middlebrook",
+        "document_id": "hp_doc_d7169a7d15f4fc6590eb7bc79d1374b16460b9f83a086dd0e1393f6ae7c7c2e0",
+        "sentence_id": 0
+      },
+      {
+        "title": "Diane Middlebrook",
+        "document_id": "hp_doc_d7169a7d15f4fc6590eb7bc79d1374b16460b9f83a086dd0e1393f6ae7c7c2e0",
+        "sentence_id": 2
+      },
+      {
+        "title": "Billy Tipton",
+        "document_id": "hp_doc_05e09c3aa0dd4a5b2aef00b278c29ef0e1f9b6415b58dc4376673aae11a96230",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8480865542997175ce1ecb",
+    "question": "Al Jean began his career in writing with what show-runner for The Simpsons?",
+    "answer": "Michael \"Mike\" L. Reiss",
+    "original_answer": "The Tonight Show Starring Johnny Carson",
+    "gold_answer": "Michael \"Mike\" L. Reiss",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8480865542997175ce1ecb.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Al Jean The Simpsons",
+        "returned_titles": [
+          "Al Jean",
+          "Simpsoncalifragilisticexpiala(Annoyed Grunt)cious",
+          "The Simpsons (season 4)"
+        ]
+      },
+      {
+        "query": "Mike Reiss The Tonight Show Starring Johnny Carson",
+        "returned_titles": [
+          "Al Jean",
+          "Mike Reiss",
+          "The Simpsons (season 4)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_fdb5da6b1242f0e9a8a1b7e25cc591460e4a6e07d6a5ecf268b9d02418084c89",
+      "hp_doc_31ba20bbe58d6efadd9950dac79e413eb5c46fe619516d2999cb676f9536a584"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_fdb5da6b1242f0e9a8a1b7e25cc591460e4a6e07d6a5ecf268b9d02418084c89",
+        "title": "Al Jean",
+        "text": "Alfred Ernest \"Al\" Jean III (born January 9, 1961) is an American screenwriter and producer. Jean is well known for his work on \"The Simpsons\". He was born and raised in Detroit, Michigan and graduated from Harvard University in 1981. Jean began his writing career in the 1980s with fellow Harvard alum Mike Reiss. Together, they worked as writers and producers on television shows such as \"The Tonight Show Starring Johnny Carson\", \"ALF\" and \"It's Garry Shandling's Show\"."
+      },
+      {
+        "id": "hp_doc_31ba20bbe58d6efadd9950dac79e413eb5c46fe619516d2999cb676f9536a584",
+        "title": "Mike Reiss",
+        "text": "Michael \"Mike\" L. Reiss (born September 15, 1959) is an American television comedy writer. He served as a show-runner, writer and producer for the animated series \"The Simpsons\" and co-created the animated series \"The Critic\". He created and wrote the webtoon \"Queer Duck\" and has also worked on screenplays including: \"\", \"The Simpsons Movie\" and \"My Life in Ruins\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Al Jean",
+        "document_id": "hp_doc_fdb5da6b1242f0e9a8a1b7e25cc591460e4a6e07d6a5ecf268b9d02418084c89",
+        "sentence_id": 3
+      },
+      {
+        "title": "Mike Reiss",
+        "document_id": "hp_doc_31ba20bbe58d6efadd9950dac79e413eb5c46fe619516d2999cb676f9536a584",
+        "sentence_id": 0
+      },
+      {
+        "title": "Mike Reiss",
+        "document_id": "hp_doc_31ba20bbe58d6efadd9950dac79e413eb5c46fe619516d2999cb676f9536a584",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8d9fe0554299068b959d69",
+    "question": "What country does Louis de Silvestre and Augustus II the Strong have in common?",
+    "answer": "Poland",
+    "original_answer": "Poland",
+    "gold_answer": "Poland",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8d9fe0554299068b959d69.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Louis de Silvestre Augustus II",
+        "returned_titles": [
+          "Louis de Silvestre",
+          "Marie-Maximilienne de Silvestre",
+          "Augustus II the Strong"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_49a52deaf0ed5663851c80fc5a81a3907aa3ad74603b3709b0f3909fe50edcb4",
+      "hp_doc_a638108234c2e093962242caa263c803a54473d4baf26ce4a72be80d196cf789"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_49a52deaf0ed5663851c80fc5a81a3907aa3ad74603b3709b0f3909fe50edcb4",
+        "title": "Louis de Silvestre",
+        "text": "Louis de Silvestre (23 June 1675 – 11 April 1760) was a French portrait and history painter. He was court painter to King Augustus II of Poland, and director of the Royal Academy of Arts in Dresden."
+      },
+      {
+        "id": "hp_doc_a638108234c2e093962242caa263c803a54473d4baf26ce4a72be80d196cf789",
+        "title": "Augustus II the Strong",
+        "text": "Augustus II the Strong (German: \"August II. der Starke\" ; Polish: \"August II Mocny\" ; Lithuanian: \"Augustas II\" ; 12 May 1670 – 1 February 1733) of the Albertine line of the House of Wettin was Elector of Saxony (as Frederick Augustus I), Imperial Vicar and elected King of Poland and Grand Duke of Lithuania."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Louis de Silvestre",
+        "document_id": "hp_doc_49a52deaf0ed5663851c80fc5a81a3907aa3ad74603b3709b0f3909fe50edcb4",
+        "sentence_id": 1
+      },
+      {
+        "title": "Augustus II the Strong",
+        "document_id": "hp_doc_a638108234c2e093962242caa263c803a54473d4baf26ce4a72be80d196cf789",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab5e3975542992aa134a3ca",
+    "question": "Leleti Khumalo is known for her role in which 2004 British-Italian-South African historical drama film directed by Terry George?",
+    "answer": "Hotel Rwanda",
+    "original_answer": "Hotel Rwanda",
+    "gold_answer": "Hotel Rwanda",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab5e3975542992aa134a3ca.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Leleti Khumalo 2004 Terry George",
+        "returned_titles": [
+          "Leleti Khumalo",
+          "Sarafina! (film)",
+          "Yesterday (2004 film)"
+        ]
+      },
+      {
+        "query": "Yesterday film 2004 Terry George",
+        "returned_titles": [
+          "Yesterday (2004 film)",
+          "Hotel Rwanda",
+          "The Shore (film)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f660354b99ffb8d66310fe15cfd442bfc08865d7284943abea73d411f75daa2c",
+      "hp_doc_e58887681b1bb36895a04abe30e4c5fd6e16f4d03e0e2f7dbb54c1c58c416fa9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f660354b99ffb8d66310fe15cfd442bfc08865d7284943abea73d411f75daa2c",
+        "title": "Leleti Khumalo",
+        "text": "Leleti Khumalo (born 1970) is a Zulu South African actress known for her leading role in the movie and stage play \"Sarafina! \" and for her roles in other films such as \"Hotel Rwanda\", \"Yesterday\" and \"Invictus\"."
+      },
+      {
+        "id": "hp_doc_e58887681b1bb36895a04abe30e4c5fd6e16f4d03e0e2f7dbb54c1c58c416fa9",
+        "title": "Hotel Rwanda",
+        "text": "Hotel Rwanda is a 2004 British-Italian-South African historical drama film directed by Terry George. It was adapted from a screenplay written by both George and Keir Pearson. It stars Don Cheadle and Sophie Okonedo as hotelier Paul Rusesabagina and his wife Tatiana. Based on the Rwandan genocide, which occurred during the spring of 1994, the film, which has been called an African \"Schindler's List\", documents Rusesabagina's acts to save the lives of his family and more than a thousand other refugees by providing them with shelter in the besieged Hôtel des Mille Collines. \"Hotel Rwanda\" explores genocide, political corruption, and the repercussions of violence."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Leleti Khumalo",
+        "document_id": "hp_doc_f660354b99ffb8d66310fe15cfd442bfc08865d7284943abea73d411f75daa2c",
+        "sentence_id": 1
+      },
+      {
+        "title": "Hotel Rwanda",
+        "document_id": "hp_doc_e58887681b1bb36895a04abe30e4c5fd6e16f4d03e0e2f7dbb54c1c58c416fa9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abb041755429939ce03dd8c",
+    "question": " Ike is a 1979 television miniseries based on a 1948 memoir by a member of what corps?",
+    "answer": "British Mechanised Transport Corps",
+    "original_answer": "British Mechanised Transport Corps",
+    "gold_answer": "British Mechanised Transport Corps",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abb041755429939ce03dd8c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Ike 1979",
+        "returned_titles": [
+          "Ike (miniseries)",
+          "Johnny Ringo",
+          "Ike Willis"
+        ]
+      },
+      {
+        "query": "Eisenhower memoir",
+        "returned_titles": [
+          "Ike (miniseries)",
+          "Kay Summersby",
+          "Holly Madison"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_e994182f533a3c1cd8d3ddc8874ad61eaede4e298e7a6bfeacbb153c5a8d75f4",
+      "hp_doc_033d87dc7fd4fbe66272c8b6573be61df3ae51ca2ce0e4f58fe327dd32e7eaba"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e994182f533a3c1cd8d3ddc8874ad61eaede4e298e7a6bfeacbb153c5a8d75f4",
+        "title": "Ike (miniseries)",
+        "text": "Ike is a 1979 television miniseries about the life of Dwight D. Eisenhower, with heavy concentration on the time he went to Europe during World War II to serve as Supreme Commander. The screenplay by Melville Shavelson was based on Kay Summersby's 1948 memoir \"Eisenhower Was My Boss\" and her 1975 autobiography, \"Past Forgetting: My Love Affair\". Directed by Boris Sagal and Melville Shavelson, the production starred Robert Duvall as Eisenhower and Lee Remick as Kay Summersby. Film editors John Woodcock and Bill Lenny won an Eddie Award for their work and the series garnered five Emmy Award nominations."
+      },
+      {
+        "id": "hp_doc_033d87dc7fd4fbe66272c8b6573be61df3ae51ca2ce0e4f58fe327dd32e7eaba",
+        "title": "Kay Summersby",
+        "text": "Kay Summersby (23 November 1908 – 20 January 1975) was a member of the British Mechanised Transport Corps during World War II, who served as a chauffeur and later as personal secretary to Dwight D. Eisenhower during his period as Supreme Commander Allied Expeditionary Force in command of the Allied forces in north west Europe. They were together a great deal until the war ended, when Eisenhower cut ties and returned to the United States. It is generally agreed that Summersby and Eisenhower became extremely close during the war, and some writers have suggested that they had a sexual relationship, although several people who knew both of them at the time have rejected that claim, as have most of Eisenhower's biographers."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Ike (miniseries)",
+        "document_id": "hp_doc_e994182f533a3c1cd8d3ddc8874ad61eaede4e298e7a6bfeacbb153c5a8d75f4",
+        "sentence_id": 0
+      },
+      {
+        "title": "Ike (miniseries)",
+        "document_id": "hp_doc_e994182f533a3c1cd8d3ddc8874ad61eaede4e298e7a6bfeacbb153c5a8d75f4",
+        "sentence_id": 1
+      },
+      {
+        "title": "Kay Summersby",
+        "document_id": "hp_doc_033d87dc7fd4fbe66272c8b6573be61df3ae51ca2ce0e4f58fe327dd32e7eaba",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abbb8b75542996606241725",
+    "question": "Where is the legendary giant anaconda discovered that Vincent Castellanos, the American actor best known for his role in Anaconda from?",
+    "answer": "Amazon rainforest",
+    "original_answer": "Amazon rainforest",
+    "gold_answer": "Amazon rainforest",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abbb8b75542996606241725.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Vincent Castellanos Anaconda",
+        "returned_titles": [
+          "Vincent Castellanos",
+          "Anaconda (film)",
+          "Lincoln A. Castellanos"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_40d93eb2deaab949fae3d0ad1fd6a7b18c6e013c78db75ff651356eff67fa856",
+      "hp_doc_284be4b696c98d618c5cc6a97c33cbbcd84c81a218aeaa1264656ada3eeda6ed"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_40d93eb2deaab949fae3d0ad1fd6a7b18c6e013c78db75ff651356eff67fa856",
+        "title": "Vincent Castellanos",
+        "text": "Vincent Castellanos (born August 7, 1961) is an American actor. Castellanos is best known for his role as Mateo in the adventure-horror film Anaconda."
+      },
+      {
+        "id": "hp_doc_284be4b696c98d618c5cc6a97c33cbbcd84c81a218aeaa1264656ada3eeda6ed",
+        "title": "Anaconda (film)",
+        "text": "Anaconda is a 1997 adventure horror film by Peruvian director Luis Llosa, starring Jennifer Lopez, Ice Cube, Jon Voight, Eric Stoltz, Jonathan Hyde and Owen Wilson. It centers on a documentary film crew who have been taken hostage by a snake hunter who is going after the legendary giant anaconda, which is discovered in the Amazon rainforest."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Vincent Castellanos",
+        "document_id": "hp_doc_40d93eb2deaab949fae3d0ad1fd6a7b18c6e013c78db75ff651356eff67fa856",
+        "sentence_id": 0
+      },
+      {
+        "title": "Vincent Castellanos",
+        "document_id": "hp_doc_40d93eb2deaab949fae3d0ad1fd6a7b18c6e013c78db75ff651356eff67fa856",
+        "sentence_id": 1
+      },
+      {
+        "title": "Anaconda (film)",
+        "document_id": "hp_doc_284be4b696c98d618c5cc6a97c33cbbcd84c81a218aeaa1264656ada3eeda6ed",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac503955542996feb3fe9ca",
+    "question": "What Nazi war criminal was chairman of the supervisory board of the largest chemical producer in the world?",
+    "answer": "Carl Krauch",
+    "original_answer": "Carl Krauch",
+    "gold_answer": "Carl Krauch",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac503955542996feb3fe9ca.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Nazi war criminal chairman chemical",
+        "returned_titles": [
+          "Carl Krauch",
+          "Otto Ambros",
+          "László Csatáry"
+        ]
+      },
+      {
+        "query": "BASF chairman",
+        "returned_titles": [
+          "BASF",
+          "Carl Krauch",
+          "Kurt Bock"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_7a7142737bdecd35723dda626c0d7461a347f473fe661aa7e5d2abe52897a4f2",
+      "hp_doc_fd8012764c5296a1c74ee571eb97e27d7ddf4c108d7dbf0b91a4b7c0a692a2a0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_7a7142737bdecd35723dda626c0d7461a347f473fe661aa7e5d2abe52897a4f2",
+        "title": "Carl Krauch",
+        "text": "Carl Krauch (7 April 1887 – 3 February 1968) was a German chemist, industrialist and Nazi war criminal. He was an executive at BASF (later IG Farben); during World War II, he was chairman of the supervisory board. He was a key implementer of the Reich’s Four-Year Plan to achieve national economic self-sufficiency and promote industrial production. He was Plenipotentiary of Special Issues in Chemical Production, a senator of the Kaiser Wilhelm Society, and an honorary professor at the University of Berlin. He was convicted in the IG Farben trial after World War II and sentenced to six years in prison."
+      },
+      {
+        "id": "hp_doc_fd8012764c5296a1c74ee571eb97e27d7ddf4c108d7dbf0b91a4b7c0a692a2a0",
+        "title": "BASF",
+        "text": "BASF SE is a German chemical company and the largest chemical producer in the world. The BASF Group comprises subsidiaries and joint ventures in more than 80 countries and operates six integrated production sites and 390 other production sites in Europe, Asia, Australia, the Americas and Africa. Its headquarters is located in Ludwigshafen, Germany. BASF has customers in over 190 countries and supplies products to a wide variety of industries. Despite its size and global presence, BASF has received relatively little public attention since it abandoned manufacturing and selling BASF-branded consumer electronics products in the 1990s."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Carl Krauch",
+        "document_id": "hp_doc_7a7142737bdecd35723dda626c0d7461a347f473fe661aa7e5d2abe52897a4f2",
+        "sentence_id": 0
+      },
+      {
+        "title": "Carl Krauch",
+        "document_id": "hp_doc_7a7142737bdecd35723dda626c0d7461a347f473fe661aa7e5d2abe52897a4f2",
+        "sentence_id": 1
+      },
+      {
+        "title": "BASF",
+        "document_id": "hp_doc_fd8012764c5296a1c74ee571eb97e27d7ddf4c108d7dbf0b91a4b7c0a692a2a0",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adce4995542992c1e3a2471",
+    "question": "State of Grace and Begin Again were songs on which album released to the iTunes Store by American singer-songwriter Taylor Swift in 2012?",
+    "answer": "Red",
+    "original_answer": "Red",
+    "gold_answer": "\"Red\"",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adce4995542992c1e3a2471.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "State Grace Begin Again Taylor Swift",
+        "returned_titles": [
+          "Begin Again (Taylor Swift song)",
+          "State of Grace (Taylor Swift song)",
+          "Our Song (Taylor Swift song)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 1,
+    "proposed_citation_ids": [
+      "hp_doc_068abd445c00c7562e625207bb347234027cb5f75c809009446f18923c2fe067",
+      "hp_doc_e86ae63f26e8a939097bc508d3dabf6107bf1d5292b593616fd21f75fd11cd37"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_068abd445c00c7562e625207bb347234027cb5f75c809009446f18923c2fe067",
+        "title": "State of Grace (Taylor Swift song)",
+        "text": "\"State of Grace\" is a song by American singer-songwriter Taylor Swift from her fourth studio album \"Red\" (2012). It was released to the iTunes Store on October 16, 2012, in the United States by Big Machine Records as the fourth and final promotional single from the album. It was the only promotional single from the album that was not re-issued as an official single, as \"Begin Again\", \"Red\", and \"I Knew You Were Trouble\", were all later re-issued as official singles. The song was written by Swift and produced by Nathan Chapman and Swift. Musically, the song is a departure from Swift's typical country pop, using influences of alternative rock while being compared to bands such as U2, Muse and The Cranberries. The song has received immense praise from music critics, who have complimented its broader sound in comparison with Swift's previous material."
+      },
+      {
+        "id": "hp_doc_e86ae63f26e8a939097bc508d3dabf6107bf1d5292b593616fd21f75fd11cd37",
+        "title": "Begin Again (Taylor Swift song)",
+        "text": "\"Begin Again\" is a song written and recorded by American singer-songwriter Taylor Swift for her fourth studio album, \"Red\" (2012). Swift co-produced the song with Nathan Chapman and Dann Huff. Initially released as a promotional single on September 25, 2012 by Big Machine Records, the song served as the second single from \"Red\" on October 1, 2012. \"Begin Again\" is a country song, with the lyrical content finds Swift falling in love again after a failed relationship."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "State of Grace (Taylor Swift song)",
+        "document_id": "hp_doc_068abd445c00c7562e625207bb347234027cb5f75c809009446f18923c2fe067",
+        "sentence_id": 0
+      },
+      {
+        "title": "Begin Again (Taylor Swift song)",
+        "document_id": "hp_doc_e86ae63f26e8a939097bc508d3dabf6107bf1d5292b593616fd21f75fd11cd37",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5add3ff15542997545bbbcfe",
+    "question": "Worker: Which non-profit (501)c3 organization is currently headed by John G. Levi?",
+    "answer": "Legal Services Corporation",
+    "original_answer": "Legal Services Corporation",
+    "gold_answer": "Legal Services Corporation",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5add3ff15542997545bbbcfe.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "John Levi 501c3",
+        "returned_titles": [
+          "John G. Levi",
+          "Never Never Love",
+          "Fandral"
+        ]
+      },
+      {
+        "query": "Legal Services Corporation",
+        "returned_titles": [
+          "Legal Services Corporation",
+          "John G. Levi",
+          "Convergys"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_743f15793d51cc266f75cd95c707dc179e9d4816505ff47dc706a338ee2f134f",
+      "hp_doc_fe1dda44fb7793f75d95d88b899c5ebbc37d71e4b44e34f21536f6488c64a945"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_743f15793d51cc266f75cd95c707dc179e9d4816505ff47dc706a338ee2f134f",
+        "title": "John G. Levi",
+        "text": "John G. Levi is the current Board Chair of the Legal Services Corporation and a member of the American Academy of Arts and Sciences. He was nominated to serve on the Board by President Barack Obama on August 6, 2009, and his nomination was confirmed by the U.S. Senate on March 19, 2010. He was elected Chairman of the LSC Board by his fellow Board members on April 7, 2010."
+      },
+      {
+        "id": "hp_doc_fe1dda44fb7793f75d95d88b899c5ebbc37d71e4b44e34f21536f6488c64a945",
+        "title": "Legal Services Corporation",
+        "text": "The Legal Services Corporation (LSC) is a publicly funded, 501(c)(3) non-profit corporation established by the United States Congress. It seeks to ensure equal access to justice under the law for all Americans by providing funding for civil legal aid to those who otherwise would be unable to afford it. The LSC was created in 1974 with bipartisan congressional sponsorship and the support of the Nixon administration, and is funded through the congressional appropriations process."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "John G. Levi",
+        "document_id": "hp_doc_743f15793d51cc266f75cd95c707dc179e9d4816505ff47dc706a338ee2f134f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Legal Services Corporation",
+        "document_id": "hp_doc_fe1dda44fb7793f75d95d88b899c5ebbc37d71e4b44e34f21536f6488c64a945",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5add4f755542997545bbbd2d",
+    "question": "Giselle Cossard Binon Omindarewa was also known as what?",
+    "answer": "Yemoja",
+    "original_answer": "Mother Giselle of Yemoja",
+    "gold_answer": "Yemoja",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5add4f755542997545bbbd2d.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Giselle Cossard Binon Omindarewa",
+        "returned_titles": [
+          "Giselle Cossard",
+          "Giselle Salandy",
+          "Miss Oneness Trinidad and Tobago"
+        ]
+      },
+      {
+        "query": "Mother Giselle Yemoja",
+        "returned_titles": [
+          "Giselle Cossard",
+          "Yemoja",
+          "Giselle Salandy"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_f289c41e5aa583ecd89c80854648e4ff00a5052fd5002dcf9fc28a0a9f058a5d",
+      "hp_doc_f2d17e5c0be6966f0f50c5e7f02b1958f7754acdc5e41e1e1faa3e45c4c109d3"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_f289c41e5aa583ecd89c80854648e4ff00a5052fd5002dcf9fc28a0a9f058a5d",
+        "title": "Giselle Cossard",
+        "text": "Giselle Cossard Binon Omindarewa, (31 May 1923, Tangier - 21 January 2016, Duke of Caxias), Mãe-de-santo of Candomblé of Rio de Janeiro, was a French Brazilian anthropologist and writer. She was also known as Mother Giselle of Yemoja, Daughter of Saint John of Goméia, Initiated for the Orisha Yemoja."
+      },
+      {
+        "id": "hp_doc_f2d17e5c0be6966f0f50c5e7f02b1958f7754acdc5e41e1e1faa3e45c4c109d3",
+        "title": "Yemoja",
+        "text": "Yemoja (Yoruba: \"Yemọja\" ) is a major water deity from the Yoruba religion. She is an orisha and the mother of all orishas, having given birth to the 14 Yoruba gods and goddesses. She is often syncretized with either Our Lady of Regla in the afrocuban diaspora or various other Virgin Mary figures of the Catholic Church, a practice that emerged during the era of the Trans-Atlantic slave trade. Yemoja is motherly and strongly protective, and cares deeply for all her children, comforting them and cleansing them of sorrow. She is said to be able to cure infertility in women, and cowrie shells represent her wealth. She does not easily lose her temper, but when angered she can be quite destructive and violent, as the flood waters of turbulent rivers."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Giselle Cossard",
+        "document_id": "hp_doc_f289c41e5aa583ecd89c80854648e4ff00a5052fd5002dcf9fc28a0a9f058a5d",
+        "sentence_id": 1
+      },
+      {
+        "title": "Yemoja",
+        "document_id": "hp_doc_f2d17e5c0be6966f0f50c5e7f02b1958f7754acdc5e41e1e1faa3e45c4c109d3",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ae1047e55429920d523427f",
+    "question": "During which years did the coach, who coached the 2006 Kansas Jayhawks football team, coach the team?",
+    "answer": "2002 to 2009",
+    "original_answer": "2002–2009",
+    "gold_answer": "2002 to 2009",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ae1047e55429920d523427f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "2006 Kansas Jayhawks football coach",
+        "returned_titles": [
+          "2006 Kansas Jayhawks football team",
+          "1900 Kansas Jayhawks football team",
+          "1903 Kansas Jayhawks football team"
+        ]
+      },
+      {
+        "query": "Mark Mangino Kansas Jayhawks",
+        "returned_titles": [
+          "2006 Kansas Jayhawks football team",
+          "Mark Mangino",
+          "List of Kansas Jayhawks head football coaches"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_8b32f96de5d193a56f4dbeaaa57572231b824a7375f320f378eef02e4163e729",
+      "hp_doc_5b995f409f6a3ec932cef61669247041b7b28291a5c6bfe257658a60bdc106aa"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8b32f96de5d193a56f4dbeaaa57572231b824a7375f320f378eef02e4163e729",
+        "title": "2006 Kansas Jayhawks football team",
+        "text": "The 2006 Kansas Jayhawks football team represented the University of Kansas during the 2006 NCAA Division I FBS football season. They participated as members of the Big 12 Conference in the North Division. The team played their home games at Memorial Stadium in Lawrence, Kansas. They were coached by Mark Mangino."
+      },
+      {
+        "id": "hp_doc_5b995f409f6a3ec932cef61669247041b7b28291a5c6bfe257658a60bdc106aa",
+        "title": "Mark Mangino",
+        "text": "Mark Thomas Mangino (born August 26, 1956) is an American football coach, who until October 26, 2015 served as offensive coordinator and tight ends coach at Iowa State University. Previously, Mangino served as the head football coach at the University of Kansas from 2002 to 2009. In 2007, Mangino received several national coach of the year honors after leading the Jayhawks to their first 12-win season in school history and an Orange Bowl victory. However, he resigned as coach at Kansas two seasons later following allegations of mistreatment of players."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "2006 Kansas Jayhawks football team",
+        "document_id": "hp_doc_8b32f96de5d193a56f4dbeaaa57572231b824a7375f320f378eef02e4163e729",
+        "sentence_id": 3
+      },
+      {
+        "title": "Mark Mangino",
+        "document_id": "hp_doc_5b995f409f6a3ec932cef61669247041b7b28291a5c6bfe257658a60bdc106aa",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ae145e855429920d523436e",
+    "question": "When was the publisher of Legacy of the Ancients founded?",
+    "answer": "May 28, 1982",
+    "original_answer": "1982",
+    "gold_answer": "May 28, 1982",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ae145e855429920d523436e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Legacy of the Ancients publisher",
+        "returned_titles": [
+          "Legacy of the Ancients",
+          "The Legend of Blacksilver",
+          "Songwriters Hall of Fame"
+        ]
+      },
+      {
+        "query": "Electronic Arts founded",
+        "returned_titles": [
+          "Electronic Arts",
+          "Legacy of the Ancients",
+          "Australian Ballet School"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ec6684140201788b38d1f4ade7695611e69c6fcd7f46c365fa032bd5f425bfaa",
+      "hp_doc_f17a0913b965f55054c26537f8bfb90292ed717f3cdd8f086a3c0768b2c14686"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ec6684140201788b38d1f4ade7695611e69c6fcd7f46c365fa032bd5f425bfaa",
+        "title": "Legacy of the Ancients",
+        "text": "Legacy of the Ancients is a fantasy role-playing video game published by Electronic Arts in 1987."
+      },
+      {
+        "id": "hp_doc_f17a0913b965f55054c26537f8bfb90292ed717f3cdd8f086a3c0768b2c14686",
+        "title": "Electronic Arts",
+        "text": "Electronic Arts Inc. (EA) is an American video game company headquartered in Redwood City, California. Founded and incorporated on May 28, 1982 by Trip Hawkins, the company was a pioneer of the early home computer games industry and was notable for promoting the designers and programmers responsible for its games. As of September 2017, Electronic Arts is the second-largest gaming company in the Americas and Europe by revenue and market capitalization after Activision Blizzard and ahead of Take-Two Interactive."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Legacy of the Ancients",
+        "document_id": "hp_doc_ec6684140201788b38d1f4ade7695611e69c6fcd7f46c365fa032bd5f425bfaa",
+        "sentence_id": 0
+      },
+      {
+        "title": "Electronic Arts",
+        "document_id": "hp_doc_f17a0913b965f55054c26537f8bfb90292ed717f3cdd8f086a3c0768b2c14686",
+        "sentence_id": 0
+      },
+      {
+        "title": "Electronic Arts",
+        "document_id": "hp_doc_f17a0913b965f55054c26537f8bfb90292ed717f3cdd8f086a3c0768b2c14686",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ae28bd1554299495565daa9",
+    "question": "At what time did the land rush Robert Galbreath, Jr. and his brother, Herman, begin?",
+    "answer": "high noon",
+    "original_answer": "12:00 PM",
+    "gold_answer": "high noon",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ae28bd1554299495565daa9.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Robert Galbreath Jr Herman land rush",
+        "returned_titles": [
+          "Robert Galbreath, Jr.",
+          "Land Rush of 1889",
+          "Alabama Fever"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a6c7669e2cfc9d496a1652721d70ace60b46785639388f0f77b71dcbdd693256",
+      "hp_doc_2a8dcbd88a978b9bfcf87bb2b2fdd90848bd8db9016bd6202a62f634d9631540"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a6c7669e2cfc9d496a1652721d70ace60b46785639388f0f77b71dcbdd693256",
+        "title": "Robert Galbreath, Jr.",
+        "text": "Robert Galbreath, Jr. (1863–1953) was a pioneer entrepreneur, wildcatter and oilman in Oklahoma. A native of Ohio, he traveled to Kansas and California in the late 19th century. Returning East by way of Indian Territory, he participated with his brother, Herman, in the Land Rush of 1889 for the Unassigned Lands. Afterward, he sold his claim and settled in the new town of Edmond. He became an early wildcatter and oil producer. His most notable accomplishment was the discovery of the Glenn Pool oilfield."
+      },
+      {
+        "id": "hp_doc_2a8dcbd88a978b9bfcf87bb2b2fdd90848bd8db9016bd6202a62f634d9631540",
+        "title": "Land Rush of 1889",
+        "text": "The Oklahoma Land Rush of 1889 was the first land rush into the Unassigned Lands. The area that was opened to settlement included all or part of the present-day Canadian, Cleveland, Kingfisher, Logan, Oklahoma, and Payne counties of the US state of Oklahoma. The land run started at high noon on April 22, 1889, with an estimated 50,000 people lined up for their piece of the available two million acres (8,000 km²)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Robert Galbreath, Jr.",
+        "document_id": "hp_doc_a6c7669e2cfc9d496a1652721d70ace60b46785639388f0f77b71dcbdd693256",
+        "sentence_id": 0
+      },
+      {
+        "title": "Robert Galbreath, Jr.",
+        "document_id": "hp_doc_a6c7669e2cfc9d496a1652721d70ace60b46785639388f0f77b71dcbdd693256",
+        "sentence_id": 1
+      },
+      {
+        "title": "Land Rush of 1889",
+        "document_id": "hp_doc_2a8dcbd88a978b9bfcf87bb2b2fdd90848bd8db9016bd6202a62f634d9631540",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  }
+]

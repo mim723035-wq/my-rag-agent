@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "trajectories": 300,
+  "unique_training_questions": 300,
+  "original_100_byte_prefix": "PASS",
+  "controller_replay": "PASS",
+  "source_hashes": "PASS",
+  "search_budget": "PASS",
+  "unseen_final_citations": 0,
+  "repeated_successful_queries": 0,
+  "obvious_avoidable_final_searches": 0,
+  "supervised_action_count": 813,
+  "error_feedback_counts": {
+    "unseen_citation": 4,
+    "unknown_action": 2,
+    "transient_tool_failure": 7,
+    "empty_query": 2,
+    "multiple_json_objects": 5,
+    "near_miss_citation": 10
+  },
+  "malformed_action_targets_excluded": 23,
+  "search_count_distribution": {
+    "1": 99,
+    "2": 189,
+    "3": 12
+  },
+  "eval_question_overlap": 0,
+  "eval_gold_title_overlap": 0,
+  "limitations": [
+    "Replay and ID availability do not replace independent semantic review.",
+    "Title isolation does not prove complete entity isolation or absence of pretraining contamination.",
+    "Controlled tiny-corpus abstention differs from natural open-world unanswerability."
+  ],
+  "token_mask": "PASS",
+  "tokenized_sha256": "93c2e156d1e0f1241360bcb9fc1812ec9767ba2dac1c262777e5b4509d08069a",
+  "maximum_sequence_tokens": 2717,
+  "total_supervised_tokens": 49882,
+  "new_recovery_maximum_sequence_tokens": 2551
+}

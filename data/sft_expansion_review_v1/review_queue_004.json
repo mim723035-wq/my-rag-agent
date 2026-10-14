@@ -1,0 +1,1340 @@
+[
+  {
+    "question_id": "5a72cd8755429901807daf42",
+    "question": "Which rock band did one of the songwriting partners of \"Hug My Soul\" play guitar for? (Info A: Saint Etienne, Info B: Republica)",
+    "answer": "Republica",
+    "original_answer": "Republica",
+    "gold_answer": "Republica",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a72cd8755429901807daf42.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hug My Soul Saint Etienne",
+        "returned_titles": [
+          "Hug My Soul",
+          "Saint Etienne discography",
+          "Reserection"
+        ]
+      },
+      {
+        "query": "Republica guitar",
+        "returned_titles": [
+          "Republica",
+          "The Dead Livers",
+          "Zac Brown Band"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_14ba4f1f21ca06d5348affc7d556def02e8d0842e68245bba3b3c707e3bfc48a",
+      "hp_doc_6ce4e85cfc6d0452a32a6b46c7f3cfa787456c0aefc84b1affa970b608950a2e"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_14ba4f1f21ca06d5348affc7d556def02e8d0842e68245bba3b3c707e3bfc48a",
+        "title": "Hug My Soul",
+        "text": "\"Hug My Soul\" is a single by British band Saint Etienne. It was the third single from the album \"Tiger Bay\", and was released  1994 (1994-) by Heavenly Records. It was written by vocalist Sarah Cracknell along with songwriting partners Guy Batson and Johnny Male (Male and Batson would help co-write a number of tracks on Cracknell's solo debut \"Lipslide\")."
+      },
+      {
+        "id": "hp_doc_6ce4e85cfc6d0452a32a6b46c7f3cfa787456c0aefc84b1affa970b608950a2e",
+        "title": "Republica",
+        "text": "Republica are an English alternative rock band, formed in 1994. The height of their popularity spanned from 1996 to 1999. The current line-up consists of Saffron (vocals), Tim Dorney (keyboards), Johnny Male (guitar), Conor Lawrence (drums)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Hug My Soul",
+        "document_id": "hp_doc_14ba4f1f21ca06d5348affc7d556def02e8d0842e68245bba3b3c707e3bfc48a",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hug My Soul",
+        "document_id": "hp_doc_14ba4f1f21ca06d5348affc7d556def02e8d0842e68245bba3b3c707e3bfc48a",
+        "sentence_id": 2
+      },
+      {
+        "title": "Republica",
+        "document_id": "hp_doc_6ce4e85cfc6d0452a32a6b46c7f3cfa787456c0aefc84b1affa970b608950a2e",
+        "sentence_id": 0
+      },
+      {
+        "title": "Republica",
+        "document_id": "hp_doc_6ce4e85cfc6d0452a32a6b46c7f3cfa787456c0aefc84b1affa970b608950a2e",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7325c35542991f29ee2d0c",
+    "question": " Albert Lee Ueltschi, was once personal pilot to which American?",
+    "answer": "Juan Trippe",
+    "original_answer": "Pan American World Airways",
+    "gold_answer": "Juan Trippe",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7325c35542991f29ee2d0c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Albert Lee Ueltschi",
+        "returned_titles": [
+          "Albert Lee Ueltschi",
+          "Albert Tucker (politician)",
+          "Albert Lee Giddens"
+        ]
+      },
+      {
+        "query": "Juan Trippe",
+        "returned_titles": [
+          "Juan Trippe",
+          "Albert Lee Ueltschi",
+          "Church of San Juan Bautista, Dalcahue"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c47494ef2bb1ac08d6a0b9f9c76959ea0f16df895753911a9f743350af3e9ec5",
+      "hp_doc_c57e3fa6f41ddbff9526ba3db1a633466b78f8ff8438373485f55aa24019bc00"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c47494ef2bb1ac08d6a0b9f9c76959ea0f16df895753911a9f743350af3e9ec5",
+        "title": "Albert Lee Ueltschi",
+        "text": "Albert Lee \"Al\" Ueltschi (May 15, 1917 – October 18, 2012) is considered the father of modern flight training and was the founder of FlightSafety International. Ueltschi was once personal pilot to Juan Trippe and an associate to Charles Lindbergh. On July 21, 2001, he was enshrined at Dayton, Ohio, in the National Aviation Hall of Fame class of 2001, along with test pilot Joe Engle, United States Air Force flying ace Marion Carl, and USAF ace Robin Olds. In 2013, \"Flying\" magazine ranked Ueltschi number 13 on its list of the \"51 Heroes of Aviation\"."
+      },
+      {
+        "id": "hp_doc_c57e3fa6f41ddbff9526ba3db1a633466b78f8ff8438373485f55aa24019bc00",
+        "title": "Juan Trippe",
+        "text": "Juan Terry Trippe (June 27, 1899 – April 3, 1981) was an American commercial aviation pioneer, entrepreneur and the founder of Pan American World Airways, one of the iconic airlines of the 20th century. He was instrumental in numerous revolutionary advances in airline history, including the development and production of the Boeing 314 Clipper, which opened trans-Pacific airline travel, the Boeing Stratocruiser which helped to pioneer cabin pressurization, the Boeing 707 which launched the Jet Age, and the Boeing 747 which introduced the era of jumbo jets (evolved from Air Force bombers, tanker and transport design, respectively). Trippe's signing of the 747 contract coincided with the 50th anniversary of Boeing, and he gave a speech where he explained his belief that these jets would be a force that would help bring about world peace."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Albert Lee Ueltschi",
+        "document_id": "hp_doc_c47494ef2bb1ac08d6a0b9f9c76959ea0f16df895753911a9f743350af3e9ec5",
+        "sentence_id": 1
+      },
+      {
+        "title": "Juan Trippe",
+        "document_id": "hp_doc_c57e3fa6f41ddbff9526ba3db1a633466b78f8ff8438373485f55aa24019bc00",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7731a555429972597f1490",
+    "question": "Which religious settlement lived near present-day Iowa City and owned an appliance company now owned by Whirlpool?",
+    "answer": "Amana Colony",
+    "original_answer": "Amana Colony",
+    "gold_answer": "The Amana Colony",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7731a555429972597f1490.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Whirlpool Iowa City",
+        "returned_titles": [
+          "Iowa City, Iowa",
+          "Amana Corporation",
+          "Janusz Bardach"
+        ]
+      },
+      {
+        "query": "Amana Corporation founder",
+        "returned_titles": [
+          "Amana Corporation",
+          "Amana Colonies",
+          "Sheldon Adelson"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_90653c840f4209695bfe67076eb3b5d5a14299ed48ca001a2787203e10e12190",
+      "hp_doc_3a67cad523cb005d90f13483db84674b6fa0a14bb8deee08932addff107b02a0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_90653c840f4209695bfe67076eb3b5d5a14299ed48ca001a2787203e10e12190",
+        "title": "Amana Corporation",
+        "text": "The Amana Corporation is an American brand of household appliances. It was founded in 1934 by George Foerstner as The Electrical Equipment Co. in Middle Amana, Iowa, to manufacture commercial walk-in coolers. The business was later owned by the Amana Society and became known as Amana Refrigeration, Inc. It is now owned by the Whirlpool Corporation."
+      },
+      {
+        "id": "hp_doc_3a67cad523cb005d90f13483db84674b6fa0a14bb8deee08932addff107b02a0",
+        "title": "Amana Colonies",
+        "text": "The Amana Colony is seven villages on 26000 acres located in Iowa County in east-central Iowa, United States: Amana (or Main Amana), East Amana, High Amana, Middle Amana, South Amana, West Amana, and Homestead. The villages were built and settled by German Pietists, who were persecuted in their homeland by the German state government and the Lutheran Church. Calling themselves the Community of True Inspiration (German: \"Die Gemeinde der wahren Inspiration\" ), they first settled in New York near Buffalo in what is now the Town of West Seneca. However, seeking more isolated surroundings, they moved to Iowa (near present-day Iowa City) in 1856. They lived a communal life until 1932."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Amana Corporation",
+        "document_id": "hp_doc_90653c840f4209695bfe67076eb3b5d5a14299ed48ca001a2787203e10e12190",
+        "sentence_id": 0
+      },
+      {
+        "title": "Amana Corporation",
+        "document_id": "hp_doc_90653c840f4209695bfe67076eb3b5d5a14299ed48ca001a2787203e10e12190",
+        "sentence_id": 2
+      },
+      {
+        "title": "Amana Corporation",
+        "document_id": "hp_doc_90653c840f4209695bfe67076eb3b5d5a14299ed48ca001a2787203e10e12190",
+        "sentence_id": 3
+      },
+      {
+        "title": "Amana Colonies",
+        "document_id": "hp_doc_3a67cad523cb005d90f13483db84674b6fa0a14bb8deee08932addff107b02a0",
+        "sentence_id": 0
+      },
+      {
+        "title": "Amana Colonies",
+        "document_id": "hp_doc_3a67cad523cb005d90f13483db84674b6fa0a14bb8deee08932addff107b02a0",
+        "sentence_id": 1
+      },
+      {
+        "title": "Amana Colonies",
+        "document_id": "hp_doc_3a67cad523cb005d90f13483db84674b6fa0a14bb8deee08932addff107b02a0",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7731c555429972597f1491",
+    "question": "Which Turner Broadcasting channel hosts an Indian animated television series named Kumbh Karan?",
+    "answer": "Pogo",
+    "original_answer": "Pogo",
+    "gold_answer": "Pogo",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7731c555429972597f1491.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Kumbh Karan Turner Broadcasting",
+        "returned_titles": [
+          "Kumbh Karan",
+          "TruTV (Asia)",
+          "TruTV (Latin America)"
+        ]
+      },
+      {
+        "query": "Pogo Turner Broadcasting",
+        "returned_titles": [
+          "Pogo (TV channel)",
+          "TruTV (Asia)",
+          "Boomerang (Latin America)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_89ec5fe4518b66538189d90f9696ae413f0ad5e67cfa479e50f50657f3e33b8c",
+      "hp_doc_09fc434f477bb477bba4b2eb2f8aaa96c5b5d036bfc34cd9912193a01e0711f3"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_89ec5fe4518b66538189d90f9696ae413f0ad5e67cfa479e50f50657f3e33b8c",
+        "title": "Kumbh Karan",
+        "text": "Kumbh Karan is an Indian-animated television series broadcast by the Indian kids channel Pogo. The show was released on June 1, 2010. The show earned a budget of more than $300,000."
+      },
+      {
+        "id": "hp_doc_09fc434f477bb477bba4b2eb2f8aaa96c5b5d036bfc34cd9912193a01e0711f3",
+        "title": "Pogo (TV channel)",
+        "text": "Pogo, which launched on 1 January 2004, is a cable and satellite television channel created by Turner Broadcasting, is a unit of Time Warner for India which primarily shows animated programming and some live-action shows based in Mumbai, Maharashtra."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Kumbh Karan",
+        "document_id": "hp_doc_89ec5fe4518b66538189d90f9696ae413f0ad5e67cfa479e50f50657f3e33b8c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Pogo (TV channel)",
+        "document_id": "hp_doc_09fc434f477bb477bba4b2eb2f8aaa96c5b5d036bfc34cd9912193a01e0711f3",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7757225542993569682d59",
+    "question": "Lamborghini Trattori was founded by this Italian industrialist?",
+    "answer": "Ferruccio Lamborghini",
+    "original_answer": "Ferruccio Lamborghini",
+    "gold_answer": "Ferruccio Lamborghini",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7757225542993569682d59.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Lamborghini Trattori founded",
+        "returned_titles": [
+          "Lamborghini Trattori",
+          "Ferruccio Lamborghini",
+          "Fiat Trattori"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a36b4fceb43645a965fa7977ac15af7888ed43f97d4d7380bb242999223b0505",
+      "hp_doc_22d5a72804f2e966b42738241a3a83d68b8b55c2917946f42b1906a2266420ed"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a36b4fceb43645a965fa7977ac15af7888ed43f97d4d7380bb242999223b0505",
+        "title": "Lamborghini Trattori",
+        "text": "Lamborghini Trattori is an Italian tractor manufacturer. It was founded in 1948 in Cento by Ferruccio Lamborghini, who later went on to establish Lamborghini Automobili. In 1963, it became part of SAME (Società Accomandita Motori Endotermici)."
+      },
+      {
+        "id": "hp_doc_22d5a72804f2e966b42738241a3a83d68b8b55c2917946f42b1906a2266420ed",
+        "title": "Ferruccio Lamborghini",
+        "text": "Ferruccio Elio Arturo Lamborghini (] ; April 28, 1916 – February 20, 1993) was an Italian industrialist. Born to grape farmers from the \"comune\" of Cento in the Emilia-Romagna region, his mechanical know-how led him to enter the business of tractor manufacturing in 1948, when he founded Lamborghini Trattori, which quickly became an important manufacturer of agricultural equipment in the midst of Italy's post-WWII economic boom. In 1959, he opened an oil heater factory, Lamborghini Bruciatori, which later entered the business of producing air conditioning equipment. In 1963, he most famously created Automobili Lamborghini, a maker of high-end sports cars in Sant'Agata Bolognese. Lamborghini founded a fourth company, Lamborghini Oleodinamica in 1969. Lamborghini sold off many of his interests by the late 1970s and retired to an estate in Umbria, where he pursued winemaking."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Lamborghini Trattori",
+        "document_id": "hp_doc_a36b4fceb43645a965fa7977ac15af7888ed43f97d4d7380bb242999223b0505",
+        "sentence_id": 1
+      },
+      {
+        "title": "Ferruccio Lamborghini",
+        "document_id": "hp_doc_22d5a72804f2e966b42738241a3a83d68b8b55c2917946f42b1906a2266420ed",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7d29e35542995f4f402219",
+    "question": "The Living Oracles is a translation of the New Testament created by Alexander Campbell, the early Restoration Movement leader who stressed as paramount the reliance on few essentials as well as what item?",
+    "answer": "scripture",
+    "original_answer": "scripture",
+    "gold_answer": "scripture",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7d29e35542995f4f402219.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Living Oracles Alexander Campbell",
+        "returned_titles": [
+          "Living Oracles",
+          "Alexander Campbell (clergyman)",
+          "Millennial Harbinger"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_2d9f5c3ece2efbd545f9c3b5bb70848008ed613e82e3af7acc1a208a1e5037a7",
+      "hp_doc_1b1411e039c6a0037df442df598314f5230a2f48d1dfd4442dff83c90353e5df"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_2d9f5c3ece2efbd545f9c3b5bb70848008ed613e82e3af7acc1a208a1e5037a7",
+        "title": "Living Oracles",
+        "text": "The Living Oracles is a translation of the New Testament compiled and edited by the early Restoration Movement leader Alexander Campbell. Published in 1826, it was based on an 1818 combined edition of translations by George Campbell, James MacKnight and Philip Doddridge, and included edits and extensive notes by Campbell."
+      },
+      {
+        "id": "hp_doc_1b1411e039c6a0037df442df598314f5230a2f48d1dfd4442dff83c90353e5df",
+        "title": "Alexander Campbell (clergyman)",
+        "text": "Alexander Campbell (12 September 1788 – 4 March 1866) was a Scots-Irish immigrant who became an ordained minister in the United States and joined his father Thomas Campbell as a leader of a reform effort that is historically known as the Restoration Movement, and by some as the \"Stone-Campbell Movement.\" It resulted in the development of non-denominational Christian churches, which stressed reliance on scripture and few essentials."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Living Oracles",
+        "document_id": "hp_doc_2d9f5c3ece2efbd545f9c3b5bb70848008ed613e82e3af7acc1a208a1e5037a7",
+        "sentence_id": 0
+      },
+      {
+        "title": "Alexander Campbell (clergyman)",
+        "document_id": "hp_doc_1b1411e039c6a0037df442df598314f5230a2f48d1dfd4442dff83c90353e5df",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a80094b55429969796c1ba7",
+    "question": "This British record producer/engineer born in 1947  was involved with the production of Supertramp's Crime of the Century and various songs with David Bowie was born in which year?",
+    "answer": "1947",
+    "original_answer": "1967",
+    "gold_answer": "1947",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a80094b55429969796c1ba7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Supertramp Crime of the Century",
+        "returned_titles": [
+          "Crime of the Century (album)",
+          "Ken Scott",
+          "Checkmate (Sydney Horler novel)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_eb246de443928ab97a6c7946398ca0c78c1fd94f12284181ea8470e5a4e05ef9",
+      "hp_doc_b80af37eae639df09863b2ee3f4e612efb1eda772cc44f61ada857ca8baf8ba2"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_eb246de443928ab97a6c7946398ca0c78c1fd94f12284181ea8470e5a4e05ef9",
+        "title": "Crime of the Century (album)",
+        "text": "Crime of the Century is the third studio album by the English rock band Supertramp, released in September 1974 on A&M Records. \"Crime of the Century\" was Supertramp's commercial breakthrough in both the US and UK, aided by the UK hit \"Dreamer\" and the US hit \"Bloody Well Right\". It was a UK Top 10 album and a US Top 40 album, eventually being certified Gold in the US in 1977 after the release of \"Even in the Quietest Moments...\". The album was Supertramp's first to feature drummer Bob Siebenberg (at the time credited as Bob C. Benberg), woodwinds player John Anthony Helliwell, bassist Dougie Thomson, and co-producer Ken Scott. The album has received critical acclaim, including its inclusion in \"Rolling Stone\"'s \"50 Greatest Prog Rock Albums of All Time\"."
+      },
+      {
+        "id": "hp_doc_b80af37eae639df09863b2ee3f4e612efb1eda772cc44f61ada857ca8baf8ba2",
+        "title": "Ken Scott",
+        "text": "Ken Scott (born 20 April 1947) is a British record producer/engineer widely known for being one of the five main engineers for The Beatles, as well as engineering Elton John, Pink Floyd, Procol Harum, Mahavishnu Orchestra, Duran Duran, The Jeff Beck Group and many more. As a producer, Scott is noted for his work with David Bowie (on \"Hunky Dory\", \"The Rise and Fall of Ziggy Stardust and the Spiders from Mars\", \"Aladdin Sane\" and \"Pinups\"), Supertramp (\"Crime of the Century\" and \"Crisis? What Crisis? \"), Devo, Kansas, The Tubes, Ronnie Montrose on Gamma 1, Level 42, among others."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Crime of the Century (album)",
+        "document_id": "hp_doc_eb246de443928ab97a6c7946398ca0c78c1fd94f12284181ea8470e5a4e05ef9",
+        "sentence_id": 0
+      },
+      {
+        "title": "Crime of the Century (album)",
+        "document_id": "hp_doc_eb246de443928ab97a6c7946398ca0c78c1fd94f12284181ea8470e5a4e05ef9",
+        "sentence_id": 3
+      },
+      {
+        "title": "Ken Scott",
+        "document_id": "hp_doc_b80af37eae639df09863b2ee3f4e612efb1eda772cc44f61ada857ca8baf8ba2",
+        "sentence_id": 0
+      },
+      {
+        "title": "Ken Scott",
+        "document_id": "hp_doc_b80af37eae639df09863b2ee3f4e612efb1eda772cc44f61ada857ca8baf8ba2",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a81d5b755429903bc27b9d7",
+    "question": "What Canadian documentary is about the hobby where participants wear costumes to represent a specific character?",
+    "answer": "Fanboy Confessional",
+    "original_answer": "Fanboy Confessional",
+    "gold_answer": "Fanboy Confessional",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a81d5b755429903bc27b9d7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Canadian documentary costume",
+        "returned_titles": [
+          "Folk costume",
+          "Fanboy Confessional",
+          "Velvet Goldmine"
+        ]
+      },
+      {
+        "query": "Folk costume cosplay",
+        "returned_titles": [
+          "Folk costume",
+          "Cosplay",
+          "List of cosplayers"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d420339d35f50f4776b0fe49d58c4dde102aabdd0ea0f8f276e7fc27eab20fb6",
+      "hp_doc_fe051651df7c45a0d07821f29b76e6dc09d737a5f204ec4e86bb02125354c630"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d420339d35f50f4776b0fe49d58c4dde102aabdd0ea0f8f276e7fc27eab20fb6",
+        "title": "Fanboy Confessional",
+        "text": "Fanboy Confessional is a Canadian documentary series exploring fan subcultures. Subjects of the series have included Cosplay, Furries, LARP, Steampunk, and Real-life Superheroes. Created by Toronto based production company Markham Street Films, the series currently airs on Space."
+      },
+      {
+        "id": "hp_doc_fe051651df7c45a0d07821f29b76e6dc09d737a5f204ec4e86bb02125354c630",
+        "title": "Cosplay",
+        "text": "Cosplay (コスプレ , kosupure ) , a contraction of the words costume play, is a hobby in which participants called cosplayers wear costumes and fashion accessories to represent a specific character. Cosplayers often interact to create a subculture, and a broader use of the term \"cosplay\" applies to any costumed role-playing in venues apart from the stage. Any entity that lends itself to dramatic interpretation may be taken up as a subject and it is not unusual to see genders switched. Favorite sources include anime, cartoons, comic books, live-action films, television series and video games."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Fanboy Confessional",
+        "document_id": "hp_doc_d420339d35f50f4776b0fe49d58c4dde102aabdd0ea0f8f276e7fc27eab20fb6",
+        "sentence_id": 0
+      },
+      {
+        "title": "Fanboy Confessional",
+        "document_id": "hp_doc_d420339d35f50f4776b0fe49d58c4dde102aabdd0ea0f8f276e7fc27eab20fb6",
+        "sentence_id": 1
+      },
+      {
+        "title": "Cosplay",
+        "document_id": "hp_doc_fe051651df7c45a0d07821f29b76e6dc09d737a5f204ec4e86bb02125354c630",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a862326554299211dda2a7f",
+    "question": "What Samoan island was George Pisi born on?",
+    "answer": "Upolu",
+    "original_answer": "Upolu",
+    "gold_answer": "Upolu",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a862326554299211dda2a7f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "George Pisi Samoan island",
+        "returned_titles": [
+          "George Pisi",
+          "Saleimoa",
+          "Siuniu"
+        ]
+      },
+      {
+        "query": "Apia Samoan island",
+        "returned_titles": [
+          "Vaiusu",
+          "Apia",
+          "Saleimoa"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_08c3e61ea78e5ce5e255d33499694e15ef78866bea7c4690722e5096ba2972b6",
+      "hp_doc_75996bc815ff9c30baf565d385a2f491380162b47b30f1a31c2455e9f88c1e8d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_08c3e61ea78e5ce5e255d33499694e15ef78866bea7c4690722e5096ba2972b6",
+        "title": "George Pisi",
+        "text": "George Pisi (born 29 June 1986 in Apia, Samoa) is a rugby union player for Samoa who will leave his current club Northampton Saints in the Aviva Premiership at the conclusion of the 2016/17 season."
+      },
+      {
+        "id": "hp_doc_75996bc815ff9c30baf565d385a2f491380162b47b30f1a31c2455e9f88c1e8d",
+        "title": "Apia",
+        "text": "Apia is the capital and the largest city of Samoa. From 1900 to 1919, it was the capital of German Samoa. The city is located on the central north coast of Upolu, Samoa's second largest island. Apia is the only \"city\" in Samoa and falls within the political district (\"itūmālō\") of Tuamasaga."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "George Pisi",
+        "document_id": "hp_doc_08c3e61ea78e5ce5e255d33499694e15ef78866bea7c4690722e5096ba2972b6",
+        "sentence_id": 0
+      },
+      {
+        "title": "Apia",
+        "document_id": "hp_doc_75996bc815ff9c30baf565d385a2f491380162b47b30f1a31c2455e9f88c1e8d",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a867ed855429960ec39b6b7",
+    "question": "Cry, Onion, a film directed by Enzo Castellari, comes from a subgenre of films that emerged from what time period?",
+    "answer": "mid-1960s",
+    "original_answer": "mid-1960s",
+    "gold_answer": "the mid-1960s",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a867ed855429960ec39b6b7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Cry Onion Enzo Castellari",
+        "returned_titles": [
+          "Cry, Onion!",
+          "Striker (1987 film)",
+          "The House by the Edge of the Lake"
+        ]
+      },
+      {
+        "query": "Spaghetti Western subgenre",
+        "returned_titles": [
+          "Spaghetti Western",
+          "Keoma (film)",
+          "Cry, Onion!"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_6d7bfd63c23f75074f97885e0a1267b9176fb2a5b9cf159ceb4457c9f0e4d7b8",
+      "hp_doc_400c11198157a9673c1d127f782a24cc0290459abbe4372dcd9588bf94466195"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_6d7bfd63c23f75074f97885e0a1267b9176fb2a5b9cf159ceb4457c9f0e4d7b8",
+        "title": "Cry, Onion!",
+        "text": "Cry, Onion! (Italian: \"Cipolla Colt\" , lit. \"Onion Colt\", also known as \"The Smell of Onion\") is a 1975 Spaghetti Western comedy film directed by Enzo G. Castellari. It is openly comedic and parodic."
+      },
+      {
+        "id": "hp_doc_400c11198157a9673c1d127f782a24cc0290459abbe4372dcd9588bf94466195",
+        "title": "Spaghetti Western",
+        "text": "Spaghetti Western, also known as Italian Western or Macaroni Western (primarily in Japan), is a broad subgenre of Western films that emerged in the mid-1960s in the wake of Sergio Leone's film-making style and international box-office success. The term was used by American critics and other countries because most of these Westerns were produced and directed by Italians."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Cry, Onion!",
+        "document_id": "hp_doc_6d7bfd63c23f75074f97885e0a1267b9176fb2a5b9cf159ceb4457c9f0e4d7b8",
+        "sentence_id": 2
+      },
+      {
+        "title": "Spaghetti Western",
+        "document_id": "hp_doc_400c11198157a9673c1d127f782a24cc0290459abbe4372dcd9588bf94466195",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8a53e455429970aeb7028f",
+    "question": "The birth city of Temoer Terry was named after what Union general?",
+    "answer": "James Birdseye McPherson",
+    "original_answer": "James Birdseye McPherson",
+    "gold_answer": "James Birdseye McPherson",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8a53e455429970aeb7028f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Temoer Terry birth city",
+        "returned_titles": [
+          "Temoer Terry",
+          "Terry K. Amthor",
+          "Marta Abreu"
+        ]
+      },
+      {
+        "query": "McPherson Kansas",
+        "returned_titles": [
+          "McPherson, Kansas",
+          "Temoer Terry",
+          "2006 Kansas Jayhawks football team"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_58cd71dec9c665e8f11eff4c6dd90af5944f3a54b69c3f0b0dd2ec36fe13d757",
+      "hp_doc_4c61662a67e4c7073ac87ddb0df58a3577119e01a3237bbae7312c68d1dbaeea"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_58cd71dec9c665e8f11eff4c6dd90af5944f3a54b69c3f0b0dd2ec36fe13d757",
+        "title": "Temoer Terry",
+        "text": "Temoer Terry (born June 12, 1975 in McPherson, Kansas) is a former college wrestling champion. Wrestling out of the University of Nebraska, (1994–1998), he had a collegiate record of 100-24. Terry had a record of 79-3 at McPherson High School. Terry has also coached at the college level for American University. Also coached for George Mason University"
+      },
+      {
+        "id": "hp_doc_4c61662a67e4c7073ac87ddb0df58a3577119e01a3237bbae7312c68d1dbaeea",
+        "title": "McPherson, Kansas",
+        "text": "McPherson ( ) is a city in and the county seat of McPherson County, Kansas, United States, in the central part of the state. As of the 2010 census, the city population was 13,155. The city is named after Union General James Birdseye McPherson, a Civil War general. It is home to McPherson College and Central Christian College."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Temoer Terry",
+        "document_id": "hp_doc_58cd71dec9c665e8f11eff4c6dd90af5944f3a54b69c3f0b0dd2ec36fe13d757",
+        "sentence_id": 0
+      },
+      {
+        "title": "McPherson, Kansas",
+        "document_id": "hp_doc_4c61662a67e4c7073ac87ddb0df58a3577119e01a3237bbae7312c68d1dbaeea",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8badb15542996e8ac889b0",
+    "question": "In what year was the team that won the Apertura in 2007 against the UNAM Pumas founded?",
+    "answer": "1916",
+    "original_answer": "1916",
+    "gold_answer": "1916",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8badb15542996e8ac889b0.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "UNAM Pumas Apertura 2007",
+        "returned_titles": [
+          "Primera División de México Apertura 2007",
+          "Pumas Morelos",
+          "José Antonio García Fernández"
+        ]
+      },
+      {
+        "query": "Atlante founded",
+        "returned_titles": [
+          "Atlante F.C.",
+          "Primera División de México Apertura 2007",
+          "Tuborg Brewery"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c900b7239269f6e234fde01abe07b3cf758ff1bbf0b3de7e87d69b39dd2bf273",
+      "hp_doc_8c5e6d485aeaee73ec648bbc2602f8580dc98d107f2bdeffef23fa3c9e66038e"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c900b7239269f6e234fde01abe07b3cf758ff1bbf0b3de7e87d69b39dd2bf273",
+        "title": "Primera División de México Apertura 2007",
+        "text": "Primera División de México \"(Mexican First Division)\" Apertura 2007 is a Mexican football tournament - one of two shorter tournaments that together make up the Mexican football season - to determine the champion(s) of Mexican football. It began on Friday, August 3, 2007. On June 10, 2007, FMF General Secretary Decio de Maria revealed the groups for the upcoming tournament. Reigning champions Pachuca were eliminated in Repechaje by Cruz Azul by a double leg aggragate score of 6-0 (0-2 in the first leg, 4-0 in the second leg) and thus could not retain their title. Puebla was promoted to the Primera División de México after they beat Sinaloa in the ascension final thus, Querétaro was relegated to the Primera División A. This is the first time they are taking part in a Primera División tournament since they were relegated after Clausura 2005. Atlante made the move to Cancún, Quintana Roo, and will play in the Estadio Andrés Quintana Roo after having played in Estádio Azteca for over a decade. At their new home, on December 9, 2007 Atlante won the Apertura 2007 by defeating UNAM Pumas 2-1 after the first game ended 0-0 in Mexico City. It was Atlante's 3rd title."
+      },
+      {
+        "id": "hp_doc_8c5e6d485aeaee73ec648bbc2602f8580dc98d107f2bdeffef23fa3c9e66038e",
+        "title": "Atlante F.C.",
+        "text": "Atlante Fútbol Club, is a Mexican football club based in Cancun, Quintana Roo. Founded in 1916, Atlante were original members of the Mexican professional league when it began in 1943."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Primera División de México Apertura 2007",
+        "document_id": "hp_doc_c900b7239269f6e234fde01abe07b3cf758ff1bbf0b3de7e87d69b39dd2bf273",
+        "sentence_id": 7
+      },
+      {
+        "title": "Atlante F.C.",
+        "document_id": "hp_doc_8c5e6d485aeaee73ec648bbc2602f8580dc98d107f2bdeffef23fa3c9e66038e",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8f8cd35542997ba9cb32b3",
+    "question": "Ale Müller plays the role of Clara Licona in a Mexican sitcom created by who?",
+    "answer": "Pedro Ortíz de Pinedo",
+    "original_answer": "Pedro Ortíz de Pinedo",
+    "gold_answer": "Pedro Ortíz de Pinedo",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8f8cd35542997ba9cb32b3.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Ale Müller Clara Licona sitcom",
+        "returned_titles": [
+          "Ale Müller",
+          "Thomas Müller",
+          "La sombra de Heidegger"
+        ]
+      },
+      {
+        "query": "La CQ creator",
+        "returned_titles": [
+          "La CQ",
+          "Ale Müller",
+          "The Smurfs and the Magic Flute"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_58ff5a62c5fc6639a3332de179ee75ca898485ca6b3d573c671cef97468f7774",
+      "hp_doc_9a58645de1b58c8bfe83932bc028410b2ed503015f125be017a5c8abc2afd814"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_58ff5a62c5fc6639a3332de179ee75ca898485ca6b3d573c671cef97468f7774",
+        "title": "Ale Müller",
+        "text": "Alejandra Müller Arrieta (born October 29, 1996, in Mexico City, Mexico), known as Ale Müller, is a Mexican actress and singer who first gained popularity for her debut role as Clara Licona in the Mexican sitcom \"La CQ\"."
+      },
+      {
+        "id": "hp_doc_9a58645de1b58c8bfe83932bc028410b2ed503015f125be017a5c8abc2afd814",
+        "title": "La CQ",
+        "text": "La CQ is a Mexican/Venezuelan television series created by Pedro Ortíz de Pinedo (who also made \"Una familia de diez\", directed by Sergio Adrián Sánchez \"El Venado\", and acted by his father Jorge Ortiz de Pinedo). Recorded at RCTV Studios in Caracas, it is a co-production between Televisa and Cartoon Network Latin America, making it also the first local original live-action series. The show achieved high audiences, and its original broadcasting time was 11:00 AM, 4:00 PM and 6:00 PM; currently is broadcast Monday through Friday on Cartoon Network in Latin America, and on Canal 5 in Mexico at 5:30 PM."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Ale Müller",
+        "document_id": "hp_doc_58ff5a62c5fc6639a3332de179ee75ca898485ca6b3d573c671cef97468f7774",
+        "sentence_id": 0
+      },
+      {
+        "title": "La CQ",
+        "document_id": "hp_doc_9a58645de1b58c8bfe83932bc028410b2ed503015f125be017a5c8abc2afd814",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab1ef78554299449642c813",
+    "question": "Fuat Bulca was friends with which founder of the Republic of Turkey?",
+    "answer": "Mustafa Kemal Atatürk",
+    "original_answer": "Mustafa Kemal Atatürk",
+    "gold_answer": "Mustafa Kemal Atatürk",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab1ef78554299449642c813.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Fuat Bulca Republic Turkey",
+        "returned_titles": [
+          "Mehmet Fuat Köprülü",
+          "Fuat Bulca",
+          "Bulca, Sinanpaşa"
+        ]
+      },
+      {
+        "query": "Mustafa Kemal Atatürk",
+        "returned_titles": [
+          "Mustafa Kemal Atatürk",
+          "Fuat Bulca",
+          "Vulnicura"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_b0c3fbc93297595d1aa916275c9a6da610475f1a6fd8f316b8921eec1b025347",
+      "hp_doc_5955ff29fe27af54a1d1e6918bb010d14fb86df1566c255db7dbc0c7c09758e2"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_b0c3fbc93297595d1aa916275c9a6da610475f1a6fd8f316b8921eec1b025347",
+        "title": "Fuat Bulca",
+        "text": "Ahmet Fuat Bulca (1881 – September 14, 1962) was an officer of the Ottoman Army and Turkish Army and a Turkish politician. He was the one of the closest friend of Mustafa Kemal (Atatürk), as well as his classmate at the Monastir Military High School."
+      },
+      {
+        "id": "hp_doc_5955ff29fe27af54a1d1e6918bb010d14fb86df1566c255db7dbc0c7c09758e2",
+        "title": "Mustafa Kemal Atatürk",
+        "text": "Mustafa Kemal Atatürk (] ; 19 May 1881  – 10 November 1938) was a Turkish army officer, revolutionary, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938. Ideologically a secularist and nationalist, his policies and theories became known as Kemalism."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Fuat Bulca",
+        "document_id": "hp_doc_b0c3fbc93297595d1aa916275c9a6da610475f1a6fd8f316b8921eec1b025347",
+        "sentence_id": 1
+      },
+      {
+        "title": "Mustafa Kemal Atatürk",
+        "document_id": "hp_doc_5955ff29fe27af54a1d1e6918bb010d14fb86df1566c255db7dbc0c7c09758e2",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab2749d554299449642c8ad",
+    "question": "Where are the Gainsborough station group and the Gainsborough Central railway station located?",
+    "answer": "England",
+    "original_answer": "Gainsborough Central railway station is located in Gainsborough, Lincolnshire, England, and Gainsborough station group is located in Gainsborough, England, consisting of Central and Lea Road railway stations.",
+    "gold_answer": "England",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab2749d554299449642c8ad.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Gainsborough station group",
+        "returned_titles": [
+          "Gainsborough station group",
+          "Gainsborough Central railway station",
+          "Gainsborough Lea Road railway station"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a8231571e10648b085758aad2d96522b67ec5a48c447215024abb91b62d7358f",
+      "hp_doc_9f7054c6c14ffffb74c3a7ec03ad8e0f626cd81f93b1f89359fe1409ab87be54"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a8231571e10648b085758aad2d96522b67ec5a48c447215024abb91b62d7358f",
+        "title": "Gainsborough station group",
+        "text": "The Gainsborough station group is a small station group of two railway stations in Gainsborough, England consisting of Central and Lea Road. The station group is printed on national rail tickets as GAINSBOROUGH STNS."
+      },
+      {
+        "id": "hp_doc_9f7054c6c14ffffb74c3a7ec03ad8e0f626cd81f93b1f89359fe1409ab87be54",
+        "title": "Gainsborough Central railway station",
+        "text": "Gainsborough Central railway station is a railway station in the town of Gainsborough, Lincolnshire, England. The town's other station is the busier Gainsborough Lea Road. Until as recently as 2006, the station was shown to be one of the least busy in the country as trains only call there one day a week."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Gainsborough station group",
+        "document_id": "hp_doc_a8231571e10648b085758aad2d96522b67ec5a48c447215024abb91b62d7358f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Gainsborough Central railway station",
+        "document_id": "hp_doc_9f7054c6c14ffffb74c3a7ec03ad8e0f626cd81f93b1f89359fe1409ab87be54",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab5c9f65542992aa134a39f",
+    "question": "Sarah Green starred in the 2014 film Noble and what Showtime and Sky series?",
+    "answer": "Penny Dreadful",
+    "original_answer": "Penny Dreadful",
+    "gold_answer": "\"Penny Dreadful\"",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab5c9f65542992aa134a39f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Sarah Green Noble 2014",
+        "returned_titles": [
+          "Noble (film)",
+          "Sally Prouty",
+          "Sarah Green (film producer)"
+        ]
+      },
+      {
+        "query": "Noble Showtime Sky",
+        "returned_titles": [
+          "Penny Dreadful (TV series)",
+          "Sarah Greene (actress)",
+          "Noble (film)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_b00f198c4ba055b9cb1be601c73dc9246dc774fb45fa554a21949c0d03e4a577",
+      "hp_doc_c18d6becb0264faf01ef4bd2e186d3956521a6fca50e7fe4e4721c973da9bf81"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_b00f198c4ba055b9cb1be601c73dc9246dc774fb45fa554a21949c0d03e4a577",
+        "title": "Noble (film)",
+        "text": "Noble is a 2014 film written and directed by Stephen Bradley about the true life story of Christina Noble, a children's rights campaigner, charity worker and writer, who founded the Christina Noble Children's Foundation in 1989. It stars Deirdre O'Kane, Sarah Greene, Brendan Coyle, Mark Huberman and Ruth Negga."
+      },
+      {
+        "id": "hp_doc_c18d6becb0264faf01ef4bd2e186d3956521a6fca50e7fe4e4721c973da9bf81",
+        "title": "Sarah Greene (actress)",
+        "text": "Sarah Greene (born 21 July 1984) is an Irish actress and singer, best known for portraying Helen McCormick in the West End and Broadway productions of \"The Cripple of Inishmaan\". For her performance in the role, she was nominated for the 2014 Laurence Olivier Award for Best Actress in a Supporting Role, and the 2014 Tony Award for Best Featured Actress in a Play. She starred as Hecate Poole in the Showtime and Sky series \"Penny Dreadful\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Noble (film)",
+        "document_id": "hp_doc_b00f198c4ba055b9cb1be601c73dc9246dc774fb45fa554a21949c0d03e4a577",
+        "sentence_id": 1
+      },
+      {
+        "title": "Sarah Greene (actress)",
+        "document_id": "hp_doc_c18d6becb0264faf01ef4bd2e186d3956521a6fca50e7fe4e4721c973da9bf81",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab82ee45542990e739ec85f",
+    "question": "Someone Like You is a collection of stories by a notable author who sold how many copies of his books?",
+    "answer": "250 million",
+    "original_answer": "250 million",
+    "gold_answer": "250 million",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab82ee45542990e739ec85f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Someone Like You collection",
+        "returned_titles": [
+          "Someone Like You (short story collection)",
+          "Tales of the Unexpected (short story collection)",
+          "The Collected Short Stories of Roald Dahl"
+        ]
+      },
+      {
+        "query": "Roald Dahl sold how many copies",
+        "returned_titles": [
+          "Roald Dahl",
+          "The Collected Short Stories of Roald Dahl",
+          "Skin and Other Stories"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ced63a33453cff45ed48cf1ee6f097166386b27b2c0de57580b13fc3902eb0c5",
+      "hp_doc_15234a96b602ea8f4fab1a928b37e8020948922549db7f0041f3d0649f8478c8"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ced63a33453cff45ed48cf1ee6f097166386b27b2c0de57580b13fc3902eb0c5",
+        "title": "Someone Like You (short story collection)",
+        "text": "Someone Like You is a collection of short stories by Roald Dahl. It was published in 1953 by Alfred Knopf."
+      },
+      {
+        "id": "hp_doc_15234a96b602ea8f4fab1a928b37e8020948922549db7f0041f3d0649f8478c8",
+        "title": "Roald Dahl",
+        "text": "Roald Dahl ( , ] ; 13 September 1916 – 23 November 1990) was a British novelist, short story writer, poet, screenwriter, and fighter pilot. His books have sold more than 250 million copies worldwide."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Someone Like You (short story collection)",
+        "document_id": "hp_doc_ced63a33453cff45ed48cf1ee6f097166386b27b2c0de57580b13fc3902eb0c5",
+        "sentence_id": 0
+      },
+      {
+        "title": "Roald Dahl",
+        "document_id": "hp_doc_15234a96b602ea8f4fab1a928b37e8020948922549db7f0041f3d0649f8478c8",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab8356455429934fafe6d15",
+    "question": "What is the writing principle that suggests that events or characters introduced in threes are more humorous, satisfying, or effective in execution of the story and engaging the reader and is used in a novel featuring Allison Gross, a hideous witch?",
+    "answer": "Rule of three",
+    "original_answer": "Rule of three",
+    "gold_answer": "rule of three",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab8356455429934fafe6d15.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Allison Gross witch",
+        "returned_titles": [
+          "Allison Gross",
+          "Great Scottish Witch Hunt of 1597",
+          "Something Weird (film)"
+        ]
+      },
+      {
+        "query": "humorous three events",
+        "returned_titles": [
+          "Rule of three (writing)",
+          "Phil Janes",
+          "Slave Labor Graphics"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_95683d898f70c944d15af4eaad8f4319cce0436b0a7bf4dc066eb6e12687aeb8",
+      "hp_doc_1368b91f402fe8c20fa7f71a6cdc8efc32cbc4f6d3348adbacce3e632e3a2135"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_95683d898f70c944d15af4eaad8f4319cce0436b0a7bf4dc066eb6e12687aeb8",
+        "title": "Allison Gross",
+        "text": "Allison Gross, a hideous witch, tries to bribe the narrator to be her \"leman\". She combed his hair, first. When a scarlet mantle, a silk shirt with pearls, and a golden cup all fail, she blows on a horn three times, making an oath to make him regret it; then she strikes him with a silver wand, turning him into a wyrm (dragon) bound to a tree. His sister Maisry came to him to comb his hair. One day the Seelie Court came by, and a queen stroked him three times, turning him back into his proper form."
+      },
+      {
+        "id": "hp_doc_1368b91f402fe8c20fa7f71a6cdc8efc32cbc4f6d3348adbacce3e632e3a2135",
+        "title": "Rule of three (writing)",
+        "text": "The rule of three is a writing principle that suggests that events or characters introduced in threes are more humorous, satisfying, or effective in execution of the story and engaging the reader. The reader or audience of this form of text is also thereby more likely to remember the information conveyed. This is because having three entities combines both brevity and rhythm with having the smallest amount of information to create a pattern. It makes the author or speaker appear knowledgeable while being both simple and catchy."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Allison Gross",
+        "document_id": "hp_doc_95683d898f70c944d15af4eaad8f4319cce0436b0a7bf4dc066eb6e12687aeb8",
+        "sentence_id": 0
+      },
+      {
+        "title": "Allison Gross",
+        "document_id": "hp_doc_95683d898f70c944d15af4eaad8f4319cce0436b0a7bf4dc066eb6e12687aeb8",
+        "sentence_id": 4
+      },
+      {
+        "title": "Rule of three (writing)",
+        "document_id": "hp_doc_1368b91f402fe8c20fa7f71a6cdc8efc32cbc4f6d3348adbacce3e632e3a2135",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab97d54554299131ca42341",
+    "question": "What is the name of the Formula One driver who had a near-fatal accident at the dangerous Nürburgring in 1976?",
+    "answer": "Niki Lauda",
+    "original_answer": "Niki Lauda",
+    "gold_answer": "Niki Lauda",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab97d54554299131ca42341.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Nürburgring 1976 accident",
+        "returned_titles": [
+          "1976 German Grand Prix",
+          "1977 German Grand Prix",
+          "1984 European Grand Prix"
+        ]
+      },
+      {
+        "query": "Niki Lauda near fatal accident 1976",
+        "returned_titles": [
+          "1976 German Grand Prix",
+          "1977 German Grand Prix",
+          "Niki Lauda"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_845b7271c24a5e29f3f498576f096c78a8ac8fd94c15310018d18003aab03c2a",
+      "hp_doc_057d184cd5f35377e7ad17070578c312a6493fb0310b92d87e442c83b6c6db03"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_845b7271c24a5e29f3f498576f096c78a8ac8fd94c15310018d18003aab03c2a",
+        "title": "1977 German Grand Prix",
+        "text": "The 1977 German Grand Prix was a Formula One motor race held at Hockenheimring on July 31, 1977. After Niki Lauda's near-fatal accident at the dangerous Nürburgring in 1976, the German Grand Prix was moved to Hockenheim and was held there every year except for one until 2007, and this was the second year the race was held there (the first being 1970)."
+      },
+      {
+        "id": "hp_doc_057d184cd5f35377e7ad17070578c312a6493fb0310b92d87e442c83b6c6db03",
+        "title": "Niki Lauda",
+        "text": "Andreas Nikolaus \"Niki\" Lauda (born 22 February 1949) is an Austrian former Formula One driver and a three-time F1 World Drivers' Champion, winning in 1975, 1977 and 1984. He is currently the only driver to have been champion for both Ferrari and McLaren, the sport's two most successful constructors. More recently an aviation entrepreneur, he has founded and run two airlines (Lauda Air and Niki). He is also Bombardier Business Aircraft brand ambassador. He was also a consultant for Scuderia Ferrari and team manager of the Jaguar Formula One racing team for two years. He is currently working as a pundit for German TV during Grand Prix weekends and acts as non-executive chairman of the Mercedes AMG Petronas F1 Team. Lauda owns 10% of the team."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "1977 German Grand Prix",
+        "document_id": "hp_doc_845b7271c24a5e29f3f498576f096c78a8ac8fd94c15310018d18003aab03c2a",
+        "sentence_id": 1
+      },
+      {
+        "title": "Niki Lauda",
+        "document_id": "hp_doc_057d184cd5f35377e7ad17070578c312a6493fb0310b92d87e442c83b6c6db03",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab998fc554299131ca42390",
+    "question": "Peter C. Harvey was the first African American to serve as New Jersey Attorney General, Harvey was appointed by  New Jersey Governor Jim McGreevey as Acting Attorney General, on what date?",
+    "answer": "February 15, 2003",
+    "original_answer": "February 15, 2003",
+    "gold_answer": "February 15, 2003",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab998fc554299131ca42390.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Peter C Harvey NJ attorney general",
+        "returned_titles": [
+          "Peter C. Harvey",
+          "Cara Rodriguez",
+          "John Jay Hoffman"
+        ]
+      },
+      {
+        "query": "Jim McGreevey appointed Peter Harvey",
+        "returned_titles": [
+          "Peter C. Harvey",
+          "Golan Cipel",
+          "Jim McGreevey"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_0451c7fc2655fcebf8cef8cff59b25d41296b6f70cc7966ed6c29937b6c96144",
+      "hp_doc_18c0088527cceecde572396c7eae738035c85c8678cc375e84b7e92e3fb09861"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_0451c7fc2655fcebf8cef8cff59b25d41296b6f70cc7966ed6c29937b6c96144",
+        "title": "Peter C. Harvey",
+        "text": "Peter C. Harvey was the first African American to serve as New Jersey Attorney General. Harvey was appointed by New Jersey Governor Jim McGreevey as Acting Attorney General on February 15, 2003, and was confirmed by the New Jersey Senate as Attorney General on June 16, 2003. Harvey served until 2006, when he was succeeded by Zulima Farber. Following his resignation as Attorney General, he became a Partner in the New York City law office of Patterson, Belknap, Webb, and Tyler."
+      },
+      {
+        "id": "hp_doc_18c0088527cceecde572396c7eae738035c85c8678cc375e84b7e92e3fb09861",
+        "title": "Jim McGreevey",
+        "text": "James Edward McGreevey (born August 6, 1957) is an American politician and member of the Democratic Party, who served as the 52nd Governor of New Jersey from 2002 until his resignation in 2004. He was also a seminarian. He served in the New Jersey General Assembly from 1990 to 1992, as the Mayor of Woodbridge Township from 1991 to 2002 and in the New Jersey Senate from 1994 to 1998. He was the Democratic nominee for Governor of New Jersey in 1997 but was narrowly defeated by Republican incumbent Christine Todd Whitman. He ran again in 2001 and was elected by a large margin."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Peter C. Harvey",
+        "document_id": "hp_doc_0451c7fc2655fcebf8cef8cff59b25d41296b6f70cc7966ed6c29937b6c96144",
+        "sentence_id": 1
+      },
+      {
+        "title": "Jim McGreevey",
+        "document_id": "hp_doc_18c0088527cceecde572396c7eae738035c85c8678cc375e84b7e92e3fb09861",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  }
+]

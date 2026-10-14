@@ -1,0 +1,15 @@
+{
+  "retrieval_pool_id": "hotpot_shards_v1:shard_01:sample_300_v1",
+  "questions_file": "questions.jsonl",
+  "documents_file": "documents.jsonl",
+  "questions_sha256": "7db00dee6570fbed0b37dcf5a501a0ad2ec715bab2e0bd7fd6e7024e010c5147",
+  "documents_sha256": "ce6fd189869c44ad3418468f8347334c8cce637407f1657a7fc27ee15b01e1cb",
+  "question_count": 300,
+  "document_count": 2979,
+  "shard": 1,
+  "sample_seed": 20261014,
+  "corpus_rule": "Union of all context paragraphs (gold and distractor) of these 300 questions only; never gold-only.",
+  "old_question_overlap": 0,
+  "eval_question_overlap": 0,
+  "eval_gold_title_overlap": 0
+}

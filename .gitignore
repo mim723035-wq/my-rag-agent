@@ -11,3 +11,6 @@ checkpoints/
 
 # Downloaded source training corpus; reproduce using download_hotpot_train.py.
 data/raw/hotpotqa/hotpot_train_distractor_hf.json
+
+# Regenerable trajectory sampling console output.
+data/hotpot_teacher_expansion_v1/candidate_sampling.log

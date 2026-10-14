@@ -1,0 +1,1337 @@
+[
+  {
+    "question_id": "5a7b781e5542997c3ec971a7",
+    "question": "The maker of the C-52 is headquartered in what city?",
+    "answer": "Steinhausen",
+    "original_answer": "Steinhausen",
+    "gold_answer": "Steinhausen",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7b781e5542997c3ec971a7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "C-52 maker",
+        "returned_titles": [
+          "C-52 (cipher machine)",
+          "Advanced Sports International",
+          "Newcastle United F.C."
+        ]
+      },
+      {
+        "query": "Crypto AG headquarters",
+        "returned_titles": [
+          "Crypto AG",
+          "C-52 (cipher machine)",
+          "Audi R8"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a0ce958bbe4368746e1e0d02b807572bc0e79f2f4ae9b02e043b770013a29244",
+      "hp_doc_60ce64a0e1192ad88348387bccf6bcb76841ec30ec9e9926b98d55927ba32588"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a0ce958bbe4368746e1e0d02b807572bc0e79f2f4ae9b02e043b770013a29244",
+        "title": "C-52 (cipher machine)",
+        "text": "The (Hagelin) C-52 and CX-52 were cipher machines manufactured by Crypto AG starting 1951/1952. These pin-and-lug type cipher machines were advanced successors of the C-38/M-209. The machine measures 8 1/2in × 5 3/8in × 4 3/8in. The device is mechanical, but when combined with an electric keyboard attachment, the B-52, the resultant system is termed the BC-52. The B-52 is larger, measuring 12 1/2in × 8 1/2in × 6 3/8in."
+      },
+      {
+        "id": "hp_doc_60ce64a0e1192ad88348387bccf6bcb76841ec30ec9e9926b98d55927ba32588",
+        "title": "Crypto AG",
+        "text": "Crypto AG is a Swiss company specialising in communications and information security. With headquarters in Steinhausen, the company is a long-established manufacturer of encryption machines and a wide variety of cipher devices."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "C-52 (cipher machine)",
+        "document_id": "hp_doc_a0ce958bbe4368746e1e0d02b807572bc0e79f2f4ae9b02e043b770013a29244",
+        "sentence_id": 0
+      },
+      {
+        "title": "Crypto AG",
+        "document_id": "hp_doc_60ce64a0e1192ad88348387bccf6bcb76841ec30ec9e9926b98d55927ba32588",
+        "sentence_id": 0
+      },
+      {
+        "title": "Crypto AG",
+        "document_id": "hp_doc_60ce64a0e1192ad88348387bccf6bcb76841ec30ec9e9926b98d55927ba32588",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7ccb4055429909bec7680c",
+    "question": "Jim Ward is the co-founder of what post-hardcore band?",
+    "answer": "At the Drive-In",
+    "original_answer": "Sparta",
+    "gold_answer": "At the Drive-In",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7ccb4055429909bec7680c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Jim Ward co-founder",
+        "returned_titles": [
+          "Jim Ward (musician)",
+          "Quiet (EP)",
+          "Sparta (band)"
+        ]
+      },
+      {
+        "query": "At the Drive-In",
+        "returned_titles": [
+          "At the Drive-In",
+          "BMW X5",
+          "El Gran Orgo"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_94087de7968fa52ee400f4220960acc27f0def0c5ab66fb77249e457e6c49abd",
+      "hp_doc_6992b980d5f65a63d1c9c8e3b4aba4f271d9f7cf19b56fbd0bec056422aa8582"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_94087de7968fa52ee400f4220960acc27f0def0c5ab66fb77249e457e6c49abd",
+        "title": "Jim Ward (musician)",
+        "text": "James David Ward (born September 19, 1976) is an American musician. A self-taught guitarist and pianist, he is the lead singer and rhythm guitarist for the band Sparta; he is also a co-founder of the post-hardcore band At the Drive-In, which he formed in 1993 when he was 17 years old."
+      },
+      {
+        "id": "hp_doc_6992b980d5f65a63d1c9c8e3b4aba4f271d9f7cf19b56fbd0bec056422aa8582",
+        "title": "At the Drive-In",
+        "text": "At the Drive-In is an American punk rock band from El Paso, Texas, formed in 1994. The band currently consists of Cedric Bixler (vocals), Omar Rodríguez (guitar, vocals), Paul Hinojos (bass), Tony Hajjar (drums) and Keeley Davis (guitar, vocals). After several early line-up changes, the band solidified into a five-piece, consisting of Bixler, Rodríguez, Jim Ward, Hinojos and Hajjar. At the Drive-In released three studio albums and five EPs before breaking up in 2001. Their third and final album before their split, 2000's \"Relationship of Command\", received a number of accolades and is cited as a landmark of the post-hardcore genre. Following the breakup, Bixler-Zavala and Rodríguez-López formed The Mars Volta while Ward, Hinojos, and Hajjar formed Sparta. At the Drive-In reunited in January 2012 and played the 2012 Coachella Valley Music and Arts Festival, as well as the 2012 Lollapalooza Festival. In 2016, the band reunited for a second time, with guitarist and occasional lead vocalist Jim Ward no longer participating. He was replaced by Sparta's Keeley Davis. The band released their fourth studio album, \"in•ter a•li•a\", in 2017."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Jim Ward (musician)",
+        "document_id": "hp_doc_94087de7968fa52ee400f4220960acc27f0def0c5ab66fb77249e457e6c49abd",
+        "sentence_id": 1
+      },
+      {
+        "title": "At the Drive-In",
+        "document_id": "hp_doc_6992b980d5f65a63d1c9c8e3b4aba4f271d9f7cf19b56fbd0bec056422aa8582",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7da3405542990b8f5039e1",
+    "question": "The Smithsonian Station is close to the obelisk on what location in Washington, D.C.?",
+    "answer": "National Mall",
+    "original_answer": "The Washington Monument is located at the southwest corner of Independence Avenue and 12th Street, Southwest.",
+    "gold_answer": "National Mall",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7da3405542990b8f5039e1.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Smithsonian Station obelisk",
+        "returned_titles": [
+          "Smithsonian station",
+          "Chesapeake and Ohio Canal commemorative obelisk",
+          "National Portrait Gallery (United States)"
+        ]
+      },
+      {
+        "query": "Washington Monument location",
+        "returned_titles": [
+          "Washington Monument",
+          "Smithsonian station",
+          "College of Business and Technology"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_6e20e855685bd76dd3bdc23575b64912c5801f0217935fd1fb4444ab2df0a832",
+      "hp_doc_a844fa3612beaa99aded22092156e2bea71681ae35a5fabd4f70b7c3e1becacf"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_6e20e855685bd76dd3bdc23575b64912c5801f0217935fd1fb4444ab2df0a832",
+        "title": "Smithsonian station",
+        "text": "Smithsonian is a side platformed Washington Metro station at the National Mall in Washington, D.C., United States. The station was opened on July 1, 1977, and is operated by the Washington Metropolitan Area Transit Authority (WMATA). It is a stop on the Blue, Orange and Silver Lines. The station's south entrance is at the southwest corner of Independence Avenue and 12th Street, Southwest, the street elevator is at the northwest corner of the same intersection, and the north entrance is on the south side of the Mall near Jefferson Drive, Southwest. The station is named for its proximity to the Smithsonian Institution's museums and is close to the Washington Monument, the Tidal Basin and other tourist attractions on and near the National Mall. The station is also near several federal office buildings, including those of the Department of Agriculture and the Department of Energy."
+      },
+      {
+        "id": "hp_doc_a844fa3612beaa99aded22092156e2bea71681ae35a5fabd4f70b7c3e1becacf",
+        "title": "Washington Monument",
+        "text": "The Washington Monument is an obelisk on the National Mall in Washington, D.C., built to commemorate George Washington, once commander-in-chief of the Continental Army and the first President of the United States. Located almost due east of the Reflecting Pool and the Lincoln Memorial, the monument, made of marble, granite, and bluestone gneiss, is both the world's tallest stone structure and the world's tallest obelisk, standing 554 ft tall according to the National Geodetic Survey (measured 2013–14) or 555 ft tall according to the National Park Service (measured 1884)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Smithsonian station",
+        "document_id": "hp_doc_6e20e855685bd76dd3bdc23575b64912c5801f0217935fd1fb4444ab2df0a832",
+        "sentence_id": 4
+      },
+      {
+        "title": "Washington Monument",
+        "document_id": "hp_doc_a844fa3612beaa99aded22092156e2bea71681ae35a5fabd4f70b7c3e1becacf",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7f58ce5542994857a766f7",
+    "question": "How many studio albums did the person who recorded \"As Long as I'm Rockin' with You\" record?",
+    "answer": "11",
+    "original_answer": "11",
+    "gold_answer": "11",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7f58ce5542994857a766f7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "As Long as I'm Rockin with You",
+        "returned_titles": [
+          "As Long as I'm Rockin' with You",
+          "John Conlee",
+          "Christian Science Hymnal"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_bbc8210402dd93672128030e8405d2d976c6ee514fedd185814d886ff92ffa35",
+      "hp_doc_6859e3ba5746c788cbf027cb38b9f14b85d44e4588c6f377457703b18f4612d0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bbc8210402dd93672128030e8405d2d976c6ee514fedd185814d886ff92ffa35",
+        "title": "As Long as I'm Rockin' with You",
+        "text": "\"As Long as I'm Rockin' with You\" is a song written by Bruce Channel and Kieran Kane, and recorded by American country music artist John Conlee. It was released in February 1984 as the third single from the album \"In My Eyes\". \"As Long as I'm Rockin' with You\" was John Conlee's sixth number one on the country chart. The single went to number one for one week and spent twelve weeks on the country chart."
+      },
+      {
+        "id": "hp_doc_6859e3ba5746c788cbf027cb38b9f14b85d44e4588c6f377457703b18f4612d0",
+        "title": "John Conlee",
+        "text": "John Conlee (born August 11, 1946) is an American country music singer. Between 1978 and 2004 Conlee charted a total of 32 singles on the \"Billboard\" Hot Country Songs charts, and recorded 11 studio albums. His singles include seven #1 hits: \"Lady Lay Down,\" \"Backside of Thirty,\" \"Common Man,\" \"I'm Only in It for the Love,\" \"In My Eyes,\" \"As Long As I'm Rockin' with You\" and \"Got My Heart Set on You.\" In addition to these, Conlee sent 14 other songs into the Top Ten."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "As Long as I'm Rockin' with You",
+        "document_id": "hp_doc_bbc8210402dd93672128030e8405d2d976c6ee514fedd185814d886ff92ffa35",
+        "sentence_id": 0
+      },
+      {
+        "title": "John Conlee",
+        "document_id": "hp_doc_6859e3ba5746c788cbf027cb38b9f14b85d44e4588c6f377457703b18f4612d0",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a809cb55542996402f6a5a7",
+    "question": "What  is a low-cost airline headquartered at Gurgaon, that is the largest airline in India, the third largest domestic airline being the flag carrier airline of India ?",
+    "answer": "IndiGo",
+    "original_answer": "Vistara",
+    "gold_answer": "IndiGo",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a809cb55542996402f6a5a7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Gurgaon airline",
+        "returned_titles": [
+          "Vistara",
+          "IndiGo",
+          "Air Costa"
+        ]
+      },
+      {
+        "query": "Vistara largest domestic airline",
+        "returned_titles": [
+          "Vistara",
+          "Volaris",
+          "Air India"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_738d8fc2b3b90f4850154992d619d6dd5c337a3529bb2ac4ffa883dd78411f3d",
+      "hp_doc_47a5e13db9737f61314bcb5545342d1b7d20578698c4d0d96ea6f6b19a7bc75f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_738d8fc2b3b90f4850154992d619d6dd5c337a3529bb2ac4ffa883dd78411f3d",
+        "title": "Air India",
+        "text": "Air India is the flag carrier airline of India. It is owned by Air India Limited, a government-owned enterprise, and operates a fleet of Airbus and Boeing aircraft serving 90 domestic and international destinations. The airline has its hub at Indira Gandhi International Airport, New Delhi, alongside several focus cities across India. Air India is the largest international carrier out of India with an 18.6% market share. Over 60 international destinations are served by Air India across four continents. Additionally, the carrier is the third largest domestic airline in India in terms of passengers carried (after IndiGo and Jet Airways) with a market share of 13.5% as of July 2017. The airline became the 27th member of Star Alliance on 11 July 2014."
+      },
+      {
+        "id": "hp_doc_47a5e13db9737f61314bcb5545342d1b7d20578698c4d0d96ea6f6b19a7bc75f",
+        "title": "IndiGo",
+        "text": "IndiGo is a low-cost airline headquartered at Gurgaon, Haryana, India. It is the largest airline in India by passengers carried and fleet size, with a 38.7% market share as of July 2017. It is also the largest individual Asian low-cost carrier in terms of jet fleet size and passengers carried, and the eighth largest carrier in Asia with over 41 million passengers carried in 2016. The airline operates to 46 destinations both domestic and international. It has its primary hub at Indira Gandhi International Airport, Delhi."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Air India",
+        "document_id": "hp_doc_738d8fc2b3b90f4850154992d619d6dd5c337a3529bb2ac4ffa883dd78411f3d",
+        "sentence_id": 5
+      },
+      {
+        "title": "IndiGo",
+        "document_id": "hp_doc_47a5e13db9737f61314bcb5545342d1b7d20578698c4d0d96ea6f6b19a7bc75f",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a835dad554299123d8c2108",
+    "question": "What nationality is Folarin Ogunsola, a swimmer who competes for the smallest nation in mainland Africa?",
+    "answer": "Gambian",
+    "original_answer": "Gambian",
+    "gold_answer": "Gambian",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a835dad554299123d8c2108.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Folarin Ogunsola swimmer",
+        "returned_titles": [
+          "Folarin Ogunsola",
+          "Leonard Spence",
+          "Dana Vollmer"
+        ]
+      },
+      {
+        "query": "smallest nation mainland Africa",
+        "returned_titles": [
+          "The Gambia",
+          "Lilian's lovebird",
+          "List of companies based in The Gambia"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_cf5433bbe2d0e7d71e0ae5a4a9bae9bcdd531b3183dda0d5dbafc92a52254034",
+      "hp_doc_6ccb0412687ca268ef1ab4c549073e16cfa58efae5b351c1b0e26bf994912266"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_cf5433bbe2d0e7d71e0ae5a4a9bae9bcdd531b3183dda0d5dbafc92a52254034",
+        "title": "Folarin Ogunsola",
+        "text": "Folarin L. Ogunsola (born 23 June 1997) is a Gambian swimmer. He competed in the 50 m freestyle and 50 m backstroke events (the latter of which he did not start) at the 2011 World Aquatics Championships and in the 50 m freestyle and 50 m butterfly events at the 2013 World Aquatics Championships."
+      },
+      {
+        "id": "hp_doc_6ccb0412687ca268ef1ab4c549073e16cfa58efae5b351c1b0e26bf994912266",
+        "title": "The Gambia",
+        "text": "The Gambia ( ), officially the Republic of The Gambia, is a country in West Africa that is entirely surrounded by Senegal except for its coastline on the Atlantic Ocean at its western end. It is the smallest country in mainland Africa."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Folarin Ogunsola",
+        "document_id": "hp_doc_cf5433bbe2d0e7d71e0ae5a4a9bae9bcdd531b3183dda0d5dbafc92a52254034",
+        "sentence_id": 0
+      },
+      {
+        "title": "The Gambia",
+        "document_id": "hp_doc_6ccb0412687ca268ef1ab4c549073e16cfa58efae5b351c1b0e26bf994912266",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a851d4a5542992a431d1adf",
+    "question": "What was the name of the abandoned album which was for sale in 2014 on a discographies website owned by Zinc Media?",
+    "answer": "Caustic Window",
+    "original_answer": "Caustic Window",
+    "gold_answer": "Caustic Window",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a851d4a5542992a431d1adf.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Zinc Media abandoned album",
+        "returned_titles": [
+          "Giesche",
+          "Caustic Window (album)",
+          "Jake in a Box"
+        ]
+      },
+      {
+        "query": "Caustic Window discographies Zinc",
+        "returned_titles": [
+          "Caustic Window (album)",
+          "Giesche",
+          "Discogs"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d3062ce577898ce024c4be96c1061c1e61b56464a7dd7279db49cb0f896f6592",
+      "hp_doc_088addff67151ab0b3dc00258fdabfced8eb9a9eecc145ffe3145b97645552b8"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d3062ce577898ce024c4be96c1061c1e61b56464a7dd7279db49cb0f896f6592",
+        "title": "Caustic Window (album)",
+        "text": "Caustic Window is an eponymous album by Richard D. James, under the alias Caustic Window. Originally planned for release in 1994, the album was abandoned, with only five physical copies being produced. One of the copies, which surfaced for sale on Discogs in 2014, was bought and digitally distributed through a Kickstarter campaign. It was eventually sold on eBay for $46,300."
+      },
+      {
+        "id": "hp_doc_088addff67151ab0b3dc00258fdabfced8eb9a9eecc145ffe3145b97645552b8",
+        "title": "Discogs",
+        "text": "Discogs, short for discographies, is a website and crowdsourced database of information about audio recordings, including commercial releases, promotional releases, and bootleg or off-label releases. The Discogs servers, currently hosted under the domain name discogs.com, are owned by Zink Media, Inc., and are located in Portland, Oregon, US. While the site lists releases in all genres and on all formats, it is especially known as the largest online database of electronic music releases, and of releases on vinyl media. Discogs currently contains over 8 million releases, by nearly 4.9 million artists, across over 1 million labels, contributed from nearly 346,000 contributor user accounts—with these figures constantly growing as users continually add previously unlisted releases to the site over time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Caustic Window (album)",
+        "document_id": "hp_doc_d3062ce577898ce024c4be96c1061c1e61b56464a7dd7279db49cb0f896f6592",
+        "sentence_id": 0
+      },
+      {
+        "title": "Caustic Window (album)",
+        "document_id": "hp_doc_d3062ce577898ce024c4be96c1061c1e61b56464a7dd7279db49cb0f896f6592",
+        "sentence_id": 1
+      },
+      {
+        "title": "Caustic Window (album)",
+        "document_id": "hp_doc_d3062ce577898ce024c4be96c1061c1e61b56464a7dd7279db49cb0f896f6592",
+        "sentence_id": 2
+      },
+      {
+        "title": "Discogs",
+        "document_id": "hp_doc_088addff67151ab0b3dc00258fdabfced8eb9a9eecc145ffe3145b97645552b8",
+        "sentence_id": 0
+      },
+      {
+        "title": "Discogs",
+        "document_id": "hp_doc_088addff67151ab0b3dc00258fdabfced8eb9a9eecc145ffe3145b97645552b8",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8727095542996432c57233",
+    "question": "How many kilometers southwest of Geneva's city centre is Doyen Bridel from?",
+    "answer": "25",
+    "original_answer": "25 km",
+    "gold_answer": "25",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8727095542996432c57233.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Doyen Bridel Geneva",
+        "returned_titles": [
+          "Doyen Bridel",
+          "Geneva II Conference on Syria",
+          "Nyon"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c2b09597cc041b6b25f54e4382cf9b5ee7acd8df3303830684b67b68e138452f",
+      "hp_doc_675617ac166473f2cf4ed76704436fa361a4f3cd291901ab57bddef9c24b9068"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c2b09597cc041b6b25f54e4382cf9b5ee7acd8df3303830684b67b68e138452f",
+        "title": "Doyen Bridel",
+        "text": "Philippe-Sirice Bridel (also \"Philippe Cyriaque\"), known as le Doyen Bridel (born 20 November 1757 in Begnins, Bernese \"Vogtei\" of Nyon, died 20 May 1845 in Montreux, canton of Vaud, Swiss Confederation)"
+      },
+      {
+        "id": "hp_doc_675617ac166473f2cf4ed76704436fa361a4f3cd291901ab57bddef9c24b9068",
+        "title": "Nyon",
+        "text": "Nyon ] is a municipality in the district of Nyon in the canton of Vaud in Switzerland. It is located some 25 kilometers north east of Geneva's city centre, and since the 1970s it has become part of the Geneva metropolitan area. It lies on the shores of Lake Geneva and is the seat of the district of Nyon. The town has (as of December 2016 ) a population of . It is connected to the rest of Switzerland by way of the Route Suisse, the A1 Motorway and the railways of the \"Arc Lémanique\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Doyen Bridel",
+        "document_id": "hp_doc_c2b09597cc041b6b25f54e4382cf9b5ee7acd8df3303830684b67b68e138452f",
+        "sentence_id": 0
+      },
+      {
+        "title": "Nyon",
+        "document_id": "hp_doc_675617ac166473f2cf4ed76704436fa361a4f3cd291901ab57bddef9c24b9068",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8ad9df55429950cd6afbb0",
+    "question": "what is the nationality of the director of The Perfect Furlough ?",
+    "answer": "American",
+    "original_answer": "American",
+    "gold_answer": "American",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8ad9df55429950cd6afbb0.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "The Perfect Furlough director",
+        "returned_titles": [
+          "The Perfect Furlough",
+          "Linda Cristal",
+          "Mighty Oregon"
+        ]
+      },
+      {
+        "query": "Blake Edwards nationality",
+        "returned_titles": [
+          "Blake Edwards",
+          "The Perfect Furlough",
+          "N. Murray Edwards"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_148677a148bb40e8442b3f67b865e99089f46b0b316b533f2c7a519738fbbd47",
+      "hp_doc_b47b9fd762d87348c2b9330dc21c0e09e8986d3e73f906d4af519f43215002d8"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_148677a148bb40e8442b3f67b865e99089f46b0b316b533f2c7a519738fbbd47",
+        "title": "The Perfect Furlough",
+        "text": "The Perfect Furlough is a 1958 CinemaScope Eastmancolor romantic comedy film directed by Blake Edwards and written by Stanley Shapiro. Edwards and Shapiro would re-team the following year for another Tony Curtis service comedy, \"Operation Petticoat\"."
+      },
+      {
+        "id": "hp_doc_b47b9fd762d87348c2b9330dc21c0e09e8986d3e73f906d4af519f43215002d8",
+        "title": "Blake Edwards",
+        "text": "Blake Edwards (born William Blake Crump; July 26, 1922 – December 15, 2010) was an American film director, screenwriter, and producer."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Perfect Furlough",
+        "document_id": "hp_doc_148677a148bb40e8442b3f67b865e99089f46b0b316b533f2c7a519738fbbd47",
+        "sentence_id": 0
+      },
+      {
+        "title": "Blake Edwards",
+        "document_id": "hp_doc_b47b9fd762d87348c2b9330dc21c0e09e8986d3e73f906d4af519f43215002d8",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8caf9f5542996e8ac88b23",
+    "question": "Behind an Australian-American mathematician who has worked in various areas of mathematics and who else is a Romanian child prodigy in mathematics the third youngest gold medalist in IMO history ?",
+    "answer": "Raúl Chávez Sarmiento",
+    "original_answer": "Raúl Chávez Sarmiento",
+    "gold_answer": "Raúl Chávez Sarmiento",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8caf9f5542996e8ac88b23.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Australian mathematician IMO",
+        "returned_titles": [
+          "Terence Tao",
+          "Andrey Markov, Jr.",
+          "American Mathematics Competitions"
+        ]
+      },
+      {
+        "query": "Andrey Markov IMO",
+        "returned_titles": [
+          "Andrey Markov, Jr.",
+          "American Mathematics Competitions",
+          "Ömer Cerrahoğlu"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_de068be59969ccf5a76156bc7e2c7a3c02f4e40c2f1bba3499011542d4da83b9",
+      "hp_doc_037e077f7b8053e58f28160652ecfba70be760ba9c94f45788d51d114e93e58e"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_de068be59969ccf5a76156bc7e2c7a3c02f4e40c2f1bba3499011542d4da83b9",
+        "title": "Ömer Cerrahoğlu",
+        "text": "Ömer Cerrahoğlu (born 3 May 1995) is a Romanian child prodigy in mathematics. At the age of , he won a gold medal at the 2009 International Mathematical Olympiad, making him the third youngest gold medalist in IMO history, behind Terence Tao and Raúl Chávez Sarmiento. Since then, he won three more silver medals at the 2010, 2011 and 2013 IMO's missing the gold by only 1, 2 and 1 points respectively and one more gold medal at the IMO 2012 in Argentina. He was born in Istanbul from a Romanian mother and a Turkish father and when he was 5 years old, he moved with his family in Baia Mare, Romania. He currently studies at MIT."
+      },
+      {
+        "id": "hp_doc_037e077f7b8053e58f28160652ecfba70be760ba9c94f45788d51d114e93e58e",
+        "title": "Terence Tao",
+        "text": "Terence Chi-Shen Tao FAA FRS (born 17 July 1975) is an Australian-American mathematician who has worked in various areas of mathematics. He currently focuses on harmonic analysis, partial differential equations, algebraic combinatorics, arithmetic combinatorics, geometric combinatorics, compressed sensing and analytic number theory. s of 2015 , he holds the James and Carol Collins chair in mathematics at the University of California, Los Angeles. Tao was a co-recipient of the 2006 Fields Medal and the 2014 Breakthrough Prize in Mathematics."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Ömer Cerrahoğlu",
+        "document_id": "hp_doc_de068be59969ccf5a76156bc7e2c7a3c02f4e40c2f1bba3499011542d4da83b9",
+        "sentence_id": 0
+      },
+      {
+        "title": "Ömer Cerrahoğlu",
+        "document_id": "hp_doc_de068be59969ccf5a76156bc7e2c7a3c02f4e40c2f1bba3499011542d4da83b9",
+        "sentence_id": 1
+      },
+      {
+        "title": "Terence Tao",
+        "document_id": "hp_doc_037e077f7b8053e58f28160652ecfba70be760ba9c94f45788d51d114e93e58e",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a90b4b255429933b8a20594",
+    "question": "Sally and Jerome Poncet are residents on an archipelago located how far from South America's southern Patagonian coast ?",
+    "answer": "300 mi",
+    "original_answer": "300 mi",
+    "gold_answer": "300 mi",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a90b4b255429933b8a20594.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Sally Jerome Poncet",
+        "returned_titles": [
+          "Damien Bay",
+          "Sally Prouty",
+          "Sally, Irene and Mary (1938 film)"
+        ]
+      },
+      {
+        "query": "South Georgia Patagonian coast",
+        "returned_titles": [
+          "Falkland Islands",
+          "Damien Bay",
+          "Northern Patagonian Ice Field"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_58fc84fbfc07a9ffc608ab08aac1bff2b59f8c2c51fbf86e27bf063beb60e32d",
+      "hp_doc_b24953f44a17894b07efdade3ed0e5fdc643a9426400354455efb9e8b7070bbb"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_58fc84fbfc07a9ffc608ab08aac1bff2b59f8c2c51fbf86e27bf063beb60e32d",
+        "title": "Damien Bay",
+        "text": "Damien Bay ( ) is located north-northeast of Hamilton Bay on the southeast coast of South Georgia. It was named after the yacht \"Damien II\", owned by Sally and Jerome Poncet, residents of Beaver Island in the Falkland Islands. The Poncets conducted investigations of the breeding colonies of seals and seabirds around the coastline of South Georgia. The \"Damien II\" was chartered by the British Antarctic Survey for various wildlife surveys between 1985 and 1992."
+      },
+      {
+        "id": "hp_doc_b24953f44a17894b07efdade3ed0e5fdc643a9426400354455efb9e8b7070bbb",
+        "title": "Falkland Islands",
+        "text": "The Falkland Islands ( ; Spanish: \"Islas Malvinas\" , ] ) are an archipelago in the South Atlantic Ocean on the Patagonian Shelf. The principal islands are about 300 mi east of South America's southern Patagonian coast, at a latitude of about 52°S. The archipelago, with an area of 4700 sqmi , comprises East Falkland, West Falkland and 776 smaller islands. As a British overseas territory, the Falklands have internal self-governance, and the United Kingdom takes responsibility for their defence and foreign affairs. The islands' capital is Stanley on East Falkland."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Damien Bay",
+        "document_id": "hp_doc_58fc84fbfc07a9ffc608ab08aac1bff2b59f8c2c51fbf86e27bf063beb60e32d",
+        "sentence_id": 1
+      },
+      {
+        "title": "Falkland Islands",
+        "document_id": "hp_doc_b24953f44a17894b07efdade3ed0e5fdc643a9426400354455efb9e8b7070bbb",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab2200f554299722f9b4cc1",
+    "question": "What was the actress which acted the role of Nell Trent best known for? ",
+    "answer": "role as Evelyn Doyle in the Irish film \"Evelyn\"",
+    "original_answer": "Evelyn Doyle",
+    "gold_answer": "role as Evelyn Doyle in the Irish film \"Evelyn\"",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab2200f554299722f9b4cc1.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Nell Trent actress",
+        "returned_titles": [
+          "The Old Curiosity Shop (2007 film)",
+          "Nell Hudson",
+          "Nell Campbell"
+        ]
+      },
+      {
+        "query": "Sophie Vavasseur best known",
+        "returned_titles": [
+          "Sophie Vavasseur",
+          "The Old Curiosity Shop (2007 film)",
+          "Return of the Scarlet Pimpernel"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_393a56b581b225e930a8c879ed7109cdad7f49977d6c9ad22d19e5a9e4c538b3",
+      "hp_doc_0e5ff7d3645cb9419e1727c9e8ab778776aea56ee85995fc2f0279e2eb623f14"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_393a56b581b225e930a8c879ed7109cdad7f49977d6c9ad22d19e5a9e4c538b3",
+        "title": "The Old Curiosity Shop (2007 film)",
+        "text": "The Old Curiosity Shop is a British television film adapted from the Charles Dickens's novel \"The Old Curiosity Shop\". It stars Irish actress Sophie Vavasseur as Nell Trent, with Derek Jacobi as her grandfather, Toby Jones as Quilp and George MacKay as Nell's friend, Kit. It was broadcast on 26 December 2007 on ITV."
+      },
+      {
+        "id": "hp_doc_0e5ff7d3645cb9419e1727c9e8ab778776aea56ee85995fc2f0279e2eb623f14",
+        "title": "Sophie Vavasseur",
+        "text": "Sophie Vavasseur (born 10 May 1992) is an Irish actress best known for her award-nominated role as Evelyn Doyle in the Irish film \"Evelyn\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Old Curiosity Shop (2007 film)",
+        "document_id": "hp_doc_393a56b581b225e930a8c879ed7109cdad7f49977d6c9ad22d19e5a9e4c538b3",
+        "sentence_id": 1
+      },
+      {
+        "title": "Sophie Vavasseur",
+        "document_id": "hp_doc_0e5ff7d3645cb9419e1727c9e8ab778776aea56ee85995fc2f0279e2eb623f14",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab31f5b55429976abd1bc66",
+    "question": "What does the development of  the upcoming massively multiplayer, space trading and combat video game for Microsoft Windows and Linux, that is composed by a Portuguese award-winning classical music, film and video game composer also known for his Requiem to Inês de Castro, include and titled?",
+    "answer": "campaign titled \"Squadron 42\"",
+    "original_answer": "Squadron 42",
+    "gold_answer": "campaign titled \"Squadron 42\"",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab31f5b55429976abd1bc66.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Requiem Inês de Castro",
+        "returned_titles": [
+          "Pedro Camacho",
+          "Inês de Castro",
+          "Count of Arraiolos"
+        ]
+      },
+      {
+        "query": "Star Citizen",
+        "returned_titles": [
+          "Star Citizen",
+          "Pedro Camacho",
+          "Hippolytus (archbishop of Gniezno)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_587cbcb91db542a885e2431e9e4f604adb8dac313b3c0a88d5df295835c6948e",
+      "hp_doc_dc1c394d75151a0f5f59e427c26a1d19f2977e7bf91902f2b816512c1c0e6afd"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_587cbcb91db542a885e2431e9e4f604adb8dac313b3c0a88d5df295835c6948e",
+        "title": "Pedro Camacho",
+        "text": "Pedro Macedo Camacho (born September 4, 1979) is a Portuguese award-winning classical music, film and video game composer also known for his Requiem to Inês de Castro and his score for \"Star Citizen\"."
+      },
+      {
+        "id": "hp_doc_dc1c394d75151a0f5f59e427c26a1d19f2977e7bf91902f2b816512c1c0e6afd",
+        "title": "Star Citizen",
+        "text": "Star Citizen is an upcoming massively multiplayer, space trading and combat video game for Microsoft Windows and Linux. The development includes a single-player campaign titled \"Squadron 42\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Pedro Camacho",
+        "document_id": "hp_doc_587cbcb91db542a885e2431e9e4f604adb8dac313b3c0a88d5df295835c6948e",
+        "sentence_id": 0
+      },
+      {
+        "title": "Star Citizen",
+        "document_id": "hp_doc_dc1c394d75151a0f5f59e427c26a1d19f2977e7bf91902f2b816512c1c0e6afd",
+        "sentence_id": 0
+      },
+      {
+        "title": "Star Citizen",
+        "document_id": "hp_doc_dc1c394d75151a0f5f59e427c26a1d19f2977e7bf91902f2b816512c1c0e6afd",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab55b57554299488d4d995f",
+    "question": "Who is the vocalist  from the album Brazilian Sketches married to?",
+    "answer": "Jim Tomlinson",
+    "original_answer": "Stacey Kent",
+    "gold_answer": "Jim Tomlinson",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab55b57554299488d4d995f.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Brazilian Sketches vocalist",
+        "returned_titles": [
+          "Brazilian Sketches",
+          "Só no Forévis",
+          "Lambada (song)"
+        ]
+      },
+      {
+        "query": "Rodolfo married",
+        "returned_titles": [
+          "Walk Like a Dragon",
+          "Só no Forévis",
+          "Stacey Kent"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_95668090ecf60e6cf7a5d4dc0f3d05b09205a7a209f46f805bfb87de9f76c491",
+      "hp_doc_ec0c112f143f1b485bee0aee27c7b62532cdce998c53b83247cee65ddcecd1c5"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_95668090ecf60e6cf7a5d4dc0f3d05b09205a7a209f46f805bfb87de9f76c491",
+        "title": "Brazilian Sketches",
+        "text": "Brazilian Sketches is an album by British saxophonist Jim Tomlinson that was released in 2003. The album features Stacey Kent on vocals. The album contains cover versions of songs by Antonio Carlos Jobim, Vinícius de Moraes, Marcos Valle, and Luiz Bonfá."
+      },
+      {
+        "id": "hp_doc_ec0c112f143f1b485bee0aee27c7b62532cdce998c53b83247cee65ddcecd1c5",
+        "title": "Stacey Kent",
+        "text": "Stacey Kent is an American jazz singer. She is married to saxophonist Jim Tomlinson."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Brazilian Sketches",
+        "document_id": "hp_doc_95668090ecf60e6cf7a5d4dc0f3d05b09205a7a209f46f805bfb87de9f76c491",
+        "sentence_id": 1
+      },
+      {
+        "title": "Stacey Kent",
+        "document_id": "hp_doc_ec0c112f143f1b485bee0aee27c7b62532cdce998c53b83247cee65ddcecd1c5",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab93192554299131ca422b2",
+    "question": "Steve Cardenas played which character in the move \"Mighty Morphin Power Rangers: The Movie\"?",
+    "answer": "Red Power Ranger",
+    "original_answer": "Rocky DeSantos",
+    "gold_answer": "Red Power Ranger",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab93192554299131ca422b2.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Mighty Morphin Power Rangers The Movie",
+        "returned_titles": [
+          "Mighty Morphin Power Rangers: The Movie",
+          "Mighty Morphin Power Rangers (comics)",
+          "Mighty Morphin Alien Rangers"
+        ]
+      },
+      {
+        "query": "Steve Cardenas Mighty Morphin",
+        "returned_titles": [
+          "Steve Cardenas",
+          "Mighty Morphin Power Rangers: The Movie",
+          "Mighty Morphin Power Rangers (comics)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d784333905275a104fc5c02c8d48bc4955b4eaa7cc365a442186dd4ec65d6d76",
+      "hp_doc_38d5c858fe50688d98f3f1b2f440f16e855e036e63e1d288933f2c708ecee6b8"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d784333905275a104fc5c02c8d48bc4955b4eaa7cc365a442186dd4ec65d6d76",
+        "title": "Mighty Morphin Power Rangers: The Movie",
+        "text": "Mighty Morphin Power Rangers: The Movie (also known as Power Rangers: The Movie) is a 1995 American superhero film based on the television series \"Mighty Morphin Power Rangers\". It stars the ensemble cast of Karan Ashley, Johnny Yong Bosch, Steve Cardenas, Jason David Frank, Amy Jo Johnson, and David Yost alongside the villains cast from the original series and Paul Freeman as Ivan Ooze. Much like the television season that followed the release, it used concepts from the Japanese Super Sentai series \"Ninja Sentai Kakuranger\". It is the first \"Power Rangers\" production from Saban Entertainment not to feature any archived footage from \"Super Sentai\"."
+      },
+      {
+        "id": "hp_doc_38d5c858fe50688d98f3f1b2f440f16e855e036e63e1d288933f2c708ecee6b8",
+        "title": "Steve Cardenas",
+        "text": "Stephen Antonio Cardenas (born May 29, 1974), formerly known as Steven Cardenas, is an American martial artist, musician, and retired actor. Cardenas is best known for playing the character Rocky DeSantos, which was the second Red Power Ranger in \"Mighty Morphin Power Rangers\" and eventually became the Blue Zeo Ranger in \"Power Rangers Zeo\", two seasons later."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Mighty Morphin Power Rangers: The Movie",
+        "document_id": "hp_doc_d784333905275a104fc5c02c8d48bc4955b4eaa7cc365a442186dd4ec65d6d76",
+        "sentence_id": 1
+      },
+      {
+        "title": "Steve Cardenas",
+        "document_id": "hp_doc_38d5c858fe50688d98f3f1b2f440f16e855e036e63e1d288933f2c708ecee6b8",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abaeebc5542996606241697",
+    "question": "What was the nationality of the rising young producer who oversaw the production of \"Forgotten Faces\"?",
+    "answer": "American",
+    "original_answer": "American",
+    "gold_answer": "American",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abaeebc5542996606241697.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Forgotten Faces producer",
+        "returned_titles": [
+          "Forgotten Faces (1928 film)",
+          "Forgotten Faces",
+          "Forgotten Realms"
+        ]
+      },
+      {
+        "query": "David O Selznick nationality",
+        "returned_titles": [
+          "David O. Selznick",
+          "Forgotten Faces (1928 film)",
+          "Eric G. Stacey"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_e7a08a3cefb8e83ff6e8b9c6af43bbcf39aa6269a92757cf56e9f3d9493fba97",
+      "hp_doc_f91426af3b84d13a1de295c66d1fb1b5888b61537edea66e7b37a5ba4508a75c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e7a08a3cefb8e83ff6e8b9c6af43bbcf39aa6269a92757cf56e9f3d9493fba97",
+        "title": "Forgotten Faces (1928 film)",
+        "text": "Forgotten Faces is a 1928 American silent drama film directed by Victor Schertzinger and starring Clive Brook, Mary Brian and Olga Baclanova. The production was overseen by David O. Selznick, a rising young producer at the time. The film was remade by Paramount in 1936 as a sound film."
+      },
+      {
+        "id": "hp_doc_f91426af3b84d13a1de295c66d1fb1b5888b61537edea66e7b37a5ba4508a75c",
+        "title": "David O. Selznick",
+        "text": "David O. Selznick (May 10, 1902June 22, 1965) was an American film producer, screenwriter and film studio executive. He is best known for producing \"Gone with the Wind\" (1939) and \"Rebecca\" (1940), both earning him an Academy Award for Best Picture."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Forgotten Faces (1928 film)",
+        "document_id": "hp_doc_e7a08a3cefb8e83ff6e8b9c6af43bbcf39aa6269a92757cf56e9f3d9493fba97",
+        "sentence_id": 1
+      },
+      {
+        "title": "David O. Selznick",
+        "document_id": "hp_doc_f91426af3b84d13a1de295c66d1fb1b5888b61537edea66e7b37a5ba4508a75c",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abc3948554299700f9d782b",
+    "question": "The 2002 AFL Grand Final was held at a sports stadium that has the tallest light towers of what?",
+    "answer": "any sporting venue",
+    "original_answer": "Massachusetts",
+    "gold_answer": "any sporting venue",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abc3948554299700f9d782b.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "2002 AFL Grand Final",
+        "returned_titles": [
+          "2002 AFL Grand Final",
+          "2010 AFL Grand Final",
+          "2007 AFL Grand Final"
+        ]
+      },
+      {
+        "query": "Melbourne Cricket Ground light towers",
+        "returned_titles": [
+          "Melbourne Cricket Ground",
+          "List of lighthouses in Massachusetts",
+          "2002 AFL Grand Final"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_299f58b5cd41164df58ab668e6dd10bb75850adef66c4cd7e0548fe8c15a7410",
+      "hp_doc_bdca9d86c196267bdd40ebd4509e33d866c85e94672b36a4b447d18eff7380af"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_299f58b5cd41164df58ab668e6dd10bb75850adef66c4cd7e0548fe8c15a7410",
+        "title": "2002 AFL Grand Final",
+        "text": "The 2002 AFL Grand Final was an Australian rules football game contested between the Brisbane Lions and the Collingwood Football Club, held at the Melbourne Cricket Ground in Melbourne on 28 September 2002. It was the 106th annual Grand Final of the Australian Football League (formerly the Victorian Football League), staged to determine the premiers for the 2002 AFL season. The match, attended by 91,817 spectators, was won by Brisbane by a margin of 9 points, marking that club's second premiership victory in a row and second premiership overall."
+      },
+      {
+        "id": "hp_doc_bdca9d86c196267bdd40ebd4509e33d866c85e94672b36a4b447d18eff7380af",
+        "title": "Melbourne Cricket Ground",
+        "text": "The Melbourne Cricket Ground (MCG), also known simply as \"The G\", is an Australian sports stadium located in Yarra Park, Melbourne, Victoria. Home to the Melbourne Cricket Club, it is the 10th-largest stadium in the world, the largest in Australia, the largest in the Southern Hemisphere, the largest cricket ground by capacity, and has the tallest light towers of any sporting venue. The MCG is within walking distance of the city centre and is served by the Richmond railway station, Richmond, and the Jolimont railway station, East Melbourne. It is part of the Melbourne Sports and Entertainment Precinct."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "2002 AFL Grand Final",
+        "document_id": "hp_doc_299f58b5cd41164df58ab668e6dd10bb75850adef66c4cd7e0548fe8c15a7410",
+        "sentence_id": 0
+      },
+      {
+        "title": "Melbourne Cricket Ground",
+        "document_id": "hp_doc_bdca9d86c196267bdd40ebd4509e33d866c85e94672b36a4b447d18eff7380af",
+        "sentence_id": 0
+      },
+      {
+        "title": "Melbourne Cricket Ground",
+        "document_id": "hp_doc_bdca9d86c196267bdd40ebd4509e33d866c85e94672b36a4b447d18eff7380af",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abd8ce25542992ac4f382b1",
+    "question": " Win Lose or Draw is the second studio album released by a rapper who was once a member of an American hip hop group that derived the bands name from what term?",
+    "answer": "Refugee",
+    "original_answer": "Refugee",
+    "gold_answer": "refugee",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abd8ce25542992ac4f382b1.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Win Lose Draw album",
+        "returned_titles": [
+          "Win Lose or Draw (album)",
+          "Playin' to Win",
+          "List of Foo Fighters band members"
+        ]
+      },
+      {
+        "query": "Fugee Pras Michel band name",
+        "returned_titles": [
+          "Win Lose or Draw (album)",
+          "Fugees",
+          "Michel Legrand"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_bf6f00f950e3627b8a6bd3170a6dc7e036e9a55dccf93901b043583a5bde747d",
+      "hp_doc_8880bd0353beae31226dd8f76aed6a23b3c983f50d2e9efd011c094a47983eb5"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bf6f00f950e3627b8a6bd3170a6dc7e036e9a55dccf93901b043583a5bde747d",
+        "title": "Win Lose or Draw (album)",
+        "text": "Win Lose or Draw is the second studio album released by American rapper and former Fugee Pras Michel. The album was released on August 16, 2005. Only one single, \"Haven't Found\", was released from the album, on June 16, 2005. The album was entirely produced by Pras and Wyclef Jean."
+      },
+      {
+        "id": "hp_doc_8880bd0353beae31226dd8f76aed6a23b3c983f50d2e9efd011c094a47983eb5",
+        "title": "Fugees",
+        "text": "Fugees (sometimes The Fugees; formerly Tranzlator Crew) were an American hip hop group who rose to fame in the early-1990s. Their repertoire included elements of hip hop, soul and Caribbean music, particularly reggae. The members of the group were rapper/singer/producer Wyclef Jean, rapper/singer/producer Lauryn Hill, and rapper/producer Pras Michel. Deriving their name from the term refugee, Jean and Michel are Haitian, while Hill is American."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Win Lose or Draw (album)",
+        "document_id": "hp_doc_bf6f00f950e3627b8a6bd3170a6dc7e036e9a55dccf93901b043583a5bde747d",
+        "sentence_id": 0
+      },
+      {
+        "title": "Fugees",
+        "document_id": "hp_doc_8880bd0353beae31226dd8f76aed6a23b3c983f50d2e9efd011c094a47983eb5",
+        "sentence_id": 0
+      },
+      {
+        "title": "Fugees",
+        "document_id": "hp_doc_8880bd0353beae31226dd8f76aed6a23b3c983f50d2e9efd011c094a47983eb5",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abdc76355429965af743e38",
+    "question": "An Opera House in San Francisco, California is located on the western side of Van Ness Avenue across from the rear facade of City Hall was the opera house that held the first performance of Elegy, who performed Elegy?",
+    "answer": "San Francisco Symphony",
+    "original_answer": "San Francisco Symphony",
+    "gold_answer": "San Francisco Symphony",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abdc76355429965af743e38.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Elegy opera house San Francisco",
+        "returned_titles": [
+          "Elegy (Corigliano)",
+          "War Memorial Opera House",
+          "Van Ness Avenue"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_0628a602fb1b673d6aa73b26878aac95f4e50ac7c1701db2c5cd99e0ed2eb9bf",
+      "hp_doc_a77c64feec1ab3c813871c9644bf4100f76acd54d8086cdc2506679bf88bd57b"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_0628a602fb1b673d6aa73b26878aac95f4e50ac7c1701db2c5cd99e0ed2eb9bf",
+        "title": "Elegy (Corigliano)",
+        "text": "Elegy is an orchestral composition by the American composer John Corigliano. It was first performed by the San Francisco Symphony under the direction Verne Sellin at the War Memorial Opera House on June 1, 1966. The piece is dedicated to the composer Samuel Barber."
+      },
+      {
+        "id": "hp_doc_a77c64feec1ab3c813871c9644bf4100f76acd54d8086cdc2506679bf88bd57b",
+        "title": "War Memorial Opera House",
+        "text": "The War Memorial Opera House in San Francisco, California is located on the western side of Van Ness Avenue across from the rear facade of City Hall. It is part of the San Francisco War Memorial and Performing Arts Center. It has been the home of the San Francisco Opera since opening night in 1932."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Elegy (Corigliano)",
+        "document_id": "hp_doc_0628a602fb1b673d6aa73b26878aac95f4e50ac7c1701db2c5cd99e0ed2eb9bf",
+        "sentence_id": 1
+      },
+      {
+        "title": "War Memorial Opera House",
+        "document_id": "hp_doc_a77c64feec1ab3c813871c9644bf4100f76acd54d8086cdc2506679bf88bd57b",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abf09875542997ec76fd3a7",
+    "question": "Which movie directed by Roman Polanski was produced by Filmways, Inc?",
+    "answer": "The Fearless Vampire Killers",
+    "original_answer": "Tess",
+    "gold_answer": "The Fearless Vampire Killers",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abf09875542997ec76fd3a7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Roman Polanski Filmways",
+        "returned_titles": [
+          "Roman Polanski: Wanted and Desired",
+          "Tess (film)",
+          "The Fearless Vampire Killers"
+        ]
+      },
+      {
+        "query": "Tess Filmways",
+        "returned_titles": [
+          "Tess (film)",
+          "Filmways"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_04ed134f153ba3a46f7ec21d7ebe0ca7e645d7a64fbc60ac829fd0650e85d7e9",
+      "hp_doc_910bd7e6533d80b6950ca7bb2d7f6d7bec5a9adcf3d4751914d3485d48bba876"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_04ed134f153ba3a46f7ec21d7ebe0ca7e645d7a64fbc60ac829fd0650e85d7e9",
+        "title": "Filmways",
+        "text": "Filmways, Inc. (also known as Filmways Pictures and Filmways Television) was a television and film production company founded by American film executive Martin Ransohoff, and Edwin Kasper in 1952. It is probably best remembered as the production company of CBS’ “rural comedies” of the 1960s, including \"Mister Ed\", \"The Beverly Hillbillies\", \"Petticoat Junction\", and \"Green Acres\", as well as the comedy-drama \"The Trials of O'Brien\", the western \"Dundee and the Culhane\", the adventure show \"Bearcats! \", the police drama \"Cagney & Lacey\", and \"The Addams Family\". Notable films the company produced include \"The Sandpiper\", \"The Cincinnati Kid\", \"The Fearless Vampire Killers\", \"Ice Station Zebra\", \"Summer Lovers\", \"The Burning\", \"King\" and Brian De Palma's \"Dressed to Kill\" and \"Blow Out\"."
+      },
+      {
+        "id": "hp_doc_910bd7e6533d80b6950ca7bb2d7f6d7bec5a9adcf3d4751914d3485d48bba876",
+        "title": "The Fearless Vampire Killers",
+        "text": "The Fearless Vampire Killers, or Pardon Me, But Your Teeth Are in My Neck (shortened to The Fearless Vampire Killers; originally released in the UK as Dance of the Vampires) is a 1967 horror comedy film directed by Roman Polanski, written by Gérard Brach and Polanski, produced by Gene Gutowski and co-starring Polanski with future wife Sharon Tate. It has been produced as a musical named \"Dance of the Vampires\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Filmways",
+        "document_id": "hp_doc_04ed134f153ba3a46f7ec21d7ebe0ca7e645d7a64fbc60ac829fd0650e85d7e9",
+        "sentence_id": 3
+      },
+      {
+        "title": "The Fearless Vampire Killers",
+        "document_id": "hp_doc_910bd7e6533d80b6950ca7bb2d7f6d7bec5a9adcf3d4751914d3485d48bba876",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  }
+]

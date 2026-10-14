@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from search import SearchTool
 from kzq_agent import AgentController
+from retrieval_binding import verify_retrieval_binding
 
 RUN = ROOT / "outputs/baselines_20261013T092302Z_9a649338"
 OUT = ROOT / "data/teacher_batch_001_v1"
@@ -34,11 +35,15 @@ def main():
     parser.add_argument("--batch", type=int, default=1)
     parser.add_argument("--size", type=int, default=10)
     parser.add_argument("--compact", action="store_true")
+    parser.add_argument("--source-dir", type=Path, default=None)
+    parser.add_argument("--offset", type=int, default=0)
     args = parser.parse_args()
     if args.batch < 1:
         raise ValueError("Batch must be positive")
     OUT = ROOT / "data" / f"teacher_batch_{args.batch:03d}_v1"
+    RUN = args.source_dir.resolve() if args.source_dir else globals()["RUN"]
     if args.mode == "init":
+        verify_retrieval_binding(RUN)
         if OUT.exists():
             raise FileExistsError(OUT)
         excluded = set()
@@ -54,7 +59,10 @@ def main():
             excluded.update(r["question_id"] for r in jsonl(path))
         questions = {q["id"]: q for q in jsonl(RUN / "questions.jsonl")}
         # Selection uses failure flags, not gold answers/documents.
-        rows = sorted([r for r in read(RUN / "evaluation/details.json") if r["method"] == "agent" and r["question_id"] not in excluded and not r["answer_exact_match"]], key=lambda r:r["question_id"])
+        if args.source_dir:
+            rows = [{"question_id":q["id"]} for q in jsonl(RUN/"questions.jsonl")[args.offset:] if q["id"] not in excluded]
+        else:
+            rows = sorted([r for r in read(RUN / "evaluation/details.json") if r["method"] == "agent" and r["question_id"] not in excluded and not r["answer_exact_match"]], key=lambda r:r["question_id"])
         if args.size < 1 or len(rows) < args.size:
             raise ValueError("Insufficient eligible questions or invalid size")
         selected = rows[:args.size]
@@ -63,12 +71,18 @@ def main():
             q = questions[row["question_id"]]
             if q["split"] != "train":
                 raise ValueError("Not training data")
-            source = read(RUN / "agent" / (q["id"] + ".json"))
+            if args.source_dir:
+                from run_baselines import AGENT_PROMPT_EN
+                source = {"messages":[{"role":"system","content":AGENT_PROMPT_EN},{"role":"user","content":f"Question: {q['question']}\nSearch budget: 3 calls."}]}
+            else:
+                source = read(RUN / "agent" / (q["id"] + ".json"))
             payload = {"question_id":q["id"], "question":q["question"], "teacher":"current Codex assistant; exact model revision unavailable", "generation_protocol":"question and actual tool observations only", "base_model":read(ROOT / "configs/model.json"), "documents_sha256":digest(RUN / "documents.jsonl"), "messages":copy.deepcopy(source["messages"][:2]), "events":[], "status":"running", "search_count":0, "max_searches":3}
             save(OUT / (q["id"] + ".json"), payload)
         save(OUT / "selection.json", {"ids":[r["question_id"] for r in selected], "source_run":str(RUN), "selection":"lexicographic unanswered training IDs after exclusions; not representative sampling", "requested_size":args.size,"excluded_count":len(excluded)})
         print(json.dumps([{ "id":r["question_id"], "question":questions[r["question_id"]]["question"]} for r in selected], ensure_ascii=False))
         return
+    RUN = Path(read(OUT / "selection.json")["source_run"])
+    verify_retrieval_binding(RUN)
     tool = SearchTool(RUN / "documents.jsonl")
     for request in read(args.actions):
         path = OUT / (request["id"] + ".json")

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "trajectories": 100,
+  "unique_parent_questions": 100,
+  "old_300_parent_overlap": 0,
+  "merged_unique_parent_count": 400,
+  "controller_replay": "PASS",
+  "source_hashes": "PASS",
+  "retrieval_pool_binding": "PASS",
+  "search_budget": "PASS",
+  "unseen_final_citations": 0,
+  "repeated_successful_queries": 0,
+  "obvious_avoidable_final_searches": 0,
+  "malformed_action_targets_excluded": 15,
+  "error_feedback_counts": {
+    "near_miss_citation": 12,
+    "multiple_json_objects": 3
+  },
+  "supervised_action_count": 257,
+  "total_supervised_tokens": 15729,
+  "maximum_sequence_tokens": 2179,
+  "token_mask": "PASS",
+  "tokenized_sha256": "90c129a30622ce8d7933b237df6a099401dc51c26e0ce975ee9343b09050c505",
+  "search_count_distribution": {
+    "1": 44,
+    "2": 55,
+    "3": 1
+  },
+  "annotation_exposed_draft_parent_indices_excluded": [
+    0,
+    1,
+    2
+  ],
+  "limitations": [
+    "Mechanical checks do not replace independent semantic adjudication.",
+    "Behavior groups overlap; search count is not logical hop count.",
+    "Controlled small-corpus abstention is not natural Hotpot unanswerability."
+  ]
+}

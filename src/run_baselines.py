@@ -381,6 +381,10 @@ def main():
             raise FileNotFoundError(f"缺少数据文件：{data_dir / filename}")
 
     questions = read_questions(args.question_id, data_dir)
+    from retrieval_binding import verify_retrieval_binding
+    binding = verify_retrieval_binding(data_dir)
+    if binding:
+        print(f"Retrieval pool verified: {binding['retrieval_pool_id']}", flush=True)
     modes = (
         ["no_search", "rag", "agent"]
         if args.mode == "all"
@@ -434,6 +438,7 @@ def main():
     write_config = {
         "data_dir": str(args.data_dir),
         "model": config,
+        "retrieval_binding": binding,
         "arguments": {
             key: str(value) if isinstance(value, Path) else value
             for key, value in vars(args).items()
@@ -451,6 +456,11 @@ def main():
         (dataset_dir / filename).write_bytes(
             (args.data_dir / filename).read_bytes()
         )
+    if binding:
+        for folder in (run_dir, dataset_dir):
+            (folder / "retrieval_binding.json").write_bytes(
+                (data_dir / "retrieval_binding.json").read_bytes()
+            )
 
     summary = []
 

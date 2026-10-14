@@ -1,0 +1,28 @@
+{
+  "candidate_questions": 400,
+  "documents": 3959,
+  "levels": {
+    "hard": 160,
+    "medium": 160,
+    "easy": 80
+  },
+  "seed": 314159,
+  "old_train_question_overlap": 0,
+  "eval_question_overlap": 0,
+  "eval_support_title_overlap": 0,
+  "raw_sha256": "b971c4ea52955071cb49ce24ed584633511e8c490951f3e391946e909723e710",
+  "documents_sha256": "6004da5df413533b93694c8b80d09ec175e55577b010685587a4894c887214af",
+  "questions_sha256": "ad1aa9957488798e0cd4f2087feb4ddb0fae50767bc2b9cfe9818a3d7260d7a9",
+  "exclusions": {
+    "not_bridge": 17454,
+    "existing_question": 300,
+    "eval_support_title_overlap": 777,
+    "duplicate_question_text": 8,
+    "invalid_supporting_sentence": 22
+  },
+  "limitations": [
+    "Structural validation is not semantic review.",
+    "Gold-title isolation is not complete entity isolation.",
+    "New fixed training corpus differs from previous training corpus; evaluation corpus stays frozen."
+  ]
+}

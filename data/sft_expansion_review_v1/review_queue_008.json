@@ -1,0 +1,1334 @@
+[
+  {
+    "question_id": "5a71423d5542994082a3e712",
+    "question": "Which one reservations was in South Dakota and Nebraska Great Sioux Reservation or Cheyenne River Indian Reservation?",
+    "answer": "Great Sioux Reservation",
+    "original_answer": "Great Sioux Reservation",
+    "gold_answer": "Great Sioux Reservation",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a71423d5542994082a3e712.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Great Sioux Reservation South Dakota",
+        "returned_titles": [
+          "Great Sioux Reservation",
+          "Oglala Lakota",
+          "Pine Ridge Indian Reservation"
+        ]
+      },
+      {
+        "query": "Cheyenne River Indian Reservation",
+        "returned_titles": [
+          "Cheyenne River Indian Reservation",
+          "Northern Cheyenne Indian Reservation",
+          "Grand River National Grassland"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ad8823f991e4493030f81c0aa6c518d6b8b751ad7daa86f073ce23097632def4",
+      "hp_doc_ce473798de516e07cae108b9ad56d2e9be932992d70649a863ad8b72335c39fa"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ad8823f991e4493030f81c0aa6c518d6b8b751ad7daa86f073ce23097632def4",
+        "title": "Cheyenne River Indian Reservation",
+        "text": "The Cheyenne River Indian Reservation was created by the United States in 1889 by breaking up the Great Sioux Reservation, following its victory over the Lakota in a series of wars in the 1870s. The reservation covers almost all of Dewey and Ziebach counties in South Dakota. In addition, many small parcels of off-reservation trust land are located in Stanley, Haakon, and Meade counties."
+      },
+      {
+        "id": "hp_doc_ce473798de516e07cae108b9ad56d2e9be932992d70649a863ad8b72335c39fa",
+        "title": "Great Sioux Reservation",
+        "text": "The Great Sioux Reservation was the original area encompassing what are today the various Sioux Indian reservations in South Dakota and Nebraska."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Cheyenne River Indian Reservation",
+        "document_id": "hp_doc_ad8823f991e4493030f81c0aa6c518d6b8b751ad7daa86f073ce23097632def4",
+        "sentence_id": 0
+      },
+      {
+        "title": "Great Sioux Reservation",
+        "document_id": "hp_doc_ce473798de516e07cae108b9ad56d2e9be932992d70649a863ad8b72335c39fa",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a75dd005542994ccc918643",
+    "question": "In what year was the winner of the New Hampshire gubernatorial election, 1996 born?",
+    "answer": "1947",
+    "original_answer": "1947",
+    "gold_answer": "1947",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a75dd005542994ccc918643.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "New Hampshire gubernatorial election 1996",
+        "returned_titles": [
+          "New Hampshire gubernatorial election, 1996",
+          "New Hampshire gubernatorial election, 1994",
+          "New Hampshire gubernatorial election, 1992"
+        ]
+      },
+      {
+        "query": "Jeanne Shaheen born",
+        "returned_titles": [
+          "Jeanne Shaheen",
+          "New Hampshire gubernatorial election, 1996",
+          "Miss Oneness Trinidad and Tobago"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_efb6b3ddb817a0397662cf02f9f0247b3f223168ef3cc97dfa9be955751c0b2d",
+      "hp_doc_40fe20fb12aa1bd0fbe2e1770511f466dec63d0bef90800378c4bd4e1d67ceb8"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_efb6b3ddb817a0397662cf02f9f0247b3f223168ef3cc97dfa9be955751c0b2d",
+        "title": "New Hampshire gubernatorial election, 1996",
+        "text": "The 1996 New Hampshire gubernatorial election took place on November 5, 1996. State Senator Jeanne Shaheen won the election."
+      },
+      {
+        "id": "hp_doc_40fe20fb12aa1bd0fbe2e1770511f466dec63d0bef90800378c4bd4e1d67ceb8",
+        "title": "Jeanne Shaheen",
+        "text": "Cynthia Jeanne Shaheen (née Bowers; January 28, 1947) is the senior United States Senator from New Hampshire, since 2009."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "New Hampshire gubernatorial election, 1996",
+        "document_id": "hp_doc_efb6b3ddb817a0397662cf02f9f0247b3f223168ef3cc97dfa9be955751c0b2d",
+        "sentence_id": 1
+      },
+      {
+        "title": "Jeanne Shaheen",
+        "document_id": "hp_doc_40fe20fb12aa1bd0fbe2e1770511f466dec63d0bef90800378c4bd4e1d67ceb8",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7b6a8555429927d897bfc0",
+    "question": "In which year was this Swiss politician of the Social Democratic Party of Switzerland who won the election at the Swiss Federal Council election, 2010, born?",
+    "answer": "1960",
+    "original_answer": "1940",
+    "gold_answer": "1960",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7b6a8555429927d897bfc0.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Swiss Social Democratic Party",
+        "returned_titles": [
+          "Magic formula",
+          "Ruth Dreifuss",
+          "Simonetta Sommaruga"
+        ]
+      },
+      {
+        "query": "Swiss Federal Council 2010",
+        "returned_titles": [
+          "Swiss Federal Council election, 2010",
+          "Alain Berset",
+          "Rudolf Friedrich"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_85e2f3632542fd5ca043998cbf517c9f3cc746bfb0d7139cdbe686ee4f6316b4",
+      "hp_doc_97d84b3b02b49c463378cee832b625522e2204c2f55b6d7d26ae48d480946efc"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_85e2f3632542fd5ca043998cbf517c9f3cc746bfb0d7139cdbe686ee4f6316b4",
+        "title": "Swiss Federal Council election, 2010",
+        "text": "Two by-elections to the Swiss Federal Council were held in Switzerland on 22 September 2010, after Federal Councillor Moritz Leuenberger (SP) announced he would leave the Federal Council effective 31 December 2010 and Federal Councillor Hans-Rudolf Merz (FDP.The Liberals) on 6 August 2010 announced his intention to retire effective late October 2010. Elected were Simonetta Sommaruga and Johann Schneider-Ammann."
+      },
+      {
+        "id": "hp_doc_97d84b3b02b49c463378cee832b625522e2204c2f55b6d7d26ae48d480946efc",
+        "title": "Simonetta Sommaruga",
+        "text": "Simonetta Sommaruga (born 14 May 1960) is a Swiss politician of the Social Democratic Party of Switzerland who is a current member of the Swiss Federal Council, the federal government of Switzerland, and head of the Federal Department of Justice and Police (the Swiss justice minister). She served as Vice President of the Swiss Confederation for the year 2014, and in 2015 succeeded to the role of President."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Swiss Federal Council election, 2010",
+        "document_id": "hp_doc_85e2f3632542fd5ca043998cbf517c9f3cc746bfb0d7139cdbe686ee4f6316b4",
+        "sentence_id": 1
+      },
+      {
+        "title": "Simonetta Sommaruga",
+        "document_id": "hp_doc_97d84b3b02b49c463378cee832b625522e2204c2f55b6d7d26ae48d480946efc",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a7c7a3755429935c91b51d7",
+    "question": "Who was the director for Semi-Tough, a 1977 American comedy film starring the actress who portrayed Rosa Klebb in one of the James Bond movies?",
+    "answer": "Michael Ritchie",
+    "original_answer": "Lotte Lenya",
+    "gold_answer": "Michael Ritchie",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7c7a3755429935c91b51d7.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Semi Tough director",
+        "returned_titles": [
+          "Semi-Tough",
+          "Jack Starrett",
+          "Ewa Brodzka"
+        ]
+      },
+      {
+        "query": "Rosa Klebb Bond movie",
+        "returned_titles": [
+          "Rosa Klebb",
+          "Lotte Lenya",
+          "Filming of James Bond in the 1960s"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_4a22f834be5b7ece4754fc3a86fd362b3d504944b2d53e35bf218ab519d79550",
+      "hp_doc_c335a6081d7d74faf184f9288c19cc68171a301792a52cdc331d3cd6bf9af6ee"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_4a22f834be5b7ece4754fc3a86fd362b3d504944b2d53e35bf218ab519d79550",
+        "title": "Semi-Tough",
+        "text": "Semi-Tough is a 1977 American comedy film directed by Michael Ritchie and starring Burt Reynolds, Kris Kristofferson, Jill Clayburgh, Robert Preston, Lotte Lenya and Bert Convy. It is set in the world of American professional football."
+      },
+      {
+        "id": "hp_doc_c335a6081d7d74faf184f9288c19cc68171a301792a52cdc331d3cd6bf9af6ee",
+        "title": "Lotte Lenya",
+        "text": "Lotte Lenya (18 October 1898 – 27 November 1981) was an Austrian singer, diseuse, and actress, long based in the United States. In the German-speaking and classical music world she is best remembered for her performances of the songs of her husband, Kurt Weill. In English-language cinema, she was nominated for an Academy Award for her role as a jaded aristocrat in \"The Roman Spring of Mrs. Stone\" (1961). She also played the murderous and sadistic Rosa Klebb in the James Bond movie \"From Russia with Love\" (1963)."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Semi-Tough",
+        "document_id": "hp_doc_4a22f834be5b7ece4754fc3a86fd362b3d504944b2d53e35bf218ab519d79550",
+        "sentence_id": 0
+      },
+      {
+        "title": "Lotte Lenya",
+        "document_id": "hp_doc_c335a6081d7d74faf184f9288c19cc68171a301792a52cdc331d3cd6bf9af6ee",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a857e155542994c784ddb1e",
+    "question": "What is the name of the brother of the Pantera guitarist honoured in the STEMM song \"The Memory Remains\"?",
+    "answer": "Vinnie Paul",
+    "original_answer": "Vinnie Paul",
+    "gold_answer": "Vinnie Paul",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a857e155542994c784ddb1e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Pantera guitarist STEMM",
+        "returned_titles": [
+          "Songs for the Incurable Heart",
+          "Anomaly (Ace Frehley album)",
+          "We've Come for You All"
+        ]
+      },
+      {
+        "query": "Dimebag Abbott brother",
+        "returned_titles": [
+          "Dimebag Darrell",
+          "Songs for the Incurable Heart",
+          "Twin Dragons"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_0a082d5528e7b07960a4aef66d672d1fa57efdbda18ba9e5f0d7448749cb5aea",
+      "hp_doc_d6f4ccc1f4c6c5ec12b2f4e768adbc0ad5db5e2f467af196765302958df5078e"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_0a082d5528e7b07960a4aef66d672d1fa57efdbda18ba9e5f0d7448749cb5aea",
+        "title": "Songs for the Incurable Heart",
+        "text": "Songs for the Incurable Heart is STEMM's second full-length album originally released November 15, 2005. It was re-released on October 10, 2006 by major record label I Scream Records, who signed STEMM in 2006. The song \"The Day the Earth Stood Still\" is a tribute song to the victims of the September 11, 2001 attacks in which vocalist T.J. Frost was a survivor. The opening track, \"The Memory Remains\" is also a tribute song to former Pantera/Damageplan guitarist Darrell \"Dimebag\" Abbott. This album is the last to feature former vocalist T.J. Frost and guitarist Rich Spalla who both left the band in 2007. The album sold over 6,000 copies."
+      },
+      {
+        "id": "hp_doc_d6f4ccc1f4c6c5ec12b2f4e768adbc0ad5db5e2f467af196765302958df5078e",
+        "title": "Dimebag Darrell",
+        "text": "Darrell Abbott (August 20, 1966 – December 8, 2004), also known as Diamond Darrell and Dimebag Darrell, was an American musician and songwriter who was a co-founder of Pantera alongside his brother Vinnie Paul, and founder of Damageplan. He was considered to be one of the driving forces behind groove metal."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Songs for the Incurable Heart",
+        "document_id": "hp_doc_0a082d5528e7b07960a4aef66d672d1fa57efdbda18ba9e5f0d7448749cb5aea",
+        "sentence_id": 0
+      },
+      {
+        "title": "Songs for the Incurable Heart",
+        "document_id": "hp_doc_0a082d5528e7b07960a4aef66d672d1fa57efdbda18ba9e5f0d7448749cb5aea",
+        "sentence_id": 3
+      },
+      {
+        "title": "Dimebag Darrell",
+        "document_id": "hp_doc_d6f4ccc1f4c6c5ec12b2f4e768adbc0ad5db5e2f467af196765302958df5078e",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a87a3bd5542996e4f308898",
+    "question": "What is the birth date of this Irish professional boxer who won against Ghanaian boxer Duke Micah in the 2012 Summer Olympics?",
+    "answer": "19 November 1991",
+    "original_answer": "19 November 1991",
+    "gold_answer": "19 November 1991",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a87a3bd5542996e4f308898.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Duke Micah boxer",
+        "returned_titles": [
+          "Duke Micah",
+          "Oliver Lavigilante",
+          "Duke of Lennox"
+        ]
+      },
+      {
+        "query": "Michael Conlan born",
+        "returned_titles": [
+          "Michael Conlan (boxer)",
+          "Duke Micah",
+          "Michael Keiner"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a71a271c208cfff267be0534c6e3450b28d582fcc551788cd5c4bf8abbe524e6",
+      "hp_doc_1b70f674fc31f7d862cef6efcc6bfb77b28a0eada940424d5af7a0113c718502"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a71a271c208cfff267be0534c6e3450b28d582fcc551788cd5c4bf8abbe524e6",
+        "title": "Duke Micah",
+        "text": "Duke Akueteh Micah (born 16 September 1991) is a Ghanaian boxer. He competed in the Men's flyweight division in the boxing at the 2012 Summer Olympics. He won his first bout against Jason Lavigilante of Mauritius by 18 points to 14. In the second round, he lost to the Irish boxer, Michael Conlan, losing by 19 points to 8."
+      },
+      {
+        "id": "hp_doc_1b70f674fc31f7d862cef6efcc6bfb77b28a0eada940424d5af7a0113c718502",
+        "title": "Michael Conlan (boxer)",
+        "text": "Michael John Conlan (born 19 November 1991) is an Irish professional boxer from Belfast. He is currently signed with Top Rank promotion. He competed for Ireland at amateur level."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Duke Micah",
+        "document_id": "hp_doc_a71a271c208cfff267be0534c6e3450b28d582fcc551788cd5c4bf8abbe524e6",
+        "sentence_id": 0
+      },
+      {
+        "title": "Michael Conlan (boxer)",
+        "document_id": "hp_doc_1b70f674fc31f7d862cef6efcc6bfb77b28a0eada940424d5af7a0113c718502",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a889c4d55429938390d3f9c",
+    "question": "An album from 1967 and includes songs like \"Twilight Time\" is performed by what group?",
+    "answer": "The Moody Blues",
+    "original_answer": "The Moody Blues",
+    "gold_answer": "The Moody Blues",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a889c4d55429938390d3f9c.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Twilight Time 1967",
+        "returned_titles": [
+          "Twilight Time (The Moody Blues song)",
+          "The Sunset (song)",
+          "Twilight Time (album)"
+        ]
+      },
+      {
+        "query": "Days of Future Passed Moody Blues",
+        "returned_titles": [
+          "Days of Future Passed",
+          "Twilight Time (The Moody Blues song)",
+          "The Sunset (song)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_d85ddd1e71358dca6fa4c4efe6c6590dc76e12b11bbd8e5a2fb3eb03144802ed",
+      "hp_doc_8216a97577d411916d48062e90fb7dcdd19f6e1493976c4955a44776daf16d20"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_d85ddd1e71358dca6fa4c4efe6c6590dc76e12b11bbd8e5a2fb3eb03144802ed",
+        "title": "Twilight Time (The Moody Blues song)",
+        "text": "\"Twilight Time\" is a song from The Moody Blues' 1967 album \"Days of Future Passed\". It is the final of three songs on the album representing the evening, along with \"(Evening) Time to Get Away\" (which is actually on \"The Afternoon\" track), and \"The Sunset.\" Written by the Moody Blues' flautist Ray Thomas, \"Twilight Time\" primarily describes the scene in the sky after the sun has set. It is one of the more upbeat songs on the album (along with \"Peak Hour\"), played in a brooding minor key, and also has a heavy psychedelic rock sound to it."
+      },
+      {
+        "id": "hp_doc_8216a97577d411916d48062e90fb7dcdd19f6e1493976c4955a44776daf16d20",
+        "title": "Days of Future Passed",
+        "text": "Days of Future Passed is the second album and first concept album by English rock band The Moody Blues, released in November 1967 by Deram Records."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Twilight Time (The Moody Blues song)",
+        "document_id": "hp_doc_d85ddd1e71358dca6fa4c4efe6c6590dc76e12b11bbd8e5a2fb3eb03144802ed",
+        "sentence_id": 0
+      },
+      {
+        "title": "Days of Future Passed",
+        "document_id": "hp_doc_8216a97577d411916d48062e90fb7dcdd19f6e1493976c4955a44776daf16d20",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8b206d5542996c9b8d5fb4",
+    "question": "\"Purple Rain-Union\" is the sixth episode of the fourth season of the animated comedy series \"Bob's Burgers\" and the overall 51st episode, the title of the episode is a reference to the song, film, and which sixth studio album by American recording artist Prince, the first to feature his band The Revolution, and is the soundtrack to the 1984 film of the same name?",
+    "answer": "Purple Rain",
+    "original_answer": "The Revolution",
+    "gold_answer": "Purple Rain",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8b206d5542996c9b8d5fb4.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Purple Rain Bob Burgers",
+        "returned_titles": [
+          "Purple Rain-Union",
+          "Purple Rain Tour",
+          "Purple Rain (album)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c17471d52bc8e5f691d024a4960daccd4c10cc412877eea392e865d3dc6eefa3",
+      "hp_doc_4d322160f68a1b34d2a84122708e93c7ac96e2bc523a8b48bc392e2e9d02736d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c17471d52bc8e5f691d024a4960daccd4c10cc412877eea392e865d3dc6eefa3",
+        "title": "Purple Rain-Union",
+        "text": "\"Purple Rain-Union\" is the sixth episode of the fourth season of the animated comedy series \"Bob's Burgers\" and the overall 51st episode, and is written by Loren Bouchard and Nora Smith and directed by Tyree Dillihay. It aired on Fox in the United States on December 1, 2013. The title of the episode is a reference to the song, film, and album \"Purple Rain\" by Prince."
+      },
+      {
+        "id": "hp_doc_4d322160f68a1b34d2a84122708e93c7ac96e2bc523a8b48bc392e2e9d02736d",
+        "title": "Purple Rain (album)",
+        "text": "Purple Rain is the sixth studio album by American recording artist Prince, the first to feature his band The Revolution, and is the soundtrack to the 1984 film of the same name. It was released on June 25, 1984 by Warner Bros. Records. To date, it has sold over 25 million copies worldwide, making it the third-best-selling soundtrack album of all time."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Purple Rain-Union",
+        "document_id": "hp_doc_c17471d52bc8e5f691d024a4960daccd4c10cc412877eea392e865d3dc6eefa3",
+        "sentence_id": 2
+      },
+      {
+        "title": "Purple Rain (album)",
+        "document_id": "hp_doc_4d322160f68a1b34d2a84122708e93c7ac96e2bc523a8b48bc392e2e9d02736d",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8f0650554299458435d51e",
+    "question": "Feline Frame-Up was a part of which American animated series?",
+    "answer": "Looney Tunes",
+    "original_answer": "Looney Tunes",
+    "gold_answer": "Looney Tunes",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8f0650554299458435d51e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Feline Frame-Up animated series",
+        "returned_titles": [
+          "Feline Frame-Up",
+          "Marc Antony and Pussyfoot",
+          "Duane Capizzi"
+        ]
+      },
+      {
+        "query": "Looney Tunes series",
+        "returned_titles": [
+          "Looney Tunes",
+          "Feline Frame-Up",
+          "Marc Antony and Pussyfoot"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_8980a5cab51960bdcebc524d0a190b9a8dd9984b1f4b494a247a6f4d79ce9f0c",
+      "hp_doc_797d626733ff10249f29acf18201bb6b923ace0f0fb5a46806dfbc6819fcf432"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8980a5cab51960bdcebc524d0a190b9a8dd9984b1f4b494a247a6f4d79ce9f0c",
+        "title": "Feline Frame-Up",
+        "text": "Feline Frame-Up is an animated short film in the Looney Tunes series produced by Warner Bros. Cartoons, Inc and released on February 13, 1954."
+      },
+      {
+        "id": "hp_doc_797d626733ff10249f29acf18201bb6b923ace0f0fb5a46806dfbc6819fcf432",
+        "title": "Looney Tunes",
+        "text": "Looney Tunes is an American animated series of comedy short films produced by Warner Bros. from 1930 to 1969 during the golden age of American animation, alongside its sister series \"Merrie Melodies\". It was known for introducing such famous cartoon characters as Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Tweety, Sylvester, Yosemite Sam, Foghorn Leghorn, Marvin the Martian, Pepé Le Pew, Speedy Gonzales, Wile E. Coyote and the Road Runner, the Tasmanian Devil, and many others. These characters themselves are commonly referred to as \"the Looney Tunes\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Feline Frame-Up",
+        "document_id": "hp_doc_8980a5cab51960bdcebc524d0a190b9a8dd9984b1f4b494a247a6f4d79ce9f0c",
+        "sentence_id": 0
+      },
+      {
+        "title": "Looney Tunes",
+        "document_id": "hp_doc_797d626733ff10249f29acf18201bb6b923ace0f0fb5a46806dfbc6819fcf432",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8f4edc554299458435d5aa",
+    "question": "Rodrigo Hinzpeter was appointed as a minister by a president who was in office between what years ?",
+    "answer": "between 2010 and 2014",
+    "original_answer": "2010 and 2014",
+    "gold_answer": "between 2010 and 2014",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8f4edc554299458435d5aa.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Rodrigo Hinzpeter minister",
+        "returned_titles": [
+          "Rodrigo Hinzpeter",
+          "Rodrigo Hernán Lloreda Caicedo",
+          "Guadalupe Larriva"
+        ]
+      },
+      {
+        "query": "Sebastián Piñera president years",
+        "returned_titles": [
+          "Sebastián Piñera",
+          "Rodrigo Hinzpeter",
+          "Bailoretto, la aventura de un rebelde"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_3559e0b421400d2e7f935a924fdaa48e5dde695aad7122886e87a28260f664e5",
+      "hp_doc_9849b84be59433d689efbacb701fa7fa51eba4a40887def83482300b8fb17989"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_3559e0b421400d2e7f935a924fdaa48e5dde695aad7122886e87a28260f664e5",
+        "title": "Rodrigo Hinzpeter",
+        "text": "Rodrigo Javier Hinzpeter Kirberg (born 27 October 1965) is a Chilean lawyer and politician. He was one of the founders of National Renewal, a center-right political party. He was appointed Interior Minister on 11 March 2010 by President of Chile Sebastián Piñera. On 5 November 2012 he was appointed Defense Minister and his term ended on 11 March 2014."
+      },
+      {
+        "id": "hp_doc_9849b84be59433d689efbacb701fa7fa51eba4a40887def83482300b8fb17989",
+        "title": "Sebastián Piñera",
+        "text": "Miguel Juan Sebastián Piñera Echenique (] ; born December 1, 1949), more commonly known as Sebastián Piñera, is a Chilean politician and businessman. He was President of Chile between 2010 and 2014."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Rodrigo Hinzpeter",
+        "document_id": "hp_doc_3559e0b421400d2e7f935a924fdaa48e5dde695aad7122886e87a28260f664e5",
+        "sentence_id": 2
+      },
+      {
+        "title": "Sebastián Piñera",
+        "document_id": "hp_doc_9849b84be59433d689efbacb701fa7fa51eba4a40887def83482300b8fb17989",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab24fdc554299449642c86e",
+    "question": "What is the name of the show on Netflix produced by the company A Little Stranger?",
+    "answer": "Unbreakable Kimmy Schmidt",
+    "original_answer": "Unbreakable Kimmy Schmidt",
+    "gold_answer": "Unbreakable Kimmy Schmidt",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab24fdc554299449642c86e.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "A Little Stranger Netflix",
+        "returned_titles": [
+          "Little Stranger (company)",
+          "Bashu, the Little Stranger",
+          "Eric Gurian"
+        ]
+      },
+      {
+        "query": "30 Rock Unbreakable Kimmy Schmidt",
+        "returned_titles": [
+          "Little Stranger (company)",
+          "Unbreakable Kimmy Schmidt",
+          "Jane Krakowski"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_bffa6f49941771df17241f94cba1b55bf0da7fff2f087e9e5107ee6b3f70b403",
+      "hp_doc_e73692b2cd79b6c54b5c5b479701087675a0fe164a905ee3e2bd9002c3266847"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bffa6f49941771df17241f94cba1b55bf0da7fff2f087e9e5107ee6b3f70b403",
+        "title": "Little Stranger (company)",
+        "text": "Little Stranger, Inc. is a film and television production company owned by actress and producer Tina Fey with executive vice president and long-time collaborator Eric Gurian. It is known for producing the long-running series 30 Rock and Unbreakable Kimmy Schmidt."
+      },
+      {
+        "id": "hp_doc_e73692b2cd79b6c54b5c5b479701087675a0fe164a905ee3e2bd9002c3266847",
+        "title": "Unbreakable Kimmy Schmidt",
+        "text": "Unbreakable Kimmy Schmidt is an American television sitcom created by Tina Fey and Robert Carlock, starring Ellie Kemper in the title role, that has streamed on Netflix since March 6, 2015. Originally set for a 13-episode first season on NBC for spring 2015, the show was sold to Netflix and given a two-season order."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Little Stranger (company)",
+        "document_id": "hp_doc_bffa6f49941771df17241f94cba1b55bf0da7fff2f087e9e5107ee6b3f70b403",
+        "sentence_id": 0
+      },
+      {
+        "title": "Unbreakable Kimmy Schmidt",
+        "document_id": "hp_doc_e73692b2cd79b6c54b5c5b479701087675a0fe164a905ee3e2bd9002c3266847",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab679af55429954757d32da",
+    "question": "Which of the head coaches of the 2016 Auburn Tigers football team and 2016 Oklahoma Sooners football team have been in post longer ?",
+    "answer": "Bob Stoops",
+    "original_answer": "Gus Malzahn",
+    "gold_answer": "Bob Stoops",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab679af55429954757d32da.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "2016 Auburn Tigers football team head coach",
+        "returned_titles": [
+          "2016 Auburn Tigers football team",
+          "1976 Auburn Tigers football team",
+          "1993 Auburn Tigers football team"
+        ]
+      },
+      {
+        "query": "2016 Oklahoma Sooners football team head coach",
+        "returned_titles": [
+          "2016 Oklahoma Sooners football team",
+          "List of Oklahoma Sooners head baseball coaches",
+          "List of Oklahoma Sooners head football coaches"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 3,
+    "proposed_citation_ids": [
+      "hp_doc_bd3138840e65733184a5cb08cc14c072b8e282833588f274e28732a061e0b880",
+      "hp_doc_fcf8dcc85046b3a75691817b60c63c4d523cdcbbf0fef7e778f94b31fec10e9f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bd3138840e65733184a5cb08cc14c072b8e282833588f274e28732a061e0b880",
+        "title": "2016 Auburn Tigers football team",
+        "text": "The 2016 Auburn Tigers football team represented Auburn University in the 2016 NCAA Division I FBS football season. The Tigers played their home games at Jordan–Hare Stadium in Auburn, Alabama and competed in the Western Division of the Southeastern Conference (SEC). They were led by fourth-year head coach Gus Malzahn. They finished the season 8–5, 5–3 in SEC play to finish in a tie for second place in the Western Division. They were invited to the Sugar Bowl where they lost to Oklahoma."
+      },
+      {
+        "id": "hp_doc_fcf8dcc85046b3a75691817b60c63c4d523cdcbbf0fef7e778f94b31fec10e9f",
+        "title": "2016 Oklahoma Sooners football team",
+        "text": "The 2016 Oklahoma Sooners football team represented the University of Oklahoma in the 2016 NCAA Division I FBS football season, the 122nd season of Sooner football. The team was led by two-time Walter Camp Coach of the Year Award winner, Bob Stoops, in his 18th season as head coach. They played their home games at Gaylord Family Oklahoma Memorial Stadium in Norman, Oklahoma. They are a charter member of the Big 12 Conference."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "2016 Auburn Tigers football team",
+        "document_id": "hp_doc_bd3138840e65733184a5cb08cc14c072b8e282833588f274e28732a061e0b880",
+        "sentence_id": 2
+      },
+      {
+        "title": "2016 Oklahoma Sooners football team",
+        "document_id": "hp_doc_fcf8dcc85046b3a75691817b60c63c4d523cdcbbf0fef7e778f94b31fec10e9f",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab93aac554299131ca422d3",
+    "question": "In which town is the American variety store chain founded by Hurley Calister \"Cal\" Turner headquartered?",
+    "answer": "Goodlettsville, Tennessee",
+    "original_answer": "Goodlettsville, Tennessee",
+    "gold_answer": "Goodlettsville, Tennessee",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab93aac554299131ca422d3.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Hurley Calister Cal Turner",
+        "returned_titles": [
+          "Cal Turner",
+          "Cal Turner Jr.",
+          "TruTV (Asia)"
+        ]
+      },
+      {
+        "query": "Dollar General town",
+        "returned_titles": [
+          "Dollar General",
+          "Cal Turner",
+          "Cal Turner Jr."
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_e7ef41b991d8cac2ea0d4f1f03c2ae442977bcd5bb03ab187dc989f3ab5ec8e0",
+      "hp_doc_c0f690f4efb71890bd5e7ece723462eaadd39a82ee21b3fae71fece0024101dc"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_e7ef41b991d8cac2ea0d4f1f03c2ae442977bcd5bb03ab187dc989f3ab5ec8e0",
+        "title": "Cal Turner",
+        "text": "Hurley Calister \"Cal\" Turner (1915-2000) was an American businessman. He was the founder of Dollar General."
+      },
+      {
+        "id": "hp_doc_c0f690f4efb71890bd5e7ece723462eaadd39a82ee21b3fae71fece0024101dc",
+        "title": "Dollar General",
+        "text": "Dollar General Corporation is an American chain of variety stores headquartered in Goodlettsville, Tennessee. As of August 2017, Dollar General operated over 13,000 stores in all U.S. states except: Alaska, Hawaii, Idaho, Montana, Washington, and Wyoming."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Cal Turner",
+        "document_id": "hp_doc_e7ef41b991d8cac2ea0d4f1f03c2ae442977bcd5bb03ab187dc989f3ab5ec8e0",
+        "sentence_id": 0
+      },
+      {
+        "title": "Dollar General",
+        "document_id": "hp_doc_c0f690f4efb71890bd5e7ece723462eaadd39a82ee21b3fae71fece0024101dc",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abb2c015542996cc5e49fcb",
+    "question": "What is the stage name of the lead member of the group that released Tragic Serenades?",
+    "answer": "Tom G. Warrior",
+    "original_answer": "Satanic Slaughter",
+    "gold_answer": "Tom G. Warrior",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abb2c015542996cc5e49fcb.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Tragic Serenades group",
+        "returned_titles": [
+          "Tragic Serenades",
+          "Martin Roumagnac",
+          "River Huang"
+        ]
+      },
+      {
+        "query": "Celtic Frost lead member",
+        "returned_titles": [
+          "Celtic Woman: Voices of Angels",
+          "Celtic Woman: Believe",
+          "Thomas Gabriel Fischer"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_7f188619c57a6f81c24a65d84fa8d7d33d27d38a2fc4f85b40758b2499e5660a",
+      "hp_doc_f8f556ee728d65e88fd4ca79f4d7d97598bf4d5aa36c83db6a4b84abb11c52aa"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_7f188619c57a6f81c24a65d84fa8d7d33d27d38a2fc4f85b40758b2499e5660a",
+        "title": "Tragic Serenades",
+        "text": "Tragic Serenades is an EP by the Swiss extreme metal band Celtic Frost. It was released in 1986, and was an influence on the developing death metal and black metal genres. According to frontman Thomas Gabriel Fischer, the purpose of this EP was to include Martin Eric Ain's bass lines and improve on Horst Müller's original production of tracks from \"To Mega Therion\"."
+      },
+      {
+        "id": "hp_doc_f8f556ee728d65e88fd4ca79f4d7d97598bf4d5aa36c83db6a4b84abb11c52aa",
+        "title": "Thomas Gabriel Fischer",
+        "text": "Thomas Gabriel Fischer (born 19 July 1963), also known by his stage names of Tom G. Warrior and Satanic Slaughter, is a Swiss metal musician. He is considered to be one of the pioneers of the death metal style of singing, which resembles guttural growling. He led the groups Hellhammer and Celtic Frost, and today is the frontman of the band Triptykon."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Tragic Serenades",
+        "document_id": "hp_doc_7f188619c57a6f81c24a65d84fa8d7d33d27d38a2fc4f85b40758b2499e5660a",
+        "sentence_id": 0
+      },
+      {
+        "title": "Tragic Serenades",
+        "document_id": "hp_doc_7f188619c57a6f81c24a65d84fa8d7d33d27d38a2fc4f85b40758b2499e5660a",
+        "sentence_id": 2
+      },
+      {
+        "title": "Thomas Gabriel Fischer",
+        "document_id": "hp_doc_f8f556ee728d65e88fd4ca79f4d7d97598bf4d5aa36c83db6a4b84abb11c52aa",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abcf1ae55429959677d6b5d",
+    "question": "Jack Fairbrother was an English football goalkeeper, who was best known for his time with what football club that was founded in 1892 by the merger of Newcastle East End and Newcastle West End?",
+    "answer": "Newcastle United Football Club",
+    "original_answer": "Newcastle United",
+    "gold_answer": "Newcastle United Football Club",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abcf1ae55429959677d6b5d.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Jack Fairbrother football club",
+        "returned_titles": [
+          "Jack Fairbrother",
+          "Modbury Football Club",
+          "Leicester City W.F.C."
+        ]
+      },
+      {
+        "query": "Newcastle East End Newcastle West End",
+        "returned_titles": [
+          "History of Newcastle United F.C.",
+          "1892–93 Newcastle United F.C. season",
+          "Newcastle United F.C."
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_bb56780bb06ee219b925b0cc21f04841fd291aaf146b229ae5edbd9b501bb322",
+      "hp_doc_4683cab6d655a0066e40a7db088a8b2f6d7f652f02d85542cb43bd7392af8b57"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_bb56780bb06ee219b925b0cc21f04841fd291aaf146b229ae5edbd9b501bb322",
+        "title": "Jack Fairbrother",
+        "text": "John \"Jack\" Fairbrother (16 August 1917 – October 1999) was an English professional football goalkeeper, best known for his time at Newcastle United shortly after the Second World War. His uncle George Harrison played for Everton and England."
+      },
+      {
+        "id": "hp_doc_4683cab6d655a0066e40a7db088a8b2f6d7f652f02d85542cb43bd7392af8b57",
+        "title": "Newcastle United F.C.",
+        "text": "Newcastle United Football Club is an English professional association football club based in Newcastle upon Tyne, that currently plays in the Premier League, the top tier of English football. Newcastle United was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,354."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Jack Fairbrother",
+        "document_id": "hp_doc_bb56780bb06ee219b925b0cc21f04841fd291aaf146b229ae5edbd9b501bb322",
+        "sentence_id": 0
+      },
+      {
+        "title": "Newcastle United F.C.",
+        "document_id": "hp_doc_4683cab6d655a0066e40a7db088a8b2f6d7f652f02d85542cb43bd7392af8b57",
+        "sentence_id": 0
+      },
+      {
+        "title": "Newcastle United F.C.",
+        "document_id": "hp_doc_4683cab6d655a0066e40a7db088a8b2f6d7f652f02d85542cb43bd7392af8b57",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5abeb46c5542997ec76fd355",
+    "question": "Who ran for the Michigan gubernatorial election in 2006 and was a CEO?",
+    "answer": "Dick DeVos",
+    "original_answer": "Richard Marvin \"Dick\" DeVos",
+    "gold_answer": "Dick DeVos",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abeb46c5542997ec76fd355.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "2006 Michigan gubernatorial election",
+        "returned_titles": [
+          "Michigan gubernatorial election, 2006",
+          "Michigan gubernatorial election, 1954",
+          "Michigan gubernatorial election, 2014"
+        ]
+      },
+      {
+        "query": "Dick DeVos CEO",
+        "returned_titles": [
+          "Dick DeVos",
+          "Michigan gubernatorial election, 2006",
+          "Dick baronets"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_6c0b65ad21dccbdee3c34059be60acf60ec19956c7c490ff77f3f48a4e7cfae1",
+      "hp_doc_c768850abbc634493c5fdf119fa264c9176c1631a5913f2d6524cf1dec69e201"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_6c0b65ad21dccbdee3c34059be60acf60ec19956c7c490ff77f3f48a4e7cfae1",
+        "title": "Michigan gubernatorial election, 2006",
+        "text": "The Michigan gubernatorial election of 2006 was one of the 36 U.S. gubernatorial elections held November 7, 2006. Incumbent Democratic Governor Jennifer Granholm was re-elected over Republican businessman Dick DeVos and three minor party candidates. Granholm was re-elected with 56% of the vote."
+      },
+      {
+        "id": "hp_doc_c768850abbc634493c5fdf119fa264c9176c1631a5913f2d6524cf1dec69e201",
+        "title": "Dick DeVos",
+        "text": "Richard Marvin \"Dick\" DeVos Jr. (born October 21, 1955) is an American entrepreneur-businessman and author from Michigan. The son of Amway co-founder Richard DeVos, he served as CEO of the consumer goods distribution company from 1993 to 2002. In 2006, DeVos ran for Governor of Michigan, but lost to the then Democratic incumbent Jennifer Granholm. In 2012, \"Forbes\" magazine listed his father as the 67th richest person in the United States, with a net worth of approximately $5.1 billion."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Michigan gubernatorial election, 2006",
+        "document_id": "hp_doc_6c0b65ad21dccbdee3c34059be60acf60ec19956c7c490ff77f3f48a4e7cfae1",
+        "sentence_id": 1
+      },
+      {
+        "title": "Dick DeVos",
+        "document_id": "hp_doc_c768850abbc634493c5fdf119fa264c9176c1631a5913f2d6524cf1dec69e201",
+        "sentence_id": 2
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abf82965542997719eab694",
+    "question": "When was the company that publishes the journal Magnetic Resonance Imaging established ?",
+    "answer": "1880",
+    "original_answer": "1880",
+    "gold_answer": "1880",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abf82965542997719eab694.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Magnetic Resonance Imaging publisher",
+        "returned_titles": [
+          "Phase contrast magnetic resonance imaging",
+          "Magnetic Resonance Imaging (journal)",
+          "Strain–encoded magnetic resonance imaging"
+        ]
+      },
+      {
+        "query": "Elsevier was established",
+        "returned_titles": [
+          "Elsevier",
+          "Magnetic Resonance Imaging (journal)",
+          "Mahoning Baptist Association"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_749f0d71b2097aae08f2f8867eace3747ed8f3ced981512df6ee73affa08cd41",
+      "hp_doc_1ebe99b3fd9f755c269cb5c465d62bbca46d395c8611795cbb08c89ed88c7fad"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_749f0d71b2097aae08f2f8867eace3747ed8f3ced981512df6ee73affa08cd41",
+        "title": "Magnetic Resonance Imaging (journal)",
+        "text": "Magnetic Resonance Imaging is a peer-reviewed scientific journal published by Elsevier, encompassing biology, physics, and clinical science as they relate to the development and use of magnetic resonance imaging technology. \"Magnetic Resonance Imaging\" was established in 1982 and the current editor-in-chief is John C. Gore. The journal produces 10 issues per year."
+      },
+      {
+        "id": "hp_doc_1ebe99b3fd9f755c269cb5c465d62bbca46d395c8611795cbb08c89ed88c7fad",
+        "title": "Elsevier",
+        "text": "Elsevier (] ) is an information and analytics company and one of the world's major providers of scientific, technical, and medical information. It was established in 1880 as a publishing company. It is a part of the RELX Group, known until 2015 as Reed Elsevier. Its products include journals such as \"The Lancet\" and \"Cell\", the ScienceDirect collection of electronic journals, the \"Trends\" and \"Current Opinion\" series of journals, the online citation database Scopus, and the ClinicalKey solution for clinicians. Elsevier's products and services include the entire academic research lifecycle, including software and data-management, instruction and assessment tools."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Magnetic Resonance Imaging (journal)",
+        "document_id": "hp_doc_749f0d71b2097aae08f2f8867eace3747ed8f3ced981512df6ee73affa08cd41",
+        "sentence_id": 0
+      },
+      {
+        "title": "Elsevier",
+        "document_id": "hp_doc_1ebe99b3fd9f755c269cb5c465d62bbca46d395c8611795cbb08c89ed88c7fad",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abfd1295542993fe9a41e83",
+    "question": "which Russian composer did  Arseny Golenishchev-Kutuzov wrote his text  ",
+    "answer": "Modest Petrovich Mussorgsky",
+    "original_answer": "Modest Mussorgsky",
+    "gold_answer": "Modest Petrovich Mussorgsky",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abfd1295542993fe9a41e83.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Arseny Golenishchev Kutuzov",
+        "returned_titles": [
+          "Arseny Golenishchev-Kutuzov",
+          "Sunless (song cycle)",
+          "Songs and Dances of Death"
+        ]
+      },
+      {
+        "query": "Mussorgsky song cycle",
+        "returned_titles": [
+          "Sunless (song cycle)",
+          "Songs and Dances of Death",
+          "Modest Mussorgsky"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a8920776ddf0a97b40d73e403968aa714781e66ce0b6d78af6d654a8f2bc8ef7",
+      "hp_doc_a4911834e32501392bf23b64e16f53f25ba7ef087938a58ace3fa574d9fe74ec"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a8920776ddf0a97b40d73e403968aa714781e66ce0b6d78af6d654a8f2bc8ef7",
+        "title": "Arseny Golenishchev-Kutuzov",
+        "text": "Arseny Arkadyevich Golenishchev-Kutuzov (Russian: Арсе́ний Арка́дьевич Голени́щев-Куту́зов ; ] ; 1848–1913), was a Russian poet known in part for writing the texts of Modest Mussorgsky's two song cycles of the 1870s: \"Sunless\" and \"Songs and Dances of Death\"."
+      },
+      {
+        "id": "hp_doc_a4911834e32501392bf23b64e16f53f25ba7ef087938a58ace3fa574d9fe74ec",
+        "title": "Modest Mussorgsky",
+        "text": "Modest Petrovich Mussorgsky (Russian: Моде́ст Петро́вич Му́соргский ; ] ; 21 March [O.S. 9 March] 1839 – 28 March [O.S. 16 March] 1881 ) was a Russian composer, one of the group known as \"The Five\". He was an innovator of Russian music in the romantic period. He strove to achieve a uniquely Russian musical identity, often in deliberate defiance of the established conventions of Western music."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Arseny Golenishchev-Kutuzov",
+        "document_id": "hp_doc_a8920776ddf0a97b40d73e403968aa714781e66ce0b6d78af6d654a8f2bc8ef7",
+        "sentence_id": 0
+      },
+      {
+        "title": "Modest Mussorgsky",
+        "document_id": "hp_doc_a4911834e32501392bf23b64e16f53f25ba7ef087938a58ace3fa574d9fe74ec",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac00057554299012d1db565",
+    "question": "What is the nationality of the person released the song \"Have Mercy on the Criminal\"?",
+    "answer": "English",
+    "original_answer": "English",
+    "gold_answer": "English",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac00057554299012d1db565.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Have Mercy Criminal song",
+        "returned_titles": [
+          "Have Mercy on the Criminal",
+          "Angel of mercy (criminology)",
+          "Mercy (Duffy song)"
+        ]
+      },
+      {
+        "query": "Elton John nationality",
+        "returned_titles": [
+          "Elton John",
+          "Elton John singles discography",
+          "Have Mercy on the Criminal"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_9321fbb4de1d1692ca0a2668ccc59b46befac94f6b6dd7be659cddd65bedd058",
+      "hp_doc_c76d8a7f9a988e00ddb97dcbf20f4f753d5f5d2e73ec7744a6e3216639a3660d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_9321fbb4de1d1692ca0a2668ccc59b46befac94f6b6dd7be659cddd65bedd058",
+        "title": "Have Mercy on the Criminal",
+        "text": "\"Have Mercy on the Criminal\" is a song by Elton John released on his 1973 album, \"Don't Shoot Me I'm Only the Piano Player\". It is the most frequent live-track on the album besides the two dominating singles, \"Daniel\" and \"Crocodile Rock\"."
+      },
+      {
+        "id": "hp_doc_c76d8a7f9a988e00ddb97dcbf20f4f753d5f5d2e73ec7744a6e3216639a3660d",
+        "title": "Elton John",
+        "text": "Sir Elton Hercules John, (born Reginald Kenneth Dwight; 25 March 1947), is an English singer, pianist, and composer. He has worked with lyricist Bernie Taupin as his songwriting partner since 1967; they have collaborated on more than 30 albums to date. In his five-decade career Elton John has sold more than 300million records, making him one of the best-selling music artists in the world. He has more than fifty Top 40 hits, including seven consecutive No. 1 US albums, 58 \"Billboard\" Top 40 singles, 27 Top 10, four No. 2 and nine No. 1. For 31 consecutive years (1970–2000) he had at least one song in the \"Billboard\" Hot 100. His tribute single, re-penned in dedication to the late Princess Diana, \"Candle in the Wind 1997\" sold over 33million copies worldwide and is the best-selling single in the history of the UK and US singles charts. He has also composed music, produced records, and has occasionally acted in films. John owned Watford Football Club from 1976 to 1987, and 1997 to 2002. He is an honorary Life President of the club, and in 2014 had a stand named after him at the club's home stadium."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Have Mercy on the Criminal",
+        "document_id": "hp_doc_9321fbb4de1d1692ca0a2668ccc59b46befac94f6b6dd7be659cddd65bedd058",
+        "sentence_id": 0
+      },
+      {
+        "title": "Elton John",
+        "document_id": "hp_doc_c76d8a7f9a988e00ddb97dcbf20f4f753d5f5d2e73ec7744a6e3216639a3660d",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac178655542994ab5c67d5a",
+    "question": "National Survivors of Suicide Day was designated by which organization, as a day when the friends and family of those who have died by suicide can join together for healing and support, it's day always falls on the Saturday before Thanksgiving, a national holiday celebrated in Canada, the United States, some of the Caribbean islands, and Liberia?",
+    "answer": "United States Congress",
+    "original_answer": "United States Congress",
+    "gold_answer": "United States Congress",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac178655542994ab5c67d5a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "National Survivors of Suicide Day",
+        "returned_titles": [
+          "National Survivors of Suicide Day",
+          "National Cancer Survivors Day",
+          "Saint-Jean-Baptiste Day"
+        ]
+      },
+      {
+        "query": "Liberia National Survivors of Suicide Day",
+        "returned_titles": [
+          "National Survivors of Suicide Day",
+          "National Cancer Survivors Day",
+          "Thanksgiving"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_fcc87b209392970fbef3dac107ae30db423eb717cf20cc7e4ca84a2a6117d8cc",
+      "hp_doc_c0d27dbb617892fe124c9364160cdd525100eb28f592c2557b7a90b51c0e09bb"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_fcc87b209392970fbef3dac107ae30db423eb717cf20cc7e4ca84a2a6117d8cc",
+        "title": "National Survivors of Suicide Day",
+        "text": "National Survivors of Suicide Day was designated by the United States Congress as a day when the friends and family of those who have died by suicide can join together for healing and support. This day always falls on the Saturday before American Thanksgiving."
+      },
+      {
+        "id": "hp_doc_c0d27dbb617892fe124c9364160cdd525100eb28f592c2557b7a90b51c0e09bb",
+        "title": "Thanksgiving",
+        "text": "Thanksgiving Day is a national holiday celebrated in Canada, the United States, some of the Caribbean islands, and Liberia. It began as a day of giving thanks for the blessing of the harvest and of the preceding year. Similarly named festival holidays occur in Germany and Japan. Thanksgiving is celebrated on the second Monday of October in Canada and on the fourth Thursday of November in the United States, and around the same part of the year in other places. Although Thanksgiving has historical roots in religious and cultural traditions, it has long been celebrated as a secular holiday as well."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "National Survivors of Suicide Day",
+        "document_id": "hp_doc_fcc87b209392970fbef3dac107ae30db423eb717cf20cc7e4ca84a2a6117d8cc",
+        "sentence_id": 0
+      },
+      {
+        "title": "National Survivors of Suicide Day",
+        "document_id": "hp_doc_fcc87b209392970fbef3dac107ae30db423eb717cf20cc7e4ca84a2a6117d8cc",
+        "sentence_id": 1
+      },
+      {
+        "title": "Thanksgiving",
+        "document_id": "hp_doc_c0d27dbb617892fe124c9364160cdd525100eb28f592c2557b7a90b51c0e09bb",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  }
+]

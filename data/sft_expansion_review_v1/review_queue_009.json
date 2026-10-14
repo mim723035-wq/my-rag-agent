@@ -1,0 +1,1300 @@
+[
+  {
+    "question_id": "5a7552745542993748c8982a",
+    "question": "What town was the daughter of Beth Holloway from?",
+    "answer": "Mountain Brook, Alabama",
+    "original_answer": "Mountain Brook",
+    "gold_answer": "Mountain Brook, Alabama",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7552745542993748c8982a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Beth Holloway daughter",
+        "returned_titles": [
+          "Beth Holloway",
+          "Natalee Holloway (film)",
+          "Loving Natalee"
+        ]
+      },
+      {
+        "query": "Aruba daughter",
+        "returned_titles": [
+          "Beth Holloway",
+          "Loving Natalee",
+          "Disappearance of Natalee Holloway"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_3008bc640d8623245b63d66125f27b1c1db4329472f6a4d8d5e50a0b2aaa50e7",
+      "hp_doc_8a9b8cfa02883522057b14e73524ff139c3e85402d308409937118b831757534"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_3008bc640d8623245b63d66125f27b1c1db4329472f6a4d8d5e50a0b2aaa50e7",
+        "title": "Beth Holloway",
+        "text": "Elizabeth Ann \"Beth\" Reynolds Holloway (1961),is an American speech pathologist and motivational speaker who became widely known after her teenage daughter, Natalee, went missing during a high school graduation trip to Aruba in 2005."
+      },
+      {
+        "id": "hp_doc_8a9b8cfa02883522057b14e73524ff139c3e85402d308409937118b831757534",
+        "title": "Disappearance of Natalee Holloway",
+        "text": "Natalee Ann Holloway (born October 21, 1986) was an American teenager whose disappearance made international news after she vanished on May 30, 2005, while on a high school graduation trip to Aruba in the Caribbean. Holloway lived in Mountain Brook, Alabama, and graduated from Mountain Brook High School on May 24, 2005, shortly before the trip. Her disappearance caused a media sensation in the United States, and the case remains unsolved."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Beth Holloway",
+        "document_id": "hp_doc_3008bc640d8623245b63d66125f27b1c1db4329472f6a4d8d5e50a0b2aaa50e7",
+        "sentence_id": 0
+      },
+      {
+        "title": "Disappearance of Natalee Holloway",
+        "document_id": "hp_doc_8a9b8cfa02883522057b14e73524ff139c3e85402d308409937118b831757534",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a77373655429966f1a36cb0",
+    "question": "Which American football coach, who is now the defensive coordinator at Arizona State Sun Devils, succeeded Mike Cavan as the head football coach at Southern Methodist University from 2002 to 2007?",
+    "answer": "Phil Bennett",
+    "original_answer": "Phil Bennett",
+    "gold_answer": "Phil Bennett",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a77373655429966f1a36cb0.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Mike Cavan Southern Methodist",
+        "returned_titles": [
+          "SMU Mustangs football under Mike Cavan",
+          "Phil Bennett (American football)",
+          "Mike Rosen"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_116006debcbaa3f7e15ea305e849abef5d2eab041952704100f44fa5a588f61a",
+      "hp_doc_c42302dcc07f519b44164d2fa91d0cd44834d8ceed7f8dea5f67ae9744ad025f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_116006debcbaa3f7e15ea305e849abef5d2eab041952704100f44fa5a588f61a",
+        "title": "SMU Mustangs football under Mike Cavan",
+        "text": "Mike Cavan was the coach of the Southern Methodist University's football team from 1997 to 2001. He compiled a 22–34–0 record, and was succeeded by Phil Bennett."
+      },
+      {
+        "id": "hp_doc_c42302dcc07f519b44164d2fa91d0cd44834d8ceed7f8dea5f67ae9744ad025f",
+        "title": "Phil Bennett (American football)",
+        "text": "Phil Bennett (born December 3, 1955) is an American football coach and former player. He is the defensive coordinator at Arizona State Sun Devils. Prior to this position, he served as the defensive coordinator for the Baylor Bears from 2011-2016, and was interim head coach of the Pittsburgh Panthers during their 2011 BBVA Compass Bowl win over Kentucky after serving as defensive coordinator of the Panthers for three seasons. Prior to coaching the Panthers, he served as the head football coach at Southern Methodist University (SMU) from 2002 to 2007. Before his stint at SMU, he served as an assistant coach at seven different colleges."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "SMU Mustangs football under Mike Cavan",
+        "document_id": "hp_doc_116006debcbaa3f7e15ea305e849abef5d2eab041952704100f44fa5a588f61a",
+        "sentence_id": 0
+      },
+      {
+        "title": "SMU Mustangs football under Mike Cavan",
+        "document_id": "hp_doc_116006debcbaa3f7e15ea305e849abef5d2eab041952704100f44fa5a588f61a",
+        "sentence_id": 1
+      },
+      {
+        "title": "Phil Bennett (American football)",
+        "document_id": "hp_doc_c42302dcc07f519b44164d2fa91d0cd44834d8ceed7f8dea5f67ae9744ad025f",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7cab2b554299683c1c6331",
+    "question": "Cyril Havermans is a Dutch musician, best known for being in the progressive rock band, Focus,  a Dutch rock band formed in Amsterdam in which year, by keyboardist, vocalist, and flutist Thijs van Leer?",
+    "answer": "1969",
+    "original_answer": "1969",
+    "gold_answer": "1969",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7cab2b554299683c1c6331.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Cyril Havermans Focus",
+        "returned_titles": [
+          "Cyril Havermans",
+          "Cyril (album)",
+          "Focus II"
+        ]
+      },
+      {
+        "query": "Focus formed Amsterdam",
+        "returned_titles": [
+          "Focus (band)",
+          "Thijs van Leer",
+          "Focus Plays Focus"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_27948b586511e0b000f3b401845879caf57476ac550f506aeaf5464996ec2342",
+      "hp_doc_ee37799f3c75d1de4db3e5e0501089802c7df9a993adfae349c7e31c4e8721e9"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_27948b586511e0b000f3b401845879caf57476ac550f506aeaf5464996ec2342",
+        "title": "Cyril Havermans",
+        "text": "Cyril Havermans is a Dutch musician, best known for being in the progressive rock band, Focus."
+      },
+      {
+        "id": "hp_doc_ee37799f3c75d1de4db3e5e0501089802c7df9a993adfae349c7e31c4e8721e9",
+        "title": "Focus (band)",
+        "text": "Focus are a Dutch rock band formed in Amsterdam in 1969 by keyboardist, vocalist, and flautist Thijs van Leer. The band have undergone numerous formations in its history; since December 2016 it has comprised van Leer, drummer Pierre van der Linden, guitarist Menno Gootjes, and bassist Udo Pannekeet. Other important members include guitarist Jan Akkerman and bassist Bert Ruiter. They have sold one million RIAA-certified albums in the United States."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Cyril Havermans",
+        "document_id": "hp_doc_27948b586511e0b000f3b401845879caf57476ac550f506aeaf5464996ec2342",
+        "sentence_id": 0
+      },
+      {
+        "title": "Focus (band)",
+        "document_id": "hp_doc_ee37799f3c75d1de4db3e5e0501089802c7df9a993adfae349c7e31c4e8721e9",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a7d45925542997cc2c47443",
+    "question": "The Melaka Wonderland is a water theme park and resort in Ayer Keroh, Melaka, in which country, a water park or waterpark is an amusement park that features water play areas, such as swimming pools, water slides, splash pads, spraygrounds (water playgrounds), lazy rivers, or other recreational bathing, swimming, and barefooting environments?",
+    "answer": "Malaysia",
+    "original_answer": "Malaysia",
+    "gold_answer": "Malaysia",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a7d45925542997cc2c47443.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Melaka Wonderland",
+        "returned_titles": [
+          "Melaka Wonderland",
+          "Melaka City Council",
+          "Melaka Gateway Arch"
+        ]
+      },
+      {
+        "query": "water park Malaysia",
+        "returned_titles": [
+          "Melaka Wonderland",
+          "Adventure Park, Geelong",
+          "Water park"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_465c88ec43a0c611417564b7a09629f3adf64acadf77c445fedb13f89c28b6ce",
+      "hp_doc_f8dc9bba9dfac2918cdabaff069867135110d63f2a6f41a26477f9cde3dea2e1"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_465c88ec43a0c611417564b7a09629f3adf64acadf77c445fedb13f89c28b6ce",
+        "title": "Melaka Wonderland",
+        "text": "The Melaka Wonderland is a water theme park and resort in Ayer Keroh, Melaka, Malaysia."
+      },
+      {
+        "id": "hp_doc_f8dc9bba9dfac2918cdabaff069867135110d63f2a6f41a26477f9cde3dea2e1",
+        "title": "Water park",
+        "text": "A water park or waterpark is an amusement park that features water play areas, such as swimming pools, water slides, splash pads, spraygrounds (water playgrounds), lazy rivers, or other recreational bathing, swimming, and barefooting environments. Water parks in more current states of development may also be equipped with some type of artificial surfing or bodyboarding environment such as a wave pool or FlowRider."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Melaka Wonderland",
+        "document_id": "hp_doc_465c88ec43a0c611417564b7a09629f3adf64acadf77c445fedb13f89c28b6ce",
+        "sentence_id": 0
+      },
+      {
+        "title": "Water park",
+        "document_id": "hp_doc_f8dc9bba9dfac2918cdabaff069867135110d63f2a6f41a26477f9cde3dea2e1",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a83b6c25542996488c2e49a",
+    "question": "What was Sartre's opinion on his novel which included the character The Autodidact?",
+    "answer": "in his opinion, one of his best works",
+    "original_answer": "The Autodidact is a fictional character in Nausea, and Sartre considered it one of his best works. He believed that self instruction is of critical importance to him, and provides the explanation for his odd behavior and continual self-delusion.",
+    "gold_answer": "in his opinion, one of his best works",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a83b6c25542996488c2e49a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Sartre The Autodidact novel",
+        "returned_titles": [
+          "The Autodidact",
+          "The Age of Reason (novel)",
+          "Nausea (novel)"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_8a4caae74478330c86dc742da9e28ebc4940c6162fc4ed190c45df169fdbf8ff",
+      "hp_doc_28eab5d4a44f1e72dad8cfa87ee9bcc40c2525f0e1d5f97d9933f5406ce61d07"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8a4caae74478330c86dc742da9e28ebc4940c6162fc4ed190c45df169fdbf8ff",
+        "title": "The Autodidact",
+        "text": "The Autodidact is a fictional character from Jean-Paul Sartre's 1938 novel, \"Nausea.\" The Autodidact, who lives in Bouville near the protagonist Antoine Roquentin, passes his time by reading every book in the local library in alphabetical order. Self instruction is of critical importance to him, and provides the explanation for his odd behaviour and continual self-delusion."
+      },
+      {
+        "id": "hp_doc_28eab5d4a44f1e72dad8cfa87ee9bcc40c2525f0e1d5f97d9933f5406ce61d07",
+        "title": "Nausea (novel)",
+        "text": "Nausea (French: \"La Nausée\" ) is a philosophical novel by the existentialist philosopher Jean-Paul Sartre, published in 1938. It is Sartre's first novel and, in his opinion, one of his best works."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Autodidact",
+        "document_id": "hp_doc_8a4caae74478330c86dc742da9e28ebc4940c6162fc4ed190c45df169fdbf8ff",
+        "sentence_id": 0
+      },
+      {
+        "title": "Nausea (novel)",
+        "document_id": "hp_doc_28eab5d4a44f1e72dad8cfa87ee9bcc40c2525f0e1d5f97d9933f5406ce61d07",
+        "sentence_id": 0
+      },
+      {
+        "title": "Nausea (novel)",
+        "document_id": "hp_doc_28eab5d4a44f1e72dad8cfa87ee9bcc40c2525f0e1d5f97d9933f5406ce61d07",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8b19af55429949d91db4b2",
+    "question": "In what area did the Cyclones Pam and Orson occure?",
+    "answer": "South Pacific",
+    "original_answer": "Vanuatu",
+    "gold_answer": "South Pacific",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8b19af55429949d91db4b2.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Cyclones Pam Orson",
+        "returned_titles": [
+          "Cyclone Pam",
+          "Cyclone Orson",
+          "St. Andrew Strait"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_808fa5173f55e3f1ae2984efb08faec44617069b1313f04d4028be104a2d7256",
+      "hp_doc_4231e76ccab99953e79a78b405b3c87ee4a26fd5f9edbec7436abfdd2722cf2d"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_808fa5173f55e3f1ae2984efb08faec44617069b1313f04d4028be104a2d7256",
+        "title": "Cyclone Pam",
+        "text": "Severe Tropical Cyclone Pam was the second most intense tropical cyclone of the south Pacific Ocean in terms of sustained winds and is regarded as one of the worst natural disasters in the history of Vanuatu. A total of 15–16 people lost their lives either directly or indirectly as a result of Pam with many others injured. The storm's impacts were also felt, albeit to a lesser extent, to other islands in the South Pacific, most notably the Solomon Islands, Tuvalu, and New Zealand. Pam is the third most intense storm of the South Pacific Ocean according to pressure, after Winston of 2016 and Zoe of 2002. In addition, Pam is tied with Orson, Monica and Fantala for having the second strongest ten-minute maximum sustained winds of any cyclone in the Southern Hemisphere. Thousands of homes, schools and buildings were damaged or destroyed, with an estimated 3,300 people displaced as a result."
+      },
+      {
+        "id": "hp_doc_4231e76ccab99953e79a78b405b3c87ee4a26fd5f9edbec7436abfdd2722cf2d",
+        "title": "Cyclone Orson",
+        "text": "Severe Tropical Cyclone Orson was the fourth most intense cyclone ever recorded in the Australian region. Forming out of a tropical low on 17 April 1989, Orson gradually intensified as it tracked towards the west. After attaining Category 5 intensity on 20 April, the storm began to track southward and accelerated. The following day, the cyclone reached its peak intensity with winds of 250 km/h (155 mph ) and a barometric pressure of 904 hPa (mbar). Orson maintained this intensity for nearly two days before making landfall near Dampier. The cyclone rapidly weakened after landfall as it accelerated to the southeast. After moving into the Great Australian Bight on 24 April, the storm dissipated."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Cyclone Pam",
+        "document_id": "hp_doc_808fa5173f55e3f1ae2984efb08faec44617069b1313f04d4028be104a2d7256",
+        "sentence_id": 3
+      },
+      {
+        "title": "Cyclone Orson",
+        "document_id": "hp_doc_4231e76ccab99953e79a78b405b3c87ee4a26fd5f9edbec7436abfdd2722cf2d",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5a8eca775542995085b3748d",
+    "question": "The Honda RA106 was driven by someone who spent three seasons with the team as British American Racing, who is he under contract with?",
+    "answer": "currently under contract with McLaren-Honda",
+    "original_answer": "McLaren-Honda",
+    "gold_answer": "currently under contract with McLaren-Honda",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8eca775542995085b3748d.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Honda RA106",
+        "returned_titles": [
+          "Honda RA106",
+          "Honda in Formula One",
+          "Anthony Davidson"
+        ]
+      },
+      {
+        "query": "Jenson Button BAR",
+        "returned_titles": [
+          "BAR 005",
+          "Jenson Button",
+          "Honda RA106"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_354fa53ec1f03598cdc91ea3915f7c4b87d0d3703f9a834b4cfd2ac799febf27",
+      "hp_doc_8039c3ac2fca708073825a156f3415bc9e5b83aea707eb8070ac758b6d4c314c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_354fa53ec1f03598cdc91ea3915f7c4b87d0d3703f9a834b4cfd2ac799febf27",
+        "title": "Honda RA106",
+        "text": "The Honda RA106 was the car with which the Honda team competed in the Formula One season. It was driven by Rubens Barrichello, who joined from Ferrari, and Jenson Button, who had spent three seasons with the team as British American Racing. The year marked the first time Honda had competed as a full team since ; since then it had only competed as an engine supplier until taking over BAR completely in late . Honda used 'Lucky Strike' logos in Bahrain, Malaysia, Australia, Monaco, China and Japan."
+      },
+      {
+        "id": "hp_doc_8039c3ac2fca708073825a156f3415bc9e5b83aea707eb8070ac758b6d4c314c",
+        "title": "Jenson Button",
+        "text": "Jenson Alexander Lyons Button {'1': \", '2': \", '3': \", '4': \"} (born 19 January 1980) is a British racing driver currently under contract with McLaren-Honda, as a reserve driver. He won the 2009 FIA Formula One World Championship, driving for Brawn GP. Button announced in September 2016 that he would be giving up his seat at the end of the 2016 season but announced that he would remain at McLaren as a reserve driver and ambassador of McLaren until 2018."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Honda RA106",
+        "document_id": "hp_doc_354fa53ec1f03598cdc91ea3915f7c4b87d0d3703f9a834b4cfd2ac799febf27",
+        "sentence_id": 1
+      },
+      {
+        "title": "Jenson Button",
+        "document_id": "hp_doc_8039c3ac2fca708073825a156f3415bc9e5b83aea707eb8070ac758b6d4c314c",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5a8f936f55429918e830d273",
+    "question": "The irish folk group that collaborated on Celtic Woman: A Celtic Family Christmas was formed in what city?",
+    "answer": "Dublin",
+    "original_answer": "Dublin",
+    "gold_answer": "Dublin",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5a8f936f55429918e830d273.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Celtic Woman A Celtic Family Christmas",
+        "returned_titles": [
+          "Celtic Woman: A Celtic Family Christmas",
+          "Celtic Woman: Silent Night",
+          "Celtic Woman: A New Journey"
+        ]
+      },
+      {
+        "query": "The High Kings formed",
+        "returned_titles": [
+          "The High Kings",
+          "Celtic Woman: A Celtic Family Christmas",
+          "Edmonton Oil Kings"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_cd702ba07d8c20084c905b7370d3a246d60534d6adb27a0985883fd1274e4955",
+      "hp_doc_204cff2479d6ef81e05ea4abb72bf2f685739c12e6555473fede939a5e9c4f66"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_cd702ba07d8c20084c905b7370d3a246d60534d6adb27a0985883fd1274e4955",
+        "title": "Celtic Woman: A Celtic Family Christmas",
+        "text": "Celtic Woman: A Celtic Family Christmas is a collaborative album by the group Celtic Woman and The High Kings, released on October 14, 2008."
+      },
+      {
+        "id": "hp_doc_204cff2479d6ef81e05ea4abb72bf2f685739c12e6555473fede939a5e9c4f66",
+        "title": "The High Kings",
+        "text": "The High Kings is an Irish folk group formed in Dublin in 2008. The band consists of Finbarr Clancy, Brian Dunphy, Martin Furey and Darren Holden. By June 2016, the group had released four studio albums, two live albums, and two live DVDs. Their first three studio albums appeared at number three or higher on the \"Billboard\" world music chart, the first two went platinum in Ireland, and all of their albums charted in Ireland."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Celtic Woman: A Celtic Family Christmas",
+        "document_id": "hp_doc_cd702ba07d8c20084c905b7370d3a246d60534d6adb27a0985883fd1274e4955",
+        "sentence_id": 0
+      },
+      {
+        "title": "The High Kings",
+        "document_id": "hp_doc_204cff2479d6ef81e05ea4abb72bf2f685739c12e6555473fede939a5e9c4f66",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab1bea55542997061209547",
+    "question": "Both Arthur Burks and John Vincent Atanasoff worked on the first general-purpose electronic digital computer called by what name?",
+    "answer": "ENIAC",
+    "original_answer": "Atanasoff-Berry Computer",
+    "gold_answer": "ENIAC",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab1bea55542997061209547.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Arthur Burks Atanasoff",
+        "returned_titles": [
+          "Arthur Burks",
+          "Von Neumann universal constructor",
+          "The Man Who Invented the Computer"
+        ]
+      },
+      {
+        "query": "ENIAC Atanasoff",
+        "returned_titles": [
+          "Arthur Burks",
+          "The Man Who Invented the Computer",
+          "John Vincent Atanasoff"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_2ce8d75e6e338a75efb62ab6809afe60e566cb1c118a9b6d3a02e1955f8722b5",
+      "hp_doc_99070fa6250411dabde7be12c154a7be70ac5624d7ba947627173c07040796b0"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_2ce8d75e6e338a75efb62ab6809afe60e566cb1c118a9b6d3a02e1955f8722b5",
+        "title": "Arthur Burks",
+        "text": "Arthur Walter Burks (October 13, 1915 – May 14, 2008) was an American mathematician who worked in the 1940s as a senior engineer on the project that contributed to the design of the ENIAC, the first general-purpose electronic digital computer. Decades later, Burks and his wife Alice Burks outlined their case for the subject matter of the ENIAC having been derived from John Vincent Atanasoff. Burks was also for several decades a faculty member at the University of Michigan in Ann Arbor."
+      },
+      {
+        "id": "hp_doc_99070fa6250411dabde7be12c154a7be70ac5624d7ba947627173c07040796b0",
+        "title": "John Vincent Atanasoff",
+        "text": "John Vincent Atanasoff (October 4, 1903 – June 15, 1995) was an American physicist and inventor, best known for being credited with inventing the first electronic digital computer."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Arthur Burks",
+        "document_id": "hp_doc_2ce8d75e6e338a75efb62ab6809afe60e566cb1c118a9b6d3a02e1955f8722b5",
+        "sentence_id": 0
+      },
+      {
+        "title": "Arthur Burks",
+        "document_id": "hp_doc_2ce8d75e6e338a75efb62ab6809afe60e566cb1c118a9b6d3a02e1955f8722b5",
+        "sentence_id": 1
+      },
+      {
+        "title": "John Vincent Atanasoff",
+        "document_id": "hp_doc_99070fa6250411dabde7be12c154a7be70ac5624d7ba947627173c07040796b0",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ab2d14d55429916697740ea",
+    "question": "What is the English title of the telenovela that has used the song \"El Perdedor\" as the opening theme?",
+    "answer": "What Life Took From Me",
+    "original_answer": "What Life Took From Me",
+    "gold_answer": "What Life Took From Me",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab2d14d55429916697740ea.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "El Perdedor telenovela",
+        "returned_titles": [
+          "El Perdedor (Enrique Iglesias song)",
+          "El Perdedor (Maluma song)",
+          "Lo que la vida me robó"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_9c2c2401f1ce514a436c9a93646e8b10e5fae7941dac68249018c6246e9efe6c",
+      "hp_doc_dc32f8c3d61a658c42a80ae1c0fd0a028ab6f20e0e2de745cc0d474d4224ec26"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_9c2c2401f1ce514a436c9a93646e8b10e5fae7941dac68249018c6246e9efe6c",
+        "title": "El Perdedor (Enrique Iglesias song)",
+        "text": "\"El Perdedor\" (English: \"The Loser\") is the second Spanish single from Enrique Iglesias' album \"Sex and Love\". It serves as the opening theme of Mexican telenovela \"Lo que la vida me robó\". This is the fifth time that Enrique's song is chosen as an opening theme of a telenovela after \"Cosas del Amor\", \"Nunca Te Olvidaré\", \"Cuando Me Enamoro\" and \"Marisol\" (Por Amarte). The song was released in the United States and Mexico on 30 October 2013 and was later released to other Latin countries. The song was composed by Iglesias and Descemer Bueno."
+      },
+      {
+        "id": "hp_doc_dc32f8c3d61a658c42a80ae1c0fd0a028ab6f20e0e2de745cc0d474d4224ec26",
+        "title": "Lo que la vida me robó",
+        "text": "Lo que la vida me robó (English title: \"What Life Took From Me\"), is a Mexican telenovela produced by Angelli Nesma Medina for Televisa, broadcast by Canal de las Estrellas now known as Las Estrellas. The series originally aired from October 28, 2013 to July 27, 2014. It is an adaptation of the telenovela of 1983 \"Bodas de odio\" produced by Ernesto Alonso, which also inspired \"Amor real\", produced by Carla Estrada in 2003."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "El Perdedor (Enrique Iglesias song)",
+        "document_id": "hp_doc_9c2c2401f1ce514a436c9a93646e8b10e5fae7941dac68249018c6246e9efe6c",
+        "sentence_id": 0
+      },
+      {
+        "title": "El Perdedor (Enrique Iglesias song)",
+        "document_id": "hp_doc_9c2c2401f1ce514a436c9a93646e8b10e5fae7941dac68249018c6246e9efe6c",
+        "sentence_id": 1
+      },
+      {
+        "title": "Lo que la vida me robó",
+        "document_id": "hp_doc_dc32f8c3d61a658c42a80ae1c0fd0a028ab6f20e0e2de745cc0d474d4224ec26",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab3ae57554299753aec5991",
+    "question": "At the 2016 Summer Olympics, Marija Ulitina defeated a former world number one, who reached that ranking in what year?",
+    "answer": "2015",
+    "original_answer": "2009",
+    "gold_answer": "2015",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab3ae57554299753aec5991.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Marija Ulitina 2016 Summer Olympics",
+        "returned_titles": [
+          "Marija Ulitina",
+          "Emmanuel Lucenti",
+          "Olympic Training Center (Rio de Janeiro)"
+        ]
+      },
+      {
+        "query": "Saina Nehwal reached ranking year",
+        "returned_titles": [
+          "Saina Nehwal",
+          "Marija Ulitina",
+          "Melba Montgomery discography"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_93ddd35482d61b121ee82c1f9aa2aef6d596e63559d630dd8dc036885f5990a7",
+      "hp_doc_8868d3bda0e7474e6e1f3fdb48f31ed074bf85b6896e64d3b150677ead822390"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_93ddd35482d61b121ee82c1f9aa2aef6d596e63559d630dd8dc036885f5990a7",
+        "title": "Marija Ulitina",
+        "text": "Marija Ulitina (born 5 November 1991) is a badminton player from Ukraine and the National Champion of Ukraine. She represented Ukraine in the 2016 Summer Olympics and proceeded to the knockout round after defeating the former world number one Saina Nehwal of India and Lohaynny Vicente of Brazil in the group stage."
+      },
+      {
+        "id": "hp_doc_8868d3bda0e7474e6e1f3fdb48f31ed074bf85b6896e64d3b150677ead822390",
+        "title": "Saina Nehwal",
+        "text": "Saina Nehwal (   ; born 17 March 1990) is an Indian professional badminton singles player. She is one of the greatest players of her time. Nehwal, the former world no. 1 has won over twenty one international titles, which include ten Superseries titles. Although she reached to the world no. 2 ranking in 2009, it was only in 2015 that she was able to attain the world no. 1 ranking. And thereby becoming the only female player from India and overall the second Indian player – after Prakash Padukone – to achieve this feat. She has represented India three times in the Olympics, winning bronze medal in her second appearance."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Marija Ulitina",
+        "document_id": "hp_doc_93ddd35482d61b121ee82c1f9aa2aef6d596e63559d630dd8dc036885f5990a7",
+        "sentence_id": 1
+      },
+      {
+        "title": "Saina Nehwal",
+        "document_id": "hp_doc_8868d3bda0e7474e6e1f3fdb48f31ed074bf85b6896e64d3b150677ead822390",
+        "sentence_id": 3
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab3caf25542992ade7c6e9a",
+    "question": "Which official name of Argentina predated the Argentine Constitution of 1853?",
+    "answer": "The Argentine Confederation",
+    "original_answer": "Argentina Confederation",
+    "gold_answer": "The Argentine Confederation",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab3caf25542992ade7c6e9a.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Argentina official name",
+        "returned_titles": [
+          "Argentine Confederation",
+          "List of Vice Presidents of Argentina",
+          "Sooners"
+        ]
+      },
+      {
+        "query": "Argentina Confederation constitution",
+        "returned_titles": [
+          "Argentine Confederation",
+          "Argentine Constitution of 1853",
+          "Argentine Constitution of 1826"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_3fda2bf2b11e22eab950fb070c1aff824d5fee445ad53848edde8bac8c6fe3f4",
+      "hp_doc_b9791e16f684b5e69226d804b2faec8d98532a91d56a13c3e224d5633a883051"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_3fda2bf2b11e22eab950fb070c1aff824d5fee445ad53848edde8bac8c6fe3f4",
+        "title": "Argentine Constitution of 1853",
+        "text": "The Argentine Constitution of 1853 was the first constitution of Argentina approved with the support of the governments of the provinces —though without that of the Buenos Aires Province, who remained separated of the Argentine Confederation until 1859, after several modifications to the original constitution and the return of the power to Buenos Aires Unitarians— sanctioned in May 1853 by the Constitutional Convention gathered in Santa Fe, and promulgated by the provisional Director of the national executive government Justo José de Urquiza from the Federals. Following the short-lived constitutions of 1819 and 1826, it was the third constitution in the history of the country."
+      },
+      {
+        "id": "hp_doc_b9791e16f684b5e69226d804b2faec8d98532a91d56a13c3e224d5633a883051",
+        "title": "Argentine Confederation",
+        "text": "The Argentine Confederation (Spanish: \"Confederación Argentina\") is one of the official names of Argentina according to the Argentine Constitution, Article 35. It was the name of the country from 1831 to 1852, when the provinces were organized as a confederation without a head of state. The governor of Buenos Aires Province (Juan Manuel de Rosas during most of the period) managed foreign relations during this time. Under his rule, the Argentine Confederation resisted attacks by Brazil, Bolivia, Uruguay, France and the UK, as well other Argentine factions during the Argentine Civil Wars."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Argentine Constitution of 1853",
+        "document_id": "hp_doc_3fda2bf2b11e22eab950fb070c1aff824d5fee445ad53848edde8bac8c6fe3f4",
+        "sentence_id": 0
+      },
+      {
+        "title": "Argentine Confederation",
+        "document_id": "hp_doc_b9791e16f684b5e69226d804b2faec8d98532a91d56a13c3e224d5633a883051",
+        "sentence_id": 0
+      },
+      {
+        "title": "Argentine Confederation",
+        "document_id": "hp_doc_b9791e16f684b5e69226d804b2faec8d98532a91d56a13c3e224d5633a883051",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ab6f4b95542995eadef00fa",
+    "question": "Peter Brown was the protagonist in the 1931 book that was illustrated by whom?",
+    "answer": "John R. Neill",
+    "original_answer": "John R. Neill",
+    "gold_answer": "John R. Neill",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ab6f4b95542995eadef00fa.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Peter Brown 1931 book",
+        "returned_titles": [
+          "Peter Brown (Oz)",
+          "They Only Come Out at Night (Peter Brown song)",
+          "Von Dem Alten Kloster"
+        ]
+      },
+      {
+        "query": "Pirates in Oz illustrator",
+        "returned_titles": [
+          "Pirates in Oz",
+          "Peter Brown (Oz)",
+          "Miguel Muñoz Trophy"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_8bced332aaaa5e81d1b93fb0d4824d113d9747131dc7a4309de266b7bd308b08",
+      "hp_doc_eab9a0b7f19e34af6da55a987b76165b0e535d406a146d158ba3f02004e3c90c"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_8bced332aaaa5e81d1b93fb0d4824d113d9747131dc7a4309de266b7bd308b08",
+        "title": "Peter Brown (Oz)",
+        "text": "Peter Brown is a major character in the Oz novels of Ruth Plumly Thompson, who continued the series of Oz books after the death of their creator, L. Frank Baum. Thompson used Peter as the protagonist in three of her books: \"The Gnome King of Oz\" (1927), \"Jack Pumpkinhead of Oz\" (1929), and \"Pirates in Oz\" (1931)."
+      },
+      {
+        "id": "hp_doc_eab9a0b7f19e34af6da55a987b76165b0e535d406a146d158ba3f02004e3c90c",
+        "title": "Pirates in Oz",
+        "text": "Pirates in Oz (1931) is the twenty-fifth in the series of Oz books created by L. Frank Baum and his successors, and the eleventh written by Ruth Plumly Thompson. It was illustrated by John R. Neill."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Peter Brown (Oz)",
+        "document_id": "hp_doc_8bced332aaaa5e81d1b93fb0d4824d113d9747131dc7a4309de266b7bd308b08",
+        "sentence_id": 1
+      },
+      {
+        "title": "Pirates in Oz",
+        "document_id": "hp_doc_eab9a0b7f19e34af6da55a987b76165b0e535d406a146d158ba3f02004e3c90c",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5abe9edd5542997ec76fd32b",
+    "question": "The Jeep Liberty took inspiration from the Willys2 and what vehicle manufactured in World War II?",
+    "answer": "Willys MB",
+    "original_answer": "Jeep CJ",
+    "gold_answer": "Willys MB",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5abe9edd5542997ec76fd32b.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Jeep Liberty Willys",
+        "returned_titles": [
+          "Jeep CJ",
+          "Jeep Willys2",
+          "Willys MB"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_c2b0c4b945485fc3ee4ecc700599ff032ceb894c8c1aed1e2649af99b71541ba",
+      "hp_doc_e658d1f514c75c4200424bd55e46cc9db0e77f02364998b7f95f11be2be7fa90"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_c2b0c4b945485fc3ee4ecc700599ff032ceb894c8c1aed1e2649af99b71541ba",
+        "title": "Jeep Willys2",
+        "text": "The Jeep Willys2 is a concept car made by the Chrysler Group. It was presented at the 2001 Tokyo Auto Show. It is based on the Willys MB. The Willys2 uses frame web technology and a one-piece carbon-fiber body. It looks like a newer, meaner version of the Liberty. The Willys2 took many design cues from other Jeep models such as the special seven-slot grille and trapezoidal wheel arches. The Willys2 weighs about 3000 pounds with its removable carbon-fiber top. Its 160-hp I4 engine can accelerate it from 0 to 60 mph in 10 seconds, to a top speed of about 90 mph. The interior is all plastic, and it is possible to clean the interior by spraying it with water. Part of the design of the Willys2 was incorporated into the Jeep Liberty."
+      },
+      {
+        "id": "hp_doc_e658d1f514c75c4200424bd55e46cc9db0e77f02364998b7f95f11be2be7fa90",
+        "title": "Willys MB",
+        "text": "The Willys MB (commonly known as a Jeep or jeep, formally as the U.S. Army Truck, 1/4 ton, 4x4) and the Ford GPW are four-wheel drive utility vehicles that were manufactured during World War II. Produced from 1941 to 1945, it evolved post-war into the civilian Jeep CJ, and inspired both an entire category of recreational 4WDs and several generations of military light utility vehicles."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Jeep Willys2",
+        "document_id": "hp_doc_c2b0c4b945485fc3ee4ecc700599ff032ceb894c8c1aed1e2649af99b71541ba",
+        "sentence_id": 2
+      },
+      {
+        "title": "Jeep Willys2",
+        "document_id": "hp_doc_c2b0c4b945485fc3ee4ecc700599ff032ceb894c8c1aed1e2649af99b71541ba",
+        "sentence_id": 9
+      },
+      {
+        "title": "Willys MB",
+        "document_id": "hp_doc_e658d1f514c75c4200424bd55e46cc9db0e77f02364998b7f95f11be2be7fa90",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": true
+  },
+  {
+    "question_id": "5ac03da75542996f0d89cb69",
+    "question": "Stardust starred an English musician who attained how many Top 40 singles in the UK? ",
+    "answer": "19 Top 40 singles",
+    "original_answer": "19",
+    "gold_answer": "19 Top 40 singles",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac03da75542996f0d89cb69.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Stardust English musician",
+        "returned_titles": [
+          "Stardust (1974 film)",
+          "Peaches Geldof",
+          "David Essex"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_ffbd0553b2eee1c5dd182ae09f6c6005533817534844ded6bb14ded641e6e9ee",
+      "hp_doc_c198fdda6ff1d8e1d5e5777fd9d61600a974d9087c6d3a0f8deb8450da96c3ce"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_ffbd0553b2eee1c5dd182ae09f6c6005533817534844ded6bb14ded641e6e9ee",
+        "title": "Stardust (1974 film)",
+        "text": "Stardust is a 1974 British film directed by Michael Apted and starring David Essex and Adam Faith. The film is the sequel to the 1973 film \"That'll Be the Day\". Its tagline is: \"Show me a boy who never wanted to be a rock star and I'll show you a liar.\""
+      },
+      {
+        "id": "hp_doc_c198fdda6ff1d8e1d5e5777fd9d61600a974d9087c6d3a0f8deb8450da96c3ce",
+        "title": "David Essex",
+        "text": "David Essex, OBE (born David Albert Cook; 23 July 1947) is an English musician, singer-songwriter, and actor. Since the 1970s, he has attained 19 Top 40 singles in the UK (including two number ones) and 16 Top 40 albums. He has also had an extensive career as an actor."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Stardust (1974 film)",
+        "document_id": "hp_doc_ffbd0553b2eee1c5dd182ae09f6c6005533817534844ded6bb14ded641e6e9ee",
+        "sentence_id": 0
+      },
+      {
+        "title": "David Essex",
+        "document_id": "hp_doc_c198fdda6ff1d8e1d5e5777fd9d61600a974d9087c6d3a0f8deb8450da96c3ce",
+        "sentence_id": 0
+      },
+      {
+        "title": "David Essex",
+        "document_id": "hp_doc_c198fdda6ff1d8e1d5e5777fd9d61600a974d9087c6d3a0f8deb8450da96c3ce",
+        "sentence_id": 1
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": true,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac254e8554299636651997d",
+    "question": "\"The Gate\" is a song recorded by Icelandic musician Björk, it was released on 15 September 2017 through One Little Indian as the lead single from her ninth studio album, Utopia (2017), by Icelandic musician Björk, scheduled for release in November 2017 through which organization?",
+    "answer": "One Little Indian Records",
+    "original_answer": "One Little Indian",
+    "gold_answer": "One Little Indian Records",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac254e8554299636651997d.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Bjork Utopia 2017",
+        "returned_titles": [
+          "Utopia (Björk album)",
+          "The Gate (song)",
+          "ABU TV Song Festival 2017"
+        ]
+      }
+    ],
+    "retained_search_events": 1,
+    "original_search_count": 1,
+    "proposed_citation_ids": [
+      "hp_doc_71081149d857e184cf40b76c1e1b4ab101f1b09795dd1fa21f18273d4df58662",
+      "hp_doc_c8a63a6715ada64d86286e1e0b559126f0f819722ec07f70bcab1fea436ca28b"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_71081149d857e184cf40b76c1e1b4ab101f1b09795dd1fa21f18273d4df58662",
+        "title": "The Gate (song)",
+        "text": "\"The Gate\" is a song recorded by Icelandic musician Björk. It was released on 15 September 2017 through One Little Indian as the lead single from her ninth studio album, \"Utopia\" (2017). The song was written and produced by Björk and Arca."
+      },
+      {
+        "id": "hp_doc_c8a63a6715ada64d86286e1e0b559126f0f819722ec07f70bcab1fea436ca28b",
+        "title": "Utopia (Björk album)",
+        "text": "Utopia is the upcoming ninth studio album by Icelandic musician Björk, scheduled for release in November 2017 through One Little Indian Records. During a Facebook Live event held on 15 September 2017, the release date of the album's first single, Björk gave insight into the album's theme of utopia in an uncertain political environment: \"We have Trump, we have Brexit, we have our issues in Iceland, we have our environmental issues. I think if there ever was an urgency or necessity to come up with another Utopian model, how we're going to live our lives, I think it's now, and (these are) my proposals.\""
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Gate (song)",
+        "document_id": "hp_doc_71081149d857e184cf40b76c1e1b4ab101f1b09795dd1fa21f18273d4df58662",
+        "sentence_id": 1
+      },
+      {
+        "title": "Utopia (Björk album)",
+        "document_id": "hp_doc_c8a63a6715ada64d86286e1e0b559126f0f819722ec07f70bcab1fea436ca28b",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac262995542996366519998",
+    "question": "Which DIY and DIWO magazine featured Tekla Labs in their publications?",
+    "answer": "Make",
+    "original_answer": "Make",
+    "gold_answer": "MAKE",
+    "level": "medium",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac262995542996366519998.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Tekla Labs",
+        "returned_titles": [
+          "Tekla Labs",
+          "Charles Santori"
+        ]
+      },
+      {
+        "query": "MAKE magazine",
+        "returned_titles": [
+          "Make (magazine)",
+          "Official Dreamcast Magazine (UK magazine)",
+          "Celtic Family Magazine"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_2ac82cc21fa05a507a4f45ec675c201fdc9b6f9f793c4967477e0d2c1a7a2bfa",
+      "hp_doc_383e3e95e2968ff3921439b52e797e3fd723fc8832fa543d1d1782f38385c30f"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_2ac82cc21fa05a507a4f45ec675c201fdc9b6f9f793c4967477e0d2c1a7a2bfa",
+        "title": "Tekla Labs",
+        "text": "Tekla Labs (TeklaLabs.org) is a non-profit organization of researchers, educators and hobbyists committed to developing do it yourself (DIY) science infrastructure. Tekla Labs objective is to \"enable scientists to construct their own high quality lab equipment using readily available, off the shelf items.\" The organization was founded in 2010 in Berkeley, California by postdoctoral and graduate student researchers at UC Berkeley and UCSF. Tekla Labs has been featured in numerous publications, including in MAKE, TechHive, Nature.com Blogs, New Scientist, and SciDev.Net."
+      },
+      {
+        "id": "hp_doc_383e3e95e2968ff3921439b52e797e3fd723fc8832fa543d1d1782f38385c30f",
+        "title": "Make (magazine)",
+        "text": "Make: (or \"MAKE:\") is an American bimonthly magazine published by Maker Media which focuses on do it yourself (DIY) and/or DIWO (Do It With Others) projects involving computers, electronics, robotics, metalworking, woodworking and other disciplines. The magazine is marketed to people who enjoy making things and features complex projects which can often be completed with cheap materials, including household items. \"Make\" magazine is considered \"a central organ of the maker movement.\""
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Tekla Labs",
+        "document_id": "hp_doc_2ac82cc21fa05a507a4f45ec675c201fdc9b6f9f793c4967477e0d2c1a7a2bfa",
+        "sentence_id": 3
+      },
+      {
+        "title": "Make (magazine)",
+        "document_id": "hp_doc_383e3e95e2968ff3921439b52e797e3fd723fc8832fa543d1d1782f38385c30f",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5ac4eb6455429919431739fa",
+    "question": "The 1998 American horror film produced and directed by Gus Van Sant was a remake of a film that had an actress win what Golden Globe Award?",
+    "answer": "Best Supporting Actress",
+    "original_answer": "Marion Crane",
+    "gold_answer": "Best Supporting Actress",
+    "level": "hard",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5ac4eb6455429919431739fa.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Gus Van Sant 1998 horror film",
+        "returned_titles": [
+          "Psycho (1998 film)",
+          "Drugstore Cowboy",
+          "Gerry (2002 film)"
+        ]
+      },
+      {
+        "query": "Anne Heche Golden Globe",
+        "returned_titles": [
+          "Marion Crane",
+          "55th Golden Globe Awards",
+          "Golden Globe Award for Best Animated Feature Film"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_49888f617a4c9e372b0979af2f8e8f1c48487c9f82d049420e89ae1ff5f92d6c",
+      "hp_doc_5f861cd06a539423be8b4f3f69490a98b0ddc124374ddbbebc40c0ef127617d6"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_49888f617a4c9e372b0979af2f8e8f1c48487c9f82d049420e89ae1ff5f92d6c",
+        "title": "Marion Crane",
+        "text": "Marion Crane (also called Mary Crane) is a fictional character created by Robert Bloch in his 1959 novel \"Psycho\", and portrayed by Janet Leigh in the 1960 film of the same name directed by Alfred Hitchcock. She is also portrayed by Anne Heche in the 1998 remake, and by Rihanna in the television series \"Bates Motel\" (2017) which retells the \"Psycho\" story over the years prior to the events of the novel and film. For her performance in \"Psycho\", Leigh was nominated for Best Supporting Actress in the Academy Awards and won a Golden Globe Award in the same category."
+      },
+      {
+        "id": "hp_doc_5f861cd06a539423be8b4f3f69490a98b0ddc124374ddbbebc40c0ef127617d6",
+        "title": "Psycho (1998 film)",
+        "text": "Psycho is a 1998 American horror film produced and directed by Gus Van Sant for Universal Pictures, a modern remake of the 1960 film directed by Alfred Hitchcock and starring Vince Vaughn, Julianne Moore, Viggo Mortensen, William H. Macy and Anne Heche. The film is about an embezzler who arrives at an old motel run by an insane killer named Norman Bates. Both films are adapted from Robert Bloch's 1959 novel of the same name, which was in turn inspired by the crimes of Wisconsin murderer Ed Gein."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Marion Crane",
+        "document_id": "hp_doc_49888f617a4c9e372b0979af2f8e8f1c48487c9f82d049420e89ae1ff5f92d6c",
+        "sentence_id": 2
+      },
+      {
+        "title": "Psycho (1998 film)",
+        "document_id": "hp_doc_5f861cd06a539423be8b4f3f69490a98b0ddc124374ddbbebc40c0ef127617d6",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": true,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5adc06585542996e685252ad",
+    "question": "Born Losers is an action film, released in which year, and the first of the Billy Jack movies, the story was based on a real incident from 1964 where members of the Hells Angels were arrested for raping five teenage girls in Monterey, California?",
+    "answer": "1968",
+    "original_answer": "1968",
+    "gold_answer": "1968",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5adc06585542996e685252ad.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Born Losers Billy Jack Monterey",
+        "returned_titles": [
+          "The Born Losers",
+          "Billy Jack",
+          "Jack Starrett"
+        ]
+      },
+      {
+        "query": "1964 Monterey Hells Angels rape",
+        "returned_titles": [
+          "Hells Angels",
+          "The Born Losers",
+          "Lennoxville massacre"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_a5e7051573307321f6e7d7dd4b6812622f6e7ca0f5d46552d676312ff0ddd168",
+      "hp_doc_4a12f3bd0f31f46a71a57788fecc5ca72499325250d030e1ae7e4349bdfb3245"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_a5e7051573307321f6e7d7dd4b6812622f6e7ca0f5d46552d676312ff0ddd168",
+        "title": "The Born Losers",
+        "text": "Born Losers is a 1968 action film and the first of the Billy Jack movies. The film introduced Tom Laughlin as the half-Indian Green Beret Vietnam veteran Billy Jack. Since 1954 Laughlin had been trying to produce his \"Billy Jack\" script about discrimination toward American Indians. In 1968 he decided to introduce the Billy Jack character in a quickly written script designed to capitalize on the then-popular trend in motorcycle gang movies. The story was based on a real incident from 1964 where members of the Hells Angels were arrested for raping five teenage girls in Monterey, California."
+      },
+      {
+        "id": "hp_doc_4a12f3bd0f31f46a71a57788fecc5ca72499325250d030e1ae7e4349bdfb3245",
+        "title": "Hells Angels",
+        "text": "The Hells Angels Motorcycle Club (HAMC) is a worldwide one-percenter motorcycle club whose members typically ride Harley-Davidson motorcycles. The organization is predominantly white male and considered an organized crime syndicate by the United States Department of Justice. In the United States and Canada, the Hells Angels are incorporated as the Hells Angels Motorcycle Corporation. Common nicknames for the club are the \"H.A.\", \"Red & White\", \"HAMC\" and \"81\"."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "The Born Losers",
+        "document_id": "hp_doc_a5e7051573307321f6e7d7dd4b6812622f6e7ca0f5d46552d676312ff0ddd168",
+        "sentence_id": 0
+      },
+      {
+        "title": "Hells Angels",
+        "document_id": "hp_doc_4a12f3bd0f31f46a71a57788fecc5ca72499325250d030e1ae7e4349bdfb3245",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  },
+  {
+    "question_id": "5add122c554299473435382b",
+    "question": "Luke Null, is an American actor, comedian, and singer, who currently works as a cast member on which NBC comedy series, premiered on September 30, 2017, and the forty-third season?",
+    "answer": "Saturday Night Live",
+    "original_answer": "Saturday Night Live",
+    "gold_answer": "Saturday Night Live",
+    "level": "easy",
+    "source_trace": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\baselines_20261013T170134Z_37dcfd18\\agent\\5add122c554299473435382b.json",
+    "actor_model": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "enable_thinking": false,
+      "adapter_dir": "C:\\Users\\Windows11\\Documents\\ChatGPT\\VLA\\search-agent\\outputs\\sft_teacher100_20261013T162355Z_1ec152e7\\adapter"
+    },
+    "searches": [
+      {
+        "query": "Luke Null NBC comedy",
+        "returned_titles": [
+          "Luke Null",
+          "Luke Youngblood",
+          "Null object pattern"
+        ]
+      },
+      {
+        "query": "Saturday Night Live 43 season",
+        "returned_titles": [
+          "Saturday Night Live (season 43)",
+          "30 Rock",
+          "Mango (Saturday Night Live)"
+        ]
+      }
+    ],
+    "retained_search_events": 2,
+    "original_search_count": 2,
+    "proposed_citation_ids": [
+      "hp_doc_fb9aa74b1c52fafb27733575c28e80ff71e1325e2b5c9bada75d1a44f886788d",
+      "hp_doc_e9e2f54234e8197145d9f838598618670dc799ea0e6fd9dd533335d2e534de8b"
+    ],
+    "evidence_documents": [
+      {
+        "id": "hp_doc_fb9aa74b1c52fafb27733575c28e80ff71e1325e2b5c9bada75d1a44f886788d",
+        "title": "Luke Null",
+        "text": "Luke Null (born July 7, 1990 in Cincinnati, Ohio) is an American actor, comedian, and singer, who currently works as a cast member on \"Saturday Night Live\", having joined the show at the start of its forty-third season. Prior to joining the show, Null was known for performing at the iO Theater in Chicago specializing in musical comedy. Luke Null is now the second \"SNL\" cast member born in the 1990s after Pete Davidson (though Null is older than Davidson by three years)."
+      },
+      {
+        "id": "hp_doc_e9e2f54234e8197145d9f838598618670dc799ea0e6fd9dd533335d2e534de8b",
+        "title": "Saturday Night Live (season 43)",
+        "text": "The forty-third season of the NBC comedy series \"Saturday Night Live\" premiered on September 30, 2017 with host Ryan Gosling and musical guest Jay-Z during the 2017–2018 television season. Like the final four episodes of season 42, season 43 will be broadcast live in all four time zones within the contiguous United States."
+      }
+    ],
+    "supporting_fact_locations": [
+      {
+        "title": "Luke Null",
+        "document_id": "hp_doc_fb9aa74b1c52fafb27733575c28e80ff71e1325e2b5c9bada75d1a44f886788d",
+        "sentence_id": 0
+      },
+      {
+        "title": "Saturday Night Live (season 43)",
+        "document_id": "hp_doc_e9e2f54234e8197145d9f838598618670dc799ea0e6fd9dd533335d2e534de8b",
+        "sentence_id": 0
+      }
+    ],
+    "requires_answer_revision": false,
+    "requires_stop_revision": false,
+    "requires_citation_revision": false
+  }
+]
